@@ -1,0 +1,1114 @@
+
+html {
+    margin:  0px;
+    padding: 0px;
+}
+
+body {
+    margin-left: 50px;
+    background-color: white;
+    font-family: Verdana, sans-serif;
+    font-size: 100%;
+    margin-top: 60px;
+}
+/* HEARDER */
+
+/* Style the search field */
+form.search input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 20%;
+    background: #f1f1f1;
+    height: 23px;
+
+}
+
+.fa-money-bill-wave::before {
+    content: "\f53a";
+    color: #0871e2;
+    position: relative;
+    bottom: -9px;
+}
+
+.fa-child::before {
+    content: "\f1ae";
+    color: #0871e2;
+    position: relative;
+    bottom: -9px;
+}
+.fa-heart::before{
+content: "\f004";
+    color: #0871e2;
+    position: relative;
+    bottom: -9px;
+}
+.fa-dog::before{
+    content: "\f6d3";
+    color: #0871e2;
+    position: relative;
+    bottom: -9px;
+}
+
+
+button.btn-btn4{
+    border: 2px solid #e2e2e2;
+    width: 180px;
+    bottom: 158px;
+    margin-left: 112px;
+    line-height: 45px;
+    font-weight: bold;
+    height: 53px;
+}
+
+
+#btn-btn h2{
+    margin-left: 2px;
+}
+
+i.fas.fa-info-circle{
+    color: dodgerblue;
+    position: absolute;
+    bottom: 65px;
+}
+.line-infos{
+    padding-left: 40px;
+    position: absolute;
+    bottom: 55px;
+    color: #919191;
+}
+
+
+#hebergement-region{
+    margin-top: 47px;
+}
+
+.fa-map-marker-alt{
+    float: left;
+    position: relative;
+    background-color:#eaeaea;
+    width: 4%;
+    height: 45px;
+    cursor: pointer;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.fa-map-marker-alt::before {
+    content: "\f3c5";
+    position: relative;
+    top: 8px;
+    margin-left: 15px;
+
+}
+
+button.search-in{
+    background-color: white;
+    border: 0px;
+    height: 45px;
+    width: 160px;
+    color: black;
+    position: absolute;
+    border-radius: 0px 20px 20px 0px;
+    font-size: 14px;
+}
+/* Style the submit button */
+form.search button {
+    width: 10%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 16px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+    float: left;
+}
+
+form.search button:hover {
+    background: #0b7dda;
+}
+
+/* Clear floats*/
+form.search::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Style the submit button */
+
+
+.logo{
+    width: 94px;
+}
+
+/* Menu */
+
+
+nav #menu-1{
+    list-style: none;
+}
+.menu{
+    postion: relative;
+    top: 100px;
+}
+nav #menu-1 li{
+    float: right;
+    padding-right: 80px;
+    position: relative;
+    bottom: 350px;
+
+}
+nav #menu-1 a:hover {
+    color: lightgray;
+    border-top: 2px solid blue;
+    height:40px;
+    padding: 32px;
+}
+
+#menu-1 li a {
+    text-decoration: none;
+    color: blue;
+}
+
+button{
+    background-color: white;
+    border: 0px;
+    height: 45px;
+    width: 160px;
+    color: black;
+    position: absolute;
+    border-radius: 20px 20px 20px 20px;
+    font-size: 14px;
+
+}
+
+button.btn-btn{
+    position: relative;
+    margin-left: 130px;
+    bottom: 59px;
+    padding-top: 18px;
+    padding-left: 8px;
+    display: inline-block;
+    border: 2px solid #E2E2E2;
+    font-weight: bold;
+    height: 55px;
+
+}
+
+.fa-money-bill-wave{
+    content: "\f53a";
+    bottom: 5px;
+    position: relative;
+    content: "\f53a";
+    bottom: 5px;
+    position: relative;
+    margin-left: -20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    background: #b4dfff;
+    float: left;
+    bottom: 18px;
+
+}
+.fa-child{
+    content: "\f53a";
+    bottom: 5px;
+    position: relative;
+    margin-left: -10px;
+    content: "\f53a";
+    bottom: 5px;
+    position: relative;
+    margin-left: -20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    background: #b4dfff;
+    float: left;
+    bottom: 18px;
+
+}
+
+.fa-heart {
+    content: "\f53a";
+    bottom: 5px;
+    position: relative;
+    margin-left: -10px;
+    content: "\f53a";
+    bottom: 5px;
+    position: relative;
+    margin-left: -20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    background: #b4dfff;
+    float: left;
+    bottom: 18px;
+}
+
+.fa-dog {
+    content: "\f6d3";
+    bottom: 20px;
+    position: relative;
+    margin-left: -10px;
+    content: "\f53a";
+    bottom: 5px;
+    position: relative;
+    margin-left: -20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    background: #b4e0ff;
+    float: left;
+    bottom: 1px;
+
+}
+
+i.fas.fa-dog.fa-2x::before {
+    top: 5px;
+}
+div#btn-btn h2{
+    margin-top: 45px;
+}
+.btn-btn{
+    display: flex;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    flex-direction: row;
+    padding: 20px;
+}
+
+/* Menu Filtre */
+.btn-btn .barre-filter-btn
+{
+    position: relative;
+    width: 300px;
+    bottom: 10px;
+}
+
+input.btn1{
+    height: 40px;
+}
+
+input a{
+    display: none;
+}
+
+/*Auberge*/
+
+section{
+    background-color: #eaeaea;
+    width: 875px;
+    height: 621px;
+    position: absolute;
+    top:400px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.rating a {
+    float: right;
+    text-decoration: none;
+    font-size: 3em;
+    transition: color .4s;
+    color: blue;
+}
+.rating a:hover,
+.rating a:focus,
+.rating a:hover ~ a,
+.rating a:focus ~ a {
+    color: #0000ff;
+    cursor: pointer;
+}
+
+.fa.fa-stars.blue{
+    color: #000ff;
+    font-size: 15px;
+    margin-bottom: 5px;
+    position: relative;
+    float: left;
+    margin-left: 5px;
+}
+
+
+.auberge-1 img{
+    width: 233px;
+    height: 120px;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding-top: 3px;
+}
+
+.auberge-1{
+    position: absolute;
+    bottom: 300px;
+    border: 1px solid white;
+    border-radius: 10px 10px 10px 10px;
+    background-color: white;
+    margin-left: 40px;
+}
+
+section h1{
+    text-align: left;
+    font-size: 24px;
+    margin-left: 40px;
+    bottom: 10px;
+}
+.auberge-1 p{
+    text-align: left;
+    margin-left: 10px;
+}
+
+.fa-stars{
+    color: blue;
+}
+
+/* Auberge2 */
+
+.auberge-2 img{
+    width: 233px;
+    height: 117px;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 3px;
+    padding-top: 3px;
+    margin-right: 3px;
+}
+
+.auberge-2{
+    position: absolute;
+    bottom: 300px;
+    border: 1px solid white;
+    border-radius: 10px 10px 10px 10px;
+    background-color: white;
+    margin-left: 320px;
+}
+
+.auberge-2 p{
+    text-align: left;
+    margin-left: 10px;
+}
+
+
+.rating2 a {
+    float: right;
+    text-decoration: none;
+    font-size: 3em;
+    transition: color .4s;
+    color: blue;
+}
+.rating2 a:hover,
+.rating2 a:focus,
+.rating2 a:hover ~ a,
+.rating2 a:focus ~ a {
+    color: #0000ff;
+    cursor: pointer;
+}
+
+.fa2.fa-stars2.blue2{
+    color: #000ff;
+    font-size: 15px;
+    margin-bottom: 5px;
+    position: relative;
+    float: left;
+    margin-left: 5px;
+}
+
+/* Auberge3 */
+
+
+.auberge-3 img{
+    width: 233px;
+    height: 117px;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 3px;
+    padding-top: 3px;
+    margin-right: 3px;
+
+}
+
+.auberge-3{
+    position: absolute;
+    bottom: 300px;
+    border: 1px solid white;
+    border-radius: 10px 10px 10px 10px;
+    background-color: white;
+    margin-left: 600px;
+}
+
+.auberge-3 p{
+    text-align: left;
+    margin-left: 10px;
+}
+
+
+.rating3 a {
+    float: right;
+    text-decoration: none;
+    font-size: 3em;
+    transition: color .4s;
+    color: blue;
+}
+.rating3 a:hover,
+.rating3 a:focus,
+.rating3 a:hover ~ a,
+.rating3 a:focus ~ a {
+    color: #0000ff;
+    cursor: pointer;
+}
+
+.fa3.fa-stars3.blue3{
+    color: #000ff;
+    font-size: 15px;
+    margin-bottom: 5px;
+    position: relative;
+    float: left;
+    margin-left: 5px;
+}
+
+/* Auberge4 */
+
+
+.auberge-4 img{
+    width: 233px;
+    height: 117px;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 3px;
+    padding-top: 3px;
+    margin-right: 3px;
+}
+
+.auberge-4{
+    position: absolute;
+    bottom: 300px;
+    border: 1px solid white;
+    border-radius: 10px 10px 10px 10px;
+    background-color: white;
+    clear: both;
+    bottom: 30px;
+    margin-left: 40px;
+}
+
+.auberge-4 p{
+    text-align: left;
+    margin-left: 10px;
+}
+
+
+.rating4 a {
+    float: right;
+    text-decoration: none;
+    font-size: 3em;
+    transition: color .4s;
+    color: blue;
+}
+.rating4 a:hover,
+.rating4 a:focus,
+.rating4 a:hover ~ a,
+.rating4 a:focus ~ a {
+    color: #0000ff;
+    cursor: pointer;
+}
+
+.fa4.fa-stars4.blue4{
+    color: #000ff;
+    font-size: 15px;
+    margin-bottom: 5px;
+    position: relative;
+    float: left;
+    margin-left: 5px;
+}
+
+
+/* Auberge5 */
+
+
+.auberge-5 img{
+    width: 233px;
+    height: 117px;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 3px;
+    padding-top: 3px;
+    margin-right: 3px;
+}
+
+.auberge-5{
+    position: absolute;
+    bottom: 300px;
+    border: 1px solid white;
+    border-radius: 10px 10px 10px 10px;
+    background-color: white;
+    bottom: 30px;
+    margin-left: 320px;
+}
+
+.auberge-5 p{
+    text-align: left;
+    margin-left: 10px;
+}
+
+
+.rating5 a {
+    float: right;
+    text-decoration: none;
+    font-size: 3em;
+    transition: color .4s;
+    color: blue;
+}
+.rating5 a:hover,
+.rating5 a:focus,
+.rating5 a:hover ~ a,
+.rating5 a:focus ~ a {
+    color: #0000ff;
+    cursor: pointer;
+}
+
+.fa5.fa-stars5.blue5{
+    color: #000ff;
+    font-size: 15px;
+    margin-bottom: 5px;
+    position: relative;
+    float: left;
+    margin-left: 5px;
+}
+
+
+
+/* Auberge5 */
+
+
+.auberge-6 img{
+    width: 233px;
+    height: 117px;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 3px;
+    padding-top: 3px;
+    margin-right: 3px;
+}
+
+.auberge-6{
+    position: absolute;
+    bottom: 300px;
+    border: 1px solid white;
+    border-radius: 10px 10px 10px 10px;
+    background-color: white;
+    bottom: 30px;
+    margin-left: 600px;
+}
+
+.auberge-6 p{
+    text-align: left;
+    margin-left: 10px;
+}
+
+
+.rating6 a {
+    float: right;
+    text-decoration: none;
+    font-size: 3em;
+    transition: color .4s;
+    color: blue;
+}
+.rating6 a:hover,
+.rating6 a:focus,
+.rating6 a:hover ~ a,
+.rating6 a:focus ~ a {
+    color: #0000ff;
+    cursor: pointer;
+}
+
+.fa6.fa-stars6.blue6{
+    color: #000ff;
+    font-size: 15px;
+    margin-bottom: 5px;
+    position: relative;
+    float: left;
+    margin-left: 5px;
+}
+
+
+#activite-region{
+    margin-bottom: 70px;
+}
+
+.bloc-1 {
+    width:300px ;
+    height:443px ;
+    position: absolute;
+    margin-left: 3px;
+    padding-top: 3px;
+    margin-right: 3px;
+    border: 1px solid #e9e9e9;
+    box-shadow: 2px 2px 2px #F2F2F2;
+    top: 1142px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+
+.marseille{
+    position: absolute;
+    top: 1080px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.reno-activity{
+    width:300px;
+    height:388px;
+    position: relative;
+    bottom: 5px;
+    border-radius: 10px 10px 10px 10px;
+
+}
+.v_port{
+    margin-left: 20px;
+    font-size: 14px;
+    position: absolute;
+
+}
+
+/* Fort de Pomégues*/
+.bloc-2{
+    width:303px ;
+    height:243px ;
+    position: RELATIVE;
+    margin-left: 350px;
+    padding-top: 3px;
+    border: 1px solid #EFEFEF;
+    box-shadow: 2px 2px 2px #EFEFEF;
+    bottom: -735px;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.fort-activity {
+    width: 303px;
+    height: 181px;
+    position: absolute;
+    bottom: 66px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.f_port{
+    margin-left: 20px;
+    font-size: 14px;
+    position: absolute;
+    top: 192px;
+}
+
+.bloc-3{
+    width: 303px;
+    height: 165px;
+    position: relative;
+    margin-left: 350px;
+    padding-top: 3px;
+    border: 1px solid #EFEFEF;
+    box-shadow: 2px 2px 2px #EFEFEF;
+    top: 765px;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+
+.frioul-activity {
+    width: 303px;
+    height: 109px;
+    position: absolute;
+    bottom: 59px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.ile_port{
+    margin-left: 20px;
+    font-size: 14px;
+    position: absolute;
+    bottom: 8px;
+}
+/* Parc National des Calanques*/
+
+.bloc-4{
+    width: 302px;
+    height: 445px;
+    position: relative;
+    margin-left: 700px;
+    padding-top: 3px;
+    border: 1px solid #EFEFEF;
+    box-shadow: 2px 2px 2px #EFEFEF;
+    top: 315px;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+
+.parc-activity {
+    width: 302px;
+    height: 390px;
+    position: absolute;
+    bottom: 59px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.parcnational{
+    margin-left: 20px;
+    font-size: 14px;
+    position: absolute;
+    bottom: 8px;
+}
+
+.bloc-5{
+    width: 307px;
+    height: 194px;
+    position: relative;
+    margin-left: 1050px;
+    padding-top: 3px;
+    border: 1px solid #EFEFEF;
+    box-shadow: 2px 2px 2px #EFEFEF;
+    bottom: 133px;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+
+.nd-activity {
+    width: 304px;
+    height: 140px;
+    position: absolute;
+    bottom: 59px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.nd-bloc{
+    margin-left: 20px;
+    font-size: 14px;
+    position: absolute;
+    bottom: 8px;
+}
+
+
+.bloc-6{
+    width: 307px;
+    height: 194px;
+    position: relative;
+    margin-left: 1050px;
+    padding-top: 3px;
+    border: 1px solid #EFEFEF;
+    box-shadow: 2px 2px 2px #EFEFEF;
+    bottom: 82px;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+
+.pl-activity {
+    width: 304px;
+    height: 140px;
+    position: absolute;
+    bottom: 59px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.pl-bloc{
+    margin-left: 20px;
+    font-size: 14px;
+    position: absolute;
+    bottom: 5px;
+}
+
+.a-side{
+    width: 417px;
+    height: 623px;
+    background-color: #EAEAEA;
+    position: relative;
+    float: left;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 935px;
+    bottom: 1295px;
+}
+
+.popular7 p img {
+    float: left;
+    width: 50%;
+
+}
+
+.popular7{
+    background-color: white;
+    width:342px;
+    height:145px;
+    border-radius: 10px 0px 0px 10px;
+    margin-left: 35px;
+}
+
+.popular7 img {
+    height: 138px;
+    width: 135px;
+    border-radius: 10px 10px 10px 10px;
+    padding-top: 3px;
+    margin-left: 5px;
+}
+.popular7 p{
+    float: right;
+}
+
+
+.rating7 a {
+    float: right;
+    text-decoration: none;
+    font-size: 3em;
+    transition: color .4s;
+    color: blue;
+}
+.rating7 a:hover,
+.rating7 a:focus,
+.rating7 a:hover ~ a,
+.rating7 a:focus ~ a {
+    color: #0000ff;
+    cursor: pointer;
+}
+
+.fa7.fa-stars7.blue7{
+    color: #000ff;
+    font-size: 15px;
+    bottom: 30px;
+    position: relative;
+    float: left;
+}
+div.rating7{
+    float: right;
+    margin-right: 100px;
+    position: absolute;
+    margin-left: 145px;
+}
+
+.t-hsm{
+    font-size: 14px;
+    float: right;
+    padding-right:17px;
+
+}
+
+.a-side h1{
+    font-size: 18px;
+    padding-left: 39px;
+}
+
+.hsm{
+    bottom: 110px;
+    position: relative;
+    padding-right: 40px;
+    font-size: 14px;
+}
+
+
+.fa-chart-line{
+    position: absolute;
+    bottom: 460px; left: 3px;
+    padding-top: 25px;
+    font-size: 25px;
+}
+
+/* Les plus populaires - Au coeur de l'eau */
+
+
+.popular8 p img {
+    float: left;
+    width: 50%;
+
+}
+
+.popular8{
+    background-color: white;
+    width:342px;
+    height:145px;
+    border-radius: 10px 0px 0px 10px;
+    margin-left: 35px;
+    margin-top: 50px;
+}
+
+.popular8 img {
+    height: 138px;
+    width: 135px;
+    border-radius: 10px 10px 10px 10px;
+    padding-top: 3px;
+    margin-left: 5px;
+}
+.popular8 p{
+    float: right;
+}
+
+
+.rating8 a {
+    float: right;
+    text-decoration: none;
+    font-size: 3em;
+    transition: color .4s;
+    color: blue;
+}
+.rating8 a:hover,
+.rating8 a:focus,
+.rating8 a:hover ~ a,
+.rating8 a:focus ~ a {
+    color: #0000ff;
+    cursor: pointer;
+}
+
+.fa8.fa-stars8.blue8{
+    color: #000ff;
+    font-size: 15px;
+    bottom: 30px;
+    position: relative;
+    float: left;
+}
+div.rating8{
+    float: right;
+    margin-right: 100px;
+    position: absolute;
+    margin-left: 145px;
+}
+
+.t-hsm2{
+    font-size: 12px;
+    float: right;
+    margin-right: 77px;
+
+}
+
+.a-side h1{
+    font-size: 16px;
+    padding-left: 39px;
+}
+
+.hsm2{
+    bottom: 100px;
+    position: relative;
+    padding-right: 55px;
+    font-size: 14px;
+
+}
+
+
+.fa-chart-line{
+    position: absolute;
+    float: right;
+    height: 150px;
+    width: 150px;
+    color: black;
+    padding-left: 350px;
+    padding-top: 25px;
+}
+
+/* */
+
+
+.popular9 p img {
+    float: left;
+    width: 50%;
+
+}
+
+.popular9{
+    background-color: white;
+    width:342px;
+    height:145px;
+    border-radius: 10px 0px 0px 10px;
+    margin-left: 35px;
+    margin-top: 50px;
+}
+
+.popular9 img {
+    height: 138px;
+    width: 135px;
+    border-radius: 10px 10px 10px 10px;
+    padding-top: 3px;
+    margin-left: 5px;
+}
+.popular9 p{
+    float: right;
+}
+
+
+.rating9 a {
+    float: right;
+    text-decoration: none;
+    font-size: 3em;
+    transition: color .4s;
+    color: blue;
+}
+.rating9 a:hover,
+.rating9 a:focus,
+.rating9 a:hover ~ a,
+.rating9 a:focus ~ a {
+    color: #0000ff;
+    cursor: pointer;
+}
+
+.fa9.fa-stars9.blue9{
+    color: #000ff;
+    font-size: 15px;
+    bottom: 30px;
+    position: relative;
+    float: left;
+}
+div.rating9{
+    float: right;
+    margin-right: 100px;
+    position: absolute;
+    margin-left: 145px;
+}
+
+.t-hsm3{
+    font-size: 12px;
+    float: right;
+    margin-right: 38px;
+
+}
+
+.a-side h3{
+    font-size: 16px;
+    margin-left: 45px;
+}
+
+.hsm3{
+
+    bottom: 112px;
+    position: relative;
+    padding-right: 55px;
+    font-size: 14px;
+
+}
+
+
+.fa-chart-line{
+    position: absolute;
+    float: right;
+    height: 150px;
+    width: 150px;
+    color: black;
+    padding-left: 350px;
+    padding-top: 25px;
+}
+
+footer {
+    width:100%;
+    height: 300px;
+    position: relative;
+    background-color: lightgray;
+    margin:0px;
+    padding: 0px;
+}
+footer#b-end{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-top: 50px;
+    bottom:735px;
+    padding-left: 1px;
+    padding-top: 25px;
+    margin-left: 5px;
+}
+.bl p{
+    line-height: 5px;
+    font-size: 12px;
+}
