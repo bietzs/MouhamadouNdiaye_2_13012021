@@ -1,111 +1,122 @@
-
-html {
-    margin:  0px;
-    padding: 0px;
+ html, body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
-body {
-    margin-left: 50px;
-    background-color: white;
-    font-family: Verdana, sans-serif;
-    font-size: 100%;
-    margin-top: 60px;
+@font-face {
+    font-family: 'bonvenocflight';
+    src: url('fonts/BonvenoCF-Light-webfont.eot');
+    src: url('fonts/BonvenoCF-Light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/BonvenoCF-Light-webfont.woff') format('woff'),
+    url('fonts/BonvenoCF-Light-webfont.ttf') format('truetype'),
+    url('fonts/BonvenoCF-Light-webfont.svg#bonvenocflight') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
+
 /* HEARDER */
+header{
+    margin: 30px 40px -70px 80px;
+}
+
+.logo {
+    width: 94px;
+    display: flex;
+    justify-content: flex-start;
+    justify-items: flex-start;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
 
 /* Style the search field */
 form.search input[type=text] {
     padding: 10px;
     font-size: 17px;
-    border: 1px solid grey;
+    border: 1px solid #f1f1f1;
     float: left;
-    width: 20%;
+    width: 25%;
     background: #f1f1f1;
     height: 23px;
-
+    display: flex;
+    justify-content: flex-start;
+    justify-items: flex-start;
 }
 
 .fa-money-bill-wave::before {
-    content: "\f53a";
     color: #0871e2;
     position: relative;
-    bottom: -9px;
+    padding-left: 9px;
+    top: 12px;
 }
-
 .fa-child::before {
-    content: "\f1ae";
     color: #0871e2;
     position: relative;
-    bottom: -9px;
+    top: 13px;
+    margin-left: 16px;
 }
-.fa-heart::before{
-content: "\f004";
+.fa-heart::before {
     color: #0871e2;
     position: relative;
-    bottom: -9px;
+    bottom: -17px;
+    margin-left: 13px;
 }
-.fa-dog::before{
-    content: "\f6d3";
+.fa-dog::before {
     color: #0871e2;
-    position: relative;
-    bottom: -9px;
+    margin: 10px 12px 12px 12px;
+    display: flex;
 }
 
-
-button.btn-btn4{
-    border: 2px solid #e2e2e2;
-    width: 180px;
-    bottom: 158px;
-    margin-left: 112px;
-    line-height: 45px;
-    font-weight: bold;
-    height: 53px;
-}
-
-
-#btn-btn h2{
+h2#btn{
     margin-left: 2px;
 }
 
-i.fas.fa-info-circle{
+i.fas.fa-info-circle {
     color: dodgerblue;
-    position: absolute;
-    bottom: 65px;
+    position: relative;
+    bottom: 39px;
+    margin-left: 10px;
+    cursor: pointer;
 }
 .line-infos{
-    padding-left: 40px;
-    position: absolute;
-    bottom: 55px;
-    color: #919191;
+    padding-left: 60px;
+    position: relative;
+    bottom: 80px;
 }
 
-
-#hebergement-region{
-    margin-top: 47px;
-}
 
 .fa-map-marker-alt{
     float: left;
     position: relative;
     background-color:#eaeaea;
-    width: 4%;
     height: 45px;
     cursor: pointer;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 10px 0 0 10px;
+    width: 50px;
+    cursor: pointer;
 }
 
 .fa-map-marker-alt::before {
-    content: "\f3c5";
     position: relative;
-    top: 8px;
-    margin-left: 15px;
+    top: 2px;
+    margin-left: 17px;
+    font-size: 20px;
+}
 
+.btn-all {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
 }
 
 button.search-in{
     background-color: white;
     border: 0px;
-    height: 45px;
+    height: 46px;
     width: 160px;
     color: black;
     position: absolute;
@@ -114,12 +125,12 @@ button.search-in{
 }
 /* Style the submit button */
 form.search button {
-    width: 10%;
+    width: 11%;
     padding: 10px;
     background: #2196F3;
     color: white;
     font-size: 16px;
-    border: 1px solid grey;
+    border: 1px solid #f1f1f1;
     border-left: none; /* Prevent double borders */
     cursor: pointer;
     float: left;
@@ -129,159 +140,224 @@ form.search button:hover {
     background: #0b7dda;
 }
 
-/* Clear floats*/
-form.search::after {
-    content: "";
-    clear: both;
-    display: table;
-}
 
 /* Style the submit button */
 
 
-.logo{
-    width: 94px;
-}
-
 /* Menu */
 
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-content: space-around;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+nav ul li {
+    margin-right: 42px;
+}
 
-nav #menu-1{
-    list-style: none;
-}
-.menu{
-    postion: relative;
-    top: 100px;
-}
-nav #menu-1 li{
-    float: right;
-    padding-right: 80px;
+nav ul li a{
     position: relative;
-    bottom: 350px;
-
-}
-nav #menu-1 a:hover {
-    color: lightgray;
-    border-top: 2px solid blue;
-    height:40px;
-    padding: 32px;
-}
-
-#menu-1 li a {
+    bottom: 425px;
     text-decoration: none;
-    color: blue;
+    float: right;
+    margin-right: -5px;
+    padding-left: 25px;
 }
 
-button{
+nav ul li a:hover {
+    border-top: 1px solid dodgerblue;
+    padding-top: 30px;
+}
+
+nav ul li a:visited {
+    color: lightgray;
+}
+
+nav ul li a:active {
+    color: lightgrey;
+}
+
+button.search{
     background-color: white;
     border: 0px;
     height: 45px;
-    width: 160px;
-    color: black;
-    position: absolute;
-    border-radius: 20px 20px 20px 20px;
+    width: 190px;
+    color: lightgrey;
+    display: flex;
+    flex-direction: row;
     font-size: 14px;
-
-}
-
-button.btn-btn{
-    position: relative;
-    margin-left: 130px;
-    bottom: 59px;
-    padding-top: 18px;
-    padding-left: 8px;
-    display: inline-block;
-    border: 2px solid #E2E2E2;
     font-weight: bold;
-    height: 55px;
 
 }
 
-.fa-money-bill-wave{
-    content: "\f53a";
-    bottom: 5px;
+button{
+    text-align: center;
+}
+
+.btncontent{
+    display: flex;
+    margin: 20px 0 10px;
+}
+
+.btn{
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 40px 40px 40px 40px;
+    height: 60px;
+    padding-top: 20px;
+    width: 200px;
+    border: 1px solid lightgrey;
+}
+
+p.btn-p {
+    margin-left: 60px;
+    bottom: 10px;
     position: relative;
-    content: "\f53a";
-    bottom: 5px;
+}
+.btn-p2 {
+    margin: 0px 0px;
+    font-size: 14px;
+    padding-left: 42px;
+    width: 170px;
+}
+
+.fil{
+    font-size: 14px;
+    padding-top: 16px;
+    padding-right: 15px;
+}
+
+.btncontent h2 {
     position: relative;
-    margin-left: -20px;
-    width: 50px;
-    height: 50px;
-    border-radius: 40px;
-    background: #b4dfff;
-    float: left;
-    bottom: 18px;
+    top: 5px;
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+section{
+    background-color: #EAEAEA;
+    border-radius: 20px 20px 20px 40px;
+    height: 630px;
+    width: 830px;
+    margin-left: 80px;
+}
+
+section h1{
+    font-size: 16px;
+    margin-top: 5px;
+    padding-top: 2%;
+    bottom: 3000px;
 
 }
-.fa-child{
-    content: "\f53a";
-    bottom: 5px;
+
+
+
+#hebergement-region {
+    flex-direction: column;
+    display: flex;
+    margin: 20px;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+    margin-bottom: 10%;
+}
+
+.auberge-1 {
+    order: 1;
+    margin-bottom: 2%;
+
+}
+.auberge-2 {
+    order: 2;
+    margin-bottom: 2%;
+
+}
+.auberge-3 {
+    order: 3;
+    margin-bottom: 2%;
+
+}
+.auberge-4 {
+    order: 4;
+    margin-top: 2%;
+
+}
+.auberge-5 {
+    order: 4;
+    margin-top: 2%;
+
+}
+.auberge-6 {
+    order: 6;
+    margin-top: 2%;
+
+}
+button.btn{
+    width: 190px;
+    margin: 12px;
+}
+button.btn:hover {
+    color: steelblue;
+}
+.fa-money-bill-wave {
+    bottom: 72px;
     position: relative;
-    margin-left: -10px;
-    content: "\f53a";
-    bottom: 5px;
-    position: relative;
-    margin-left: -20px;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 40px;
     background: #b4dfff;
-    float: left;
-    bottom: 18px;
-
+    margin-left: 10px;
+}
+.fa-child {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    background: #b4dfff;
+    bottom: 72px;
+    margin-left: 5px;
 }
 
 .fa-heart {
-    content: "\f53a";
-    bottom: 5px;
     position: relative;
-    margin-left: -10px;
-    content: "\f53a";
-    bottom: 5px;
-    position: relative;
-    margin-left: -20px;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 40px;
     background: #b4dfff;
-    float: left;
-    bottom: 18px;
+    margin-left: 5px;
+    bottom: 72px;
 }
 
 .fa-dog {
-    content: "\f6d3";
-    bottom: 20px;
     position: relative;
-    margin-left: -10px;
-    content: "\f53a";
-    bottom: 5px;
-    position: relative;
-    margin-left: -20px;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 40px;
     background: #b4e0ff;
     float: left;
-    bottom: 1px;
-
+    bottom: 72px;
+    margin-left: 5px;
 }
 
 i.fas.fa-dog.fa-2x::before {
-    top: 5px;
-}
-div#btn-btn h2{
-    margin-top: 45px;
-}
-.btn-btn{
-    display: flex;
-    justify-content: flex-start;
-    justify-items: flex-start;
-    flex-direction: row;
-    padding: 20px;
+    top: 17px;
 }
 
+
+div#btn h2{
+    margin-top: 45px;
+    font-size: 14px;
+}
+
+
 /* Menu Filtre */
-.btn-btn .barre-filter-btn
+.btn.barre-filter-btn
 {
     position: relative;
     width: 300px;
@@ -296,22 +372,11 @@ input a{
     display: none;
 }
 
-/*Auberge*/
-
-section{
-    background-color: #eaeaea;
-    width: 875px;
-    height: 621px;
-    position: absolute;
-    top:400px;
-    border-radius: 10px 10px 10px 10px;
-}
 
 .rating a {
     float: right;
     text-decoration: none;
     font-size: 3em;
-    transition: color .4s;
     color: blue;
 }
 .rating a:hover,
@@ -321,9 +386,8 @@ section{
     color: #0000ff;
     cursor: pointer;
 }
-
 .fa.fa-stars.blue{
-    color: #000ff;
+    color: #0000FF;
     font-size: 15px;
     margin-bottom: 5px;
     position: relative;
@@ -335,26 +399,25 @@ section{
 .auberge-1 img{
     width: 233px;
     height: 120px;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 0px 0px;
     margin-left: 3px;
     margin-right: 3px;
     padding-top: 3px;
+    object-fit: cover;
 }
 
 .auberge-1{
-    position: absolute;
-    bottom: 300px;
     border: 1px solid white;
     border-radius: 10px 10px 10px 10px;
     background-color: white;
-    margin-left: 40px;
+    cursor: pointer;
 }
 
-section h1{
-    text-align: left;
-    font-size: 24px;
-    margin-left: 40px;
-    bottom: 10px;
+h1 section{
+    font-size: 16px;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding-top: 2%;
 }
 .auberge-1 p{
     text-align: left;
@@ -370,19 +433,18 @@ section h1{
 .auberge-2 img{
     width: 233px;
     height: 117px;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 0px 0px;
     margin-left: 3px;
     padding-top: 3px;
     margin-right: 3px;
+    object-fit: cover;
 }
 
 .auberge-2{
-    position: absolute;
-    bottom: 300px;
     border: 1px solid white;
     border-radius: 10px 10px 10px 10px;
     background-color: white;
-    margin-left: 320px;
+    cursor: pointer;
 }
 
 .auberge-2 p{
@@ -407,7 +469,7 @@ section h1{
 }
 
 .fa2.fa-stars2.blue2{
-    color: #000ff;
+    color: #0000ff;
     font-size: 15px;
     margin-bottom: 5px;
     position: relative;
@@ -421,20 +483,19 @@ section h1{
 .auberge-3 img{
     width: 233px;
     height: 117px;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 0px 0px;
     margin-left: 3px;
     padding-top: 3px;
     margin-right: 3px;
+    object-fit: cover;
 
 }
 
 .auberge-3{
-    position: absolute;
-    bottom: 300px;
     border: 1px solid white;
     border-radius: 10px 10px 10px 10px;
     background-color: white;
-    margin-left: 600px;
+    cursor: pointer;
 }
 
 .auberge-3 p{
@@ -459,7 +520,7 @@ section h1{
 }
 
 .fa3.fa-stars3.blue3{
-    color: #000ff;
+    color: #0000ff;
     font-size: 15px;
     margin-bottom: 5px;
     position: relative;
@@ -471,23 +532,20 @@ section h1{
 
 
 .auberge-4 img{
-    width: 233px;
-    height: 117px;
-    border-radius: 10px 10px 10px 10px;
+    width: 235px;
+    height: 112px;
+    border-radius: 10px 10px 0px 0px;
     margin-left: 3px;
     padding-top: 3px;
     margin-right: 3px;
+    object-fit: cover;
 }
 
 .auberge-4{
-    position: absolute;
-    bottom: 300px;
     border: 1px solid white;
     border-radius: 10px 10px 10px 10px;
     background-color: white;
-    clear: both;
-    bottom: 30px;
-    margin-left: 40px;
+    cursor: pointer;
 }
 
 .auberge-4 p{
@@ -512,7 +570,7 @@ section h1{
 }
 
 .fa4.fa-stars4.blue4{
-    color: #000ff;
+    color: #0000ff;
     font-size: 15px;
     margin-bottom: 5px;
     position: relative;
@@ -527,20 +585,17 @@ section h1{
 .auberge-5 img{
     width: 233px;
     height: 117px;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 0px 0px;
     margin-left: 3px;
     padding-top: 3px;
     margin-right: 3px;
 }
 
 .auberge-5{
-    position: absolute;
-    bottom: 300px;
     border: 1px solid white;
     border-radius: 10px 10px 10px 10px;
     background-color: white;
-    bottom: 30px;
-    margin-left: 320px;
+    cursor: pointer;
 }
 
 .auberge-5 p{
@@ -565,7 +620,7 @@ section h1{
 }
 
 .fa5.fa-stars5.blue5{
-    color: #000ff;
+    color: #0000ff;
     font-size: 15px;
     margin-bottom: 5px;
     position: relative;
@@ -581,20 +636,17 @@ section h1{
 .auberge-6 img{
     width: 233px;
     height: 117px;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 0px 0px;
     margin-left: 3px;
     padding-top: 3px;
-    margin-right: 3px;
+    object-fit: cover;
 }
 
 .auberge-6{
-    position: absolute;
-    bottom: 300px;
     border: 1px solid white;
     border-radius: 10px 10px 10px 10px;
     background-color: white;
-    bottom: 30px;
-    margin-left: 600px;
+    cursor: pointer;
 }
 
 .auberge-6 p{
@@ -619,7 +671,7 @@ section h1{
 }
 
 .fa6.fa-stars6.blue6{
-    color: #000ff;
+    color: #0000ff;
     font-size: 15px;
     margin-bottom: 5px;
     position: relative;
@@ -629,95 +681,95 @@ section h1{
 
 
 #activite-region{
-    margin-bottom: 70px;
+    margin: 50px 20px 0px 80px;
 }
 
 .bloc-1 {
     width:300px ;
-    height:443px ;
-    position: absolute;
-    margin-left: 3px;
-    padding-top: 3px;
-    margin-right: 3px;
+    height:444px ;
     border: 1px solid #e9e9e9;
     box-shadow: 2px 2px 2px #F2F2F2;
-    top: 1142px;
+    top: 1200px;
     border-radius: 10px 10px 10px 10px;
 }
 
 
 
 .marseille{
-    position: absolute;
-    top: 1080px;
+    display: flex;
     font-size: 14px;
     text-align: center;
 }
 
 .reno-activity{
     width:300px;
-    height:388px;
-    position: relative;
-    bottom: 5px;
+    height:389px;
+    bottom: 7px;
     border-radius: 10px 10px 10px 10px;
-
+    object-fit: cover;
+    cursor: pointer;
 }
 .v_port{
     margin-left: 20px;
     font-size: 14px;
     position: absolute;
-
+    cursor: pointer;
+    padding-top: 10px;
 }
 
+p.f_port{
+    margin-top: 27px;
+    float: left;
+    margin-left: 20px;
+}
 /* Fort de Pomégues*/
-.bloc-2{
-    width:303px ;
-    height:243px ;
-    position: RELATIVE;
-    margin-left: 350px;
+.bloc-2 {
+    width: 301px;
+    height: 235px;
+    margin-left: 20px;
     padding-top: 3px;
     border: 1px solid #EFEFEF;
     box-shadow: 2px 2px 2px #EFEFEF;
-    bottom: -735px;
     border-radius: 10px 10px 10px 10px;
-
+    top: 77px;
 }
-
 .fort-activity {
     width: 303px;
-    height: 181px;
-    position: absolute;
-    bottom: 66px;
+    height: 180px;
+    bottom: 5px;
     border-radius: 10px 10px 10px 10px;
+    object-fit: cover;
+    cursor: pointer;
+    position: relative;
 }
 
-.f_port{
+.ile_port {
     margin-left: 20px;
     font-size: 14px;
     position: absolute;
-    top: 192px;
+    top: 125px;
+    cursor: pointer;
 }
 
-.bloc-3{
+
+.bloc-3 {
     width: 303px;
     height: 165px;
     position: relative;
-    margin-left: 350px;
-    padding-top: 3px;
     border: 1px solid #EFEFEF;
     box-shadow: 2px 2px 2px #EFEFEF;
-    top: 765px;
+    top: 279px;
     border-radius: 10px 10px 10px 10px;
-
+    margin-left: -300px;
 }
 
-
-.frioul-activity {
+img.frioul-activity {
     width: 303px;
     height: 109px;
-    position: absolute;
-    bottom: 59px;
     border-radius: 10px 10px 10px 10px;
+    float: left;
+    bottom: 10px;
+    object-fit: cover;
 }
 
 .ile_port{
@@ -725,48 +777,47 @@ section h1{
     font-size: 14px;
     position: absolute;
     bottom: 8px;
+    cursor: pointer;
 }
 /* Parc National des Calanques*/
 
-.bloc-4{
-    width: 302px;
-    height: 445px;
-    position: relative;
-    margin-left: 700px;
-    padding-top: 3px;
+.bloc-4 {
+    width: 300px;
+    height: 444px;
+    position: absolute;
+    margin-left: 645px;
     border: 1px solid #EFEFEF;
     box-shadow: 2px 2px 2px #EFEFEF;
-    top: 315px;
     border-radius: 10px 10px 10px 10px;
 
 }
 
-
 .parc-activity {
-    width: 302px;
+    width: 301px;
     height: 390px;
-    position: absolute;
-    bottom: 59px;
     border-radius: 10px 10px 10px 10px;
+    object-fit: cover;
+    cursor: pointer;
 }
 
 .parcnational{
     margin-left: 20px;
     font-size: 14px;
-    position: absolute;
+    margin-right: 100px;
     bottom: 8px;
+    cursor: pointer;
+    padding-top: 10px;
+
 }
 
-.bloc-5{
-    width: 307px;
-    height: 194px;
-    position: relative;
-    margin-left: 1050px;
-    padding-top: 3px;
+.bloc-5 {
+    width: 303px;
+    height: 192px;
+    margin-left: 340px;
     border: 1px solid #EFEFEF;
     box-shadow: 2px 2px 2px #EFEFEF;
-    bottom: 133px;
     border-radius: 10px 10px 10px 10px;
+    position: relative;
 
 }
 
@@ -774,62 +825,79 @@ section h1{
 .nd-activity {
     width: 304px;
     height: 140px;
-    position: absolute;
-    bottom: 59px;
+    bottom: 60px;
     border-radius: 10px 10px 10px 10px;
+    object-fit: cover;
+    cursor: pointer;
 }
 
 .nd-bloc{
     margin-left: 20px;
     font-size: 14px;
-    position: absolute;
-    bottom: 8px;
+    top: 7px;
+    cursor: pointer;
+    margin-right: 165px;
+    padding-top: 8px;
+
 }
 
 
-.bloc-6{
-    width: 307px;
+.bloc-6 {
+    width: 304px;
     height: 194px;
-    position: relative;
-    margin-left: 1050px;
-    padding-top: 3px;
     border: 1px solid #EFEFEF;
     box-shadow: 2px 2px 2px #EFEFEF;
-    bottom: 82px;
+    top: 248px;
     border-radius: 10px 10px 10px 10px;
-
+    margin-left: -304px;
+    position: relative;
 }
-
 
 .pl-activity {
     width: 304px;
     height: 140px;
-    position: absolute;
     bottom: 59px;
     border-radius: 10px 10px 10px 10px;
+    object-fit: cover;
+    cursor: pointer;
+    margin-right: 145px;
+
 }
 
 .pl-bloc{
     margin-left: 20px;
     font-size: 14px;
-    position: absolute;
-    bottom: 5px;
+    top: 5px;
+    cursor: pointer;
+    margin-right: 165px;
+    padding-top: 5px;
 }
 
-.a-side{
-    width: 417px;
-    height: 623px;
+
+
+.a-side {
+    width: 415px;
+    height: 631px;
     background-color: #EAEAEA;
+    border-radius: 20px 20px 20px 20px;
+    margin: -43px 86px 50px 940px;
     position: relative;
-    float: left;
-    border-radius: 10px 10px 10px 10px;
-    margin-left: 935px;
-    bottom: 1295px;
+    bottom: 1132px;
+    float: right;
+    display: flex;
+}
+
+.left-bloc {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 43px;
+    margin-top: 2px;
 }
 
 .popular7 p img {
     float: left;
     width: 50%;
+    object-fit: cover;
 
 }
 
@@ -839,6 +907,7 @@ section h1{
     height:145px;
     border-radius: 10px 0px 0px 10px;
     margin-left: 35px;
+    cursor: pointer;
 }
 
 .popular7 img {
@@ -847,9 +916,12 @@ section h1{
     border-radius: 10px 10px 10px 10px;
     padding-top: 3px;
     margin-left: 5px;
+    object-fit: cover;
+    cursor: pointer;
 }
 .popular7 p{
     float: right;
+    cursor: pointer;
 }
 
 
@@ -869,7 +941,7 @@ section h1{
 }
 
 .fa7.fa-stars7.blue7{
-    color: #000ff;
+    color: #0000ff;
     font-size: 15px;
     bottom: 30px;
     position: relative;
@@ -885,20 +957,34 @@ div.rating7{
 .t-hsm{
     font-size: 14px;
     float: right;
-    padding-right:17px;
+    padding-right: 50px;
+    cursor: pointer;
 
 }
-
+/*
 .a-side h1{
     font-size: 18px;
     padding-left: 39px;
 }
+*/
+
+p.scroll-info {
+    bottom: 85px;
+    margin-left: 4px;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+    position: relative;
+}
+
 
 .hsm{
     bottom: 110px;
     position: relative;
     padding-right: 40px;
     font-size: 14px;
+    cursor: pointer;
 }
 
 
@@ -915,6 +1001,8 @@ div.rating7{
 .popular8 p img {
     float: left;
     width: 50%;
+    object-fit: cover;
+    cursor: pointer;
 
 }
 
@@ -925,6 +1013,9 @@ div.rating7{
     border-radius: 10px 0px 0px 10px;
     margin-left: 35px;
     margin-top: 50px;
+    position: relative;
+    bottom: 20px;
+    cursor: pointer;
 }
 
 .popular8 img {
@@ -933,9 +1024,11 @@ div.rating7{
     border-radius: 10px 10px 10px 10px;
     padding-top: 3px;
     margin-left: 5px;
+    cursor: pointer;
 }
 .popular8 p{
     float: right;
+    cursor: pointer;
 }
 
 
@@ -955,7 +1048,7 @@ div.rating7{
 }
 
 .fa8.fa-stars8.blue8{
-    color: #000ff;
+    color: #0000ff;
     font-size: 15px;
     bottom: 30px;
     position: relative;
@@ -972,12 +1065,14 @@ div.rating8{
     font-size: 12px;
     float: right;
     margin-right: 77px;
+    cursor: pointer;
 
 }
 
 .a-side h1{
-    font-size: 16px;
+    font-size: 18px;
     padding-left: 39px;
+    padding-bottom: 2px;
 }
 
 .hsm2{
@@ -985,7 +1080,7 @@ div.rating8{
     position: relative;
     padding-right: 55px;
     font-size: 14px;
-
+    cursor: pointer;
 }
 
 
@@ -997,6 +1092,7 @@ div.rating8{
     color: black;
     padding-left: 350px;
     padding-top: 25px;
+    top: -10px;
 }
 
 /* */
@@ -1005,7 +1101,7 @@ div.rating8{
 .popular9 p img {
     float: left;
     width: 50%;
-
+    cursor: pointer;
 }
 
 .popular9{
@@ -1015,6 +1111,9 @@ div.rating8{
     border-radius: 10px 0px 0px 10px;
     margin-left: 35px;
     margin-top: 50px;
+    position: relative;
+    bottom: 40px;
+    cursor: pointer;
 }
 
 .popular9 img {
@@ -1023,9 +1122,11 @@ div.rating8{
     border-radius: 10px 10px 10px 10px;
     padding-top: 3px;
     margin-left: 5px;
+    cursor: pointer;
 }
 .popular9 p{
     float: right;
+    cursor: pointer;
 }
 
 
@@ -1045,7 +1146,7 @@ div.rating8{
 }
 
 .fa9.fa-stars9.blue9{
-    color: #000ff;
+    color: #0000ff;
     font-size: 15px;
     bottom: 30px;
     position: relative;
@@ -1062,12 +1163,14 @@ div.rating9{
     font-size: 12px;
     float: right;
     margin-right: 38px;
+    cursor: pointer;
 
 }
 
 .a-side h3{
     font-size: 16px;
     margin-left: 45px;
+    cursor: pointer;
 }
 
 .hsm3{
@@ -1076,7 +1179,7 @@ div.rating9{
     position: relative;
     padding-right: 55px;
     font-size: 14px;
-
+    cursor: pointer;
 }
 
 
@@ -1091,24 +1194,1092 @@ div.rating9{
 }
 
 footer {
-    width:100%;
-    height: 300px;
-    position: relative;
-    background-color: lightgray;
-    margin:0px;
-    padding: 0px;
-}
-footer#b-end{
+    width: 100%;
+    height: 200px;
     display: flex;
-    align-items: flex-start;
-    justify-content: space-around;
-    margin-top: 50px;
-    bottom:735px;
-    padding-left: 1px;
-    padding-top: 25px;
-    margin-left: 5px;
+    padding: 10px;
+bottom: 600px;
+    position: relative;
 }
+#b-end{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    justify-content: space-around;
+
+}
+
+
 .bl p{
     line-height: 5px;
-    font-size: 12px;
+    font-size: 14px;
+    cursor: pointer;
 }
+
+
+div.bl.bloc-info-1#b-end{
+    display: flex;
+    cursor: pointer;
+}
+
+div.bl.bloc-info-1{
+    margin-left: -100px;
+    line-height: 0.5em;
+    font-size: 14px;
+    cursor: pointer;;
+    position: relative;
+}
+
+div.bl.bloc-info-2{
+    line-height: 0.5em;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+
+div.bl.bloc-info-3{
+    position: relative;
+    line-height: 0.5em;
+    font-size: 14px;
+    cursor: pointer;
+}
+h3{
+    margin-bottom: 30px;
+}
+
+
+ @media only screen and (max-width: 667px) {
+
+    main {
+        background-color: white;
+        margin: 0px -350px 1px 8px;
+        padding-top: 100%;
+    }
+
+
+    body {
+        margin: 0;
+        width: 375px;
+
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+
+    .logo {
+        width: 220px;
+        position: absolute;
+        bottom: 470px;
+        margin-left: -25px;
+    }
+
+/*
+    a.signin {
+        font-size: 40px;
+        bottom: 1747px;
+        margin-left: 300px;
+
+    }
+
+
+    a.sign {
+        font-size: 80px;
+        padding-top: 50px;
+        margin: 50px 400px 0 auto;
+    }
+
+    a.sign.s1 {
+        position: absolute;
+        font-size: 42px;
+        color: dodgerblue;
+        top: 200px;
+        margin-left: -50px;
+
+    }
+
+
+    a.sign.s2 {
+        position: absolute;
+        font-size: 40px;
+        bottom: 317px;
+        margin-left: 300px;
+        color: dodgerblue;
+    }
+
+    a.sign.s1:hover {
+        border-bottom: 2px solid dodgerblue;
+        left: 90px;
+        padding-left: 50px;
+        padding-right: 30px;
+    }
+
+    a.sign.s2:hover {
+        border-bottom: 2px solid dodgerblue;
+        padding-right: 50px;
+        padding-left: 30px;
+    }
+
+
+    p.slogan {
+        position: relative;
+        font-size: 50px;
+        margin-left: 10px;
+        top: 40px;
+    }
+
+    .txt_simple {
+        position: relative;
+        top: 20px;
+        font-size: 38px;
+        margin: 10px;
+    }
+
+
+    form {
+
+        position: relative;
+        top: 80px;
+        margin-left: 40px;
+        width: 80%;
+    }
+
+    form.search input[type="text"] {
+        padding: 10px;
+        font-size: 30px;
+        border: 1px solid #e3d7d7;
+        width: 70%;
+        height: 87px;
+        display: flex;
+        justify-content: flex-start;
+        background-color: white;
+        color: black;
+
+    }
+
+
+    .fa-map-marker-alt {
+        margin-left: -50px;
+        position: relative;
+        background-color: #f0f0f0;
+        height: 110px;
+        cursor: pointer;
+        border-radius: 40px 0px 0px 40px;
+        width: 115px;
+        cursor: pointer;
+
+    }
+
+    .fa-map-marker-alt::before {
+        position: relative;
+        top: 30px;
+        margin-left: 50px;
+        font-size: 40px;
+    }
+
+
+    nav, aside {
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    a.sign.s1, a.sign.s2 {
+        border-bottom-color: lightgray;
+    }
+
+
+    button.btn {
+        width: 300px;
+        margin: 12px;
+        height: 100px;
+    }
+
+    .btn {
+        border-radius: 40px 40px 40px 40px;
+        padding-top: 20px;
+        border: 1px solid lightgrey;
+    }
+
+    .line-infos {
+        padding-left: 50px;
+        position: relative;
+        bottom: -100px;
+        font-size: 37px;
+    }
+
+    .btncontent h2 {
+        position: relative;
+        top: 5px;
+        font-size: 29px;
+        padding-right: 10px;
+    }
+
+
+    i.fas.fa-info-circle {
+        color: dodgerblue;
+        position: relative;
+        bottom: -180px;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+
+    .fa, .fas {
+        font-weight: 900;
+    }
+
+
+    section {
+        position: relative;
+        top: 3500px;
+        height: 630px;
+        width: 710px;
+        margin-left: 5px;
+        background-color: #eaeaea;
+        border-radius: 0;
+
+    }
+
+    section h1 {
+        font-size: 50px;
+        margin-top: -100px;
+        position: absolute;
+
+
+    }
+
+
+    .auberge-1 {
+        width: 666px;
+        height: 384px;
+        border: 1px solid white;
+        border-radius: 40px 40px 40px 40px;
+        background-color: white;
+        cursor: pointer;
+        order: 1;
+        margin-left: 500px;
+        box-shadow: 5px 5px 5px lightgrey;
+    }
+
+
+    .auberge-1 img {
+        width: 655px;
+        height: 215px;
+        border-radius: 40px 40px 0px 0px;
+        margin-left: 3px;
+        margin-right: 3px;
+        padding-top: 3px;
+        object-fit: cover;
+    }
+
+    .auberge-1 p {
+        text-align: left;
+        font-size: 30px;
+        margin-left: 25px;
+
+    }
+
+    p.around {
+        position: relative;
+        bottom: 20px;
+    }
+
+    .rating a {
+        text-decoration: none;
+    }
+
+    .fa.fa-stars.blue {
+        color: #0000FF;
+        font-size: 30px;
+        bottom: 40px;
+        float: left;
+        position: relative;
+    }
+
+
+    .auberge-2 {
+        width: 666px;
+        height: 384px;
+        border: 1px solid white;
+        border-radius: 40px 40px 40px 40px;
+        background-color: white;
+        cursor: pointer;
+        order: 1;
+        margin-left: 20px;
+        position: relative;
+        box-shadow: 5px 5px 5px lightgrey;
+        bottom: 1600px;
+    }
+
+    .fa2.fa-stars2.blue2 {
+        color: #0000ff;
+        margin-bottom: 5px;
+        position: relative;
+        float: left;
+        margin-left: 1px;
+        font-size: 30px;
+        bottom: 40px;
+    }
+
+    .auberge-2 img {
+        width: 655px;
+        height: 215px;
+        border-radius: 40px 40px 0px 0px;
+        margin-left: 3px;
+        margin-right: 3px;
+        padding-top: 3px;
+        object-fit: cover;
+    }
+
+    .auberge-2 p {
+        text-align: left;
+        font-size: 30px;
+        margin-left: 25px;
+
+    }
+
+    .auberge-3 {
+        width: 666px;
+        height: 384px;
+        border: 1px solid white;
+        border-radius: 40px 40px 40px 40px;
+        background-color: white;
+        cursor: pointer;
+        order: 1;
+        margin-left: 20px;
+        position: relative;
+        box-shadow: 5px 5px 5px lightgrey;
+        bottom: 1520px;
+    }
+
+    .fa3.fa-stars3.blue3 {
+        color: #0000ff;
+        margin-bottom: 5px;
+        position: relative;
+        float: left;
+        margin-left: 1px;
+        font-size: 30px;
+        bottom: 40px;
+    }
+
+    .auberge-3 img {
+        width: 655px;
+        height: 215px;
+        border-radius: 40px 40px 0px 0px;
+        margin-left: 3px;
+        margin-right: 3px;
+        padding-top: 3px;
+        object-fit: cover;
+        margin-top: -28px;
+    }
+
+    .auberge-3 p {
+        text-align: left;
+        font-size: 30px;
+        margin-left: 25px;
+
+    }
+
+    .auberge-4 {
+        width: 666px;
+        height: 384px;
+        border: 1px solid white;
+        border-radius: 40px 40px 40px 40px;
+        background-color: white;
+        cursor: pointer;
+        order: 1;
+        margin-left: 20px;
+        bottom: 1430px;
+        position: relative;
+        box-shadow: 5px 5px 5px lightgrey;
+
+    }
+
+    .fa4.fa-stars4.blue4 {
+        color: #0000ff;
+        margin-bottom: 5px;
+        position: relative;
+        float: left;
+        margin-left: 1px;
+        font-size: 30px;
+        bottom: 40px;
+    }
+
+    .auberge-4 img {
+        width: 655px;
+        height: 215px;
+        border-radius: 40px 40px 0px 0px;
+        margin-left: 3px;
+        margin-right: 3px;
+        padding-top: 3px;
+        object-fit: cover;
+        margin-top: -28px;
+    }
+
+    .auberge-4 p {
+        text-align: left;
+        font-size: 30px;
+        margin-left: 25px;
+
+    }
+
+    .auberge-5 {
+        width: 666px;
+        height: 384px;
+        border: 1px solid white;
+        border-radius: 40px 40px 40px 40px;
+        background-color: white;
+        cursor: pointer;
+        order: 1;
+        margin-left: 20px;
+        bottom: 1360px;
+        position: relative;
+        box-shadow: 5px 5px 5px lightgrey;
+
+    }
+
+    .fa5.fa-stars5.blue5 {
+        color: #0000ff;
+        margin-bottom: 5px;
+        position: relative;
+        float: left;
+        margin-left: 1px;
+        font-size: 30px;
+        bottom: 40px;
+    }
+
+    .auberge-5 img {
+        width: 655px;
+        height: 215px;
+        border-radius: 40px 40px 0px 0px;
+        margin-left: 3px;
+        margin-right: 3px;
+        padding-top: 3px;
+        object-fit: cover;
+        margin-top: -28px;
+    }
+
+    .auberge-5 p {
+        text-align: left;
+        font-size: 30px;
+        margin-left: 25px;
+
+    }
+
+
+    .auberge-6 {
+        width: 666px;
+        height: 384px;
+        border: 1px solid white;
+        border-radius: 40px 40px 40px 40px;
+        background-color: white;
+        cursor: pointer;
+        order: 1;
+        margin-left: 20px;
+        bottom: 1300px;
+        position: relative;
+        box-shadow: 5px 5px 5px lightgrey;
+
+    }
+
+    .fa6.fa-stars6.blue6 {
+        color: #0000ff;
+        margin-bottom: 5px;
+        position: relative;
+        float: left;
+        margin-left: 1px;
+        font-size: 30px;
+        bottom: 40px;
+
+    }
+
+    .auberge-6 img {
+        width: 655px;
+        height: 215px;
+        border-radius: 40px 40px 0px 0px;
+        margin-left: 3px;
+        margin-right: 3px;
+        padding-top: 3px;
+        object-fit: cover;
+        margin-top: -28px;
+    }
+
+    .auberge-6 p {
+        text-align: left;
+        font-size: 30px;
+        margin-left: 25px;
+
+    }
+
+    /*
+    .marseille {
+        /* padding-bottom: 200px;
+         position: relative;
+         top: 4900px ;
+        font-size: 14px;
+        text-align: center;
+         display: flex;
+         flex-direction: column;
+
+    }
+*/
+
+
+    .reno-activity {
+        width: 660px;
+        height: 230px;
+        bottom: 7px;
+        border-radius: 40px 40px 0px 0px;
+        object-fit: cover;
+        cursor: pointer;
+        padding-top: 5px;
+    }
+
+
+    .bloc-1 {
+        width: 670px;
+        height: 390px;
+        border: 1px solid #e9e9e9;
+        top: 2500px;
+        position: relative;
+        margin-left: -50px;
+        box-shadow: 5px 5px 5px lightgray;
+        border-radius: 40px 40px 40px 40px;
+
+
+    }
+
+    .v_port {
+        font-size: 34px;
+        cursor: pointer;
+    }
+
+
+    .bloc-2 {
+        width: 670px;
+        height: 390px;
+        border: 1px solid #e9e9e9;
+        top: 3000px;
+        position: relative;
+        margin-left: -670px;
+        box-shadow: 5px 5px 5px lightgray;
+        border-radius: 40px 40px 40px 40px;
+
+
+    }
+
+    .fort-activity {
+        width: 660px;
+        height: 230px;
+        bottom: 5px;
+        border-radius: 40px 40px 0px 0px;
+
+    }
+
+    p.f_port {
+        margin-top: 50px;
+        float: left;
+        margin-left: 20px;
+        font-size: 35px;
+    }
+
+
+    .bloc-3 {
+        border-radius: 40px 40px 40px 40px;
+        margin-left: -670px;
+        width: 670px;
+        height: 390px;
+        box-shadow: 5px 5px 5px lightgrey;
+        top: 3500px;
+    }
+
+    img.frioul-activity {
+        width: 660px;
+        height: 230px;
+        border-radius: 40px 40px 0px 0px;
+        margin-left: 5px;
+    }
+
+    .ile_port {
+        top: 255px;
+        font-size: 35px;
+    }
+
+    .bloc-4 {
+        width: 670px;
+        height: 390px;
+        border: 1px solid #e9e9e9;
+        top: 4000px;
+        position: relative;
+        margin-left: -670px;
+        box-shadow: 5px 5px 5px lightgray;
+        border-radius: 40px 40px 40px 40px;
+    }
+
+    .parc-activity {
+        width: 660px;
+        height: 230px;
+        position: absolute;
+        margin-left: -330px;
+        border: 1px solid #EFEFEF;
+        box-shadow: 5px 5px 5px #EFEFEF;
+        border-radius: 40px 40px 40px 40px;
+        top: 2px;
+    }
+
+    .bloc-5 {
+        width: 670px;
+        height: 390px;
+        border: 1px solid #e9e9e9;
+        top: 4500px;
+        position: relative;
+        margin-left: -670px;
+        box-shadow: 5px 5px 5px lightgray;
+        border-radius: 40px 40px 40px 40px;
+    }
+
+    .nd-bloc {
+        font-size: 35px;
+        margin-left: -90px;
+    }
+
+
+    .nd-activity {
+        width: 660px;
+        height: 230px;
+        bottom: 60px;
+        border-radius: 40px 40px 40px 40px;
+        object-fit: cover;
+        cursor: pointer;
+    }
+
+
+    .parcnational {
+        font-size: 35px;
+        margin-top: 300px;
+    }
+
+    .marseille {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .pl-activity {
+        width: 660px;
+        height: 230px;
+        position: absolute;
+        margin-left: -330px;
+        border: 1px solid #EFEFEF;
+        box-shadow: 5px 5px 5px #EFEFEF;
+        border-radius: 40px 40px 40px 40px;
+        top: 2px;
+    }
+
+    .bloc-6 {
+        width: 670px;
+        height: 390px;
+        border: 1px solid #e9e9e9;
+        top: 4500px;
+        position: relative;
+        margin-left: -670px;
+        box-shadow: 5px 5px 5px lightgray;
+        border-radius: 40px 40px 40px 40px;
+    }
+
+
+    p.btn-p {
+        margin-left: 60px;
+        bottom: 10px;
+        position: relative;
+        font-size: 30px;
+    }
+
+    .btn-p2 {
+        margin: 0;
+        padding-left: 42px;
+        font-size: 25px;
+    }
+
+    .fa-dog {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        background: #b4e0ff;
+        float: left;
+        bottom: 113px;
+        margin-left: 5px;
+    }
+
+    i.fas.fa-dog.fa-2x::before {
+        top: 20px;
+        position: relative;
+        padding-left: 17px;
+    }
+
+    div.btncontent {
+        width: 300%;
+        margin-left: 10px;
+        position: relative;
+        top: 40px;
+    }
+
+    .btncontent {
+        margin: 20px 0 10px;
+    }
+
+
+    #hebergement-region {
+        position: relative;
+        width: 80%;
+        top: 900px;
+    }
+
+
+    .marseille {
+        padding-bottom: 200px;
+        position: absolute;
+        top: 3200px;
+    }
+
+
+    .a-side {
+        width: 717px;
+        height: 1300px;
+        margin: -42px 0px 0px 90px;
+        position: relative;
+        top: -2090px;
+        border-radius: 0px;
+
+    }
+
+    .a-side h1 {
+        font-size: 40px;
+        padding-left: 39px;
+        padding-top: 50px;
+    }
+
+    form.search button {
+        width: 120px;
+        padding: 10px;
+        content: '\f002';
+        background: #2196F3;
+        color: white;
+        border-radius: 40px 40px 40px 40px;
+        margin-left: -30px;
+        height: 112px;
+        bottom: 0px;
+    }
+
+    button.search-in {
+        content: '\f002';
+    }
+
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: space-around;
+        margin-bottom: 10%;
+        flex-direction: column;
+        margin-right: 400px;
+    }
+
+    .fa-heart {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        background: #b4dfff;
+        margin-left: 5px;
+        bottom: 112px;
+    }
+
+    .fa-heart::before {
+        color: #0871e2;
+        position: relative;
+        bottom: -35px;
+        margin-left: 30px;
+    }
+
+    .fa-child {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        background: #b4dfff;
+        bottom: 111px;
+        margin-left: 5px;
+    }
+
+    .fa-child::before {
+        color: #0871e2;
+        position: relative;
+        top: 33px;
+        margin-left: 35px;
+    }
+
+    .fa-money-bill-wave {
+        bottom: 113px;
+        position: relative;
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        background: #b4dfff;
+        margin-left: 1px;
+    }
+
+
+    .fa-money-bill-wave::before {
+        color: #0871e2;
+        position: relative;
+        padding-left: 28px;
+        top: 35px;
+    }
+
+
+    /*Section hébergement*/
+
+    .fa-chart-line {
+        position: relative;
+        margin-left: 340px;
+        height: 40px;
+        width: 150px;
+        color: black;
+        padding-left: 280px;
+        padding-top: 25px;
+        top: -110px;
+        font-size: 50px;
+    }
+
+
+    .popular7 {
+        background-color: white;
+        height: 300px;
+        border-radius: 40px 40px 40px 40px;
+        margin-left: 35px;
+        cursor: pointer;
+        width: 650px;
+
+    }
+
+    .popular7 img {
+        height: 290px;
+        width: 255px;
+        border-radius: 40px 0px 0px 40px;
+        padding-top: 3px;
+        margin-left: 5px;
+        object-fit: cover;
+        cursor: pointer;
+    }
+
+    .popular7 p {
+        cursor: pointer;
+        margin-left: 318px;
+        bottom: 200px;
+        font-size: 30px;
+        position: relative;
+        padding-right: 67px;
+    }
+
+    .fa7.fa-stars7.blue7 {
+        color: #0000ff;
+        font-size: 35px;
+        bottom: 70px;
+        position: relative;
+        float: left;
+    }
+
+    div.stars7 {
+        margin-left: 170px;
+    }
+
+    .t-hsm {
+        float: right;
+        padding-right: 5px;
+        cursor: pointer;
+        font-size: 36px;
+        word-break: break-word;
+        width: 50%;
+
+    }
+
+    .popular8 p {
+        cursor: pointer;
+        margin-left: 318px;
+        bottom: 200px;
+        font-size: 30px;
+        position: relative;
+        padding-right: 67px;
+    }
+
+    .fa8.fa-stars8.blue8 {
+        color: #0000ff;
+        font-size: 35px;
+        bottom: 70px;
+        position: relative;
+        float: left;
+    }
+
+    div.stars8 {
+        margin-left: 170px;
+    }
+
+    .popular8 {
+        background-color: white;
+        height: 300px;
+        border-radius: 40px 40px 40px 40px;
+        margin-left: 35px;
+        cursor: pointer;
+        width: 650px;
+    }
+
+    .popular8 img {
+        height: 290px;
+        width: 255px;
+        border-radius: 40px 0px 0px 40px;
+        padding-top: 3px;
+        margin-left: 5px;
+        object-fit: cover;
+        cursor: pointer;
+    }
+
+    .popular8 p {
+        cursor: pointer;
+        margin-left: 318px;
+        bottom: 200px;
+        font-size: 30px;
+        position: relative;
+        padding-right: 89px;
+    }
+
+    .popular9 p {
+        cursor: pointer;
+        margin-left: 318px;
+        bottom: 200px;
+        font-size: 30px;
+        position: relative;
+        padding-right: 67px;
+    }
+
+    .fa9.fa-stars9.blue9 {
+        color: #0000ff;
+        font-size: 35px;
+        bottom: 70px;
+        position: relative;
+        float: left;
+    }
+
+    div.stars9 {
+        margin-left: 170px;
+    }
+
+    .popular9 {
+        background-color: white;
+        height: 300px;
+        border-radius: 40px 40px 40px 40px;
+        margin-left: 35px;
+        cursor: pointer;
+        width: 650px;
+    }
+
+    .popular9 img {
+        height: 290px;
+        width: 255px;
+        border-radius: 40px 0px 0px 40px;
+        padding-top: 3px;
+        margin-left: 5px;
+        object-fit: cover;
+        cursor: pointer;
+    }
+
+    .popular9 p {
+        cursor: pointer;
+        margin-left: 318px;
+        bottom: 200px;
+        font-size: 30px;
+        position: relative;
+        padding-right: 89px;
+    }
+
+    .t-hsm3 {
+        font-size: 36px;
+        cursor: pointer;
+        width: 50%;
+        margin-right: 10px;
+    }
+
+    .t-hsm2 {
+        font-size: 36px;
+        cursor: pointer;
+        width: 50%;
+        margin-right: 10px;
+    }
+
+    .flex-container {
+        margin-left: -500px;
+        position: absolute;
+        bottom: 2500px;
+    }
+
+    p.scroll-info {
+        bottom: 1300px;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+
+    /*
+    background-color: white;
+              height: 300px;
+              border-radius: 40px 40px 40px 40px;
+              margin-left: 35px;
+              cursor: pointer;
+              width:650px;
+
+     */
+
+    footer {
+        width: 100%;
+        display: flex;
+        padding: 100px;
+        top: 3800px;
+        position: relative;
+        height: 700px;
+    }
+
+    #b-end {
+        display: flex;
+        flex-direction: column;
+        background-color: lightgray;
+        justify-content: space-around;
+        font-size: 35px;
+
+    }
+
+    div.bl.bloc-info-1 {
+        font-size: 35px;
+        margin-left: 0;
+    }
+
+    .bl p {
+        font-size: 34px;
+        margin-left: -40px;
+    }
+
+    h3 {
+        margin-left: -50px;
+        font-size: 38px;
+        padding-bottom: 60px;
+    }
+
+}
+
+
+
+
+
+
