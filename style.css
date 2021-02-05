@@ -1248,1038 +1248,1099 @@ h3{
 }
 
 
- @media only screen and (max-width: 667px) {
 
-    main {
-        background-color: white;
-        margin: 0px -350px 1px 8px;
-        padding-top: 100%;
-    }
 
 
-    body {
-        margin: 0;
-        width: 375px;
 
-    }
 
-    header {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
 
 
-    .logo {
-        width: 220px;
-        position: absolute;
-        bottom: 470px;
-        margin-left: -25px;
-    }
 
-/*
-    a.signin {
-        font-size: 40px;
-        bottom: 1747px;
-        margin-left: 300px;
+ @media only screen
+ and (device-width : 375px)
+ and (device-height : 667px)
+ and (-webkit-device-pixel-ratio : 2)  {
 
-    }
 
+     body {
+         margin: 0;
+     }
 
-    a.sign {
-        font-size: 80px;
-        padding-top: 50px;
-        margin: 50px 400px 0 auto;
-    }
-
-    a.sign.s1 {
-        position: absolute;
-        font-size: 42px;
-        color: dodgerblue;
-        top: 200px;
-        margin-left: -50px;
-
-    }
-
-
-    a.sign.s2 {
-        position: absolute;
-        font-size: 40px;
-        bottom: 317px;
-        margin-left: 300px;
-        color: dodgerblue;
-    }
-
-    a.sign.s1:hover {
-        border-bottom: 2px solid dodgerblue;
-        left: 90px;
-        padding-left: 50px;
-        padding-right: 30px;
-    }
-
-    a.sign.s2:hover {
-        border-bottom: 2px solid dodgerblue;
-        padding-right: 50px;
-        padding-left: 30px;
-    }
-
-
-    p.slogan {
-        position: relative;
-        font-size: 50px;
-        margin-left: 10px;
-        top: 40px;
-    }
-
-    .txt_simple {
-        position: relative;
-        top: 20px;
-        font-size: 38px;
-        margin: 10px;
-    }
-
-
-    form {
-
-        position: relative;
-        top: 80px;
-        margin-left: 40px;
-        width: 80%;
-    }
-
-    form.search input[type="text"] {
-        padding: 10px;
-        font-size: 30px;
-        border: 1px solid #e3d7d7;
-        width: 70%;
-        height: 87px;
-        display: flex;
-        justify-content: flex-start;
-        background-color: white;
-        color: black;
-
-    }
-
-
-    .fa-map-marker-alt {
-        margin-left: -50px;
-        position: relative;
-        background-color: #f0f0f0;
-        height: 110px;
-        cursor: pointer;
-        border-radius: 40px 0px 0px 40px;
-        width: 115px;
-        cursor: pointer;
-
-    }
-
-    .fa-map-marker-alt::before {
-        position: relative;
-        top: 30px;
-        margin-left: 50px;
-        font-size: 40px;
-    }
-
-
-    nav, aside {
-        width: auto;
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    a.sign.s1, a.sign.s2 {
-        border-bottom-color: lightgray;
-    }
-
-
-    button.btn {
-        width: 300px;
-        margin: 12px;
-        height: 100px;
-    }
-
-    .btn {
-        border-radius: 40px 40px 40px 40px;
-        padding-top: 20px;
-        border: 1px solid lightgrey;
-    }
-
-    .line-infos {
-        padding-left: 50px;
-        position: relative;
-        bottom: -100px;
-        font-size: 37px;
-    }
-
-    .btncontent h2 {
-        position: relative;
-        top: 5px;
-        font-size: 29px;
-        padding-right: 10px;
-    }
-
-
-    i.fas.fa-info-circle {
-        color: dodgerblue;
-        position: relative;
-        bottom: -180px;
-        margin-left: 10px;
-        cursor: pointer;
-    }
-
-    .fa, .fas {
-        font-weight: 900;
-    }
-
-
-    section {
-        position: relative;
-        top: 3500px;
-        height: 630px;
-        width: 710px;
-        margin-left: 5px;
-        background-color: #eaeaea;
-        border-radius: 0;
-
-    }
-
-    section h1 {
-        font-size: 50px;
-        margin-top: -100px;
-        position: absolute;
-
-
-    }
-
-
-    .auberge-1 {
-        width: 666px;
-        height: 384px;
-        border: 1px solid white;
-        border-radius: 40px 40px 40px 40px;
-        background-color: white;
-        cursor: pointer;
-        order: 1;
-        margin-left: 500px;
-        box-shadow: 5px 5px 5px lightgrey;
-    }
-
-
-    .auberge-1 img {
-        width: 655px;
-        height: 215px;
-        border-radius: 40px 40px 0px 0px;
-        margin-left: 3px;
-        margin-right: 3px;
-        padding-top: 3px;
-        object-fit: cover;
-    }
-
-    .auberge-1 p {
-        text-align: left;
-        font-size: 30px;
-        margin-left: 25px;
-
-    }
-
-    p.around {
-        position: relative;
-        bottom: 20px;
-    }
-
-    .rating a {
-        text-decoration: none;
-    }
-
-    .fa.fa-stars.blue {
-        color: #0000FF;
-        font-size: 30px;
-        bottom: 40px;
-        float: left;
-        position: relative;
-    }
-
-
-    .auberge-2 {
-        width: 666px;
-        height: 384px;
-        border: 1px solid white;
-        border-radius: 40px 40px 40px 40px;
-        background-color: white;
-        cursor: pointer;
-        order: 1;
-        margin-left: 20px;
-        position: relative;
-        box-shadow: 5px 5px 5px lightgrey;
-        bottom: 1600px;
-    }
-
-    .fa2.fa-stars2.blue2 {
-        color: #0000ff;
-        margin-bottom: 5px;
-        position: relative;
-        float: left;
-        margin-left: 1px;
-        font-size: 30px;
-        bottom: 40px;
-    }
-
-    .auberge-2 img {
-        width: 655px;
-        height: 215px;
-        border-radius: 40px 40px 0px 0px;
-        margin-left: 3px;
-        margin-right: 3px;
-        padding-top: 3px;
-        object-fit: cover;
-    }
-
-    .auberge-2 p {
-        text-align: left;
-        font-size: 30px;
-        margin-left: 25px;
-
-    }
-
-    .auberge-3 {
-        width: 666px;
-        height: 384px;
-        border: 1px solid white;
-        border-radius: 40px 40px 40px 40px;
-        background-color: white;
-        cursor: pointer;
-        order: 1;
-        margin-left: 20px;
-        position: relative;
-        box-shadow: 5px 5px 5px lightgrey;
-        bottom: 1520px;
-    }
-
-    .fa3.fa-stars3.blue3 {
-        color: #0000ff;
-        margin-bottom: 5px;
-        position: relative;
-        float: left;
-        margin-left: 1px;
-        font-size: 30px;
-        bottom: 40px;
-    }
-
-    .auberge-3 img {
-        width: 655px;
-        height: 215px;
-        border-radius: 40px 40px 0px 0px;
-        margin-left: 3px;
-        margin-right: 3px;
-        padding-top: 3px;
-        object-fit: cover;
-        margin-top: -28px;
-    }
-
-    .auberge-3 p {
-        text-align: left;
-        font-size: 30px;
-        margin-left: 25px;
-
-    }
-
-    .auberge-4 {
-        width: 666px;
-        height: 384px;
-        border: 1px solid white;
-        border-radius: 40px 40px 40px 40px;
-        background-color: white;
-        cursor: pointer;
-        order: 1;
-        margin-left: 20px;
-        bottom: 1430px;
-        position: relative;
-        box-shadow: 5px 5px 5px lightgrey;
-
-    }
-
-    .fa4.fa-stars4.blue4 {
-        color: #0000ff;
-        margin-bottom: 5px;
-        position: relative;
-        float: left;
-        margin-left: 1px;
-        font-size: 30px;
-        bottom: 40px;
-    }
-
-    .auberge-4 img {
-        width: 655px;
-        height: 215px;
-        border-radius: 40px 40px 0px 0px;
-        margin-left: 3px;
-        margin-right: 3px;
-        padding-top: 3px;
-        object-fit: cover;
-        margin-top: -28px;
-    }
-
-    .auberge-4 p {
-        text-align: left;
-        font-size: 30px;
-        margin-left: 25px;
-
-    }
-
-    .auberge-5 {
-        width: 666px;
-        height: 384px;
-        border: 1px solid white;
-        border-radius: 40px 40px 40px 40px;
-        background-color: white;
-        cursor: pointer;
-        order: 1;
-        margin-left: 20px;
-        bottom: 1360px;
-        position: relative;
-        box-shadow: 5px 5px 5px lightgrey;
-
-    }
-
-    .fa5.fa-stars5.blue5 {
-        color: #0000ff;
-        margin-bottom: 5px;
-        position: relative;
-        float: left;
-        margin-left: 1px;
-        font-size: 30px;
-        bottom: 40px;
-    }
-
-    .auberge-5 img {
-        width: 655px;
-        height: 215px;
-        border-radius: 40px 40px 0px 0px;
-        margin-left: 3px;
-        margin-right: 3px;
-        padding-top: 3px;
-        object-fit: cover;
-        margin-top: -28px;
-    }
-
-    .auberge-5 p {
-        text-align: left;
-        font-size: 30px;
-        margin-left: 25px;
-
-    }
-
-
-    .auberge-6 {
-        width: 666px;
-        height: 384px;
-        border: 1px solid white;
-        border-radius: 40px 40px 40px 40px;
-        background-color: white;
-        cursor: pointer;
-        order: 1;
-        margin-left: 20px;
-        bottom: 1300px;
-        position: relative;
-        box-shadow: 5px 5px 5px lightgrey;
-
-    }
-
-    .fa6.fa-stars6.blue6 {
-        color: #0000ff;
-        margin-bottom: 5px;
-        position: relative;
-        float: left;
-        margin-left: 1px;
-        font-size: 30px;
-        bottom: 40px;
-
-    }
-
-    .auberge-6 img {
-        width: 655px;
-        height: 215px;
-        border-radius: 40px 40px 0px 0px;
-        margin-left: 3px;
-        margin-right: 3px;
-        padding-top: 3px;
-        object-fit: cover;
-        margin-top: -28px;
-    }
-
-    .auberge-6 p {
-        text-align: left;
-        font-size: 30px;
-        margin-left: 25px;
-
-    }
-
-    /*
-    .marseille {
-        /* padding-bottom: 200px;
-         position: relative;
-         top: 4900px ;
-        font-size: 14px;
-        text-align: center;
+     header {
          display: flex;
          flex-direction: column;
-
-    }
-*/
-
-
-    .reno-activity {
-        width: 660px;
-        height: 230px;
-        bottom: 7px;
-        border-radius: 40px 40px 0px 0px;
-        object-fit: cover;
-        cursor: pointer;
-        padding-top: 5px;
-    }
-
-
-    .bloc-1 {
-        width: 670px;
-        height: 390px;
-        border: 1px solid #e9e9e9;
-        top: 2500px;
-        position: relative;
-        margin-left: -50px;
-        box-shadow: 5px 5px 5px lightgray;
-        border-radius: 40px 40px 40px 40px;
-
-
-    }
-
-    .v_port {
-        font-size: 34px;
-        cursor: pointer;
-    }
-
-
-    .bloc-2 {
-        width: 670px;
-        height: 390px;
-        border: 1px solid #e9e9e9;
-        top: 3000px;
-        position: relative;
-        margin-left: -670px;
-        box-shadow: 5px 5px 5px lightgray;
-        border-radius: 40px 40px 40px 40px;
-
-
-    }
-
-    .fort-activity {
-        width: 660px;
-        height: 230px;
-        bottom: 5px;
-        border-radius: 40px 40px 0px 0px;
-
-    }
-
-    p.f_port {
-        margin-top: 50px;
-        float: left;
-        margin-left: 20px;
-        font-size: 35px;
-    }
-
-
-    .bloc-3 {
-        border-radius: 40px 40px 40px 40px;
-        margin-left: -670px;
-        width: 670px;
-        height: 390px;
-        box-shadow: 5px 5px 5px lightgrey;
-        top: 3500px;
-    }
-
-    img.frioul-activity {
-        width: 660px;
-        height: 230px;
-        border-radius: 40px 40px 0px 0px;
-        margin-left: 5px;
-    }
-
-    .ile_port {
-        top: 255px;
-        font-size: 35px;
-    }
-
-    .bloc-4 {
-        width: 670px;
-        height: 390px;
-        border: 1px solid #e9e9e9;
-        top: 4000px;
-        position: relative;
-        margin-left: -670px;
-        box-shadow: 5px 5px 5px lightgray;
-        border-radius: 40px 40px 40px 40px;
-    }
-
-    .parc-activity {
-        width: 660px;
-        height: 230px;
-        position: absolute;
-        margin-left: -330px;
-        border: 1px solid #EFEFEF;
-        box-shadow: 5px 5px 5px #EFEFEF;
-        border-radius: 40px 40px 40px 40px;
-        top: 2px;
-    }
-
-    .bloc-5 {
-        width: 670px;
-        height: 390px;
-        border: 1px solid #e9e9e9;
-        top: 4500px;
-        position: relative;
-        margin-left: -670px;
-        box-shadow: 5px 5px 5px lightgray;
-        border-radius: 40px 40px 40px 40px;
-    }
-
-    .nd-bloc {
-        font-size: 35px;
-        margin-left: -90px;
-    }
-
-
-    .nd-activity {
-        width: 660px;
-        height: 230px;
-        bottom: 60px;
-        border-radius: 40px 40px 40px 40px;
-        object-fit: cover;
-        cursor: pointer;
-    }
-
-
-    .parcnational {
-        font-size: 35px;
-        margin-top: 300px;
-    }
-
-    .marseille {
-        font-size: 20px;
-        text-align: center;
-    }
-
-    .pl-activity {
-        width: 660px;
-        height: 230px;
-        position: absolute;
-        margin-left: -330px;
-        border: 1px solid #EFEFEF;
-        box-shadow: 5px 5px 5px #EFEFEF;
-        border-radius: 40px 40px 40px 40px;
-        top: 2px;
-    }
-
-    .bloc-6 {
-        width: 670px;
-        height: 390px;
-        border: 1px solid #e9e9e9;
-        top: 4500px;
-        position: relative;
-        margin-left: -670px;
-        box-shadow: 5px 5px 5px lightgray;
-        border-radius: 40px 40px 40px 40px;
-    }
-
-
-    p.btn-p {
-        margin-left: 60px;
-        bottom: 10px;
-        position: relative;
-        font-size: 30px;
-    }
-
-    .btn-p2 {
-        margin: 0;
-        padding-left: 42px;
-        font-size: 25px;
-    }
-
-    .fa-dog {
-        position: relative;
-        width: 100px;
-        height: 100px;
-        border-radius: 50px;
-        background: #b4e0ff;
-        float: left;
-        bottom: 113px;
-        margin-left: 5px;
-    }
-
-    i.fas.fa-dog.fa-2x::before {
-        top: 20px;
-        position: relative;
-        padding-left: 17px;
-    }
-
-    div.btncontent {
-        width: 300%;
-        margin-left: 10px;
-        position: relative;
-        top: 40px;
-    }
-
-    .btncontent {
-        margin: 20px 0 10px;
-    }
-
-
-    #hebergement-region {
-        position: relative;
-        width: 80%;
-        top: 900px;
-    }
-
-
-    .marseille {
-        padding-bottom: 200px;
-        position: absolute;
-        top: 3200px;
-    }
-
-
-    .a-side {
-        width: 717px;
-        height: 1300px;
-        margin: -42px 0px 0px 90px;
-        position: relative;
-        top: -2090px;
-        border-radius: 0px;
-
-    }
-
-    .a-side h1 {
-        font-size: 40px;
-        padding-left: 39px;
-        padding-top: 50px;
-    }
-
-    form.search button {
-        width: 120px;
-        padding: 10px;
-        content: '\f002';
-        background: #2196F3;
-        color: white;
-        border-radius: 40px 40px 40px 40px;
-        margin-left: -30px;
-        height: 112px;
-        bottom: 0px;
-    }
-
-    button.search-in {
-        content: '\f002';
-    }
-
-    .flex-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-content: space-around;
-        margin-bottom: 10%;
-        flex-direction: column;
-        margin-right: 400px;
-    }
-
-    .fa-heart {
-        position: relative;
-        width: 100px;
-        height: 100px;
-        border-radius: 50px;
-        background: #b4dfff;
-        margin-left: 5px;
-        bottom: 112px;
-    }
-
-    .fa-heart::before {
-        color: #0871e2;
-        position: relative;
-        bottom: -35px;
-        margin-left: 30px;
-    }
-
-    .fa-child {
-        position: relative;
-        width: 100px;
-        height: 100px;
-        border-radius: 50px;
-        background: #b4dfff;
-        bottom: 111px;
-        margin-left: 5px;
-    }
-
-    .fa-child::before {
-        color: #0871e2;
-        position: relative;
-        top: 33px;
-        margin-left: 35px;
-    }
-
-    .fa-money-bill-wave {
-        bottom: 113px;
-        position: relative;
-        width: 100px;
-        height: 100px;
-        border-radius: 50px;
-        background: #b4dfff;
-        margin-left: 1px;
-    }
-
-
-    .fa-money-bill-wave::before {
-        color: #0871e2;
-        position: relative;
-        padding-left: 28px;
-        top: 35px;
-    }
-
-
-    /*Section hébergement*/
-
-    .fa-chart-line {
-        position: relative;
-        margin-left: 340px;
-        height: 40px;
-        width: 150px;
-        color: black;
-        padding-left: 280px;
-        padding-top: 25px;
-        top: -110px;
-        font-size: 50px;
-    }
-
-
-    .popular7 {
-        background-color: white;
-        height: 300px;
-        border-radius: 40px 40px 40px 40px;
-        margin-left: 35px;
-        cursor: pointer;
-        width: 650px;
-
-    }
-
-    .popular7 img {
-        height: 290px;
-        width: 255px;
-        border-radius: 40px 0px 0px 40px;
-        padding-top: 3px;
-        margin-left: 5px;
-        object-fit: cover;
-        cursor: pointer;
-    }
-
-    .popular7 p {
-        cursor: pointer;
-        margin-left: 318px;
-        bottom: 200px;
-        font-size: 30px;
-        position: relative;
-        padding-right: 67px;
-    }
-
-    .fa7.fa-stars7.blue7 {
-        color: #0000ff;
-        font-size: 35px;
-        bottom: 70px;
-        position: relative;
-        float: left;
-    }
-
-    div.stars7 {
-        margin-left: 170px;
-    }
-
-    .t-hsm {
-        float: right;
-        padding-right: 5px;
-        cursor: pointer;
-        font-size: 36px;
-        word-break: break-word;
-        width: 50%;
-
-    }
-
-    .popular8 p {
-        cursor: pointer;
-        margin-left: 318px;
-        bottom: 200px;
-        font-size: 30px;
-        position: relative;
-        padding-right: 67px;
-    }
-
-    .fa8.fa-stars8.blue8 {
-        color: #0000ff;
-        font-size: 35px;
-        bottom: 70px;
-        position: relative;
-        float: left;
-    }
-
-    div.stars8 {
-        margin-left: 170px;
-    }
-
-    .popular8 {
-        background-color: white;
-        height: 300px;
-        border-radius: 40px 40px 40px 40px;
-        margin-left: 35px;
-        cursor: pointer;
-        width: 650px;
-    }
-
-    .popular8 img {
-        height: 290px;
-        width: 255px;
-        border-radius: 40px 0px 0px 40px;
-        padding-top: 3px;
-        margin-left: 5px;
-        object-fit: cover;
-        cursor: pointer;
-    }
-
-    .popular8 p {
-        cursor: pointer;
-        margin-left: 318px;
-        bottom: 200px;
-        font-size: 30px;
-        position: relative;
-        padding-right: 89px;
-    }
-
-    .popular9 p {
-        cursor: pointer;
-        margin-left: 318px;
-        bottom: 200px;
-        font-size: 30px;
-        position: relative;
-        padding-right: 67px;
-    }
-
-    .fa9.fa-stars9.blue9 {
-        color: #0000ff;
-        font-size: 35px;
-        bottom: 70px;
-        position: relative;
-        float: left;
-    }
-
-    div.stars9 {
-        margin-left: 170px;
-    }
-
-    .popular9 {
-        background-color: white;
-        height: 300px;
-        border-radius: 40px 40px 40px 40px;
-        margin-left: 35px;
-        cursor: pointer;
-        width: 650px;
-    }
-
-    .popular9 img {
-        height: 290px;
-        width: 255px;
-        border-radius: 40px 0px 0px 40px;
-        padding-top: 3px;
-        margin-left: 5px;
-        object-fit: cover;
-        cursor: pointer;
-    }
-
-    .popular9 p {
-        cursor: pointer;
-        margin-left: 318px;
-        bottom: 200px;
-        font-size: 30px;
-        position: relative;
-        padding-right: 89px;
-    }
-
-    .t-hsm3 {
-        font-size: 36px;
-        cursor: pointer;
-        width: 50%;
-        margin-right: 10px;
-    }
-
-    .t-hsm2 {
-        font-size: 36px;
-        cursor: pointer;
-        width: 50%;
-        margin-right: 10px;
-    }
-
-    .flex-container {
-        margin-left: -500px;
-        position: absolute;
-        bottom: 2500px;
-    }
-
-    p.scroll-info {
-        bottom: 1300px;
-        font-weight: bold;
-        font-size: 40px;
-    }
-
-
-    /*
-    background-color: white;
-              height: 300px;
-              border-radius: 40px 40px 40px 40px;
-              margin-left: 35px;
-              cursor: pointer;
-              width:650px;
-
-     */
-
-    footer {
-        width: 100%;
-        display: flex;
-        padding: 100px;
-        top: 3800px;
-        position: relative;
-        height: 700px;
-    }
-
-    #b-end {
-        display: flex;
-        flex-direction: column;
-        background-color: lightgray;
-        justify-content: space-around;
-        font-size: 35px;
-
-    }
-
-    div.bl.bloc-info-1 {
-        font-size: 35px;
-        margin-left: 0;
-    }
-
-    .bl p {
-        font-size: 34px;
-        margin-left: -40px;
-    }
-
-    h3 {
-        margin-left: -50px;
-        font-size: 38px;
-        padding-bottom: 60px;
-    }
-
+         flex-wrap: wrap;
+     }
+
+
+     .logo {
+         width: 100px;
+         bottom: 650px;
+         margin-left: -60px;
+     }
+
+
+     a.signin {
+         font-size: 20px;
+         bottom: 1281px;
+         margin-left: 55px;
+
+     }
+
+
+     a.sign {
+         font-size: 20px;
+         padding-top: 50px;
+         margin: 50px 400px 0 auto;
+     }
+
+     a.sign.s1 {
+         position: absolute;
+         font-size: 20px;
+         color: dodgerblue;
+         top: 10px;
+         margin-left: -100px;
+
+     }
+
+
+     a.sign.s2 {
+         position: absolute;
+         font-size: 20px;
+         top:10px;
+         margin-left: 80px;
+         color: dodgerblue;
+     }
+
+     a.sign.s1:hover {
+         border-bottom: 2px solid dodgerblue;
+         left: 90px;
+         padding-left: 50px;
+         padding-right: 30px;
+     }
+
+     a.sign.s2:hover {
+         border-bottom: 2px solid dodgerblue;
+         padding-right: 50px;
+         padding-left: 30px;
+     }
+
+
+     p.slogan {
+         font-size: 20px;
+         margin-left: -50px;
+         top: 90px;
+         position: relative;
+     }
+
+     .txt_simple {
+         position: relative;
+         top: 80px;
+         font-size: 20px;
+         margin-left: -50px;
+     }
+
+
+     form {
+
+         position: relative;
+         top: 80px;
+         margin-left: 4px;
+     }
+
+     form.search input[type="text"] {
+         padding: 10px;
+         font-size: 16px;
+         border: 1px solid #e3d7d7;
+         width: 170px;
+         height: 47px;
+         display: flex;
+         background-color: white;
+         color: black;
+
+     }
+
+
+     .fa-map-marker-alt {
+         margin-left: -50px;
+         position: relative;
+         background-color: #f0f0f0;
+         height: 60px;
+         cursor: pointer;
+         border-radius: 20px 0px 0px 20px;
+         width: 60px;
+         cursor: pointer;
+         top: 0px;
+     }
+
+     .fa-map-marker-alt::before {
+         position: relative;
+         top: 15px;
+         margin-left: 25px;
+         font-size: 25px;
+     }
+
+
+     nav{
+         width: auto;
+         display: flex;
+         flex-wrap: wrap;
+     }
+
+     a.sign.s1, a.sign.s2 {
+         border-bottom-color: lightgray;
+     }
+     form.search button {
+         width: 70px;
+         content: '\f002';
+         background: #2196F3;
+         color: white;
+         border-radius: 20px 20px 20px 20px;
+         margin-left: -17px;
+         height: 71px;
+         bottom: 0px;
+     }
+i.fas{
+    bottom: 73px;
+    width:60px;
+    height:60px;
 }
+     i.fas.fa-map-marker-alt.fa-2x{
+         width:60px;
+         height:71px;
+     }
+
+     i.fas.fa-heart.fa-2x{
+         position: relative;
+         bottom: 142px;
+     }
+
+     i.fas.fa-dog.fa-2x{
+         position: relative;
+         bottom: 212px;
+     }
+
+
+     .btn-all{
+         display: inline-block;
+         margin : 55px 0px auto;
+         width: 55%;
+         height: 25%;
+     }
+
+
+     button.btn {
+         padding-bottom: 10px;
+         margin: 12px;
+         height: 60px;
+     }
+     .btn {
+         border-radius: 40px 40px 40px 40px;
+         padding-top: 20px;
+         border: 1px solid lightgrey;
+     }
+    .btn.btn1{
+        width:166px;
+    }
+    button.btn.btn1{
+        margin-left: -55px;
+    }
+     .btn.btn2{
+         width:135px;
+     }
+   .btn.btn3{
+       bottom: 70px;
+       position: relative;
+   }
+     .btn.btn4{
+         bottom: 140px;
+         position: relative;
+     }
+
+
+
+     .line-infos {
+         padding-left: 0px;
+         position: relative;
+         bottom: 245px;
+         font-size: 14px;
+     }
+     .btncontent h2 {
+         position: relative;
+         top: -70px;
+         font-size: 20px;
+         padding-right: 10px;
+     }
+
+     div.btncontent {
+         margin-left: -70px;
+         flex-direction: row;
+         flex-wrap: wrap;
+         width: 420px;
+         margin-top: 100px;
+     }
+
+     p.btn-p {
+         margin-left: 50px;
+         bottom: 18px;
+         position: relative;
+         font-size: 18px;
+
+     }
+
+     .btn-p2 {
+         margin: 0;
+         padding-left: 42px;
+         font-size: 15px;
+     }
 
 
 
 
 
 
+
+
+     i.fas.fa-info-circle {
+         color: dodgerblue;
+         position: relative;
+         bottom: 180px;
+         margin-left: -50px;
+         cursor: pointer;
+     }
+     .fa, .fas {
+         font-weight: 900;
+     }
+
+
+
+
+
+     section {
+         position: relative;
+         top:3500px;
+         height: 630px;
+         width: 710px;
+         margin-left: 5px;
+         background-color: #eaeaea;
+         border-radius: 0;
+
+     }
+     section h1 {
+         font-size: 50px;
+         margin-top: -100px;
+         position: absolute;
+
+
+     }
+
+
+
+     .auberge-1 {
+         width: 666px;
+         height: 384px;
+         border: 1px solid white;
+         border-radius: 40px 40px 40px 40px;
+         background-color: white;
+         cursor: pointer;
+         order: 1;
+         margin-left:500px;
+         box-shadow: 5px 5px 5px lightgrey;
+     }
+
+
+     .auberge-1 img {
+         width: 655px;
+         height: 215px;
+         border-radius: 40px 40px 0px 0px;
+         margin-left: 3px;
+         margin-right: 3px;
+         padding-top: 3px;
+         object-fit: cover;
+     }
+
+     .auberge-1 p {
+         text-align: left;
+         font-size: 30px;
+         margin-left: 25px;
+
+     }
+     p.around{
+         position: relative;
+         bottom: 20px;
+     }
+     .rating a {
+         text-decoration: none;
+     }
+     .fa.fa-stars.blue {
+         color: #0000FF;
+         font-size: 30px;
+         bottom: 40px;
+         float: left;
+         position:relative;
+     }
+
+
+     .auberge-2 {
+         width: 666px;
+         height: 384px;
+         border: 1px solid white;
+         border-radius: 40px 40px 40px 40px;
+         background-color: white;
+         cursor: pointer;
+         order: 1;
+         margin-left: 20px;
+         position: relative;
+         box-shadow: 5px 5px 5px lightgrey;
+         bottom: 1600px;
+     }
+     .fa2.fa-stars2.blue2 {
+         color: #0000ff;
+         margin-bottom: 5px;
+         position: relative;
+         float: left;
+         margin-left: 1px;
+         font-size: 30px;
+         bottom: 40px;
+     }
+
+     .auberge-2 img {
+         width: 655px;
+         height: 215px;
+         border-radius: 40px 40px 0px 0px;
+         margin-left: 3px;
+         margin-right: 3px;
+         padding-top: 3px;
+         object-fit: cover;
+     }
+
+     .auberge-2 p {
+         text-align: left;
+         font-size: 30px;
+         margin-left: 25px;
+
+     }
+
+     .auberge-3 {
+         width: 666px;
+         height: 384px;
+         border: 1px solid white;
+         border-radius: 40px 40px 40px 40px;
+         background-color: white;
+         cursor: pointer;
+         order: 1;
+         margin-left: 20px;
+         position: relative;
+         box-shadow: 5px 5px 5px lightgrey;
+         bottom: 1520px;
+     }
+
+ .fa3.fa-stars3.blue3 {
+     color: #0000ff;
+     margin-bottom: 5px;
+     position: relative;
+     float: left;
+     margin-left: 1px;
+     font-size: 30px;
+     bottom: 40px;
+ }
+ .auberge-3 img {
+     width: 655px;
+     height: 215px;
+     border-radius: 40px 40px 0px 0px;
+     margin-left: 3px;
+     margin-right: 3px;
+     padding-top: 3px;
+     object-fit: cover;
+     margin-top: -28px;
+ }
+
+ .auberge-3 p {
+     text-align: left;
+     font-size: 30px;
+     margin-left: 25px;
+
+ }
+ .auberge-4 {
+     width: 666px;
+     height: 384px;
+     border: 1px solid white;
+     border-radius: 40px 40px 40px 40px;
+     background-color: white;
+     cursor: pointer;
+     order: 1;
+     margin-left: 20px;
+     bottom: 1430px;
+     position: relative;
+     box-shadow: 5px 5px 5px lightgrey;
+
+ }
+ .fa4.fa-stars4.blue4 {
+     color: #0000ff;
+     margin-bottom: 5px;
+     position: relative;
+     float: left;
+     margin-left: 1px;
+     font-size: 30px;
+     bottom: 40px;
+ }
+ .auberge-4 img {
+     width: 655px;
+     height: 215px;
+     border-radius: 40px 40px 0px 0px;
+     margin-left: 3px;
+     margin-right: 3px;
+     padding-top: 3px;
+     object-fit: cover;
+     margin-top: -28px;
+ }
+
+ .auberge-4 p {
+     text-align: left;
+     font-size: 30px;
+     margin-left: 25px;
+
+ }
+
+ .auberge-5 {
+     width: 666px;
+     height: 384px;
+     border: 1px solid white;
+     border-radius: 40px 40px 40px 40px;
+     background-color: white;
+     cursor: pointer;
+     order: 1;
+     margin-left: 20px;
+     bottom: 1360px;
+     position: relative;
+     box-shadow: 5px 5px 5px lightgrey;
+
+ }
+ .fa5.fa-stars5.blue5 {
+     color: #0000ff;
+     margin-bottom: 5px;
+     position: relative;
+     float: left;
+     margin-left: 1px;
+     font-size: 30px;
+     bottom: 40px;
+ }
+ .auberge-5 img {
+     width: 655px;
+     height: 215px;
+     border-radius: 40px 40px 0px 0px;
+     margin-left: 3px;
+     margin-right: 3px;
+     padding-top: 3px;
+     object-fit: cover;
+     margin-top: -28px;
+ }
+
+ .auberge-5 p {
+     text-align: left;
+     font-size: 30px;
+     margin-left: 25px;
+
+ }
+
+
+ .auberge-6 {
+     width: 666px;
+     height: 384px;
+     border: 1px solid white;
+     border-radius: 40px 40px 40px 40px;
+     background-color: white;
+     cursor: pointer;
+     order: 1;
+     margin-left: 20px;
+     bottom: 1300px;
+     position: relative;
+     box-shadow: 5px 5px 5px lightgrey;
+
+ }
+ .fa6.fa-stars6.blue6 {
+     color: #0000ff;
+     margin-bottom: 5px;
+     position: relative;
+     float: left;
+     margin-left: 1px;
+     font-size: 30px;
+     bottom: 40px;
+
+ }
+ .auberge-6 img {
+     width: 655px;
+     height: 215px;
+     border-radius: 40px 40px 0px 0px;
+     margin-left: 3px;
+     margin-right: 3px;
+     padding-top: 3px;
+     object-fit: cover;
+     margin-top: -28px;
+ }
+
+ .auberge-6 p {
+     text-align: left;
+     font-size: 30px;
+     margin-left: 25px;
+
+ }
+
+
+ .reno-activity {
+     width: 660px;
+     height: 230px;
+     bottom: 7px;
+     border-radius: 40px 40px 0px 0px;
+     object-fit: cover;
+     cursor: pointer;
+     padding-top: 5px;
+ }
+
+
+
+
+ .bloc-1 {
+     width: 670px;
+     height: 390px;
+     border: 1px solid #e9e9e9;
+     top: 2500px;
+     position: relative;
+     margin-left: -50px;
+     box-shadow: 5px 5px 5px lightgray;
+     border-radius: 40px 40px 40px 40px;
+
+
+ }
+ .v_port {
+     font-size: 34px;
+     cursor: pointer;
+ }
+
+
+ .bloc-2 {
+     width: 670px;
+     height: 390px;
+     border: 1px solid #e9e9e9;
+     top: 3000px;
+     position: relative;
+     margin-left: -670px;
+     box-shadow: 5px 5px 5px lightgray;
+     border-radius: 40px 40px 40px 40px;
+
+
+
+
+ }
+ .fort-activity {
+     width: 660px;
+     height: 230px;
+     bottom: 5px;
+     border-radius: 40px 40px 0px 0px;
+
+ }
+ p.f_port {
+     margin-top: 50px;
+     float: left;
+     margin-left: 20px;
+     font-size: 35px;
+ }
+
+
+
+ .bloc-3{
+     border-radius: 40px 40px 40px 40px;
+     margin-left: -670px;
+     width: 670px;
+     height: 390px;
+     box-shadow: 5px 5px 5px lightgrey;
+     top: 3500px;
+ }
+ img.frioul-activity {
+     width: 660px;
+     height: 230px;
+     border-radius: 40px 40px 0px 0px;
+     margin-left: 5px;
+ }
+ .ile_port {
+     top: 255px;
+     font-size: 35px;
+ }
+ .bloc-4 {
+     width: 670px;
+     height: 390px;
+     border: 1px solid #e9e9e9;
+     top: 4000px;
+     position: relative;
+     margin-left: -670px;
+     box-shadow: 5px 5px 5px lightgray;
+     border-radius: 40px 40px 40px 40px;
+ }
+
+ .parc-activity {
+     width: 660px;
+     height: 230px;
+     position: absolute;
+     margin-left: -330px;
+     border: 1px solid #EFEFEF;
+     box-shadow: 5px 5px 5px #EFEFEF;
+     border-radius: 40px 40px 40px 40px;
+     top: 2px;
+ }
+ .bloc-5 {
+     width: 670px;
+     height: 390px;
+     border: 1px solid #e9e9e9;
+     top: 4500px;
+     position: relative;
+     margin-left: -670px;
+     box-shadow: 5px 5px 5px lightgray;
+     border-radius: 40px 40px 40px 40px;
+ }
+ .nd-bloc {
+     font-size: 35px;
+     margin-left: -90px;
+ }
+
+
+ .nd-activity {
+     width: 660px;
+     height: 230px;
+     bottom: 60px;
+     border-radius: 40px 40px 40px 40px;
+     object-fit: cover;
+     cursor: pointer;
+ }
+
+
+ .parcnational {
+     font-size: 35px;
+     margin-top: 300px;
+ }
+ .marseille {
+     font-size: 20px;
+     text-align: center;
+ }
+
+ .pl-activity {
+     width: 660px;
+     height: 230px;
+     position: absolute;
+     margin-left: -330px;
+     border: 1px solid #EFEFEF;
+     box-shadow: 5px 5px 5px #EFEFEF;
+     border-radius: 40px 40px 40px 40px;
+     top: 2px;
+ }
+
+ .bloc-6 {
+     width: 670px;
+     height: 390px;
+     border: 1px solid #e9e9e9;
+     top: 4500px;
+     position: relative;
+     margin-left: -670px;
+     box-shadow: 5px 5px 5px lightgray;
+     border-radius: 40px 40px 40px 40px;
+ }
+
+
+
+ .fa-dog {
+     position: relative;
+     width: 100px;
+     height: 100px;
+     border-radius: 50px;
+     background: #b4e0ff;
+     float: left;
+     bottom: 113px;
+     margin-left: 5px;
+ }
+
+ i.fas.fa-dog.fa-2x::before {
+     top: 6px;
+     position: relative;
+     padding-left: 5px;
+ }
+
+ .btncontent {
+     margin: 20px 0 10px;
+ }
+
+
+
+ #hebergement-region {
+     position: relative;
+     width: 80%;
+     top: 900px;
+ }
+
+
+ .marseille {
+     padding-bottom: 200px;
+     position: absolute;
+     top: 3200px;
+ }
+
+
+
+
+
+ .a-side {
+     width: 100%;
+     height: 700px;
+     margin: -42px 0px 0px 90px;
+     position: relative;
+     bottom: 900px;
+     border-radius: 0px;
+ }
+
+ .a-side h1 {
+     font-size: 20px;
+     padding-left: 39px;
+     padding-top: 20px;
+ }
+
+
+
+ .flex-container {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     align-content: space-around;
+     margin-bottom: 10%;
+     flex-direction: column;
+     margin-right: 400px;
+ }
+
+ .fa-heart {
+     position: relative;
+     width: 100px;
+     height: 100px;
+     border-radius: 50px;
+     background: #b4dfff;
+     margin-left: 5px;
+     bottom: 112px;
+ }
+
+ .fa-heart::before {
+     color: #0871e2;
+     position: relative;
+     bottom: -20px;
+     margin-left: 19px;
+ }
+ /*
+ .fa-child {
+     position: relative;
+     width: 100px;
+     height: 100px;
+     border-radius: 50px;
+     background: #b4dfff;
+     bottom: 111px;
+     margin-left: 5px;
+ }
+*/
+ .fa-child::before {
+     color: #0871e2;
+     position: relative;
+     top: 20px;
+     margin-left: 24px;
+ }
+
+ .fa-child {
+     bottom: 113px;
+     position: relative;
+     width: 70px;
+     height: 70px;
+     border-radius: 50px;
+     background: #b4dfff;
+     margin-left: 1px;
+ }
+
+     .fa-money-bill-wave{
+
+     bottom: 113px;
+     position: relative;
+     width: 70px;
+     height: 70px;
+     border-radius: 50px;
+     background: #b4dfff;
+     margin-left: -59px;
+ }
+
+
+
+
+     .fa-heart, .fa-dog{
+         width: 70px;
+         height: 70px;
+     }
+
+
+
+
+ .fa-money-bill-wave::before {
+     color: #0871e2;
+     position: relative;
+     padding-left: 15px;
+     top: 20px;
+ }
+
+
+ /*Section hébergement*/
+ .fa-chart-line {
+     position: relative;
+     margin-left: 340px;
+     height: 40px;
+     width: 150px;
+     color: black;
+     padding-left: 280px;
+     padding-top: 25px;
+     top: -110px;
+     font-size: 50px;
+ }
+
+
+
+
+     .popular7 {
+         background-color: white;
+         height: 135px;
+         border-radius: 20px 20px 20px 20px;
+         margin-left: 28px;
+         cursor: pointer;
+         width: 334px;
+     }
+
+ .popular7 img {
+     height: 127px;
+     width: 134px;
+     border-radius: 20px 0px 0px 20px;
+     padding-top: 3px;
+     margin-left: 5px;
+     object-fit: cover;
+     cursor: pointer;
+ }
+ .popular7 p {
+     cursor: pointer;
+     bottom: 85px;
+     font-size: 17px;
+     position: relative;
+     padding-right: 22px;
+ }
+
+ .fa7.fa-stars7.blue7 {
+     color: #0000ff;
+     font-size: 15px;
+     bottom: 60px;
+     position: relative;
+     float: left;
+ }
+
+ div.stars7{
+     float: right;
+     margin-left: 15px;
+
+ }
+ div.rating7 {
+     margin-right: 0;
+     float: right;
+     position: absolute;
+     top: 330px;
+ }
+
+
+
+
+ .t-hsm {
+     float: right;
+     padding-right: 5px;
+     cursor: pointer;
+     font-size: 20px;
+     word-break: break-word;
+     width: 50%;
+
+ }
+
+     .popular8 p {
+         cursor: pointer;
+         bottom: 85px;
+         font-size: 17px;
+         position: relative;
+         padding-right: 22px;
+     }
+
+     .fa8.fa-stars8.blue8 {
+         color: #0000ff;
+         font-size: 15px;
+         bottom: 60px;
+         position: relative;
+         float: left;
+     }
+
+     div.stars8{
+         float: right;
+         margin-left: 15px;
+
+     }
+     div.rating8 {
+         margin-right: 0;
+         float: right;
+         position: absolute;
+         top: 160px;
+     }
+
+
+
+
+
+
+
+
+
+
+     .popular8 {
+         background-color: white;
+         height: 135px;
+         border-radius: 20px 20px 20px 20px;
+         margin-left: 28px;
+         cursor: pointer;
+         width: 334px;
+     }
+
+
+
+     .popular8 img {
+         height: 127px;
+         width: 134px;
+         border-radius: 20px 0px 0px 20px;
+         padding-top: 3px;
+         margin-left: 5px;
+         object-fit: cover;
+         cursor: pointer;
+     }
+ .popular8 p {
+     cursor: pointer;
+     bottom: 100px;
+     font-size: 17px;
+     position: relative;
+     padding-right: 8px;
+     width: 50%;
+ }
+     .popular9 {
+         background-color: white;
+         height: 135px;
+         border-radius: 20px 20px 20px 20px;
+         margin-left: 28px;
+         cursor: pointer;
+         width: 334px;
+     }
+
+
+
+     .popular9 img {
+         height: 127px;
+         width: 134px;
+         border-radius: 20px 0px 0px 20px;
+         padding-top: 3px;
+         margin-left: 5px;
+         object-fit: cover;
+         cursor: pointer;
+     }
+     .popular9 p {
+         cursor: pointer;
+         bottom: 100px;
+         font-size: 17px;
+         position: relative;
+         padding-right: 8px;
+         width: 50%;
+     }
+
+
+
+ .fa9.fa-stars9.blue9 {
+     color: #0000ff;
+     font-size: 35px;
+     bottom: 70px;
+     position: relative;
+     float: left;
+ }
+
+ div.stars9{
+     margin-left: 170px;
+ }
+
+
+
+ .t-hsm3 {
+     font-size: 18px;
+     cursor: pointer;
+     width: 50%;
+     margin-right: 10px;
+ }
+     h2.t-hsm2{
+         margin: -35px 2px 0 20px;
+         top: 50px;
+         position: relative;
+     }
+
+
+
+ .t-hsm2 {
+     float: right;
+     padding-right: 5px;
+     cursor: pointer;
+     font-size: 18px;
+     word-break: break-word;
+     width: 50%;
+ }
+
+ .flex-container{
+     margin-left: -500px;
+     position: absolute;
+     bottom: 2500px;
+ }
+
+ p.scroll-info {
+     bottom: 1300px;
+     font-weight: bold;
+     font-size: 40px;
+ }
+
+
+ footer {
+     width: 100%;
+     display: flex;
+     padding: 100px;
+     top: 3800px;
+     position: relative;
+     height: 700px;
+ }
+ #b-end {
+     display: flex;
+     flex-direction: column;
+     background-color: lightgray;
+     justify-content: space-around;
+     font-size: 35px;
+
+ }
+
+ div.bl.bloc-info-1 {
+     font-size: 35px ;
+     margin-left:0;
+ }
+ .bl p {
+     font-size: 34px;
+     margin-left: -40px;
+ }
+
+ h3 {
+     margin-left: -50px;
+     font-size: 38px;
+     padding-bottom: 60px;
+ }
+
+ h3.bl.bloc-info-2{
+ }
+
+ }
