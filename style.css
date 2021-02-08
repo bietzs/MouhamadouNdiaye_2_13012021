@@ -1518,7 +1518,7 @@ i.fas{
          height: 630px;
          width: 710px;
          margin-left: 5px;
-         background-color: #eaeaea;
+         background-color: white;
          border-radius: 0;
 
      }
@@ -1793,134 +1793,139 @@ i.fas{
 
 
  .reno-activity {
-     width: 660px;
-     height: 230px;
-     bottom: 7px;
-     border-radius: 40px 40px 0px 0px;
+     width: 327px;
+     height: 113px;;
+     border-radius: 20px 20px 0px 0px;
      object-fit: cover;
      cursor: pointer;
-     padding-top: 5px;
+     padding-top: 2px;
  }
 
 
 
 
  .bloc-1 {
-     width: 670px;
-     height: 390px;
+     width: 334px;
+     height: 180px;
      border: 1px solid #e9e9e9;
      top: 2500px;
      position: relative;
-     margin-left: -50px;
+     margin-left: -5px;
      box-shadow: 5px 5px 5px lightgray;
-     border-radius: 40px 40px 40px 40px;
+     border-radius: 20px 20px 20px 20px;
 
 
  }
  .v_port {
-     font-size: 34px;
+     font-size: 18px;
      cursor: pointer;
+     padding-top: 0;
  }
 
 
  .bloc-2 {
-     width: 670px;
-     height: 390px;
+     width: 334px;
+     height: 180px;
      border: 1px solid #e9e9e9;
-     top: 3000px;
+     top: 2750px;
      position: relative;
-     margin-left: -670px;
+     margin-left: -335px;
      box-shadow: 5px 5px 5px lightgray;
-     border-radius: 40px 40px 40px 40px;
-
-
-
-
+     border-radius: 20px 20px 20px 20px;
  }
+
  .fort-activity {
-     width: 660px;
-     height: 230px;
-     bottom: 5px;
-     border-radius: 40px 40px 0px 0px;
+     width: 329px;
+     height: 113px;
+     bottom: 1px;
+     border-radius: 20px 20px 0px 0px;
 
  }
  p.f_port {
      margin-top: 50px;
      float: left;
      margin-left: 20px;
-     font-size: 35px;
+     font-size: 18px;
+     bottom:25px;
+     position: relative;
  }
 
 
 
  .bloc-3{
-     border-radius: 40px 40px 40px 40px;
-     margin-left: -670px;
-     width: 670px;
-     height: 390px;
+     border-radius: 20px 20px 20px 20px;
+     margin-left: -334px;
+     width: 334px;
+     height: 180px;
      box-shadow: 5px 5px 5px lightgrey;
-     top: 3500px;
+     top: 3000px;
  }
  img.frioul-activity {
-     width: 660px;
-     height: 230px;
-     border-radius: 40px 40px 0px 0px;
+     width: 327px;
+     height: 113px;
+     border-radius: 20px 20px 0px 0px;
      margin-left: 5px;
+     bottom: -2px;
+     position: relative;
  }
  .ile_port {
-     top: 255px;
-     font-size: 35px;
+     font-size: 18px;
+         margin-left: 30px;
  }
  .bloc-4 {
-     width: 670px;
-     height: 390px;
+     width: 334px;
+     height: 180px;
      border: 1px solid #e9e9e9;
-     top: 4000px;
+     top: 3240px;
      position: relative;
-     margin-left: -670px;
+     margin-left: -334px;
      box-shadow: 5px 5px 5px lightgray;
-     border-radius: 40px 40px 40px 40px;
+     border-radius: 20px 20px 20px 20px;
  }
 
  .parc-activity {
-     width: 660px;
-     height: 230px;
+     width: 327px;
+     height: 113px;
      position: absolute;
-     margin-left: -330px;
+     margin-left: -163px;
      border: 1px solid #EFEFEF;
      box-shadow: 5px 5px 5px #EFEFEF;
-     border-radius: 40px 40px 40px 40px;
-     top: 2px;
+     border-radius: 20px 20px 0px 0px;
+     top: 4px;
  }
  .bloc-5 {
-     width: 670px;
-     height: 390px;
+     width: 334px;
+     height: 180px;
      border: 1px solid #e9e9e9;
-     top: 4500px;
+     top: 3470px;
      position: relative;
-     margin-left: -670px;
+     margin-left: -339px;
      box-shadow: 5px 5px 5px lightgray;
-     border-radius: 40px 40px 40px 40px;
+     border-radius: 20px 20px 20px 20px;
  }
  .nd-bloc {
-     font-size: 35px;
-     margin-left: -90px;
+     font-size: 18px;
+     margin-left: -66px;
+     margin-right:0;
  }
 
 
  .nd-activity {
-     width: 660px;
-     height: 230px;
-     bottom: 60px;
-     border-radius: 40px 40px 40px 40px;
+     width: 327px;
+     height: 113px;
+     bottom: -2px;
+     position: relative;
+     border-radius: 20px 20px 0px 0px;
      object-fit: cover;
      cursor: pointer;
  }
 
 
  .parcnational {
-     font-size: 35px;
-     margin-top: 300px;
+     font-size: 17px;
+     position: relative;
+     bottom: 165px;
+     top: 120px;
  }
  .marseille {
      font-size: 20px;
@@ -1928,25 +1933,33 @@ i.fas{
  }
 
  .pl-activity {
-     width: 660px;
-     height: 230px;
+     width: 327px;
+     height: 113px;
      position: absolute;
-     margin-left: -330px;
+     margin-left: -165px;
      border: 1px solid #EFEFEF;
      box-shadow: 5px 5px 5px #EFEFEF;
-     border-radius: 40px 40px 40px 40px;
+     border-radius: 20px 20px 0px 0px;
      top: 2px;
  }
+     .pl-bloc {
+         font-size: 18px;
+         margin-left: 25px;
+         top: 120px;
+         position: relative;
+     }
+
+
 
  .bloc-6 {
-     width: 670px;
-     height: 390px;
+     width: 334px;
+     height: 180px;
      border: 1px solid #e9e9e9;
-     top: 4500px;
+     top: 3700px;
      position: relative;
-     margin-left: -670px;
+     margin-left: -333px;
      box-shadow: 5px 5px 5px lightgray;
-     border-radius: 40px 40px 40px 40px;
+     border-radius: 20px 20px 20px 20px;
  }
 
 
@@ -1984,8 +1997,7 @@ i.fas{
  .marseille {
      padding-bottom: 200px;
      position: absolute;
-     top: 3200px;
- }
+     top: -2400px; }
 
 
 
@@ -2305,7 +2317,7 @@ i.fas{
      width: 100%;
      display: flex;
      padding: 100px;
-     top: 3800px;
+     top: 1950px;
      position: relative;
      height: 700px;
  }
@@ -2314,16 +2326,16 @@ i.fas{
      flex-direction: column;
      background-color: lightgray;
      justify-content: space-around;
-     font-size: 35px;
+     font-size: 20px;
 
  }
 
  div.bl.bloc-info-1 {
-     font-size: 35px ;
+     font-size: 20px ;
      margin-left:0;
  }
  .bl p {
-     font-size: 34px;
+     font-size: 20px;
      margin-left: -40px;
  }
 
@@ -2336,10 +2348,10 @@ i.fas{
 div#activite-region{
 
     position: relative;
-    bottom: 1600px;
-    font-size: 20px;
+    font-size: 14px;
     width: 500px;
     margin-left: 20px;
+    top: 1100px;
  }
 
 
