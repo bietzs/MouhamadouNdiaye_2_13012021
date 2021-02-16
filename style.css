@@ -4,18 +4,10 @@
      height:100%;
     display: flex;
     flex-direction: column;
+     font-family: Arial;
+     color: #343434;
 }
 
-@font-face {
-    font-family: 'bonvenocflight';
-    src: url('fonts/BonvenoCF-Light-webfont.eot');
-    src: url('fonts/BonvenoCF-Light-webfont.eot?#iefix') format('embedded-opentype'),
-    url('fonts/BonvenoCF-Light-webfont.woff') format('woff'),
-    url('fonts/BonvenoCF-Light-webfont.ttf') format('truetype'),
-    url('fonts/BonvenoCF-Light-webfont.svg#bonvenocflight') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
 
 /* HEARDER */
 header{
@@ -80,16 +72,17 @@ h2#btn{
     margin-left: 2px;
 }
 
-i.fas.fa-info-circle {
-    color: dodgerblue;
-    position: relative;
-    bottom: 39px;
-    margin-left: 10px;
-    cursor: pointer;
+ i.fas.fa-exclamation-circle.fa-2x {
+     color: white;
+     border-radius: 20px;
+     background-color: #569fdc;
+     border: 2px solid rgba(103, 103, 103, 0.62);
+     bottom: 38px;
+     position: relative;
 
-}
+ }
 .line-infos{
-    padding-left: 60px;
+    padding-left: 50px;
     position: relative;
     bottom: 80px;
 }
@@ -178,8 +171,6 @@ nav ul li a{
 
 
 
-
-
 a:active {
     color: blue;
 
@@ -194,10 +185,10 @@ a:active {
      content: '';
      display: block;
      position: absolute;
-     bottom: -5px;
-     /*width: 0%;*/
+     top: -20px;
+     width: 0%;
      left: 0px;
-     height: 4px;
+     height: 3px;
      background: dodgerblue;
  }
 
@@ -280,7 +271,10 @@ section h1{
 
 }
 
-
+h1{
+    font-size: 18px;
+    margin-left:10px;
+}
 
 #hebergement-region {
     flex-direction: column;
@@ -400,17 +394,40 @@ input a{
     display: none;
 }
 
-.rating, .rating2, .rating3, .rating4, .rating5, .rating6 {
+.rating{
     margin-left: 5px;
 }
 
 .rating a {
     float: right;
     text-decoration: none;
-    font-size: 3em;
-    color: dodgerblue;
 
 }
+div.stars{
+    display: inline;
+    font-size: 12px;
+    position: relative;
+    margin-left: 20px;
+}
+div.stars-aside{
+    display: inline-block;
+    bottom: 80px;
+    position: relative;
+    margin-left: 156px;
+    font-size: 12px;
+}
+.fa-star{
+    color: dodgerblue;
+}
+
+.fa.fa-stars{
+    color: dodgerblue;
+}
+ .fas.fa-star{
+     color: lightgrey;
+ }
+
+
 .rating a:hover,
 .rating a:focus,
 .rating a:hover ~ a,
@@ -431,7 +448,7 @@ input a{
 .auberge-1 img{
     width: 233px;
     height: 120px;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
     margin-left: 3px;
     margin-right: 3px;
     padding-top: 3px;
@@ -440,7 +457,7 @@ input a{
 
 .auberge-1{
     border: 1px solid white;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 20px 20px 20px 20px;
     background-color: white;
     cursor: pointer;
 }
@@ -456,16 +473,14 @@ h1 section{
     margin-left: 10px;
 }
 
-.fa-stars{
-    color: blue;
-}
+
 
 /* Auberge2 */
 
 .auberge-2 img{
     width: 233px;
     height: 117px;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
     margin-left: 3px;
     padding-top: 3px;
     margin-right: 3px;
@@ -474,7 +489,7 @@ h1 section{
 
 .auberge-2{
     border: 1px solid white;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 20px 20px 20px 20px;
     background-color: white;
     cursor: pointer;
 }
@@ -484,38 +499,13 @@ h1 section{
     margin-left: 10px;
 }
 
-
-.rating2 a {
-    float: right;
-    text-decoration: none;
-    font-size: 3em;
-    transition: color .4s;
-    color: blue;
-}
-.rating2 a:hover,
-.rating2 a:focus,
-.rating2 a:hover ~ a,
-.rating2 a:focus ~ a {
-    color: #0000ff;
-    cursor: pointer;
-}
-
-.fa2.fa-stars2.blue2{
-    color: #0000ff;
-    font-size: 15px;
-    margin-bottom: 5px;
-    position: relative;
-    float: left;
-    margin-left: 5px;
-}
-
 /* Auberge3 */
 
 
 .auberge-3 img{
     width: 233px;
     height: 117px;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
     margin-left: 3px;
     padding-top: 3px;
     margin-right: 3px;
@@ -525,7 +515,7 @@ h1 section{
 
 .auberge-3{
     border: 1px solid white;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 20px 20px 20px 20px;
     background-color: white;
     cursor: pointer;
 }
@@ -535,23 +525,7 @@ h1 section{
     margin-left: 10px;
 }
 
-
-.rating3 a {
-    float: right;
-    text-decoration: none;
-    font-size: 3em;
-    transition: color .4s;
-    color: blue;
-}
-.rating3 a:hover,
-.rating3 a:focus,
-.rating3 a:hover ~ a,
-.rating3 a:focus ~ a {
-    color: #0000ff;
-    cursor: pointer;
-}
-
-.fa3.fa-stars3.blue3{
+.fa.fa-stars.blue{
     color: #0000ff;
     font-size: 15px;
     margin-bottom: 5px;
@@ -566,7 +540,7 @@ h1 section{
 .auberge-4 img{
     width: 235px;
     height: 112px;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
     margin-left: 3px;
     padding-top: 3px;
     margin-right: 3px;
@@ -575,7 +549,7 @@ h1 section{
 
 .auberge-4{
     border: 1px solid white;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 20px 20px 20px 20px;
     background-color: white;
     cursor: pointer;
 }
@@ -586,38 +560,13 @@ h1 section{
 }
 
 
-.rating4 a {
-    float: right;
-    text-decoration: none;
-    font-size: 3em;
-    transition: color .4s;
-    color: blue;
-}
-.rating4 a:hover,
-.rating4 a:focus,
-.rating4 a:hover ~ a,
-.rating4 a:focus ~ a {
-    color: #0000ff;
-    cursor: pointer;
-}
-
-.fa4.fa-stars4.blue4{
-    color: #0000ff;
-    font-size: 15px;
-    margin-bottom: 5px;
-    position: relative;
-    float: left;
-    margin-left: 5px;
-}
-
-
 /* Auberge5 */
 
 
 .auberge-5 img{
     width: 233px;
     height: 117px;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
     margin-left: 3px;
     padding-top: 3px;
     margin-right: 3px;
@@ -625,7 +574,7 @@ h1 section{
 
 .auberge-5{
     border: 1px solid white;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 20px 20px 20px 20px;
     background-color: white;
     cursor: pointer;
 }
@@ -636,30 +585,6 @@ h1 section{
 }
 
 
-.rating5 a {
-    float: right;
-    text-decoration: none;
-    font-size: 3em;
-    transition: color .4s;
-    color: blue;
-}
-.rating5 a:hover,
-.rating5 a:focus,
-.rating5 a:hover ~ a,
-.rating5 a:focus ~ a {
-    color: #0000ff;
-    cursor: pointer;
-}
-
-.fa5.fa-stars5.blue5{
-    color: #0000ff;
-    font-size: 15px;
-    margin-bottom: 5px;
-    position: relative;
-    float: left;
-    margin-left: 5px;
-}
-
 
 
 /* Auberge5 */
@@ -668,7 +593,7 @@ h1 section{
 .auberge-6 img{
     width: 233px;
     height: 117px;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
     margin-left: 3px;
     padding-top: 3px;
     object-fit: cover;
@@ -676,7 +601,7 @@ h1 section{
 
 .auberge-6{
     border: 1px solid white;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 20px 20px 20px 20px;
     background-color: white;
     cursor: pointer;
 }
@@ -684,31 +609,6 @@ h1 section{
 .auberge-6 p{
     text-align: left;
     margin-left: 10px;
-}
-
-
-.rating6 a {
-    float: right;
-    text-decoration: none;
-    font-size: 3em;
-    transition: color .4s;
-    color: blue;
-}
-.rating6 a:hover,
-.rating6 a:focus,
-.rating6 a:hover ~ a,
-.rating6 a:focus ~ a {
-    color: #0000ff;
-    cursor: pointer;
-}
-
-.fa6.fa-stars6.blue6{
-    color: #0000ff;
-    font-size: 15px;
-    margin-bottom: 5px;
-    position: relative;
-    float: left;
-    margin-left: 5px;
 }
 
 
@@ -833,9 +733,9 @@ img.frioul-activity {
 }
 
 .parcnational{
-    margin-left: 20px;
+    margin-left: 12px;
     font-size: 14px;
-    margin-right: 100px;
+    margin-right: 70px;
     bottom: 8px;
     cursor: pointer;
     padding-top: 10px;
@@ -915,8 +815,7 @@ img.frioul-activity {
     border-radius: 20px 20px 20px 20px;
     margin: -43px 86px 50px 940px;
     position: relative;
-    bottom: 1132px;
-    float: right;
+    bottom: 1117px;
     display: flex;
 }
 
@@ -992,7 +891,7 @@ div.rating7{
 .t-hsm{
     font-size: 14px;
     float: right;
-    padding-right: 35px;
+    padding-right: 17px;
     cursor: pointer;
 
 }
@@ -1004,7 +903,7 @@ div.rating7{
 */
 
 p.scroll-info {
-    bottom: 85px;
+    bottom: 60px;
     margin-left: 4px;
     font-weight: bold;
     font-size: 20px;
@@ -1017,8 +916,8 @@ p.scroll-info {
 .hsm{
     bottom: 110px;
     position: relative;
-    padding-right: 53px;
-    font-size: 14px;
+    padding-right: 40px;
+    font-size: 16px;
     cursor: pointer;
 }
 
@@ -1067,45 +966,17 @@ p.scroll-info {
 }
 
 
-.rating8 a {
-    float: right;
-    text-decoration: none;
-    font-size: 3em;
-    transition: color .4s;
-    color: blue;
-}
-.rating8 a:hover,
-.rating8 a:focus,
-.rating8 a:hover ~ a,
-.rating8 a:focus ~ a {
-    color: #0000ff;
-    cursor: pointer;
-}
-
-.fa8.fa-stars8.blue8{
-    color: #0000ff;
-    font-size: 15px;
-    bottom: 30px;
-    position: relative;
-    float: left;
-}
-div.rating8{
-    float: right;
-    margin-right: 100px;
-    position: absolute;
-    margin-left: 145px;
-}
 
 .t-hsm2{
     font-size: 14px;
     float: right;
-    margin-right: 70px;
+    margin-right: 53px;
     cursor: pointer;
 
 }
 
 .a-side h1{
-    font-size: 18px;
+    font-size: 17px;
     padding-left: 39px;
     padding-bottom: 2px;
 }
@@ -1113,8 +984,8 @@ div.rating8{
 .hsm2{
     bottom: 100px;
     position: relative;
-    padding-right: 63px;
-    font-size: 14px;
+    padding-right: 55px;
+    font-size: 16px;
     cursor: pointer;
 }
 
@@ -1165,46 +1036,17 @@ div.rating8{
 }
 
 
-.rating9 a {
-    float: right;
-    text-decoration: none;
-    font-size: 3em;
-    transition: color .4s;
-    color: blue;
-}
-.rating9 a:hover,
-.rating9 a:focus,
-.rating9 a:hover ~ a,
-.rating9 a:focus ~ a {
-    color: #0000ff;
-    cursor: pointer;
-}
-
-.fa9.fa-stars9.blue9{
-    color: #0000ff;
-    font-size: 15px;
-    bottom: 30px;
-    position: relative;
-    float: left;
-}
-div.rating9{
-    float: right;
-    margin-right: 100px;
-    position: absolute;
-    margin-left: 145px;
-}
 
 .t-hsm3{
     font-size: 14px;
     float: right;
-    margin-right: 30px;
+    margin-right: 10px;
     cursor: pointer;
 
 }
 
-.a-side h3{
+.a-side h2{
     font-size: 16px;
-    padding-right: 59px;
     cursor: pointer;
 }
 
@@ -1212,8 +1054,8 @@ div.rating9{
 
     bottom: 112px;
     position: relative;
-    padding-right: 55px;
-    font-size: 14px;
+    margin-right: 54px;
+    font-size: 16px;
     cursor: pointer;
 }
 
@@ -1280,6 +1122,7 @@ div.bl.bloc-info-3{
 }
 h3{
     margin-bottom: 30px;
+    font-size: 18px;
 }
 
 
@@ -2077,7 +1920,7 @@ i.fas{
  .a-side {
      width: 100%;
      height: 580px;
-     margin: -42px 0px 0px 90px;
+     margin: -42px 0px 0px 0px;
      position: relative;
      bottom: 950px;
      border-radius: 0px;
@@ -2207,7 +2050,7 @@ i.fas{
      bottom: 85px;
      font-size: 17px;
      position: relative;
-     padding-right: 24px;
+     padding-right: 12px;
  }
 
  .fa7.fa-stars7.blue7 {
@@ -2325,7 +2168,7 @@ i.fas{
          bottom: 80px;
          font-size: 16px;
          position: relative;
-         padding-right: 8px;
+         margin-right: 10px;
          width: 50%;
      }
 
@@ -2419,20 +2262,24 @@ i.fas{
          position: relative;
 
      }
-
+h3{
+    text-align: left;
+    margin-left: -40px;
+    font-size: 18px;
+}
 
 
      .bl p {
-     font-size: 20px;
+     font-size: 18px;
      margin-left: -40px;
  }
-
+/*
  h3 {
      margin-left: -39px;
-     font-size: 20px;
+     font-size: 14px;
      padding-bottom: 10px
  }
-
+*/
 div#activite-region{
 
     position: relative;
