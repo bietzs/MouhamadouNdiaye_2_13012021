@@ -45,19 +45,19 @@ form.search input[type=text] {
 }
 
 .fa-money-bill-wave::before {
-    color: #0871e2;
+    color: #68aeff;
     position: relative;
     padding-left: 9px;
     top: 12px;
 }
 .fa-child::before {
-    color: #0871e2;
+    color: #68aeff;
     position: relative;
     top: 13px;
     margin-left: 16px;
 }
 .fa-heart::before {
-    color: #0871e2;
+    color: #68aeff;
     position: relative;
     bottom: -17px;
     margin-left: 13px;
@@ -126,7 +126,7 @@ button.search-in{
 form.search button {
     width: 11%;
     padding: 10px;
-    background: #2196F3;
+    background: #0088e5;
     color: white;
     font-size: 16px;
     border: 1px solid #f1f1f1;
@@ -808,22 +808,24 @@ img.frioul-activity {
 
 
 
-.a-side {
-    width: 415px;
-    height: 631px;
-    background-color: #f2f2f2;
-    border-radius: 20px 20px 20px 20px;
-    margin: -43px 86px 50px 940px;
-    position: relative;
-    bottom: 1117px;
-    display: flex;
-}
+
+    .a-side {
+        width: 415px;
+        height: 631px;
+        background-color: #f2f2f2;
+        border-radius: 20px 20px 20px 20px;
+        margin: -1158px 86px 50px 940px;
+        display: flex;
+    }
+
 
 .left-bloc {
     display: flex;
     flex-direction: column;
     margin-bottom: 43px;
     margin-top: 2px;
+    margin-left: 10px;
+
 }
 
 .popular7 p img {
@@ -991,14 +993,13 @@ p.scroll-info {
 
 
 .fa-chart-line{
-    position: absolute;
-    float: right;
+
     height: 150px;
     width: 150px;
     color: black;
-    padding-left: 350px;
-    padding-top: 25px;
-    top: -10px;
+    top: 420px;
+        margin-left: 970px;
+
 }
 
 /* */
@@ -1075,14 +1076,16 @@ footer {
     height: 200px;
     display: flex;
     padding: 10px;
-bottom: 600px;
-    position: relative;
 }
+
+
+
 #b-end{
     display: flex;
     flex-direction: row;
     background-color: #f2f2f2;
     justify-content: space-around;
+    margin-top: 600px;
 
 }
 
@@ -1100,11 +1103,12 @@ div.bl.bloc-info-1#b-end{
 }
 
 div.bl.bloc-info-1{
-    margin-left: -69px;
+    margin-left: -110px;
     line-height: 0.5em;
     font-size: 14px;
-    cursor: pointer;;
+    cursor: pointer;
     position: relative;
+
 }
 
 div.bl.bloc-info-2{
@@ -1125,23 +1129,18 @@ h3{
     font-size: 18px;
 }
 
+ .contact {
+     text-decoration: none;
+     font-size: 14px;
+     color: #3b3b3b;
+     border: 0;
+ }
 
 
-
-
-
-
-
-
-
- @media only screen
- and (device-width : 375px)
- and (device-height : 667px)
- and (-webkit-device-pixel-ratio : 2)  {
-
-
+/*
+ @media screen and (max-width: 480px) {
      body {
-         margin: 0;
+         padding: 10px;
      }
 
      header {
@@ -1155,16 +1154,121 @@ h3{
          width: 100px;
          bottom: 650px;
          margin-left: -60px;
+         padding-bottom: 50px;
+         margin-top: -15px;
+     }
+     main{
+         display: flex;
+     }
+     form{
+         display:flex;
+         margin-top: 60px;
+         margin-left: -48px;
+     }
+     input{
+         height: 45px;
+     }
+     form.search input[type="text"]{
+         width: 250px;
+     }
+     button.search-in{
+         margin-left:285px;
+         border-radius: 10px 10px 10px 10px;
+     }
+     button.search-in{
+         text-indent: -10000em;
+     }
+     button.search-in{
+         content: "\f002";
+         color: black;
+         font-size: 20px;
      }
 
-  a{
-      display:inline;
-      position: relative;
-  }
+     button.btn {
+         padding-bottom: 10px;
+         margin: 12px;
+         height: 50px;
+         width: 75%;
+         display: flex;
+         flex-direction: column;
+
+     }
+
+button.btn.btn1{
+    width: 166px;
+    margin-left:-15px;
+
+}
+     button.btn.btn2{
+         width:135px;
+     }
+     button.btn.btn3{
+         margin-bottom: 100px;
+     }
+     button.btn.btn4{
+         margin-bottom: 120px;
+     }
+
+
+     i.fas{
+         width:50px;
+         height:50px;
+     }
+     i.fas.fa-map-marker-alt.fa-2x{
+         width: 50px;
+         height: 45px;
+     }
+
+     i.fas.fa-heart.fa-2x{
+         position: relative;
+         bottom: 200px;
+         margin-left: -15px;
+     }
+
+     i.fas.fa-dog.fa-2x{
+         position: relative;
+     }
+
+
+     input{
+         width: 200px;
+     }
+     .search{
+         display: flex;
+         flex-direction:row; ;
+     }
+     .btn-all{
+         display: flex;
+     }
+     .btncontent{
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         margin-left: -310px;
+         margin-top: 400px;
+         width: 45%;
+     }
+      h2.fil {
+          position: absolute;
+         font-size: 16px;
+          float: left;
+         margin-left: -20px;
+         top: 360px;
+     }
+
+
+
+
+     nav{
+         display: flex;
+         flex-flow: column wrap;
+     }
+
      a.signin {
          font-size: 20px;
-         bottom: 965px;
-         margin-left: 55px;
+         margin-right: 1000px;
+         display: flex;
+
 
      }
 
@@ -1173,93 +1277,204 @@ h3{
          font-size: 20px;
          padding-top: 50px;
          margin: 50px 400px 0 auto;
+         display: flex;
      }
 
      a.sign.s1 {
          position: absolute;
-         font-size: 20px;
+         font-size: 17px;
          color: dodgerblue;
-         top: 10px;
-         margin-left: -100px;
+         top: 12px;
+         margin-left: -1450px;
 
      }
 
      a.sign.s2 {
          position: absolute;
-         font-size: 20px;
-         top:10px;
-         margin-left: 80px;
+         font-size: 16px;
+         margin-left: -1270px;
          color: dodgerblue;
+         top:13px;
      }
      a:after {
          content: '';
          display: block;
          position: absolute;
-         /*top: -20px;
-         width: 0%;
-         left: 0px;*/
-         height: 4px;
-         background: dodgerblue;
-     }
 
-     a:hover:after {
+     height: 4px;
+     background: dodgerblue;
+ }
+
+ a:hover:after {
+     width: 100%;
+ }
+
+
+
+
+ .txt_simple {
+     position: relative;
+     top: 43px;
+     font-size: 17px;
+     margin-left: -50px;
+ }
+ p.slogan {
+     display: flex;
+     font-size: 22px;
+     position: relative;
+     word-break: break-word;
+     width: 300px;
+     margin-left: -50px;
+     top: 50px;
+
+ }
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media only screen and (min-device-width: 360px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+
+
+ body {
+     margin: 0;
+     display:flex;
+     flex-flow: column wrap;
+ }
+
+ header {
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+ }
+
+
+ .logo {
+     width: 100px;
+     bottom: 650px;
+     margin-left: -60px;
+ }
+
+a{
+  display:inline;
+  position: relative;
+}
+
+ a.signin {
+     font-size: 18px;
+     bottom: 925px;
+     margin-left: 50px;
+ }
+
+
+
+
+ a.sign {
+     font-size: 25px;
+     padding-top: 50px;
+     margin: 50px 400px 0 auto;
+ }
+
+ a.sign.s1 {
+     position: absolute;
+     font-size: 18px;
+     color: dodgerblue;
+     top: 10px;
+     margin-left: -100px;
+     left: 100px;
+
+
+ }
+
+ a.sign.s2 {
+     position: absolute;
+     font-size: 18px;
+     top: 10px;
+     margin-left: 70px;
+     color: dodgerblue;
+ }
+    a::after {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 0%;
+        left: -20px;
+        height: 3px;
+        background: dodgerblue;
+        top: 80px;
+    }
+    a.signin::after {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 5px;
+        height: 3px;
+        background: dodgerblue;
+        top: 22px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    a:hover:after {
          width: 100%;
      }
 
 
 
-
-
-
-     /*
-       a.signin:hover{
-             border-bottom: 2px solid dodgerblue;
-           color: dodgerblue;
-           padding-bottom: 5px;
-           animation: none;
-
-       }
-
-
-    a.sign.s2:hover {
-             border-bottom: 1px solid dodgerblue;
-             padding-bottom: 5px;
-
-         }
-         a.sign.s1:hover {
-             border-bottom: 1px solid dodgerblue;
-             padding-bottom: 5px;
-
-         }
-    */
      p.slogan {
-         font-size: 20px;
+         font-size: 23px;
          margin-left: -50px;
-         top: 90px;
+         top: 80px;
          position: relative;
+         width: 60%;
      }
 
      .txt_simple {
          position: relative;
-         top: 80px;
-         font-size: 20px;
-         margin-left: -50px;
+         top: 50px;
+         font-size: 16px;
+         margin-left: -46px;
+         padding-bottom: 20px;
+         margin-top: 50px;
      }
 
 
      form {
 
-         position: relative;
-         top: 80px;
+         display: flex;
          margin-left: 4px;
+         padding-top: 70px;
      }
 
      form.search input[type="text"] {
          padding: 10px;
          font-size: 16px;
          border: 1px solid #e3d7d7;
-         width: 170px;
-         height: 30px;
+    width: 190px;
+         height: 23px;
          display: flex;
          background-color: white;
          color: black;
@@ -1276,16 +1491,15 @@ h3{
          background-color: #f0f0f0;
          height: 60px;
          cursor: pointer;
-         border-radius: 20px 0px 0px 20px;
+         border-radius: 15px 0px 0px 15px;
          width: 60px;
          top: 0px;
      }
 
      .fa-map-marker-alt::before {
          position: relative;
-         top: 11px;
-         margin-left: 20px;
-         font-size: 25px;
+         top: 1px;
+         margin-left: 22px;
      }
 
 
@@ -1306,33 +1520,64 @@ h3{
          width:  230px;
      }
      form.search button {
-         width: 55px;
+         width: 50px;
          content: "\f002";
-         background: #2196F3;
          color: white;
-         border-radius: 20px 20px 20px 20px;
-         margin-left: -17px;
-         height: 54px;
-         bottom: 0px;
+         border-radius: 10px 10px 10px 10px;
+         margin-left: 196px;
+         font-weight: bold;
+
      }
+
+
+
 i.fas{
-    bottom: 73px;
-    width:60px;
-    height:60px;
+    bottom: 63px;
+    height: 50px;
+    width: 52px;
 }
      i.fas.fa-map-marker-alt.fa-2x{
          width: 50px;
-         height: 52px;
+         height: 45px;
+
      }
+
+  i.fas.fa-exclamation-circle.fa-2x{
+      bottom:210px;
+             color: #2196f3;
+             position: relative;
+             width: 25px;
+             height: 25px;
+             top: -170px;
+             margin-left: -50px;
+      border: none;
+      
+
+  }
+   .fa-exclamation-circle:before {
+       content: "\f06a";
+       color: white;
+   }
+
+
+
+
+
+
+
 
      i.fas.fa-heart.fa-2x{
          position: relative;
-         bottom: 142px;
+         bottom: 133px;
+         margin-left: -4px;
+
      }
 
      i.fas.fa-dog.fa-2x{
          position: relative;
-         bottom: 212px;
+         bottom: 203px;
+               margin-left: -5px;
+
      }
 
 
@@ -1347,66 +1592,105 @@ i.fas{
      button.btn {
          padding-bottom: 10px;
          margin: 12px;
-         height: 60px;
+         height: 90px;
      }
      .btn {
-         border-radius: 40px 40px 40px 40px;
-         padding-top: 20px;
-         border: 1px solid lightgrey;
+
+          border-radius: 40px 40px 40px 40px;
+              padding-top: 20px;
+              border: 2px solid lightgrey;
+              padding-right: 10px;
+
      }
-    .btn.btn1{
-        width:166px;
-    }
+
     button.btn.btn1{
-        margin-left: -55px;
+        margin-left: -90px;
+        height: 52px;
+        width: 180px;
+
     }
      .btn.btn2{
-         width:135px;
+         width:150px;
+         height: 52px;
+         margin-left:-10px;
+
      }
    .btn.btn3{
        bottom: 70px;
        position: relative;
+       height: 52px;
+                  margin-left: -3px;
+
+
    }
      .btn.btn4{
          bottom: 140px;
          position: relative;
+         height: 52px;
+         width: 220px;
+                  margin-left: -3px;
+
+
      }
 
+ h2.fil{
+     margin-left: 2px;
+
+ }
 
 
      .line-infos {
-         padding-left: 0px;
+               padding-left: 5px;
          position: relative;
-         bottom: 259px;
          font-size: 14px;
+              bottom: 210px;
+              width: 260px;
      }
      .btncontent h2 {
          position: relative;
          top: -70px;
-         font-size: 20px;
+         font-size: 25px;
          padding-right: 10px;
      }
 
      div.btncontent {
-         margin-left: -70px;
-         flex-direction: row;
-         flex-wrap: wrap;
-         width: 420px;
-         margin-top: 100px;
+        margin-left: -55px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 419px;
+            margin-top: 50px;
+
+
      }
 
+     #hebergement-region h1{
+      
+      
+           margin-left: 24px;
+           font-size: 18px;
+
+     }
+
+
+
+
+
      p.btn-p {
-         margin-left: 50px;
-         bottom: 18px;
+         margin-left: 44px;
+         bottom: 16px;
          position: relative;
-         font-size: 18px;
+         font-size: 16px;
+         padding-left: 10px;
+         font-weight: bold;
+
 
      }
 
      .btn-p2 {
          margin: 0;
          padding-left: 42px;
-         font-size: 15px;
+         font-size: 16px;
+         font-weight: bold;
      }
 
 
@@ -1424,26 +1708,32 @@ i.fas{
 
 
      section {
-         position: relative;
-         top:3500px;
-         height: 630px;
-         width: 710px;
-         margin-left: 5px;
-         background-color: white;
-         border-radius: 0;
-
+          display: flex;
+              flex-direction: column;
+              height: 630px;
+              width: 710px;
+              margin-left: 5px;
+              background-color: white;
+              border-radius: 0;
+              margin-bottom: 0px;
      }
      section h1 {
-         font-size: 25px;
-         position: absolute;
-         bottom: 4025px;
+         display: flex;
+         margin-left: -24px;
+         font-size: 18px;
      }
+
+
+
+
+
+
 
 
 
      .auberge-1 {
          width: 334px;
-         height: 194px;
+         height: 198px;
          border: 1px solid white;
          border-radius: 20px 20px 20px 20px;
          background-color: white;
@@ -1471,13 +1761,14 @@ i.fas{
          font-size: 16px;
          margin-left: 25px;
          position: relative;
-         line-height: 10px;
+          bottom: 12px;       
      }
      .auberge-2 p{
-         line-height: 10px;
          margin-left: 25px;
          position: relative;
          font-size: 16px;
+           bottom: 12px;
+
      }
 
      p.around{
@@ -1487,6 +1778,14 @@ i.fas{
      .rating a {
          text-decoration: none;
      }
+     div.stars {
+         display: inline;
+         font-size: 12px;
+         position: relative;
+         margin-left: 20px;
+         bottom: 27px;
+     }
+
      .fa.fa-stars.blue {
          color: #0000FF;
          font-size: 14px;
@@ -1501,7 +1800,7 @@ i.fas{
 
      .auberge-2 {
          width: 334px;
-         height: 194px;
+         height: 198px;
          border: 1px solid white;
          border-radius: 20px 20px 20px 20px;
          background-color: white;
@@ -1538,7 +1837,7 @@ i.fas{
 
      .auberge-3 {
          width: 334px;
-         height: 194px;
+         height: 198px;
          border: 1px solid white;
          border-radius: 20px 20px 20px 20px;
          background-color: white;
@@ -1573,13 +1872,15 @@ i.fas{
      text-align: left;
      font-size: 16px;
      margin-left: 25px;
-     line-height: 10px;
+ bottom: 12px;
+     position: relative;
+
 
 
  }
  .auberge-4 {
      width: 334px;
-     height: 194px;
+     height: 198px;
      border: 1px solid white;
      border-radius: 20px 20px 20px 20px;
      background-color: white;
@@ -1614,12 +1915,14 @@ i.fas{
      text-align: left;
      font-size: 16px;
      margin-left: 25px;
-     line-height: 10px;
+ bottom: 12px;
+     position: relative;
+
 
  }
      .auberge-4 {
          width: 334px;
-         height: 194px;
+         height: 198px;
          border: 1px solid white;
          border-radius: 20px 20px 20px 20px;
          background-color: white;
@@ -1654,14 +1957,16 @@ i.fas{
          text-align: left;
          font-size: 16px;
          margin-left: 25px;
-         line-height: 10px;
+ bottom: 12px;
+         position: relative;
+
 
      }
 
 
      .auberge-6 {
          width: 334px;
-         height: 194px;
+         height: 198px;
          border: 1px solid white;
          border-radius: 20px 20px 20px 20px;
          background-color: white;
@@ -1696,11 +2001,16 @@ i.fas{
          text-align: left;
          font-size: 16px;
          margin-left: 25px;
-         line-height: 10px;
+ bottom: 12px;
+         position: relative;
 
      }
 
-
+      #activite-region h1 {
+         position: relative;
+          margin-left: 123px;
+          top: 1030px;
+      }
 
 
  .reno-activity {
@@ -1822,13 +2132,14 @@ i.fas{
 
 
  .nd-activity {
-     width: 327px;
-     height: 113px;
-     bottom: -2px;
-     position: relative;
-     border-radius: 20px 20px 0px 0px;
-     object-fit: cover;
-     cursor: pointer;
+    width: 327px;
+        height: 113px;
+        bottom: -2px;
+        position: relative;
+        border-radius: 20px 20px 0px 0px;
+        object-fit: cover;
+        cursor: pointer;
+
  }
 
 
@@ -1889,7 +2200,7 @@ i.fas{
  i.fas.fa-dog.fa-2x::before {
      top: 6px;
      position: relative;
-     font-size: 25px;
+     font-size: 20px;
      padding-left: 5px;
      bottom: -13px;
  }
@@ -1901,47 +2212,62 @@ i.fas{
 
 
  #hebergement-region {
-     position: relative;
+display: flex;
+     flex-direction: column;
      width: 80%;
-     top: 900px;
+     margin-left: -20px;
+
  }
+    h1.hebergement{
+     top: 410px;
+    padding-left: 25px;
+     position: relative;
+     font-size: 20px;
+ }
+
+
+
+
+
 
 
  .marseille {
-     padding-bottom: 200px;
-     position: absolute;
-     top: -2450px;
+     display: flex;
+     margin-left: 120px;
+     margin-top: -1450px;
  }
-
-
-
-
-
  .a-side {
      width: 100%;
-     height: 580px;
-     margin: -42px 0px 0px 0px;
-     position: relative;
-     bottom: 950px;
+     height: 550px;
+    margin: -1850px 0px 0px 0px;
      border-radius: 0px;
      background-color: #f2f2f2;
+     display: flex;
  }
+
+
+
+
+
+
+
 
  .a-side h1 {
      font-size: 20px;
-     padding-left: 39px;
-     padding-top: 20px;
+         padding-left: 9px;
+         padding-top: 20px;
  }
 
 
 
  .flex-container {
-     display: flex;
-     flex-wrap: wrap;
-     justify-content: space-around;
-     align-content: space-around;
-     flex-direction: column;
-     margin:auto;
+    display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: space-around;
+        flex-direction: column;
+    margin-top: 510px;
+           margin-left: -640px;
  }
 
  .fa-heart {
@@ -1957,17 +2283,17 @@ i.fas{
  .fa-heart::before {
      color: #0871e2;
      position: relative;
-     font-size: 25px;
+     font-size: 20px;
      padding-left: 5px;
-     bottom: -13px;
+     top: 7px;
  }
 
  .fa-child::before {
      color: #0871e2;
      position: relative;
-     padding-left: 5px;
-     top: 13px;
-     font-size: 25px;
+     padding-left: 3px;
+     top: 6px;
+     font-size: 20px;
  }
 
  .fa-child {
@@ -1977,7 +2303,7 @@ i.fas{
      height: 70px;
      border-radius: 50px;
      background: #b4dfff;
-     margin-left: 1px;
+     margin-left: -10px;
  }
 
      .fa-money-bill-wave{
@@ -1988,7 +2314,7 @@ i.fas{
      height: 70px;
      border-radius: 50px;
      background: #b4dfff;
-     margin-left: -59px;
+         margin-left: -90px;
  }
 
 
@@ -2004,12 +2330,13 @@ i.fas{
      color: #0871e2;
      position: relative;
      padding-left: 13px;
-     top: 13px;
-     font-size: 25px;
+     top: 8px;
+     font-size: 20px;
  }
 
 
  /*Section hébergement*/
+
  .fa-chart-line {
      position: relative;
      margin-left: 30px;
@@ -2025,16 +2352,18 @@ i.fas{
 
 
 
-     .popular7 {
-         background-color: white;
-         height: 135px;
-         border-radius: 20px 20px 20px 20px;
-         margin-left: 28px;
-         cursor: pointer;
-         width: 334px;
-         position: relative;
-         bottom: 60px;
-     }
+
+    .popular7 {
+        background-color: white;
+        height: 135px;
+        width: 350px;
+        border-radius: 20px 20px 20px 20px;
+        margin-left: 2px;
+        cursor: pointer;
+        position: relative;
+        bottom: 60px;
+    }
+
 
  .popular7 img {
      height: 127px;
@@ -2113,13 +2442,13 @@ i.fas{
 
      .popular8 {
          background-color: white;
-         height: 135px;
          border-radius: 20px 20px 20px 20px;
-         margin-left: 28px;
+         margin-left: 2px;
          cursor: pointer;
-         width: 334px;
          position: relative;
          bottom: 100px;
+         height: 135px;
+         width: 350px;
      }
 
 
@@ -2142,12 +2471,12 @@ i.fas{
      width: 50%;
  }
      .popular9 {
-         background-color: white;
          height: 135px;
+         width: 350px;
+         background-color: white;
          border-radius: 20px 20px 20px 20px;
-         margin-left: 28px;
+         margin-left: 2px;
          cursor: pointer;
-         width: 334px;
          position: relative;
          bottom: 140px;
      }
@@ -2211,17 +2540,15 @@ i.fas{
      width: 50%;
  }
 
-     .flex-container {
-         margin-left: -500px;
-         position: absolute;
-         bottom: 2650px;
-     }
+    
 
 
  p.scroll-info {
-     bottom: 2910px;
+     bottom: 420px;
      font-weight: bold;
      font-size: 16px;
+         margin-left: 50px;
+
 
  }
 
@@ -2230,36 +2557,33 @@ i.fas{
      width: 50%;
      display: flex;
      padding: 100px;
-     top: 1600px;
-     position: relative;
      height: 700px;
  }
  #b-end {
      display: flex;
-     flex-direction: column;
-     background-color: #f2f2f2;
-     justify-content: space-around;
-     font-size: 20px;
+         flex-direction: column;
+         background-color: #f2f2f2;
+         justify-content: space-around;
+         font-size: 20px;
+         align-content: flex-end;
+    margin-top: 2600px;
+     padding-top: 20px;
 
  }
 
  div.bl.bloc-info-1 {
-     font-size: 12px;
-     margin-left: 0;
-     bottom: 100px;
-     width: 220px;
+     font-size: 8px;
+     margin-left: -15px;
+     width: 240px;
  }
      div.bl.bloc-info-2{
-         font-size: 12px ;
-         margin-left:0;
-         bottom: 130px;
-         position: relative;
+         font-size: 8px;
+         margin-left:-15px;
+
      }
      div.bl.bloc-info-3{
-         font-size: 12px ;
-         margin-left:0;
-         bottom: 160px;
-         position: relative;
+         font-size: 8px ;
+         margin-left:-15px;
 
      }
 h3{
@@ -2273,24 +2597,32 @@ h3{
      font-size: 18px;
      margin-left: -40px;
  }
-/*
- h3 {
-     margin-left: -39px;
-     font-size: 14px;
-     padding-bottom: 10px
- }
-*/
+
 div#activite-region{
 
-    position: relative;
-    font-size: 12px;
-    width: 500px;
-    margin-left: 20px;
-    top: 890px;
+ margin-bottom: 1000px;
+    margin-left: -90px;
  }
+
+
+
 #activite-region h2{
     padding-top: 10px;
 
 }
 
+    a.contact {
+        text-decoration: none;
+        font-size: 18px;
+        margin-left: -40px;
+        color: #3b3b3b;
+        background:none;
+        padding-bottom: -5px;
+        bottom: -20px;
+    }
+
+    a.contact::after {
+        border: 0;
+        background: none;
+    }
  }
