@@ -1348,7 +1348,7 @@ button.btn.btn1{
 
 
  body {
-     margin: 0;
+     margin-left: -7px;
      display:flex;
      flex-flow: column wrap;
  }
