@@ -4,12 +4,12 @@
      height:100%;
     display: flex;
     flex-direction: column;
-     font-family: Arial;
      color: #343434;
-}
+ font-family: "tenso","Helvetica","Arial",sans-serif;
+ }
 
 
-/* HEARDER */
+/* HEADER */
 header{
     margin: 30px 40px -70px 80px;
 }
@@ -33,35 +33,59 @@ main{
 /* Style the search field */
 form.search input[type=text] {
     padding: 10px;
-    font-size: 17px;
+    font-size: 14px;
     border: 1px solid #f1f1f1;
     float: left;
     width: 15%;
-    background: #f1f1f1;
+    background: #ffffff;
     height: 23px;
     display: flex;
     justify-content: flex-start;
     justify-items: flex-start;
 }
 
-.fa-money-bill-wave::before {
-    color: #68aeff;
-    position: relative;
-    padding-left: 9px;
-    top: 12px;
+ ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+     color: black;
+     font-weight: bold;
+     opacity: 1; /* Firefox */
+
+ }
+
+ :-ms-input-placeholder { /* Internet Explorer 10-11 */
+     color: black;
+     font-weight: bold;
+
+ }
+
+ ::-ms-input-placeholder { /* Microsoft Edge */
+     color: black;
+     font-weight: bold;
+
+ }
+
+
+
+
+
+ .fa-money-bill-wave::before {
+     color: #0871e2;
+     position: relative;
+     padding-left: 12px;
+     top: 15px;
 }
 .fa-child::before {
-    color: #68aeff;
+    color: #0871e2;
     position: relative;
-    top: 13px;
+    top: 15px;
     margin-left: 16px;
 }
 .fa-heart::before {
-    color: #68aeff;
+    color: #0871e2;
     position: relative;
-    bottom: -17px;
-    margin-left: 13px;
+    bottom: -16px;
+    margin-left: 14px;
 }
+
 .fa-dog::before {
     color: #0871e2;
     margin: 10px 12px 12px 12px;
@@ -72,38 +96,50 @@ h2#btn{
     margin-left: 2px;
 }
 
- i.fas.fa-exclamation-circle.fa-2x {
-     color: white;
-     border-radius: 20px;
-     background-color: #569fdc;
-     border: 2px solid rgba(103, 103, 103, 0.62);
-     bottom: 38px;
+ .fas.fa-info {
+     color: dodgerblue;
+     border-radius: 50px 50px 50px 50px;
+     border: 1px solid rgba(208, 208, 208, 0.62);
+     bottom: 32px;
      position: relative;
+     width: 20px;
+     height: 20px;
+     text-align: center;
+     font-size: 14px;
 
  }
+
+ .fa-info::before {
+     content: "\f129";
+     top: 2px;
+     position: relative;
+ }
+
+
 .line-infos{
-    padding-left: 50px;
+    padding-left: 33px;
     position: relative;
-    bottom: 80px;
+    bottom: 60px;
+    font-size: 12px;
 }
 
 
 .fa-map-marker-alt{
     float: left;
     position: relative;
-    background-color:#eaeaea;
+    background-color: #f4f4f4;
     height: 45px;
     cursor: pointer;
-    border-radius: 10px 0 0 10px;
-    width: 50px;
+    border-radius: 12px 0 0 12px;
+    width: 45px;
     cursor: pointer;
 }
 
 .fa-map-marker-alt::before {
     position: relative;
-    top: 2px;
-    margin-left: 17px;
-    font-size: 20px;
+    top: 15px;
+    margin-left: 19px;
+    font-size: 15px;
 }
 
 .btn-all {
@@ -119,14 +155,13 @@ button.search-in{
     width: 160px;
     color: black;
     position: absolute;
-    border-radius: 0px 20px 20px 0px;
-    font-size: 14px;
+    border-radius: 0px 10px 10px 0px;    font-size: 14px;
 }
 /* Style the submit button */
 form.search button {
     width: 11%;
     padding: 10px;
-    background: #0088e5;
+    background: #0073ee;
     color: white;
     font-size: 16px;
     border: 1px solid #f1f1f1;
@@ -158,34 +193,61 @@ nav ul li {
     margin-right: 42px;
 
 }
-a{
-    color: dodgerblue;
+a.signin{
+    font-weight: bold;
+    padding-right: 10px;
 }
+
+
+a{
+    color: #0073ee;
+
+}
+
+ a.signin:after {
+     content: '';
+     display: block;
+     position: absolute;
+     top: -25px;
+     width: 0%;
+     left: 0px;
+     height: 3px;
+     background: dodgerblue;
+ }
+
+
+
+
+
+
+
 nav ul li a{
     position: relative;
-    bottom: 438px;
+    bottom: 381px;
     text-decoration: none;
     float: right;
     padding-left: 20px;
+    font-size: 14px;
 }
 
 
 
 a:active {
-    color: blue;
+    color: lightgrey;
 
 }
 
 
- a:visited {
+ a:link {
      color: lightgrey;
+
  }
 
- a:after {
+ a.sign:after {
      content: '';
      display: block;
      position: absolute;
-     top: -20px;
+     top: -25px;
      width: 0%;
      left: 0px;
      height: 3px;
@@ -224,23 +286,38 @@ button{
     display: flex;
     justify-content: flex-start;
     border-radius: 40px 40px 40px 40px;
-    height: 60px;
+    height: 45px;
     padding-top: 20px;
     width: 200px;
-    border: 1px solid lightgrey;
+    border: 1px solid #bababa;
+    background-color: white;
 }
 
 p.btn-p {
     margin-left: 60px;
-    bottom: 10px;
+    bottom: 22px;
+    position: relative;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+p.btn-p2{
+    bottom: 7px;
     position: relative;
 }
 .btn-p2 {
     margin: 0px 0px;
-    font-size: 14px;
+    font-size: 15px;
     padding-left: 42px;
     width: 170px;
+    font-weight: bold;
 }
+button.btn.btn4{
+    width: 215px;
+
+}
+
+
 
 .fil{
     font-size: 14px;
@@ -257,18 +334,22 @@ p.btn-p {
 
 section{
     background-color: #f2f2f2;
-    border-radius: 20px 20px 20px 40px;
-    height: 630px;
-    width: 830px;
+    border-radius: 15px 15px 15px 15px;
+    height: 660px;
+    width: 840px;
     margin-left: 80px;
+
 }
 
 section h1{
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 5px;
-    padding-top: 2%;
+    padding-top: 24px;
     bottom: 3000px;
-
+    margin-left: 15px;
+}
+.hebergement{
+    margin-left:2px;
 }
 
 h1{
@@ -321,54 +402,59 @@ h1{
 
 }
 button.btn{
-    width: 190px;
+    width: 198px;
     margin: 12px;
+
 }
 button.btn:hover {
     color: steelblue;
 }
 .fa-money-bill-wave {
-    bottom: 72px;
     position: relative;
-    width: 60px;
-    height: 60px;
     border-radius: 40px;
-    background: #b4dfff;
-    margin-left: 10px;
+    background: #d9eaff;
+    margin-left: 12px;
+    width: 45px;
+    height: 45px;
+    bottom: 57px;
+
 }
 .fa-child {
     position: relative;
-    width: 60px;
-    height: 60px;
     border-radius: 40px;
-    background: #b4dfff;
-    bottom: 72px;
-    margin-left: 5px;
+    background: #d9eaff;
+    margin-left: 12px;
+    width: 45px;
+    height: 45px;
+    bottom: 57px;
 }
 
 .fa-heart {
     position: relative;
-    width: 60px;
-    height: 60px;
     border-radius: 40px;
-    background: #b4dfff;
-    margin-left: 5px;
-    bottom: 72px;
+    background: #d9eaff;
+    margin-left: 12px;
+    width: 45px;
+    height: 45px;
+    bottom: 57px;
 }
 
 .fa-dog {
     position: relative;
-    width: 60px;
-    height: 60px;
     border-radius: 40px;
-    background: #b4e0ff;
+    background: #d9eaff;
     float: left;
-    bottom: 72px;
-    margin-left: 5px;
+    margin-left: 12px;
+    width: 45px;
+    height: 45px;
+    bottom: 57px;
 }
 
+ .fa-2x{font-size:1em}
+
 i.fas.fa-dog.fa-2x::before {
-    top: 17px;
+    top: 4px;
+    position: relative;
 }
 
 
@@ -395,7 +481,9 @@ input a{
 }
 
 .rating{
-    margin-left: 5px;
+    margin-left: -5px;
+    position: relative;
+    bottom: 8px;
 }
 
 .rating a {
@@ -411,9 +499,9 @@ div.stars{
 }
 div.stars-aside{
     display: inline-block;
-    bottom: 80px;
+    bottom: 60px;
     position: relative;
-    margin-left: 156px;
+    margin-left: 159px;
     font-size: 12px;
 }
 .fa-star{
@@ -470,7 +558,7 @@ h1 section{
 }
 .auberge-1 p{
     text-align: left;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 
@@ -496,7 +584,7 @@ h1 section{
 
 .auberge-2 p{
     text-align: left;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 /* Auberge3 */
@@ -522,7 +610,7 @@ h1 section{
 
 .auberge-3 p{
     text-align: left;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 .fa.fa-stars.blue{
@@ -556,7 +644,7 @@ h1 section{
 
 .auberge-4 p{
     text-align: left;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 
@@ -581,7 +669,7 @@ h1 section{
 
 .auberge-5 p{
     text-align: left;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 
@@ -608,7 +696,7 @@ h1 section{
 
 .auberge-6 p{
     text-align: left;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 
@@ -637,7 +725,7 @@ h1 section{
     width:300px;
     height:389px;
     bottom: 7px;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 0px 0px;
     object-fit: cover;
     cursor: pointer;
 }
@@ -646,13 +734,15 @@ h1 section{
     font-size: 14px;
     position: absolute;
     cursor: pointer;
-    padding-top: 10px;
+    padding-top: 7px;
+    font-weight: bold;
 }
 
 p.f_port{
-    margin-top: 27px;
+    margin-top: 20px;
     float: left;
     margin-left: 20px;
+    font-weight: bold;
 }
 /* Fort de Pomégues*/
 .bloc-2 {
@@ -669,7 +759,7 @@ p.f_port{
     width: 303px;
     height: 180px;
     bottom: 5px;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 0px 0px;
     object-fit: cover;
     cursor: pointer;
     position: relative;
@@ -698,7 +788,7 @@ p.f_port{
 img.frioul-activity {
     width: 303px;
     height: 109px;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 0px 0px;
     float: left;
     bottom: 10px;
     object-fit: cover;
@@ -707,9 +797,10 @@ img.frioul-activity {
 .ile_port{
     margin-left: 20px;
     font-size: 14px;
-    position: absolute;
-    bottom: 8px;
+    margin-top: 8px;
+    bottom: -5px;
     cursor: pointer;
+    font-weight: bold;
 }
 /* Parc National des Calanques*/
 
@@ -727,7 +818,7 @@ img.frioul-activity {
 .parc-activity {
     width: 301px;
     height: 390px;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 0px 0px;
     object-fit: cover;
     cursor: pointer;
 }
@@ -736,9 +827,9 @@ img.frioul-activity {
     margin-left: 12px;
     font-size: 14px;
     margin-right: 70px;
-    bottom: 8px;
+    font-weight: bold;
     cursor: pointer;
-    padding-top: 10px;
+    padding-top: 6px;
 
 }
 
@@ -758,7 +849,7 @@ img.frioul-activity {
     width: 304px;
     height: 140px;
     bottom: 60px;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 0px 0px;
     object-fit: cover;
     cursor: pointer;
 }
@@ -766,12 +857,11 @@ img.frioul-activity {
 .nd-bloc{
     margin-left: 20px;
     font-size: 14px;
-    top: 7px;
+    font-weight: bold;
     cursor: pointer;
     margin-right: 165px;
-    padding-top: 8px;
+    padding-top: 5px;
     width: 170px;
-
 }
 
 
@@ -790,7 +880,7 @@ img.frioul-activity {
     width: 304px;
     height: 140px;
     bottom: 59px;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 0px 0px;
     object-fit: cover;
     cursor: pointer;
     margin-right: 145px;
@@ -800,10 +890,10 @@ img.frioul-activity {
 .pl-bloc{
     margin-left: 20px;
     font-size: 14px;
-    top: 5px;
+    font-weight: bold;
     cursor: pointer;
-    margin-right: 165px;
-    padding-top: 5px;
+    margin-right: 168px;
+    padding-top: 8px;
 }
 
 
@@ -811,10 +901,10 @@ img.frioul-activity {
 
     .a-side {
         width: 415px;
-        height: 631px;
+        height: 660px;
         background-color: #f2f2f2;
         border-radius: 20px 20px 20px 20px;
-        margin: -1158px 86px 50px 940px;
+        margin: -1186px 86px 50px 940px;
         display: flex;
     }
 
@@ -822,8 +912,7 @@ img.frioul-activity {
 .left-bloc {
     display: flex;
     flex-direction: column;
-    margin-bottom: 43px;
-    margin-top: 2px;
+    margin-top: 14px;
     margin-left: 10px;
 
 }
@@ -839,15 +928,16 @@ img.frioul-activity {
     background-color: white;
     width:342px;
     height:145px;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 20px 0px 0px 20px;
     margin-left: 35px;
     cursor: pointer;
+    margin-top: 1px;
 }
 
 .popular7 img {
     height: 138px;
     width: 135px;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 20px 0px 0px 20px;
     padding-top: 3px;
     margin-left: 5px;
     object-fit: cover;
@@ -908,7 +998,7 @@ p.scroll-info {
     bottom: 60px;
     margin-left: 4px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 16px;
     color: black;
     cursor: pointer;
     position: relative;
@@ -916,11 +1006,10 @@ p.scroll-info {
 
 
 .hsm{
-    bottom: 110px;
+    bottom: 105px;
     position: relative;
-    padding-right: 40px;
-    font-size: 16px;
-    cursor: pointer;
+    padding-right: 52px;
+    font-size: 14px;
 }
 
 
@@ -944,14 +1033,14 @@ p.scroll-info {
 
 .popular8{
     background-color: white;
-    width:342px;
-    height:145px;
-    border-radius: 10px 0px 0px 10px;
+    width: 342px;
+    height: 145px;
+    border-radius: 20px 0px 0px 20px;
     margin-left: 35px;
-    margin-top: 50px;
+    cursor: pointer;
+    margin-top: 70px;
     position: relative;
     bottom: 20px;
-    cursor: pointer;
 }
 
 .popular8 img {
@@ -972,7 +1061,7 @@ p.scroll-info {
 .t-hsm2{
     font-size: 14px;
     float: right;
-    margin-right: 53px;
+    padding-right: 17px;
     cursor: pointer;
 
 }
@@ -984,11 +1073,11 @@ p.scroll-info {
 }
 
 .hsm2{
-    bottom: 100px;
+    font-size: 14px;
+    top: -100px;
     position: relative;
-    padding-right: 55px;
-    font-size: 16px;
-    cursor: pointer;
+    margin-right: 65px;
+
 }
 
 
@@ -1017,7 +1106,7 @@ p.scroll-info {
     height:145px;
     border-radius: 10px 0px 0px 10px;
     margin-left: 35px;
-    margin-top: 50px;
+    margin-top: 72px;
     position: relative;
     bottom: 40px;
     cursor: pointer;
@@ -1039,36 +1128,35 @@ p.scroll-info {
 
 
 .t-hsm3{
-    font-size: 14px;
     float: right;
-    margin-right: 10px;
+    margin-right: 16px;
     cursor: pointer;
 
 }
 
-.a-side h2{
+.a-side h2 {
     font-size: 16px;
     cursor: pointer;
+    word-break: break-word;
+    width: 170px;
 }
 
 .hsm3{
 
-    bottom: 112px;
+    bottom: 100px;
     position: relative;
-    margin-right: 54px;
-    font-size: 16px;
-    cursor: pointer;
+    margin-right: 64px;
+    font-size: 14px;
 }
 
 
 .fa-chart-line{
-    position: absolute;
     float: right;
     height: 150px;
     width: 150px;
     color: black;
-    padding-left: 350px;
-    padding-top: 25px;
+    padding-left: 329px;
+    top: 370px;
 }
 
 footer {
@@ -1373,7 +1461,7 @@ a{
 
  a.signin {
      font-size: 18px;
-     bottom: 925px;
+     bottom: 890px;
      margin-left: 50px;
  }
 
@@ -1434,9 +1522,12 @@ a{
 
 
 
-
-
-
+   a:active{
+       color: dodgerblue;
+   }
+   a:visited, a:link{
+       color: #888888;
+   }
 
     a:hover:after {
          width: 100%;
@@ -1543,15 +1634,14 @@ i.fas{
      }
 
   i.fas.fa-exclamation-circle.fa-2x{
-      bottom:210px;
-             color: #2196f3;
-             position: relative;
-             width: 25px;
-             height: 25px;
-             top: -170px;
-             margin-left: -50px;
+      color: #2196f3;
+      width: 30px;
+      height: 30px;
+      top: -171px;
+      margin-left: -50px;
       border: none;
-      
+      border-radius: 25px;
+      font-size: 30px;
 
   }
    .fa-exclamation-circle:before {
@@ -1568,22 +1658,22 @@ i.fas{
 
      i.fas.fa-heart.fa-2x{
          position: relative;
-         bottom: 133px;
+         bottom: 126px;
          margin-left: -4px;
 
      }
 
      i.fas.fa-dog.fa-2x{
          position: relative;
-         bottom: 203px;
-               margin-left: -5px;
+         bottom: 191px;
+         margin-left: -5px;
 
      }
 
 
      .btn-all{
          display: inline-block;
-         margin : 55px 0px auto;
+         margin: 20px 10px auto;
          width: 55%;
          height: 25%;
      }
@@ -1616,7 +1706,7 @@ i.fas{
 
      }
    .btn.btn3{
-       bottom: 70px;
+       bottom: 63px;
        position: relative;
        height: 52px;
                   margin-left: -3px;
@@ -1624,11 +1714,11 @@ i.fas{
 
    }
      .btn.btn4{
-         bottom: 140px;
+         bottom: 128px;
          position: relative;
          height: 52px;
          width: 220px;
-                  margin-left: -3px;
+         margin-left: -3px;
 
 
      }
@@ -1677,7 +1767,7 @@ i.fas{
 
      p.btn-p {
          margin-left: 44px;
-         bottom: 16px;
+         bottom: 20px;
          position: relative;
          font-size: 16px;
          padding-left: 10px;
@@ -1691,6 +1781,9 @@ i.fas{
          padding-left: 42px;
          font-size: 16px;
          font-weight: bold;
+         position:relative;
+         bottom: 6px;
+
      }
 
 
@@ -2198,11 +2291,10 @@ i.fas{
  }
 
  i.fas.fa-dog.fa-2x::before {
-     top: 6px;
+     top: 5px;
      position: relative;
      font-size: 20px;
      padding-left: 5px;
-     bottom: -13px;
  }
 
  .btncontent {
@@ -2330,7 +2422,7 @@ display: flex;
      color: #0871e2;
      position: relative;
      padding-left: 13px;
-     top: 8px;
+     top: 5px;
      font-size: 20px;
  }
 
@@ -2579,12 +2671,11 @@ display: flex;
      div.bl.bloc-info-2{
          font-size: 8px;
          margin-left:-15px;
-
      }
      div.bl.bloc-info-3{
          font-size: 8px ;
          margin-left:-15px;
-
+         padding-bottom: 200px;
      }
 h3{
     text-align: left;
