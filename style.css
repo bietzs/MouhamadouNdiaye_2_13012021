@@ -157,6 +157,11 @@ button.search-in{
     position: absolute;
     border-radius: 0px 10px 10px 0px;    font-size: 14px;
 }
+
+ .fa-search::before {
+     content: "\f002";
+     display: none;
+ }
 /* Style the submit button */
 form.search button {
     width: 11%;
@@ -1452,7 +1457,7 @@ button.btn.btn1{
      }
 
      a.signin {
-         font-size: 18px;
+         font-size: 16px;
          bottom: 875px;
          margin-left: 68px;
          color: #0073ee;
@@ -1570,6 +1575,14 @@ button.btn.btn1{
          text-indent: -10000em;
      }
 
+     i.fas.fa-search::before {
+         content: "\f002";
+         top: 13px;
+         font-size: 20px;
+         color: beige;
+         z-index: 1;
+         position: relative;
+     }
 
      .fa-map-marker-alt {
          margin-left: -50px;
@@ -2884,11 +2897,13 @@ button.btn.btn1{
          width: 342px;
          height: 145px;
          margin-left: 345px;
+         border-radius: 10px 10px 10px 10px;
+
      }
      .popular7 img {
          height: 138px;
          width: 135px;
-         border-radius: 20px 0px 0px 20px;
+         border-radius: 10px 0px 0px 10px;
          padding-top: 3px;
          margin-left: 5px;
          object-fit: cover;
@@ -2901,8 +2916,8 @@ button.btn.btn1{
          background-color: white;
          width: 342px;
          height: 145px;
-         border-radius: 20px 0px 0px 20px;
-         margin-left: 1px;
+         border-radius: 10px 10px 10px 10px;
+         margin-left: -6px;
          cursor: pointer;
          margin-top: 70px;
          position: relative;
@@ -2928,7 +2943,7 @@ button.btn.btn1{
          background-color: white;
          width: 342px;
          height: 145px;
-         border-radius: 10px 0px 0px 10px;
+         border-radius: 10px 10px 10px 10px;
          margin-left: 345px;
          margin-top: 72px;
          position: relative;
@@ -2983,15 +2998,52 @@ button.btn.btn1{
          box-sizing: border-box;
 
      }
-     nav{
-         margin-top: -173px;
-         margin-left: 20px;
-         margin-right: 150px;
+     nav {
+         margin-top: -50px;
+         margin-left: 50px;
+         margin-right: 210px;
      }
+
+     a.signin:after {
+         content: '';
+         display: block;
+         position: absolute;
+         top: -56px;
+         width: 0%;
+         left: 0px;
+         height: 3px;
+         background: #0073ee;
+     }
+
+
+
+     a:active {
+         color: lightgrey;
+
+     }
+
+
+
+     a.sign:after {
+         content: '';
+         display: block;
+         position: absolute;
+         top: -56px;
+         width: 0%;
+         left: 0px;
+         height: 3px;
+         background: #0073ee;
+     }
+
+
+     a:hover:after {
+         width: 100%;
+     }
+
 
      form.search button {
          font-size: 13px;
-         width: 6%;
+         width: 8%;
      }
      form.search input[type="text"] {
 
@@ -3008,34 +3060,58 @@ button.btn.btn1{
      }
      .btncontent {
          display: flex;
-         margin: 20px 70px;
-         flex-flow: row wrap;
-         width: 700px;
+         margin: 20px 0px auto;
+         flex-direction: row;
+         width: 1200px;
          padding-top: 20px;
          padding-bottom: 50px;
      }
      #hebergement-region {
+         flex-direction: column;
          display: flex;
-         margin-left: 50px;
-         flex-flow: row wrap;
+         margin: 60px 20px auto;
      }
+     #activite-region{
+      width: 300px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+
+     }
+     
+     .marseille{
+         display: flex;
+         font-size: 14px;
+         text-align: center;
+         flex-flow: row wrap;
+         width: 700px;
+
+         }
+
      section {
          background-color: #f2f2f2;
          border-radius: 15px 15px 15px 15px;
-         height: 850px;
-         width: 700px;
-         margin-left: 40px;
+         height: 600px;
+         width: 1020px;
+         margin-left: 37px;
          margin-top: 500px;
+         display: flex;
      }
      .flex-container{
          margin-right: 30px;
          display: flex;
          flex-wrap: wrap;
          justify-content: space-around;
+
+
+
      }
+
+
      p.scroll-info {
-         bottom: 34px;
-         margin-left: 32px;
+         bottom: 80px;
+         margin-left: 44px;
 
      }
      .marseille {
@@ -3046,43 +3122,52 @@ button.btn.btn1{
          width: 500px;
      }
      h1{
-         margin-left: -32px;
-
+         margin-left: -40px;
      }
      .bloc-1{
-         margin-left:-32px;
+margin-left: -40px;
      }
      .bloc-2{
          margin-top: 30px;
-         margin-left: -32px;
+margin-left: -40px;
      }
      .bloc-3{
-         margin-left: -302px;
+           margin-left: 310px;
+           margin-top: -889px;
+        }
 
-     }
+
+    
      .fort-activity {
          width: 300px;
      }
      .bloc-4{
-         margin-left: 344px;
+margin-left: 670px;
      }
      .bloc-5{
-         margin-top: -236px;
-         margin-left: 344px;
-     }
+            margin-top: -194px;
+            margin-left: 664px;
+     }  
      .bloc-6{
-         top:-14px;
-         margin-left: 344px;
+  top: -350px;
+  margin-left: 310px;
      }
      .a-side {
-         width: 700px;
-         height: 350px;
+         width: 1025px;
+         height: 300px;
          background-color: #f2f2f2;
          border-radius: 20px 20px 20px 20px;
          display: flex;
-         margin-top: -2200px;
-         margin-left: 40px;
+margin-top: -2000px;
+         margin-left: 30px;
      }
+     .left-bloc {
+         display: flex;
+         flex-direction: column;
+         margin-top: 84px;
+         margin-left: 10px;
+     }
+
      .auberge-1, .auberge-2, .auberge-3, .auberge-4, .auberge-5, .auberge-6{
          margin-top:0;
      }
@@ -3091,9 +3176,9 @@ button.btn.btn1{
      }
      .a-side h1 {
          font-size: 20px;
-         padding-left: 65px;
+         padding-left: 105px;
          position: relative;
-         bottom: -50px;
+         bottom: 70px;
      }
      .a-side h2{
          font-size: 14px;
@@ -3120,20 +3205,26 @@ button.btn.btn1{
      }*/
 
      .hebergement {
-         margin-left: 32px;
+         margin-left: 15px;
+         margin-bottom: -40px;
      }
+     h1.hebergement{
+         bottom: 60px;
+         position: relative;
+         margin-left: 40px;
 
+     }
 
      .popular7{
          margin-top: -57px;
          width: 342px;
          height: 145px;
-         margin-left: 345px;
+         margin-left: 332px;
      }
      .popular7 img {
          height: 138px;
          width: 135px;
-         border-radius: 20px 0px 0px 20px;
+         border-radius: 10px 0px 0px 10px;
          padding-top: 3px;
          margin-left: 5px;
          object-fit: cover;
@@ -3144,14 +3235,14 @@ button.btn.btn1{
 
      .popular8 {
          background-color: white;
-         width: 342px;
+         width: 339px;
          height: 145px;
          border-radius: 20px 0px 0px 20px;
-         margin-left: 1px;
+         margin-left: -8px;
          cursor: pointer;
-         margin-top: 70px;
+         margin-top: 69px;
          position: relative;
-         bottom: 40px;
+         bottom: 214px;
      }
      .t-hsm2 {
          float: right;
@@ -3165,41 +3256,63 @@ button.btn.btn1{
 
      .popular9 {
          background-color: white;
-         width: 342px;
+         width: 339px;
          height: 145px;
          border-radius: 10px 0px 0px 10px;
-         margin-left: 345px;
-         margin-top: 72px;
+         margin-left: 675px;
+         margin-top: -103px;
          position: relative;
          bottom: 256px;
          cursor: pointer;
      }
+
+     .reno-activity {
+
+         width: 298px;
+     }
+     img.frioul-activity {
+                  width: 298px;
+
+     }
+
+     .pl-activity{
+          width: 302px;
+     }
+     .parc-activity {
+            width: 298px;   
+     }
+      .nd-activity {
+          width: 301px;
+ }
+
+
+
 
      #b-end {
          display: flex;
          flex-direction: row;
          background-color: #f2f2f2;
          justify-content: space-around;
-         margin-top: 1900px;
+margin-top: 1600px;
          padding-right: 200px;
      }
      .line-infos {
-         padding-left: 33px;
+         padding-left: 59px;
          position: relative;
-         bottom: 110px;
+         bottom: 40px;
          font-size: 12px;
          margin-left: -32px;
-
-
      }
+
+
      .fas.fa-info {
-         bottom: 82px;
-         margin-left: -34px;
+         bottom: 14px;
+         margin-left: -2px;
 
      }
      .fa-chart-line::before {
          content: "\f201";
-         top: 177px;
+         top: 80px;
          position: relative;
          margin-left: -960px;
      }
