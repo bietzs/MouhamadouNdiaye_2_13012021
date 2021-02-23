@@ -212,7 +212,7 @@ a{
      width: 0%;
      left: 0px;
      height: 3px;
-     background: dodgerblue;
+     background: #0073ee;
  }
 
 
@@ -251,7 +251,7 @@ a:active {
      width: 0%;
      left: 0px;
      height: 3px;
-     background: dodgerblue;
+     background: #0073ee;
  }
 
 
@@ -344,12 +344,13 @@ section{
 section h1{
     font-size: 18px;
     margin-top: 5px;
-    padding-top: 24px;
+    padding-top: 2px;
     bottom: 3000px;
     margin-left: 15px;
 }
 .hebergement{
     margin-left:2px;
+    padding-top: 24px;
 }
 
 h1{
@@ -505,11 +506,11 @@ div.stars-aside{
     font-size: 12px;
 }
 .fa-star{
-    color: dodgerblue;
+    color: #0073ee;
 }
 
 .fa.fa-stars{
-    color: dodgerblue;
+    color: #0073ee;
 }
  .fas.fa-star{
      color: lightgrey;
@@ -520,11 +521,11 @@ div.stars-aside{
 .rating a:focus,
 .rating a:hover ~ a,
 .rating a:focus ~ a {
-    color: dodgerblue;
+    color: #0073ee;
     cursor: pointer;
 }
 .fa.fa-stars.blue{
-    color: blue;
+    color: #0073ee;
     font-size: 15px;
     margin-bottom: 5px;
     position: relative;
@@ -614,7 +615,7 @@ h1 section{
 }
 
 .fa.fa-stars.blue{
-    color: #0000ff;
+    color: #0073ee;
     font-size: 15px;
     margin-bottom: 5px;
     position: relative;
@@ -956,18 +957,18 @@ img.frioul-activity {
     text-decoration: none;
     font-size: 3em;
     transition: color .4s;
-    color: blue;
+    color: #0073ee;
 }
 .rating7 a:hover,
 .rating7 a:focus,
 .rating7 a:hover ~ a,
 .rating7 a:focus ~ a {
-    color: #0000ff;
+    color: #0073ee;
     cursor: pointer;
 }
 
 .fa7.fa-stars7.blue7{
-    color: #0000ff;
+    color: #0073ee;
     font-size: 15px;
     bottom: 30px;
     position: relative;
@@ -1457,11 +1458,13 @@ button.btn.btn1{
 a{
   display:inline;
   position: relative;
+    color:#0073ee;
+
 }
 
  a.signin {
      font-size: 18px;
-     bottom: 890px;
+     bottom: 866px;
      margin-left: 50px;
  }
 
@@ -1523,7 +1526,7 @@ a{
 
 
    a:active{
-       color: dodgerblue;
+       color: #0073ee;
    }
    a:visited, a:link{
        color: #888888;
@@ -1619,7 +1622,18 @@ a{
          font-weight: bold;
 
      }
-
+     .fas.fa-info {
+         color: dodgerblue;
+         border-radius: 50px 50px 50px 50px;
+         border: 1px solid rgba(208, 208, 208, 0.62);
+         bottom: 178px;
+         position: relative;
+         width: 20px;
+         height: 20px;
+         text-align: center;
+         font-size: 14px;
+         margin-left: -50px;
+     }
 
 
 i.fas{
@@ -1730,11 +1744,11 @@ i.fas{
 
 
      .line-infos {
-               padding-left: 5px;
+         margin-left: -50px;
          position: relative;
-         font-size: 14px;
-              bottom: 210px;
-              width: 260px;
+         font-size: 16px;
+         bottom: 210px;
+         width: 300px;
      }
      .btncontent h2 {
          position: relative;
@@ -1757,7 +1771,6 @@ i.fas{
       
       
            margin-left: 24px;
-           font-size: 18px;
 
      }
 
@@ -1840,7 +1853,7 @@ i.fas{
 
 
      .auberge-1 img {
-         width: 325px;
+         width: 328px;
          height: 113px;
          border-radius: 20px 20px 0px 0px;
          margin-left: 7px;
@@ -1875,12 +1888,12 @@ i.fas{
          display: inline;
          font-size: 12px;
          position: relative;
-         margin-left: 20px;
-         bottom: 27px;
+         margin-left: 30px;
+         bottom: 15px;
      }
 
      .fa.fa-stars.blue {
-         color: #0000FF;
+         color: #0073ee;
          font-size: 14px;
          bottom: 10px;
          position: relative;
@@ -1918,12 +1931,12 @@ i.fas{
 
 
      .auberge-2 img {
-         width: 325px;
+         width: 332px;
          height: 113px;
          border-radius: 20px 20px 0px 0px;
          margin-left: 3px;
          margin-right: 3px;
-         padding-top: 3px;
+         padding-top: 1px;
          object-fit: cover;
      }
 
@@ -1943,7 +1956,7 @@ i.fas{
      }
 
  .fa3.fa-stars3.blue3 {
-     color: #0000ff;
+     color: #0073ee;
      margin-bottom: 5px;
      position: relative;
      float: left;
@@ -1952,13 +1965,13 @@ i.fas{
      bottom: 10px;
  }
  .auberge-3 img {
-     width: 325px;
+     width: 334px;
      height: 113px;
      border-radius: 20px 20px 0px 0px;
-     margin-left: 8px;
      margin-right: 3px;
      padding-top: 3px;
      object-fit: cover;
+     margin-left: 1px;
  }
 
  .auberge-3 p {
@@ -1986,7 +1999,7 @@ i.fas{
 
  }
  .fa4.fa-stars4.blue4 {
-         color: #0000ff;
+         color: #0073ee;
          margin-bottom: 5px;
          position: relative;
          float: left;
@@ -1995,10 +2008,10 @@ i.fas{
      bottom: 10px;
  }
  .auberge-4 img {
-     width: 325px;
+     width: 334px;
      height: 113px;
      border-radius: 20px 20px 0px 0px;
-     margin-left: 8px;
+     margin-left: 1px;
      margin-right: 3px;
      padding-top: 3px;
      object-fit: cover;
@@ -2028,7 +2041,7 @@ i.fas{
 
      }
      .fa5.fa-stars5.blue5 {
-         color: #0000ff;
+         color: #0073ee;
          margin-bottom: 5px;
          position: relative;
          float: left;
@@ -2037,10 +2050,10 @@ i.fas{
          bottom: 10px;
      }
      .auberge-5 img {
-         width: 325px;
+         width: 334px;
          height: 113px;
          border-radius: 20px 20px 0px 0px;
-         margin-left: 8px;
+         margin-left: 1px;
          margin-right: 3px;
          padding-top: 3px;
          object-fit: cover;
@@ -2050,7 +2063,7 @@ i.fas{
          text-align: left;
          font-size: 16px;
          margin-left: 25px;
- bottom: 12px;
+         bottom: 12px;
          position: relative;
 
 
@@ -2072,7 +2085,7 @@ i.fas{
 
      }
      .fa6.fa-stars6.blue6 {
-         color: #0000ff;
+         color:#0073ee;
          margin-bottom: 5px;
          position: relative;
          float: left;
@@ -2081,10 +2094,10 @@ i.fas{
          bottom: 10px;
      }
      .auberge-6 img {
-         width: 325px;
+         width: 334px;
          height: 113px;
          border-radius: 20px 20px 0px 0px;
-         margin-left: 8px;
+         margin-left: 1px;
          margin-right: 3px;
          padding-top: 3px;
          object-fit: cover;
@@ -2094,25 +2107,26 @@ i.fas{
          text-align: left;
          font-size: 16px;
          margin-left: 25px;
- bottom: 12px;
+         bottom: 12px;
          position: relative;
 
      }
 
       #activite-region h1 {
-         position: relative;
+          position: relative;
           margin-left: 123px;
-          top: 1030px;
+          top: 1070px;
+          font-size: 20px;
+
       }
 
 
  .reno-activity {
-     width: 327px;
-     height: 113px;;
+     width: 334px;
+     height: 132px;
      border-radius: 20px 20px 0px 0px;
      object-fit: cover;
      cursor: pointer;
-     padding-top: 2px;
  }
 
 
@@ -2131,9 +2145,10 @@ i.fas{
 
  }
  .v_port {
-     font-size: 18px;
      cursor: pointer;
      padding-top: 0;
+     bottom: -2px;
+     font-size: 16px;
  }
 
 
@@ -2149,9 +2164,8 @@ i.fas{
  }
 
  .fort-activity {
-     width: 329px;
-     height: 113px;
-     bottom: 1px;
+     width: 334px;
+     height: 132px;
      border-radius: 20px 20px 0px 0px;
 
  }
@@ -2159,8 +2173,8 @@ i.fas{
      margin-top: 50px;
      float: left;
      margin-left: 20px;
-     font-size: 18px;
-     bottom:25px;
+     font-size: 16px;
+     bottom: 38px;
      position: relative;
  }
 
@@ -2169,22 +2183,24 @@ i.fas{
  .bloc-3{
      border-radius: 20px 20px 20px 20px;
      margin-left: -334px;
-     width: 334px;
+     width: 332px;
      height: 180px;
      box-shadow: 5px 5px 5px lightgrey;
      top: 2900px;
  }
  img.frioul-activity {
-     width: 327px;
-     height: 113px;
+     width: 334px;
+     height: 132px;
      border-radius: 20px 20px 0px 0px;
-     margin-left: 5px;
-     bottom: -2px;
+     margin-left: -1px;
+     bottom: 1px;
      position: relative;
  }
  .ile_port {
-     font-size: 18px;
-         margin-left: 30px;
+     font-size: 16px;
+         margin-left: 22px;
+     bottom: -5px;
+     margin-top: 25px;
  }
  .bloc-4 {
      width: 334px;
@@ -2198,14 +2214,14 @@ i.fas{
  }
 
  .parc-activity {
-     width: 327px;
-     height: 113px;
+     width: 334px;
+     height: 132px;
      position: absolute;
-     margin-left: -164px;
+     margin-left: -168px;
      border: 1px solid #EFEFEF;
      box-shadow: 5px 5px 5px #EFEFEF;
      border-radius: 20px 20px 0px 0px;
-     top: 4px;
+     top: -1px;
  }
  .bloc-5 {
      width: 334px;
@@ -2218,16 +2234,18 @@ i.fas{
      border-radius: 20px 20px 20px 20px;
  }
  .nd-bloc {
-     font-size: 17px;
-     margin-left: 30px;
+     font-size: 16px;
      width: 200px;
+     bottom: 10px;
+     margin-left: 20px;
+     margin-top: 12px;
  }
 
 
  .nd-activity {
-    width: 327px;
-        height: 113px;
-        bottom: -2px;
+     width: 334px;
+     height: 132px;
+     bottom: 1px;
         position: relative;
         border-radius: 20px 20px 0px 0px;
         object-fit: cover;
@@ -2237,29 +2255,26 @@ i.fas{
 
 
  .parcnational {
-     font-size: 17px;
+     font-size: 16px;
      position: relative;
      bottom: 165px;
-     top: 120px;
- }
- .marseille {
-     font-size: 20px;
-     text-align: center;
+     top: 128px;
+
  }
 
  .pl-activity {
-     width: 327px;
-     height: 113px;
+     width: 334px;
+     height: 118px;
      position: absolute;
-     margin-left: -165px;
+     margin-left: -168px;
      border: 1px solid #EFEFEF;
      box-shadow: 5px 5px 5px #EFEFEF;
      border-radius: 20px 20px 0px 0px;
-     top: 2px;
+     top: -1px;
  }
      .pl-bloc {
-         font-size: 18px;
-         margin-left: 25px;
+         font-size: 16px;
+         margin-left: 22px;
          top: 120px;
          position: relative;
      }
@@ -2314,7 +2329,7 @@ display: flex;
      top: 410px;
     padding-left: 25px;
      position: relative;
-     font-size: 20px;
+     font-size: 24px;
  }
 
 
@@ -2326,19 +2341,24 @@ display: flex;
  .marseille {
      display: flex;
      margin-left: 120px;
-     margin-top: -1450px;
+     margin-top: -1420px;
+     font-size: 20px;
+     text-align: center;
  }
  .a-side {
      width: 100%;
      height: 550px;
-    margin: -1850px 0px 0px 0px;
+    margin: -1806px 0px 0px 0px;
      border-radius: 0px;
      background-color: #f2f2f2;
      display: flex;
  }
 
 
-
+div.stars-aside{
+    margin-left: 162px;
+    bottom: 65px;
+}
 
 
 
@@ -2346,8 +2366,9 @@ display: flex;
 
  .a-side h1 {
      font-size: 20px;
-         padding-left: 9px;
-         padding-top: 20px;
+     padding-left: 9px;
+     padding-top: 10px;
+
  }
 
 
@@ -2432,13 +2453,11 @@ display: flex;
  .fa-chart-line {
      position: relative;
      margin-left: 30px;
-     height: 40px;
-     width: 150px;
      color: black;
-     padding-left: 280px;
+     padding-left: 300px;
      padding-top: 25px;
-     top: -80px;
-     font-size: 40px;
+     top: -70px;
+     font-size: 23px;
  }
 
 
@@ -2448,12 +2467,12 @@ display: flex;
     .popular7 {
         background-color: white;
         height: 135px;
-        width: 350px;
+        width: 334px;
         border-radius: 20px 20px 20px 20px;
-        margin-left: 2px;
+        margin-left: 18px;
         cursor: pointer;
         position: relative;
-        bottom: 60px;
+        bottom: 40px;
     }
 
 
@@ -2468,10 +2487,10 @@ display: flex;
  }
  .popular7 p {
      cursor: pointer;
-     bottom: 85px;
-     font-size: 17px;
+     bottom: 89px;
+     font-size: 14px;
      position: relative;
-     padding-right: 12px;
+     padding-right: 39px;
  }
 
  .fa7.fa-stars7.blue7 {
@@ -2535,12 +2554,13 @@ display: flex;
      .popular8 {
          background-color: white;
          border-radius: 20px 20px 20px 20px;
-         margin-left: 2px;
+         margin-left: 18px;
          cursor: pointer;
          position: relative;
          bottom: 100px;
          height: 135px;
-         width: 350px;
+         width: 334px;
+
      }
 
 
@@ -2557,20 +2577,29 @@ display: flex;
  .popular8 p {
      cursor: pointer;
      bottom: 80px;
-     font-size: 15px;
+     font-size: 14px;
      position: relative;
-     padding-right: 7px;
+     padding-right: 39px;
      width: 50%;
  }
+ p.hsm2{
+     top: -83px;
+     left: 96px;
+     margin-left: 150px;
+
+ }
+
+
+
      .popular9 {
          height: 135px;
-         width: 350px;
+         width: 334px;
          background-color: white;
          border-radius: 20px 20px 20px 20px;
-         margin-left: 2px;
+         margin-left: 18px;
          cursor: pointer;
          position: relative;
-         bottom: 140px;
+         bottom: 163px;
      }
 
 
@@ -2587,7 +2616,7 @@ display: flex;
      .popular9 p {
          cursor: pointer;
          bottom: 80px;
-         font-size: 16px;
+         font-size: 14px;
          position: relative;
          margin-right: 10px;
          width: 50%;
@@ -2636,11 +2665,10 @@ display: flex;
 
 
  p.scroll-info {
-     bottom: 420px;
+     bottom: 390px;
      font-weight: bold;
-     font-size: 16px;
-         margin-left: 50px;
-
+     font-size: 18px;
+     margin-left: 47px;
 
  }
 
@@ -2680,12 +2708,12 @@ display: flex;
 h3{
     text-align: left;
     margin-left: -40px;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 
      .bl p {
-     font-size: 18px;
+     font-size: 16px;
      margin-left: -40px;
  }
 
