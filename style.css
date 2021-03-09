@@ -1023,7 +1023,7 @@ p.scroll-info {
 
  .fa-chart-line:before {
      content: "\f201";
-     top: 6px;
+     top: 4px;
      position: relative;
  }
 
@@ -1241,7 +1241,7 @@ h3{
 
 
 
- @media screen and (min-width: 250px) and (max-width: 374px)  {
+ @media screen and (min-width: 250px) and (max-width: 360px)  {
      body {
          display: flex;
          flex-direction: column;
@@ -1253,7 +1253,7 @@ h3{
 
      nav ul {
          display: flex;
-         bottom: 215px;
+         bottom: 235px;
          position: relative;
          margin-left: 280px;
      }
@@ -1268,8 +1268,8 @@ h3{
      a.signin {
          font-weight: bold;
          padding-right: 10px;
-         bottom: 402px;
-         right: 115px;
+    bottom: 428px;
+    right: 75px;
      }
      a:after {
          content: '';
@@ -1314,14 +1314,16 @@ h3{
          padding-bottom: 5px;
          padding-left: 20px;
          width: 250px;
-         left: 346px;
+    left: 318px;
      }
+      a.sign.s2{
+          left:215px;
+      }
      .logo {
          width: 74px;
          display: flex;
          justify-content: flex-start;
-         margin-left: -73px;
-     }
+margin-left: -100px;     }
 
      main {
          flex-direction: column;
@@ -1331,13 +1333,14 @@ h3{
      }
 
      p.slogan {
-         display: inline-block;
-         width: 200px;
-         font-size: 12px;
+         width: 280px;
+             margin-left: -92px;
+             font-size: 18px;
+             display: inline-block;
+
+
          top: 78px;
          position: relative;
-         margin-left: -55px;
-
      }
 
      p.txt_simple {
@@ -1346,11 +1349,11 @@ h3{
          font-size: 12px;
          top: 65px;
          position: relative;
-         margin-left: -54px;
+margin-left: -90px;
      }
 
      .fas.fa-info {
-         right: 55px;
+    right: 80px;
      }
      i.fas.fa-info{
          position:relative;
@@ -1373,15 +1376,15 @@ h3{
          top: 5px;
      }
      .line-infos {
-         width: 100%;
-         position: relative;
-         bottom: 20px;
-         font-size: 12px;
-         right: 50px;
+         width: 200px;
+             position: relative;
+             bottom: 20px;
+             font-size: 12px;
+             right: 50px;
      }
 
      .btn-all {
-         margin-left: -52px;
+         margin-left: -82px;
      }
 
      .btncontent {
@@ -1393,10 +1396,10 @@ h3{
      }
 
      form.search {
-         top: 60px;
-         position: relative;
-         width: 800px;
-         margin-left: -60px;
+        top: 80px;
+            position: relative;
+            width: 1200px;
+            margin-left: -90px;
 
      }
 
@@ -1414,16 +1417,15 @@ h3{
      }
 
 
-     button.search-in {
-         width: 30px;
+     button.search-in::before{
          border-radius: 10px 10px 10px 10px;
-         margin-left: -10px;
+         color: white;
      }
 
-     button.search-in::before {
+     button.search-in:before{
          content: "\f002";
-
      }
+
      .btn{
          border: 2px solid #F2F2F2;
      }
@@ -1806,8 +1808,8 @@ h3{
          cursor: pointer;
      }
  }
- @media screen and (min-width: 375px) and (max-width: 680px){
-     body,html {
+ @media screen and (min-width: 361px) and (max-width: 768px){
+     body {
          display:flex;
          flex-flow: column wrap;
          margin: 0 auto;
@@ -1817,6 +1819,7 @@ h3{
          display: flex;
          flex-direction: column;
          flex-wrap: wrap;
+         margin: 30px 40px -70px 20px;
      }
 
 
@@ -1833,9 +1836,9 @@ h3{
      }
 
      a.signin {
-         font-size: 20px;
-         bottom: 891px;
-         margin-left: 130px;
+          font-size: 20px;
+              bottom: 892px;
+              margin-left: 160px;
          color: #0065FC;
      }
 
@@ -1853,15 +1856,14 @@ h3{
          font-size: 18px;
          color: #0065FC;
          top: 10px;
-         left: 70px;
-
+    left: 5px;
      }
 
      a.sign.s2 {
          position: absolute;
          font-size: 18px;
          top: 10px;
-         margin-left: 166px;
+margin-left: 172px;
          color: #0065FC;
      }
      a:after {
@@ -1916,8 +1918,8 @@ h3{
 
 
      p.slogan {
-         font-size: 23px;
-         margin-left: 10px;
+         font-size: 20px;
+         margin-left: 6px;
          top: 80px;
          position: relative;
          width: 60%;
@@ -1926,8 +1928,8 @@ h3{
      .txt_simple {
          position: relative;
          top: 50px;
-         font-size: 16px;
-         margin-left: 12px;
+         font-size: 18px;
+margin-left: 6px;
          padding-bottom: 20px;
          margin-top: 50px;
      }
@@ -1936,7 +1938,8 @@ h3{
      form {
 
          display: flex;
-         margin-left: -6px;         padding-top: 70px;
+margin-left: 0;
+         padding-top: 70px;
      }
 
      form.search input[type="text"] {
@@ -2136,7 +2139,7 @@ h3{
      }
 
      div.btncontent {
-         margin-left: -5px;
+margin-left: 5px;
          flex-direction: row;
          flex-wrap: wrap;
          width: 419px;
@@ -2202,7 +2205,7 @@ h3{
          font-size: 18px;
      }
      .left-bloc{
-         margin-left: 30px;
+         margin-left: 0px;
      }
 
 
@@ -2692,9 +2695,11 @@ h3{
      }
      h1.hebergement{
          top: 370px;
-         padding-left: 76px;
+padding-left: 109px;
          position: relative;
          font-size: 24px;
+         right: 60px;
+
      }
 
 
@@ -2705,7 +2710,7 @@ h3{
 
      .marseille {
          display: flex;
-         margin-left: 181px;
+         margin-left: 108px;
          margin-top: -1760px;
          font-size: 20px;
          text-align: center;
@@ -2746,6 +2751,7 @@ h3{
          flex-direction: column;
          margin-top: 450px;
          margin-right: 520px;
+margin-left: -65px;
      }
 
      .fa-heart {
@@ -3026,8 +3032,7 @@ h3{
          bottom: 30px;
          font-weight: bold;
          font-size: 18px;
-         margin-left: 100px;
-
+margin-left: 80px;
      }
 
 
@@ -3046,21 +3051,24 @@ h3{
          align-content: flex-end;
          margin-top: 2750px;
          padding-top: 20px;
+           padding-left: 140px;
 
      }
 
      div.bl.bloc-info-1 {
          font-size: 8px;
-         margin-left: 50px;
+         left: 80px;
          width: 240px;
      }
      div.bl.bloc-info-2{
          font-size: 8px;
          margin-left: 98px;
+         left: -122px;
+
      }
      div.bl.bloc-info-3{
          font-size: 8px ;
-         left: 55px;
+         left: -24px;
          padding-bottom: 200px;
      }
      h3{
@@ -3078,16 +3086,16 @@ h3{
      div#activite-region{
 
          margin-bottom: 1000px;
-         margin-left: -90px;
+         margin-left: -40px;
      }
      #activite-region{
          margin: 500px 20px 0px 80px;
      }
      #activite-region h1{
          position: relative;
-         margin-left: 172px;
          top: 720px;
          font-size: 20px;
+margin-left: 104px;
      }
 
      #activite-region h2{
@@ -3222,7 +3230,7 @@ h3{
 */
 
 
- @media only screen and (min-width: 680px) and (max-width: 850px) {
+ @media only screen and (min-width: 769px) and (max-width: 1024px) {
 
      body {
          box-sizing: border-box;
@@ -3232,16 +3240,15 @@ h3{
 
 
      .logo {
-         margin-left: -30px;
+         margin-left: 45px;
      }
 
      nav {
-         display: block;
+         display: inline-block;
          float: right;
-         margin-left: 320px;
          position: relative;
-         bottom: 80px;
-         padding-right: 20px;
+         bottom: 75px;
+         left: 97px;
      }
      a.signin{
          right: 50px;
@@ -3267,8 +3274,8 @@ h3{
      display: block;
      position: absolute;
      top: -30px;
-     width: 0%;
-     left: 0px;
+     width: 0;
+     left: 0;
      height: 3px;
      background: #0065FC;
  }
@@ -3287,8 +3294,8 @@ h3{
      display: block;
      position: absolute;
      top: -30px;
-     width: 0%;
-     left: 0px;
+     width: 0;
+     left: 0;
      height: 3px;
      background: #0065FC;
  }
@@ -3300,7 +3307,7 @@ h3{
 
 
  form.search {
-         margin-left: -25px;
+         margin-left: 45px;
      }
 
      form.search button {
@@ -3314,12 +3321,11 @@ h3{
 
      .slogan {
          font-size: 14px;
-         margin-left: -25px;
-     }
+margin-left: 45px;     }
 
      .txt_simple {
          font-size: 12px;
-         margin-left: -25px;
+         margin-left: 46px;
      }
 
      .btncontent {
@@ -3328,7 +3334,7 @@ h3{
          width: 700px;
          padding-top: 20px;
          padding-bottom: 50px;
-         margin-left: -25px;
+         margin-left: 45px;
      }
 
      button.btn {
@@ -3351,10 +3357,12 @@ h3{
      #hebergement-region {
          display: flex;
          flex-flow: row wrap;
+
      }
      div#activite-region{
          position: relative;
          bottom: 100px;
+         margin-left: 165px;
      }
 
      .btn-all {
@@ -3369,14 +3377,14 @@ h3{
      .hsm {
          bottom: 100px;
          position: relative;
-         padding-right: 62px;
+padding-right: 52px;
          font-size: 14px;
      }
      p.hsm2 {
          margin-right: 70px;
      }
      p.hsm3{
-         margin-right: 71px;
+margin-right: 63px;
      }
      i.fa.fa-star{
          margin-left: 4px;
@@ -3387,7 +3395,7 @@ h3{
          border-radius: 15px 15px 15px 15px;
          height: 850px;
          width: 700px;
-         margin-left: 54px;
+    margin-left: 115px;
          margin-top: 500px;
          position: relative;
          bottom: 90px;
@@ -3398,6 +3406,7 @@ h3{
          display: flex;
          flex-wrap: wrap;
          justify-content: space-around;
+         margin-left:45px;
      }
 
      p.scroll-info {
@@ -3420,12 +3429,12 @@ h3{
      }
 
      .bloc-1 {
-         margin-left: -32px;
+        margin-left: -50px;
      }
 
      .bloc-2 {
          margin-top: 30px;
-         margin-left: -32px;
+         margin-left: -50px;
      }
 
      .bloc-3 {
@@ -3438,17 +3447,17 @@ h3{
      }
 
      .bloc-4 {
-         margin-left: 325px;
+        margin-left: 345px;
      }
 
      .bloc-5 {
          margin-top: -236px;
-         margin-left: 325px;
+          margin-left: 345px;
      }
 
      .bloc-6 {
          top: -20px;
-         margin-left: 325px;
+         margin-left: 345px;
      }
 
      .a-side {
@@ -3458,13 +3467,13 @@ h3{
          border-radius: 20px 20px 20px 20px;
          display: flex;
          margin-top: -2200px;
-         margin-left: 24px;
+         margin-left: 45px;
      }
 
      aside.a-side {
          position: relative;
          bottom: 130px;
-         left: 28px;
+         left: 70px;
      }
 
      .auberge-1, .auberge-2, .auberge-3, .auberge-4, .auberge-5, .auberge-6 {
@@ -3496,6 +3505,13 @@ h3{
          height: 138px;
          width: 130px;
      }
+     div.stars-asidE{
+
+         margin-left: 158px;
+     }
+
+
+
      /* .left-bloc {
           display: flex;
           flex-direction: row;
@@ -3522,7 +3538,7 @@ h3{
 
      .popular7 {
          margin-top: -57px;
-         width: 342px;
+         width: 335px;
          height: 145px;
          margin-left: 345px;
          border-radius: 10px 10px 10px 10px;
@@ -3562,7 +3578,13 @@ h3{
          margin-right: 12px;
          margin-left: 20px;
      }
-
+     h2.t-hsm3{
+        margin-right: 8px;
+     }
+     h2.t-hsm {
+         margin-right: 39px;
+         width: 120px;
+     }
      .hsm2 {
          margin-right: 63px;
      }
@@ -3573,7 +3595,7 @@ h3{
 
      .popular9 {
          background-color: white;
-         width: 342px;
+         width: 335px;
          height: 145px;
          border-radius: 10px 10px 10px 10px;
          margin-left: 345px;
@@ -3590,6 +3612,7 @@ h3{
          justify-content: space-around;
          margin-top: 1800px;
          padding-right: 200px;
+               padding-left: 80px;
      }
 
      .line-infos {
@@ -3597,15 +3620,14 @@ h3{
          position: relative;
          bottom: 110px;
          font-size: 12px;
-         margin-left: -32px;
-
+margin-left: 50px;
+         
 
      }
 
      .fas.fa-info {
          bottom: 82px;
-         margin-left: -34px;
-
+margin-left: 44px;
      }
 
      .fa-chart-line::before {
@@ -3630,14 +3652,16 @@ h3{
          right: 80px;
      }
  }
- @media screen and (min-width: 850px) and (max-width: 1024px) {
-
+ @media screen and (min-width: 1024px) and (max-width: 1366px) {
+     main{
+          margin-left: -50px;
+     }
      body{
          box-sizing: border-box;
 
      }
      nav ul {
-         margin-top: -69px;
+         margin-top: -40px;
          margin-left: 50px;
          margin-right: 210px;
      }
@@ -3646,16 +3670,16 @@ h3{
          content: '';
          display: block;
          position: absolute;
-         top: -56px;
-         width: 0%;
-         left: 0px;
+         top: -37px;
+         width: 0;
+         left: 0;
          height: 3px;
      }
 
 
 
      a:active {
-         color: lightgrey;
+         color: #DEEBFF;
 
      }
 
@@ -3665,9 +3689,9 @@ h3{
          content: '';
          display: block;
          position: absolute;
-         top: -56px;
-         width: 0%;
-         left: 0px;
+         top: -37px;
+         width: 0;
+         left: 0;
          height: 3px;
      }
 
@@ -3686,8 +3710,7 @@ h3{
          height: 23px;
      }
      .slogan{
-         font-size: 11px;
-
+         font-size: 13px;
      }
      .txt_simple{
          font-size: 12px;
@@ -3695,7 +3718,7 @@ h3{
      }
      .btncontent {
          display: flex;
-         margin: 20px 0px auto;
+         margin: 20px 0 auto;
          flex-direction: row;
          width: 1200px;
          padding-top: 20px;
@@ -3706,15 +3729,12 @@ h3{
          display: flex;
          margin: 60px 20px auto;
      }
-     #activite-region{
-      width: 300px;
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-
-
+     #activite-region {
+         width: 300px;
+         margin-left: 105px;
+         top: -200px;
+           position: relative;
      }
-
      .marseille{
          display: flex;
          font-size: 14px;
@@ -3729,9 +3749,11 @@ h3{
          border-radius: 15px 15px 15px 15px;
          height: 600px;
          width: 1020px;
-         margin-left: 37px;
-         margin-top: 500px;
+         margin-left: 52px;
          display: flex;
+         margin-top: 480px;
+         position: relative;
+         bottom: 170px;
      }
      .flex-container{
          margin-right: 30px;
@@ -3788,13 +3810,13 @@ margin-left: 670px;
   margin-left: 310px;
      }
      .a-side {
-         width: 1025px;
-         height: 300px;
-         background-color: #f2f2f2;
-         border-radius: 20px 20px 20px 20px;
-         display: flex;
-margin-top: -2000px;
-         margin-left: 30px;
+   width: 1025px;
+       height: 300px;
+       background-color: #f2f2f2;
+       border-radius: 20px 20px 20px 20px;
+       display: flex;
+margin-top: -2090px;
+         margin-left: 46px;
      }
      .left-bloc {
          display: flex;
@@ -3817,7 +3839,7 @@ margin-top: -2000px;
      }
      .a-side h2{
          font-size: 14px;
-         margin-right: 12px;
+         margin-right: -14px;
      }
      /* .left-bloc {
           display: flex;
@@ -3854,7 +3876,9 @@ margin-top: -2000px;
          margin-top: -57px;
          width: 342px;
          height: 145px;
-         margin-left: 332px;
+         margin-left: 325px;
+         border-radius: 20px 20px 20px 20px;
+
      }
      .popular7 img {
          height: 138px;
@@ -3870,10 +3894,10 @@ margin-top: -2000px;
 
      .popular8 {
          background-color: white;
-         width: 339px;
+         width: 320px;
          height: 145px;
-         border-radius: 20px 0px 0px 20px;
-         margin-left: -8px;
+         border-radius: 20px 20px 20px 20px;
+         margin-left: 2px;
          cursor: pointer;
          margin-top: 69px;
          position: relative;
@@ -3881,7 +3905,7 @@ margin-top: -2000px;
      }
      .popular8 img {
          height: 138px;
-         width: 115px;
+    width: 122px;
          object-fit: cover;
      }
      .t-hsm2 {
@@ -3898,13 +3922,31 @@ margin-top: -2000px;
          background-color: white;
          width: 339px;
          height: 145px;
-         border-radius: 10px 0px 0px 10px;
-         margin-left: 675px;
+         border-radius: 20px 20px 20px 20px;
+         margin-left: 670px;
          margin-top: -103px;
          position: relative;
          bottom: 256px;
          cursor: pointer;
      }
+      .hsm2 {
+          margin-right: 60px;
+      }
+        .hsm {
+            padding-right: 65px;
+        }
+       .t-hsm{
+            left: -13px;
+                position: relative;
+
+          }
+       .t-hsm3{
+           left: -27px;
+               position: relative;
+            margin-right: 72px;
+       }
+
+
 
      .reno-activity {
 
@@ -3930,24 +3972,25 @@ margin-top: -2000px;
 
 
      #b-end {
-         display: flex;
-         flex-direction: row;
-         background-color: #f2f2f2;
-         justify-content: space-around;
-margin-top: 1600px;
-         padding-right: 200px;
+          display: flex;
+          flex-direction: row;
+          background-color: #f2f2f2;
+          justify-content: space-around;
+          margin-top: 1410px;
+          padding-right: 200px;
+
      }
      .line-infos {
          padding-left: 59px;
          position: relative;
-         bottom: 40px;
+         bottom: 110px;
          font-size: 12px;
          margin-left: -32px;
      }
 
 
      .fas.fa-info {
-         bottom: 14px;
+         bottom: 80px;
          margin-left: -2px;
 
      }
@@ -3957,10 +4000,20 @@ margin-top: 1600px;
          position: relative;
          margin-left: -960px;
      }
-     div.bl.bloc-info-1 {
-         right: 10px;     }
+     div.bl.bloc-info-1
+     {
+         right: 10px;
+     }
+     div.bl.bloc-info-2 {
+         left: -120px;
+     }
+     div.bl.bloc-info-3 {
+         left: -210px;
+     }
+
  }
- @media screen and (min-width: 1024px) and (max-width: 1500px) {
+ 
+ @media screen and (min-width: 1317px) and (max-width: 1566px) {
      body{
          box-sizing: border-box ;
      }
