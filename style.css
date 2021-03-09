@@ -1,11 +1,11 @@
  html, body {
      margin: 0 auto;
      padding: 0;
-     height:100%;
+     height: 100%;
      display: flex;
      flex-direction: column;
      color: #0a0a0a;
-     font-family: "tenso","Helvetica","Arial",sans-serif;
+     font-family: Raleway;
  }
 
 
@@ -34,7 +34,7 @@ main{
 form.search input[type=text] {
     padding: 10px;
     font-size: 14px;
-    border: 1px solid #f1f1f1;
+    border: 1px solid #f2f2f2;
     float: left;
     width: 15%;
     background: #ffffff;
@@ -68,26 +68,26 @@ form.search input[type=text] {
 
 
  .fa-money-bill-wave::before {
-     color: #0871e2;
+     color: #0065FC;
      position: relative;
      padding-left: 12px;
      top: 15px;
 }
 .fa-child::before {
-    color: #0871e2;
+    color: #0065FC;
     position: relative;
     top: 15px;
     margin-left: 16px;
 }
 .fa-heart::before {
-    color: #0871e2;
+    color: #0065FC;
     position: relative;
     bottom: -16px;
     margin-left: 14px;
 }
 
 .fa-dog::before {
-    color: #0871e2;
+    color: #0065FC;
     margin: 10px 12px 12px 12px;
     display: flex;
 }
@@ -97,9 +97,9 @@ h2#btn{
 }
 
  .fas.fa-info {
-     color: dodgerblue;
+     color: #0065FC;
      border-radius: 50px 50px 50px 50px;
-     border: 1px solid rgba(208, 208, 208, 0.62);
+     border: 1px solid #f2f2f2;
      bottom: 32px;
      position: relative;
      width: 20px;
@@ -127,7 +127,7 @@ h2#btn{
 .fa-map-marker-alt{
     float: left;
     position: relative;
-    background-color: #f4f4f4;
+    background-color: #f2f2f2;
     height: 45px;
     cursor: pointer;
     border-radius: 12px 0 0 12px;
@@ -157,7 +157,9 @@ button.search-in{
     position: absolute;
     border-radius: 0px 10px 10px 0px;    font-size: 14px;
 }
-
+.search-in p{
+    margin-top: 2px;
+}
  .fa-search::before {
      content: "\f002";
      display: none;
@@ -166,7 +168,7 @@ button.search-in{
 form.search button {
     width: 11%;
     padding: 10px;
-    background: #0073ee;
+    background: #0065FC;
     color: white;
     font-size: 16px;
     border: 1px solid #f1f1f1;
@@ -205,7 +207,7 @@ a.signin{
 
 
 a{
-    color: #0073ee;
+    color: #0065FC;
 
 }
 
@@ -217,17 +219,13 @@ a{
      width: 0%;
      left: 0px;
      height: 3px;
-     background: #0073ee;
+     background: #0065FC;
  }
 
 
 
-
-
-
-
  a:active {
-     color: lightgrey;
+     color: #F2F2F2;
 
  }
 
@@ -237,11 +235,11 @@ a{
      content: '';
      display: block;
      position: absolute;
-     top: -56px;
+     top: -42px;
      width: 0%;
      left: 0px;
      height: 3px;
-     background: #0073ee;
+     background: #0065FC;
  }
 
 
@@ -253,7 +251,7 @@ a{
 
 nav ul li a{
     position: relative;
-    bottom: 351px;
+    bottom: 371px;
     text-decoration: none;
     float: right;
     padding-left: 20px;
@@ -266,7 +264,7 @@ nav ul li a{
     border: 0px;
     height: 45px;
     width: 190px;
-    color: lightgrey;
+    color: #F2F2F2;
     display: flex;
     flex-direction: row;
     font-size: 14px;
@@ -409,12 +407,12 @@ button.btn{
 
 }
 button.btn:hover {
-    color: steelblue;
+    color: #F2F2F2;
 }
 .fa-money-bill-wave {
     position: relative;
     border-radius: 40px;
-    background: #d9eaff;
+    background: #DEEBFF;
     margin-left: 12px;
     width: 45px;
     height: 45px;
@@ -424,7 +422,7 @@ button.btn:hover {
 .fa-child {
     position: relative;
     border-radius: 40px;
-    background: #d9eaff;
+    background: #DEEBFF;
     margin-left: 12px;
     width: 45px;
     height: 45px;
@@ -434,7 +432,7 @@ button.btn:hover {
 .fa-heart {
     position: relative;
     border-radius: 40px;
-    background: #d9eaff;
+    background: #DEEBFF;
     margin-left: 12px;
     width: 45px;
     height: 45px;
@@ -444,7 +442,7 @@ button.btn:hover {
 .fa-dog {
     position: relative;
     border-radius: 40px;
-    background: #d9eaff;
+    background: #DEEBFF;
     float: left;
     margin-left: 12px;
     width: 45px;
@@ -507,14 +505,14 @@ div.stars-aside{
     font-size: 12px;
 }
 .fa-star{
-    color: #0073ee;
+    color: #0065FC;
 }
 
 .fa.fa-stars{
-    color: #0073ee;
+    color: #0065FC;
 }
  .fas.fa-star{
-     color: lightgrey;
+     color: #F2F2F2;
  }
 
 
@@ -522,11 +520,11 @@ div.stars-aside{
 .rating a:focus,
 .rating a:hover ~ a,
 .rating a:focus ~ a {
-    color: #0073ee;
+    color: #0065FC;
     cursor: pointer;
 }
 .fa.fa-stars.blue{
-    color: #0073ee;
+    color: #0065FC;
     font-size: 15px;
     margin-bottom: 5px;
     position: relative;
@@ -616,7 +614,7 @@ h1 section{
 }
 
 .fa.fa-stars.blue{
-    color: #0073ee;
+    color: #0065FC;
     font-size: 15px;
     margin-bottom: 5px;
     position: relative;
@@ -958,18 +956,18 @@ img.frioul-activity {
     text-decoration: none;
     font-size: 3em;
     transition: color .4s;
-    color: #0073ee;
+    color: #0065FC;
 }
 .rating7 a:hover,
 .rating7 a:focus,
 .rating7 a:hover ~ a,
 .rating7 a:focus ~ a {
-    color: #0073ee;
+    color: #0065FC;
     cursor: pointer;
 }
 
 .fa7.fa-stars7.blue7{
-    color: #0073ee;
+    color: #0065FC;
     font-size: 15px;
     bottom: 30px;
     position: relative;
@@ -1170,7 +1168,6 @@ p.scroll-info {
 
 footer {
     width: 100%;
-    height: 200px;
     display: flex;
     padding: 10px;
 }
@@ -1200,7 +1197,7 @@ div.bl.bloc-info-1#b-end{
 }
 
 div.bl.bloc-info-1{
-    margin-left: -110px;
+    margin-left: -105px;
     line-height: 0.5em;
     font-size: 14px;
     cursor: pointer;
@@ -1212,14 +1209,22 @@ div.bl.bloc-info-2{
     line-height: 0.5em;
     font-size: 14px;
     cursor: pointer;
+    margin-left: -70px;
+    right: 50px;
+    position: relative;
 
 }
 
+ .bloc-info-2 {
+     left: -50px;
+ }
+
 div.bl.bloc-info-3{
     position: relative;
-    line-height: 0.5em;
+    line-height: 0.4em;
     font-size: 14px;
     cursor: pointer;
+    right: 240px;
 }
 h3{
     margin-bottom: 30px;
@@ -1234,206 +1239,578 @@ h3{
  }
 
 
-/*
- @media screen and (max-width: 480px) {
+
+
+ @media screen and (min-width: 250px) and (max-width: 374px)  {
      body {
-         padding: 10px;
-     }
-
-     header {
          display: flex;
          flex-direction: column;
-         flex-wrap: wrap;
-     }
-
-
-     .logo {
-         width: 100px;
-         bottom: 650px;
-         margin-left: -60px;
-         padding-bottom: 50px;
-         margin-top: -15px;
-     }
-     main{
-         display: flex;
-     }
-     form{
-         display:flex;
-         margin-top: 60px;
-         margin-left: -48px;
-     }
-     input{
-         height: 45px;
-     }
-     form.search input[type="text"]{
+         flex-flow: row wrap;
          width: 250px;
-     }
-     button.search-in{
-         margin-left:285px;
-         border-radius: 10px 10px 10px 10px;
-     }
-     button.search-in{
-         text-indent: -10000em;
-     }
-     button.search-in{
-         content: "\f002";
-         color: black;
-         font-size: 20px;
+         margin: 0 auto;
+         padding: 0;
      }
 
-     button.btn {
-         padding-bottom: 10px;
-         margin: 12px;
-         height: 50px;
-         width: 75%;
+     nav ul {
          display: flex;
-         flex-direction: column;
-
-     }
-
-button.btn.btn1{
-    width: 166px;
-    margin-left:-15px;
-
-}
-     button.btn.btn2{
-         width:135px;
-     }
-     button.btn.btn3{
-         margin-bottom: 100px;
-     }
-     button.btn.btn4{
-         margin-bottom: 120px;
-     }
-
-
-     i.fas{
-         width:50px;
-         height:50px;
-     }
-     i.fas.fa-map-marker-alt.fa-2x{
-         width: 50px;
-         height: 45px;
-     }
-
-     i.fas.fa-heart.fa-2x{
+         bottom: 215px;
          position: relative;
-         bottom: 200px;
-         margin-left: -15px;
+         margin-left: 280px;
      }
-
-     i.fas.fa-dog.fa-2x{
+     nav ul li a {
          position: relative;
-     }
-
-
-     input{
-         width: 200px;
-     }
-     .search{
-         display: flex;
-         flex-direction:row; ;
-     }
-     .btn-all{
-         display: flex;
-     }
-     .btncontent{
-         display: flex;
-         flex-direction: row;
-         flex-wrap: wrap;
-         margin-left: -310px;
-         margin-top: 400px;
-         width: 45%;
-     }
-      h2.fil {
-          position: absolute;
-         font-size: 16px;
-          float: left;
-         margin-left: -20px;
-         top: 360px;
-     }
-
-
-
-
-     nav{
-         display: flex;
-         flex-flow: column wrap;
+         bottom: 351px;
+         text-decoration: none;
+         font-size: 14px;
+         right: -194px;
      }
 
      a.signin {
-         font-size: 20px;
-         margin-right: 1000px;
-         display: flex;
-
-
-     }
-
-
-     a.sign {
-         font-size: 20px;
-         padding-top: 50px;
-         margin: 50px 400px 0 auto;
-         display: flex;
-     }
-
-     a.sign.s1 {
-         position: absolute;
-         font-size: 17px;
-         color: dodgerblue;
-         top: 12px;
-         margin-left: -1450px;
-
-     }
-
-     a.sign.s2 {
-         position: absolute;
-         font-size: 16px;
-         margin-left: -1270px;
-         color: dodgerblue;
-         top:13px;
+         font-weight: bold;
+         padding-right: 10px;
+         bottom: 402px;
+         right: 115px;
      }
      a:after {
          content: '';
          display: block;
          position: absolute;
+         bottom: -3px;
+         left: 0px;
+         height: 3px;
+         background: #0065FC;
+         top: 0;
 
-     height: 4px;
-     background: dodgerblue;
+     }
+
+     a.sign:after {
+         content: '';
+         display: block;
+         position: absolute;
+         bottom: -3px;
+         left: 0px;
+         height: 3px;
+         top: 19px;
+     }
+
+
+     a.signin:after {
+         content: '';
+         display: block;
+         position: absolute;
+         bottom: 1px;
+         left: 0px;
+         height: 3px;
+         top: 19px;
+     }
+     a.sign.s1, a.sign.s2 {
+         border-bottom: 2px solid lightgrey;
+         padding-bottom: 5px;
+         padding-left: 20px;
+         width:  250px;
+     }
+     a.sign.s1 {
+         border-bottom: 2px solid lightgrey;
+         padding-bottom: 5px;
+         padding-left: 20px;
+         width: 250px;
+         left: 346px;
+     }
+     .logo {
+         width: 74px;
+         display: flex;
+         justify-content: flex-start;
+         margin-left: -73px;
+     }
+
+     main {
+         flex-direction: column;
+         width: 250px;
+         flex-flow: row wrap;
+         margin: 5px;
+     }
+
+     p.slogan {
+         display: inline-block;
+         width: 200px;
+         font-size: 12px;
+         top: 78px;
+         position: relative;
+         margin-left: -55px;
+
+     }
+
+     p.txt_simple {
+         display: inline-block;
+         width: 200%;
+         font-size: 12px;
+         top: 65px;
+         position: relative;
+         margin-left: -54px;
+     }
+
+     .fas.fa-info {
+         right: 55px;
+     }
+     i.fas.fa-info{
+         position:relative;
+         top: 13px;
+     }
+     .fa-money-bill-wave{
+         position: relative;
+         top: 5px;
+     }
+     .fa-child{
+         position: relative;
+         top: 5px;
+     }
+     .fa-heart{
+         position: relative;
+         top: 5px;
+     }
+     .fa-dog{
+         position: relative;
+         top: 5px;
+     }
+     .line-infos {
+         width: 100%;
+         position: relative;
+         bottom: 20px;
+         font-size: 12px;
+         right: 50px;
+     }
+
+     .btn-all {
+         margin-left: -52px;
+     }
+
+     .btncontent {
+         top: 30px;
+         margin: 80px -20px 20px;
+         display: flex;
+         flex-direction: column;
+
+     }
+
+     form.search {
+         top: 60px;
+         position: relative;
+         width: 800px;
+         margin-left: -60px;
+
+     }
+
+     form.search input[type="text"] {
+         width: 12%;
+         font-size: 10px;
+     }
+
+     form.search button {
+         width: 50px;
+     }
+
+     button.search-in p {
+         display:none;
+     }
+
+
+     button.search-in {
+         width: 30px;
+         border-radius: 10px 10px 10px 10px;
+         margin-left: -10px;
+     }
+
+     button.search-in::before {
+         content: "\f002";
+
+     }
+     .btn{
+         border: 2px solid #F2F2F2;
+     }
+     button.btn {
+         width: 198px;
+         margin: 12px;
+         margin-bottom: -50px;
+     }
+     section {
+         display: flex;
+         flex-direction: column;
+         margin-left: -20px;
+         margin-top: 500px;
+         background-color: white;
+     }
+     section h1{
+         font-size: 16px;
+         margin-left: 10px;
+     }
+     .fil{
+         margin-left: 15px;
+     }
+
+     .a-side {
+         width: 255px;
+         height: 550px;
+         background-color: #f2f2f2;
+         border-radius: 20px 20px 20px 20px;
+         display: flex;
+         margin-left: -10px;
+         position: relative;
+         bottom: 2000px;
+     }
+
+     .a-side h2 {
+         font-size: 15px;
+         cursor: pointer;
+         word-break: break-word;
+         width: 170px;
+     }
+
+     .left-bloc {
+         display: flex;
+         flex-direction: column;
+         margin-top: 14px;
+         margin-left: -30px;
+     }
+
+     .popular7 {
+         height: 140px;
+         width: 242px;
+     }
+
+     .popular7 img {
+         height: 135px;
+         width: 100px;
+         border-radius: 20px 0px 0px 20px;
+         padding-top: 3px;
+         margin-left: 5px;
+         object-fit: cover;
+         cursor: pointer;
+     }
+
+     .t-hsm {
+         margin-right: 2px;
+     }
+
+     .popular8 {
+         height: 140px;
+         width: 242px;
+         margin-top: 25px;
+     }
+
+     .popular8 img {
+         height: 135px;
+         width: 100px;
+         border-radius: 20px 0px 0px 20px;
+         padding-top: 3px;
+         margin-left: 5px;
+         object-fit: cover;
+         cursor: pointer;
+     }
+
+     /* .a-side h2 {
+          margin-right: 6px;
+      }
+ */
+     .popular9 {
+         height: 140px;
+         width: 242px;
+         margin-top: 25px;
+     }
+
+     .popular9 img {
+         height: 135px;
+         width: 100px;
+         border-radius: 20px 0px 0px 20px;
+         padding-top: 3px;
+         margin-left: 5px;
+         object-fit: cover;
+         cursor: pointer;
+     }
+
+     .popular9 {
+         height: 140px;
+         width: 242px;
+     }
+
+     .hsm3 {
+         font-size: 12px;
+         margin-right: 26px;
+     }
+
+
+     h2.t-hsm {
+         margin-right: -55px;
+
+     }
+
+     .hsm {
+         font-size: 12px;
+         padding-right: 17px;
+     }
+
+     .hsm2 {
+         font-size: 12px;
+         margin-right: 28px;
+         top: -95px;
+     }
+
+     h2.t-hsm {
+         width: 45%;
+         margin-right: 6px;
+     }
+
+     .t-hsm2 {
+         margin-right: -54px;
+     }
+
+     h2.t-hsm3 {
+         margin-right: 10px;
+         width: 50%;
+     }
+
+     div.stars-aside {
+         display: inline-block;
+         bottom: 60px;
+         position: relative;
+         margin-left: 113px;
+         font-size: 12px;
+     }
+
+     footer {
+         width: 100%;
+         height: 500px;
+         padding: 10px;
+         margin-left: -5px;
+     }
+
+     #b-end {
+         margin-top: 810px;
+         flex-direction: column;
+     }
+     div.bl.bloc-info-1 {
+         margin-left:0;
+     }
+
+
+     #hebergement-region {
+         width: 200px;
+         margin: 80px 20px;
+     }
+     p.scroll-info {
+         bottom: 0px;
+         margin-left: 16px;
+     }
+     #activite-region {
+         margin: 950px 20px 0px 80px;
+         display: flex;
+         position: relative;
+         bottom: 2400px;
+     }
+     #activite-region h1{
+         top: 2400px;
+         position: relative;
+         font-size: 18px;
+         width: 200px;
+         left: -70px;
+     }
+     .marseille{
+         display:flex;
+         flex-direction: column;
+         margin-left: -160px;
+     }
+
+     .reno-activity {
+         width: 233px;
+         height: 132px;
+         border-radius: 20px 20px 0px 0px;
+         object-fit: cover;
+         cursor: pointer;
+
+     }
+
+
+
+
+     .bloc-1 {
+         width: 234px;
+         height: 180px;
+         border: 1px solid #e9e9e9;
+         top: 2500px;
+         position: relative;
+         margin-left: -5px;
+         box-shadow: 5px 5px 5px lightgray;
+         border-radius: 20px 20px 20px 20px;
+
+
+     }
+     .v_port {
+         cursor: pointer;
+         padding-top: 0;
+         bottom: -2px;
+         font-size: 12px;
+     }
+
+
+     .bloc-2 {
+         width: 234px;
+         height: 180px;
+         border: 1px solid #e9e9e9;
+         top: 2510px;
+         position: relative;
+         margin-left: -4px;
+         box-shadow: 5px 5px 5px lightgray;
+         border-radius: 20px 20px 20px 20px;
+     }
+
+     .fort-activity {
+         width: 233px;
+         height: 132px;
+         border-radius: 20px 20px 0px 0px;
+
+     }
+     p.f_port {
+         margin-top: 50px;
+         float: left;
+         margin-left: 20px;
+         font-size: 12px;
+         bottom: 38px;
+         position: relative;
+     }
+
+
+
+     .bloc-3{
+         border-radius: 20px 20px 20px 20px;
+         margin-left: -3px;
+         width: 234px;
+         height: 180px;
+         box-shadow: 5px 5px 5px lightgrey;
+         top: 2520px;
+     }
+     img.frioul-activity {
+         width: 233px;
+         height: 132px;
+         border-radius: 20px 20px 0px 0px;
+         margin-left: 1px;
+         bottom: 1px;
+         position: relative;
+     }
+     .ile_port {
+         font-size: 12px;
+         margin-left: 22px;
+         margin-top: 30px;
+     }
+
+     .bloc-4 {
+         width: 234px;
+         height: 180px;
+         border: 1px solid #e9e9e9;
+         top: 2530px;
+         position: relative;
+         margin-left: -3px;
+         box-shadow: 5px 5px 5px lightgray;
+         border-radius: 20px 20px 20px 20px;
+     }
+
+     .parc-activity {
+         width: 233px;
+         height: 132px;
+         position: absolute;
+         margin-left: -118px;
+         border: 1px solid #EFEFEF;
+         box-shadow: 5px 5px 5px #EFEFEF;
+         border-radius: 20px 20px 0px 0px;
+         top: -1px;
+     }
+
+     .bloc-5 {
+         width: 234px;
+         height: 180px;
+         border: 1px solid #e9e9e9;
+         top: 2540px;
+         position: relative;
+         margin-left: -3px;
+         box-shadow: 5px 5px 5px lightgray;
+         border-radius: 20px 20px 20px 20px;
+     }
+     .nd-bloc {
+         font-size: 12px;
+         width: 200px;
+         bottom: 10px;
+         margin-left: -15px;
+         margin-top: 12px;
+     }
+
+
+     .nd-activity {
+         width: 233px;
+         height: 132px;
+         bottom: 1px;
+         position: relative;
+         border-radius: 20px 20px 0px 0px;
+         object-fit: cover;
+         cursor: pointer;
+
+     }
+
+     .parcnational {
+         font-size: 12px;
+         position: relative;
+         bottom: 165px;
+         top: 136px;
+     }
+
+     .pl-activity {
+         width: 233px;
+         height: 118px;
+         position: absolute;
+         margin-left: -118px;
+         border: 1px solid #EFEFEF;
+         box-shadow: 5px 5px 5px #EFEFEF;
+         border-radius: 20px 20px 0px 0px;
+         top: -1px;
+     }
+     .pl-bloc {
+         font-size: 12px;
+         margin-left: -86px;
+         top: 130px;
+         position: relative;
+         width: 300px;
+     }
+
+
+
+     .bloc-6 {
+         width: 234px;
+         height: 180px;
+         border: 1px solid #e9e9e9;
+         top: 2550px;
+         position: relative;
+         margin-left: -3px;
+         box-shadow: 5px 5px 5px lightgray;
+         border-radius: 20px 20px 20px 20px;
+     }
+     .abg1, .abg2, .abg3, .abg4, .abg5, .abg6{
+         box-shadow: 2px 5px 5px #F2F2F2;
+     }
+     div.bl.bloc-info-2 {
+         line-height: 0.5em;
+         font-size: 14px;
+         cursor: pointer;
+         margin-left: 0px;
+     }
+     div.bl.bloc-info-3 {
+         position: relative;
+         line-height: 0.4em;
+         font-size: 14px;
+         cursor: pointer;
+     }
  }
-
- a:hover:after {
-     width: 100%;
- }
-
-
-
-
- .txt_simple {
-     position: relative;
-     top: 43px;
-     font-size: 17px;
-     margin-left: -50px;
- }
- p.slogan {
-     display: flex;
-     font-size: 22px;
-     position: relative;
-     word-break: break-word;
-     width: 300px;
-     margin-left: -50px;
-     top: 50px;
-
- }
-*/
-
-
- @media (min-width: 320px) and (max-width: 480px) {
-
-     body {
-         margin-left: -7px;
+ @media screen and (min-width: 375px) and (max-width: 680px){
+     body,html {
          display:flex;
          flex-flow: column wrap;
+         margin: 0 auto;
      }
 
      header {
@@ -1446,21 +1823,20 @@ button.btn.btn1{
      .logo {
          width: 100px;
          bottom: 650px;
-         margin-left: -60px;
      }
 
      a{
          display:inline;
          position: relative;
-         color:#0073ee;
+         color:#0065FC;
 
      }
 
      a.signin {
-         font-size: 16px;
-         bottom: 875px;
-         margin-left: 68px;
-         color: #0073ee;
+         font-size: 20px;
+         bottom: 891px;
+         margin-left: 130px;
+         color: #0065FC;
      }
 
 
@@ -1475,11 +1851,9 @@ button.btn.btn1{
      a.sign.s1 {
          position: absolute;
          font-size: 18px;
-         color: dodgerblue;
+         color: #0065FC;
          top: 10px;
-         margin-left: -100px;
-         left: 100px;
-
+         left: 70px;
 
      }
 
@@ -1487,8 +1861,8 @@ button.btn.btn1{
          position: absolute;
          font-size: 18px;
          top: 10px;
-         margin-left: 85px;
-         color: dodgerblue;
+         margin-left: 166px;
+         color: #0065FC;
      }
      a:after {
          content: '';
@@ -1497,7 +1871,7 @@ button.btn.btn1{
          bottom: -3px;
          left: 0px;
          height: 3px;
-         background: #0073ee;
+         background: #0065FC;
          top: 0;
 
      }
@@ -1509,7 +1883,7 @@ button.btn.btn1{
          bottom: -3px;
          left: 0px;
          height: 3px;
-         background: #0073ee;
+         background: #0065FC;
          top: 79px;
 
      }
@@ -1522,22 +1896,28 @@ button.btn.btn1{
          bottom: -3px;
          left: 0px;
          height: 3px;
-         background: #0073ee;
+         background: #0065FC;
          top: 30px;
 
      }
-
+     a.sign.s1, a.sign.s2 {
+         border-bottom: 2px solid lightgrey;
+         padding-bottom: 5px;
+         padding-left: 20px;
+         height: 25px;
+         width:  250px;
+     }
 
 
      a:active{
-         color: #0073ee;
+         color: #0065FC ;
      }
 
 
 
      p.slogan {
          font-size: 23px;
-         margin-left: -50px;
+         margin-left: 10px;
          top: 80px;
          position: relative;
          width: 60%;
@@ -1547,7 +1927,7 @@ button.btn.btn1{
          position: relative;
          top: 50px;
          font-size: 16px;
-         margin-left: -46px;
+         margin-left: 12px;
          padding-bottom: 20px;
          margin-top: 50px;
      }
@@ -1556,15 +1936,15 @@ button.btn.btn1{
      form {
 
          display: flex;
-         margin-left: 4px;
-         padding-top: 70px;
+         margin-left: -6px;         padding-top: 70px;
      }
 
      form.search input[type="text"] {
          padding: 10px;
+
          font-size: 16px;
          border: 1px solid #e3d7d7;
-         width: 190px;
+         width: 230px;
          height: 23px;
          display: flex;
          background-color: white;
@@ -1579,15 +1959,15 @@ button.btn.btn1{
          content: "\f002";
          top: 13px;
          font-size: 20px;
-         color: beige;
+         color: white;
          z-index: 1;
          position: relative;
      }
 
      .fa-map-marker-alt {
-         margin-left: -50px;
+         margin-left: 10px;
          position: relative;
-         background-color: #f0f0f0;
+         background-color: #F2F2F2;
          height: 60px;
          cursor: pointer;
          border-radius: 15px 0px 0px 15px;
@@ -1622,21 +2002,22 @@ button.btn.btn1{
          width: 50px;
          content: "\f002";
          color: white;
-         border-radius: 15px 15px 15px 15px;         margin-left: 196px;
+         border-radius: 15px 15px 15px 15px;
+         margin-left: 286px;
          font-weight: bold;
 
      }
      .fas.fa-info {
-         color: dodgerblue;
+         color: #0065FC;
          border-radius: 50px 50px 50px 50px;
          border: 1px solid rgba(208, 208, 208, 0.62);
-         bottom: 178px;
+         bottom: 157px;
          position: relative;
          width: 20px;
          height: 20px;
          text-align: center;
          font-size: 14px;
-         margin-left: -50px;
+         margin-left: 15px;
      }
 
 
@@ -1652,7 +2033,7 @@ button.btn.btn1{
      }
 
      i.fas.fa-exclamation-circle.fa-2x{
-         color: #2196f3;
+         color: #0065FC;
          width: 30px;
          height: 30px;
          top: -171px;
@@ -1666,12 +2047,6 @@ button.btn.btn1{
          content: "\f06a";
          color: white;
      }
-
-
-
-
-
-
 
 
      i.fas.fa-heart.fa-2x{
@@ -1720,8 +2095,7 @@ button.btn.btn1{
      .btn.btn2{
          width:150px;
          height: 52px;
-         margin-left:10px;
-
+         margin-left: -5px;
      }
      .btn.btn3{
          bottom: 63px;
@@ -1748,10 +2122,10 @@ button.btn.btn1{
 
 
      .line-infos {
-         margin-left: -50px;
+         margin-left: 20px;
          position: relative;
          font-size: 16px;
-         bottom: 210px;
+         bottom: 190px;
          width: 300px;
      }
      .btncontent h2 {
@@ -1762,20 +2136,15 @@ button.btn.btn1{
      }
 
      div.btncontent {
-         margin-left: -55px;
+         margin-left: -5px;
          flex-direction: row;
          flex-wrap: wrap;
          width: 419px;
          margin-top: 50px;
-
-
      }
 
      #hebergement-region h1{
-
-
          margin-left: 24px;
-
      }
 
 
@@ -1832,7 +2201,9 @@ button.btn.btn1{
          margin-left: -24px;
          font-size: 18px;
      }
-
+     .left-bloc{
+         margin-left: 30px;
+     }
 
 
      .auberge-1 {
@@ -1891,7 +2262,7 @@ button.btn.btn1{
      }
 
      .fa.fa-stars.blue {
-         color: #0073ee;
+         color: #0065FC;
          font-size: 14px;
          bottom: 10px;
          position: relative;
@@ -1954,7 +2325,6 @@ button.btn.btn1{
      }
 
      .fa3.fa-stars3.blue3 {
-         color: #0073ee;
          margin-bottom: 5px;
          position: relative;
          float: left;
@@ -1997,7 +2367,6 @@ button.btn.btn1{
 
      }
      .fa4.fa-stars4.blue4 {
-         color: #0073ee;
          margin-bottom: 5px;
          position: relative;
          float: left;
@@ -2039,7 +2408,6 @@ button.btn.btn1{
 
      }
      .fa5.fa-stars5.blue5 {
-         color: #0073ee;
          margin-bottom: 5px;
          position: relative;
          float: left;
@@ -2083,7 +2451,6 @@ button.btn.btn1{
 
      }
      .fa6.fa-stars6.blue6 {
-         color:#0073ee;
          margin-bottom: 5px;
          position: relative;
          float: left;
@@ -2297,7 +2664,7 @@ button.btn.btn1{
          width: 100px;
          height: 100px;
          border-radius: 50px;
-         background: #b4e0ff;
+         background: #DEEBFF;
          float: left;
          bottom: 113px;
          margin-left: 5px;
@@ -2324,8 +2691,8 @@ button.btn.btn1{
 
      }
      h1.hebergement{
-         top: 410px;
-         padding-left: 25px;
+         top: 370px;
+         padding-left: 76px;
          position: relative;
          font-size: 24px;
      }
@@ -2338,16 +2705,16 @@ button.btn.btn1{
 
      .marseille {
          display: flex;
-         margin-left: 120px;
-         margin-top: -1420px;
+         margin-left: 181px;
+         margin-top: -1760px;
          font-size: 20px;
          text-align: center;
      }
      .a-side {
          width: 100%;
          height: 550px;
-         margin: -1846px 0px 0px 0px;
-         border-radius: 0px;
+         margin: -2300px 0 0 0;
+         border-radius: 0;
          background-color: #f2f2f2;
          display: flex;
      }
@@ -2364,7 +2731,7 @@ button.btn.btn1{
 
      .a-side h1 {
          font-size: 20px;
-         padding-left: 9px;
+         padding-left: 50px;
          padding-top: 10px;
 
      }
@@ -2377,8 +2744,8 @@ button.btn.btn1{
          justify-content: space-around;
          align-content: space-around;
          flex-direction: column;
-         margin-top: 510px;
-         margin-left: -640px;
+         margin-top: 450px;
+         margin-right: 520px;
      }
 
      .fa-heart {
@@ -2386,13 +2753,12 @@ button.btn.btn1{
          width: 100px;
          height: 100px;
          border-radius: 50px;
-         background: #b4dfff;
+         background: #DEEBFF;
          margin-left: 5px;
          bottom: 112px;
      }
 
      .fa-heart::before {
-         color: #0871e2;
          position: relative;
          font-size: 20px;
          padding-left: 2px;
@@ -2400,7 +2766,6 @@ button.btn.btn1{
      }
 
      .fa-child::before {
-         color: #0871e2;
          position: relative;
          padding-left: 3px;
          top: 16px;
@@ -2413,8 +2778,7 @@ button.btn.btn1{
          width: 70px;
          height: 70px;
          border-radius: 50px;
-         background: #b4dfff;
-         margin-left: 10px;
+         margin-left: -6px;
      }
 
      .fa-money-bill-wave{
@@ -2424,8 +2788,7 @@ button.btn.btn1{
          width: 70px;
          height: 70px;
          border-radius: 50px;
-         background: #b4dfff;
-         margin-left: -77px;
+         margin-left: -73px;
      }
 
 
@@ -2438,7 +2801,6 @@ button.btn.btn1{
 
 
      .fa-money-bill-wave::before {
-         color: #0871e2;
          position: relative;
          padding-left: 13px;
          top: 16px;
@@ -2452,7 +2814,7 @@ button.btn.btn1{
          position: relative;
          margin-left: 30px;
          color: black;
-         padding-left: 300px;
+         padding-left: 335px;
          padding-top: 25px;
          top: -70px;
          font-size: 23px;
@@ -2467,7 +2829,7 @@ button.btn.btn1{
          height: 135px;
          width: 334px;
          border-radius: 20px 20px 20px 20px;
-         margin-left: 18px;
+         margin-left: 58px;
          cursor: pointer;
          position: relative;
          bottom: 40px;
@@ -2492,7 +2854,6 @@ button.btn.btn1{
      }
 
      .fa7.fa-stars7.blue7 {
-         color: #0000ff;
          font-size: 15px;
          bottom: 50px;
          position: relative;
@@ -2513,7 +2874,7 @@ button.btn.btn1{
 
      .t-hsm {
          float: right;
-         padding-right: 5px;
+         padding-right: 7px;
          cursor: pointer;
          font-size: 17px;
          word-break: break-word;
@@ -2530,7 +2891,6 @@ button.btn.btn1{
      }
 
      .fa8.fa-stars8.blue8 {
-         color: #0000ff;
          font-size: 15px;
          bottom: 60px;
          position: relative;
@@ -2552,7 +2912,7 @@ button.btn.btn1{
      .popular8 {
          background-color: white;
          border-radius: 20px 20px 20px 20px;
-         margin-left: 18px;
+         margin-left: 58px;
          cursor: pointer;
          position: relative;
          bottom: 100px;
@@ -2586,15 +2946,16 @@ button.btn.btn1{
          margin-left: 150px;
 
      }
-
-
+     .popular7 p {
+         padding-right: 53px;
+     }
 
      .popular9 {
          height: 135px;
          width: 334px;
          background-color: white;
          border-radius: 20px 20px 20px 20px;
-         margin-left: 18px;
+         margin-left: 58px;
          cursor: pointer;
          position: relative;
          bottom: 163px;
@@ -2613,7 +2974,7 @@ button.btn.btn1{
      }
      .popular9 p {
          cursor: pointer;
-         bottom: 80px;
+         bottom: 88px;
          font-size: 14px;
          position: relative;
          margin-right: 10px;
@@ -2623,7 +2984,6 @@ button.btn.btn1{
 
 
      .fa9.fa-stars9.blue9 {
-         color: #0000ff;
          font-size: 35px;
          bottom: 70px;
          position: relative;
@@ -2663,10 +3023,10 @@ button.btn.btn1{
 
 
      p.scroll-info {
-         bottom: 390px;
+         bottom: 30px;
          font-weight: bold;
          font-size: 18px;
-         margin-left: 47px;
+         margin-left: 100px;
 
      }
 
@@ -2684,23 +3044,23 @@ button.btn.btn1{
          justify-content: space-around;
          font-size: 20px;
          align-content: flex-end;
-         margin-top: 2630px;
+         margin-top: 2750px;
          padding-top: 20px;
 
      }
 
      div.bl.bloc-info-1 {
          font-size: 8px;
-         margin-left: -15px;
+         margin-left: 50px;
          width: 240px;
      }
      div.bl.bloc-info-2{
          font-size: 8px;
-         margin-left:-15px;
+         margin-left: 98px;
      }
      div.bl.bloc-info-3{
          font-size: 8px ;
-         margin-left:-15px;
+         left: 55px;
          padding-bottom: 200px;
      }
      h3{
@@ -2720,8 +3080,15 @@ button.btn.btn1{
          margin-bottom: 1000px;
          margin-left: -90px;
      }
-
-
+     #activite-region{
+         margin: 500px 20px 0px 80px;
+     }
+     #activite-region h1{
+         position: relative;
+         margin-left: 172px;
+         top: 720px;
+         font-size: 20px;
+     }
 
      #activite-region h2{
          padding-top: 10px;
@@ -2737,75 +3104,308 @@ button.btn.btn1{
          padding-bottom: -5px;
          bottom: -20px;
      }
-
+     .auberge-5 {
+         width: 334px;
+         height: 198px;
+         border: 1px solid white;
+         border-radius: 20px 20px 20px 20px;
+         background-color: white;
+         cursor: pointer;
+         order: 1;
+         margin-left: 490px;
+         box-shadow: 5px 5px 5px lightgrey;
+         position: relative;
+         bottom: 8px;
+     }
      a.contact::after {
          border: 0;
          background: none;
      }
- }
- @media only screen and (min-width: 768px) and (max-width: 1281px) {
+     .auberge-2{
+         position:relative;
+         bottom: 60px;
+     }
+     .auberge-3{
+         position:relative;
+         bottom: 43px;
+     }
+     .auberge-4{
+         position:relative;
+         bottom: 26px;
+     }
 
-     *{
-     box-sizing: border-box;
+     .auberge-6 {
+         position: relative;
+         top: 10px;
+     }
  }
-     body{
-         box-sizing: border-box;
+
+/*
+ @media all and (min-width: 400px) and (max-width: 450px) {
+     body {
+         margin-left: 50px;
+     }
+
+     aside.a-side {
+         margin-left: 5px;
 
      }
-     nav{
-         margin-top: -170px;
-         margin-left: 20px;
-         margin-right: 150px;
+
+     a.signin {
+         position: absolute;
+         top: 48px;
+         font-size: 22px;
+     }
+
+     a.sign.s2 {
+         margin-left: 115px;
+         color: #0065FC;
+     }
+
+     i.fas.fa-info{
+         margin-left: -20px;
+
+     }
+     div.btncontent {
+         margin-left: -40px;
+     }
+     p.scroll-info{
+         margin-left: 90px;
+
+     }
+     div#activite-region{
+         padding-left: 25px;
+     }
+     div#hebergement-region{
+         margin-left: 2px;
+     }
+     i.fas.fa-money-bill-wave.fa-2x{
+         margin-left: -72px;
+     }
+     i.fas.fa-heart.fa-2x{
+         background: #DEEBFF;
+     }
+     i.fas.fa-info {
+         margin-left: -35px;
+     }
+     .fa-money-bill-wave {
+         margin-left: -73px;
+     }
+
+     .left-bloc {
+         margin-left: 23px;
+     }
+
+     .line-infos {
+         padding-left: 55px;
+     }
+     .flex-container {
+
+         margin-left: -680px;
+     }
+
+     h1.hebergement {
+         padding-left: 60px;
+     }
+     form{
+         margin-left: 17px;
+     }
+     #b-end{
+         padding-left: 120px;
+     }
+     div.bl.bloc-info-3 {
+         left: 3px;
+     }
+
+
+ }
+*/
+
+
+ @media only screen and (min-width: 680px) and (max-width: 850px) {
+
+     body {
+         box-sizing: border-box;
+         margin-left: -25px;
+     }
+
+
+
+     .logo {
+         margin-left: -30px;
+     }
+
+     nav {
+         display: block;
+         float: right;
+         margin-left: 320px;
+         position: relative;
+         bottom: 80px;
+         padding-right: 20px;
+     }
+     a.signin{
+         right: 50px;
+     }
+     a.sign.s2{
+         right: 22px;
+     }
+
+
+ a.signin{
+     font-weight: bold;
+     padding-right: 10px;
+ }
+
+
+ a{
+     color: #0065FC;
+
+ }
+
+ a.signin:after {
+     content: '';
+     display: block;
+     position: absolute;
+     top: -30px;
+     width: 0%;
+     left: 0px;
+     height: 3px;
+     background: #0065FC;
+ }
+
+
+
+ a:active {
+     color: #F2F2F2;
+
+ }
+
+
+
+ a.sign:after {
+     content: '';
+     display: block;
+     position: absolute;
+     top: -30px;
+     width: 0%;
+     left: 0px;
+     height: 3px;
+     background: #0065FC;
+ }
+
+
+ a:hover:after {
+     width: 100%;
+ }
+
+
+ form.search {
+         margin-left: -25px;
      }
 
      form.search button {
          font-size: 13px;
      }
+
      form.search input[type="text"] {
 
          width: 19%;
-         height: 45px;
      }
-     .slogan{
-         font-size: 11px;
 
+     .slogan {
+         font-size: 14px;
+         margin-left: -25px;
      }
-     .txt_simple{
+
+     .txt_simple {
          font-size: 12px;
-
+         margin-left: -25px;
      }
+
      .btncontent {
          display: flex;
-         margin: 20px 70px;
          flex-flow: row wrap;
          width: 700px;
          padding-top: 20px;
          padding-bottom: 50px;
+         margin-left: -25px;
      }
+
+     button.btn {
+         width: 120px;
+     }
+
+     p.btn-p, p.btn-p2 {
+         font-size: 10px;
+     }
+
+     p.btn-p2 {
+         bottom: 4px;
+
+     }
+
+     button.btn.btn4 {
+         width: 156px;
+     }
+
      #hebergement-region {
          display: flex;
-         margin-left: 50px;
          flex-flow: row wrap;
+     }
+     div#activite-region{
+         position: relative;
+         bottom: 100px;
+     }
+
+     .btn-all {
+
+         width: 95%;
+     }
+
+     p.btn-p {
+         bottom: 15px;
+         margin-left: 42px;
+     }
+     .hsm {
+         bottom: 100px;
+         position: relative;
+         padding-right: 62px;
+         font-size: 14px;
+     }
+     p.hsm2 {
+         margin-right: 70px;
+     }
+     p.hsm3{
+         margin-right: 71px;
+     }
+     i.fa.fa-star{
+         margin-left: 4px;
+
      }
      section {
          background-color: #f2f2f2;
          border-radius: 15px 15px 15px 15px;
          height: 850px;
          width: 700px;
-         margin-left: 40px;
+         margin-left: 54px;
          margin-top: 500px;
+         position: relative;
+         bottom: 90px;
      }
-     .flex-container{
+
+     .flex-container {
          margin-right: 30px;
          display: flex;
          flex-wrap: wrap;
          justify-content: space-around;
      }
+
      p.scroll-info {
-         bottom: 34px;
+         bottom: 50px;
          margin-left: 32px;
 
      }
+
      .marseille {
          display: flex;
          font-size: 14px;
@@ -2813,59 +3413,88 @@ button.btn.btn1{
          flex-flow: row wrap;
          width: 500px;
      }
-     h1{
+
+     h1 {
          margin-left: -32px;
 
      }
-     .bloc-1{
-         margin-left:-32px;
+
+     .bloc-1 {
+         margin-left: -32px;
      }
-     .bloc-2{
+
+     .bloc-2 {
          margin-top: 30px;
          margin-left: -32px;
      }
-     .bloc-3{
+
+     .bloc-3 {
          margin-left: -302px;
 
      }
+
      .fort-activity {
          width: 300px;
      }
-     .bloc-4{
-         margin-left: 344px;
+
+     .bloc-4 {
+         margin-left: 325px;
      }
-     .bloc-5{
+
+     .bloc-5 {
          margin-top: -236px;
-         margin-left: 344px;
+         margin-left: 325px;
      }
-     .bloc-6{
-         top:-14px;
-         margin-left: 344px;
+
+     .bloc-6 {
+         top: -20px;
+         margin-left: 325px;
      }
+
      .a-side {
          width: 700px;
-         height: 350px;
+         height: 356px;
          background-color: #f2f2f2;
          border-radius: 20px 20px 20px 20px;
          display: flex;
          margin-top: -2200px;
-         margin-left: 40px;
+         margin-left: 24px;
      }
-     .auberge-1, .auberge-2, .auberge-3, .auberge-4, .auberge-5, .auberge-6{
-         margin-top:0;
+
+     aside.a-side {
+         position: relative;
+         bottom: 130px;
+         left: 28px;
      }
-     .auberge-4{
-         height:213px;
+
+     .auberge-1, .auberge-2, .auberge-3, .auberge-4, .auberge-5, .auberge-6 {
+         margin-top: 0;
      }
+
+     .auberge-4 {
+         height: 213px;
+     }
+
      .a-side h1 {
          font-size: 20px;
          padding-left: 65px;
          position: relative;
          bottom: -50px;
      }
-     .a-side h2{
-         font-size: 13px;
-         margin-right: 15px;
+
+     .a-side h2 {
+         font-size: 16px;
+         margin-right: 1px;
+     }
+     .hsm2 {
+         font-size: 14px;
+         top: -90px;
+         position: relative;
+         left: -3px;
+     }
+     .popular8 img {
+         height: 138px;
+         width: 130px;
      }
      /* .left-bloc {
           display: flex;
@@ -2875,24 +3504,23 @@ button.btn.btn1{
 
       }
       */
-
-     h1.left-bloc{
+     h1.left-bloc {
          bottom: 45px;
          position: relative;
          margin-left: 100px;
      }
+
      /*
      .popular7{
          margin-left: -133px;
 
      }*/
-
      .hebergement {
          margin-left: 32px;
      }
 
 
-     .popular7{
+     .popular7 {
          margin-top: -57px;
          width: 342px;
          height: 145px;
@@ -2900,6 +3528,7 @@ button.btn.btn1{
          border-radius: 10px 10px 10px 10px;
 
      }
+
      .popular7 img {
          height: 138px;
          width: 135px;
@@ -2917,25 +3546,28 @@ button.btn.btn1{
          width: 342px;
          height: 145px;
          border-radius: 10px 10px 10px 10px;
-         margin-left: -6px;
          cursor: pointer;
-         margin-top: 70px;
+         margin-left: -2px;
          position: relative;
          bottom: 40px;
      }
-     .popular8 img{
+
+     .popular8 img {
          margin-left: 2px;
      }
+
      .t-hsm2 {
          float: right;
          padding-right: 17px;
          margin-right: 12px;
          margin-left: 20px;
      }
-     .hsm2{
+
+     .hsm2 {
          margin-right: 63px;
      }
-     .btn-p2{
+
+     .btn-p2 {
          width: 180px;
      }
 
@@ -2956,9 +3588,10 @@ button.btn.btn1{
          flex-direction: row;
          background-color: #f2f2f2;
          justify-content: space-around;
-         margin-top: 1900px;
+         margin-top: 1800px;
          padding-right: 200px;
      }
+
      .line-infos {
          padding-left: 33px;
          position: relative;
@@ -2968,38 +3601,43 @@ button.btn.btn1{
 
 
      }
+
      .fas.fa-info {
          bottom: 82px;
          margin-left: -34px;
 
      }
+
      .fa-chart-line::before {
-         content: "\f201";
-         top: 167px;
-         position: relative;
-         margin-left: -960px;
+         position: absolute;
+         right: 1170px;
+         top: -292px;
      }
+
      div.bl.bloc-info-1 {
-         margin-left: -3px;
+         right: -50px;
      }
+     div.bl.bloc-info-2 {
+         line-height: 0.5em;
+         font-size: 14px;
+         cursor: pointer;
+         margin-left: -1px;
+     }
+
      div.bl.bloc-info-3 {
          line-height: 12px;
          cursor: pointer;
+         right: 80px;
      }
-
  }
+ @media screen and (min-width: 850px) and (max-width: 1024px) {
 
- @media (min-width: 1025px) and (max-width: 1280px) {
-
-     *{
-         box-sizing: border-box;
-     }
      body{
          box-sizing: border-box;
 
      }
-     nav {
-         margin-top: -50px;
+     nav ul {
+         margin-top: -69px;
          margin-left: 50px;
          margin-right: 210px;
      }
@@ -3012,7 +3650,6 @@ button.btn.btn1{
          width: 0%;
          left: 0px;
          height: 3px;
-         background: #0073ee;
      }
 
 
@@ -3032,7 +3669,6 @@ button.btn.btn1{
          width: 0%;
          left: 0px;
          height: 3px;
-         background: #0073ee;
      }
 
 
@@ -3043,12 +3679,11 @@ button.btn.btn1{
 
      form.search button {
          font-size: 13px;
-         width: 8%;
      }
      form.search input[type="text"] {
 
          width: 19%;
-         height: 45px;
+         height: 23px;
      }
      .slogan{
          font-size: 11px;
@@ -3079,7 +3714,7 @@ button.btn.btn1{
 
 
      }
-     
+
      .marseille{
          display: flex;
          font-size: 14px;
@@ -3110,7 +3745,7 @@ button.btn.btn1{
 
 
      p.scroll-info {
-         bottom: 80px;
+         bottom: 105px;
          margin-left: 44px;
 
      }
@@ -3137,7 +3772,7 @@ margin-left: -40px;
         }
 
 
-    
+
      .fort-activity {
          width: 300px;
      }
@@ -3147,7 +3782,7 @@ margin-left: 670px;
      .bloc-5{
             margin-top: -194px;
             margin-left: 664px;
-     }  
+     }
      .bloc-6{
   top: -350px;
   margin-left: 310px;
@@ -3244,6 +3879,11 @@ margin-top: -2000px;
          position: relative;
          bottom: 214px;
      }
+     .popular8 img {
+         height: 138px;
+         width: 115px;
+         object-fit: cover;
+     }
      .t-hsm2 {
          float: right;
          padding-right: 17px;
@@ -3279,11 +3919,12 @@ margin-top: -2000px;
           width: 302px;
      }
      .parc-activity {
-            width: 298px;   
+            width: 298px;
      }
       .nd-activity {
           width: 301px;
- }
+      }
+
 
 
 
@@ -3312,11 +3953,15 @@ margin-top: 1600px;
      }
      .fa-chart-line::before {
          content: "\f201";
-         top: 80px;
+         top: 66px;
          position: relative;
          margin-left: -960px;
      }
      div.bl.bloc-info-1 {
-         margin-left: -3px;
+         right: 10px;     }
+ }
+ @media screen and (min-width: 1024px) and (max-width: 1500px) {
+     body{
+         box-sizing: border-box ;
      }
  }
