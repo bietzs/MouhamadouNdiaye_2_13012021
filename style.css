@@ -2620,7 +2620,7 @@ h3{
 
      a.signin {
           font-size: 20px;
-              bottom: 892px;
+              bottom: 894px;
          left: 138px;
          color: #0065FC;
      }
@@ -2653,7 +2653,7 @@ h3{
          position: absolute;
          font-size: 18px;
          top: 10px;
-         left: 214px;
+         left: 219px;
          color: #0065FC;
      }
      a:after {
@@ -2881,7 +2881,7 @@ margin-left: 36px;
      button.btn.btn1{
          margin-left: -72px;
          height: 52px;
-         width: 152px;
+         width: 158px;
      }
      .btn.btn2{
          width: 130px;
@@ -2955,7 +2955,7 @@ margin-left: 18px;
      .btn-p2 {
          margin: 0;
          padding-left: 42px;
-         font-size: 16px;
+         font-size: 15px;
          font-weight: bold;
          position:relative;
          bottom: 6px;
@@ -3968,8 +3968,8 @@ margin-left: 100px;
 
      a.signin {
           font-size: 20px;
-              bottom: 892px;
-left: 210px;
+         bottom: 895px;
+         left: 210px;
          color: #0065FC;
      }
 
