@@ -1242,597 +1242,7 @@ h3{
 
 
 
-
- @media all and (min-width: 250px) and (max-width: 319px)  {
-     body {
-         display: flex;
-         flex-direction: column;
-         flex-flow: row wrap;
-         width: 250px;
-         margin: 0 0 0 -35px;
-         padding: 0;
-     }
-      header{
-          margin-left:127px;
-      }
-     nav ul {
-         display: flex;
-         bottom: 219px;
-         position: relative;
-         margin-left: 280px;
-     }
-     nav ul li a {
-         position: relative;
-         bottom: 318px;
-         text-decoration: none;
-         font-size: 14px;
-         right: -194px;
-     }
-
-     a.signin {
-         font-weight: bold;
-         padding-right: 10px;
-    bottom: 393px;
-         right: 118px;
-     }
-     a:after {
-         content: '';
-         display: block;
-         position: absolute;
-         bottom: -3px;
-         left: 0px;
-         height: 3px;
-         background: #0065FC;
-         top: 0;
-
-     }
-
-     a.sign:after {
-         content: '';
-         display: block;
-         position: absolute;
-         bottom: -3px;
-         left: 0px;
-         height: 3px;
-         top: 19px;
-     }
-
-
-     a.signin:after {
-         content: '';
-         display: block;
-         position: absolute;
-         bottom: 1px;
-         left: 0px;
-         height: 3px;
-         top: 19px;
-     }
-     a.sign.s1, a.sign.s2 {
-         border-bottom: 2px solid lightgrey;
-         padding-bottom: 5px;
-         padding-left: 20px;
-         width:  250px;
-     }
-     a.sign.s1 {
-         border-bottom: 2px solid lightgrey;
-         padding-bottom: 5px;
-         padding-left: 48px;
-         width: 250px;
-         left: 328px;
-     }
-      a.sign.s2{
-          left: 185px;
-      }
-     .logo {
-         width: 74px;
-         display: flex;
-         justify-content: flex-start;
-         margin-left: -90px;
-     }
-
-     main {
-         flex-direction: column;
-         width: 250px;
-         flex-flow: row wrap;
-         margin: 5px;
-     }
-
-     p.slogan {
-         width: 280px;
-         margin-left: -92px;
-         font-size: 15px;
-         display: inline-block;
-         top: 48px;
-         position: relative;
-     }
-
-     p.txt_simple {
-         display: inline-block;
-         width: 200px;
-         font-size: 12px;
-         top: 35px;
-         position: relative;
-margin-left: -90px;
-     }
-
-     .fas.fa-info {
-    right: 80px;
-     }
-     i.fas.fa-info{
-         position:relative;
-         top: 13px;
-     }
-     .fa-money-bill-wave{
-         position: relative;
-         top: 5px;
-     }
-     .fa-child{
-         position: relative;
-         top: 5px;
-     }
-     .fa-heart{
-         position: relative;
-         top: 5px;
-     }
-     .fa-dog{
-         position: relative;
-         top: 5px;
-     }
-     .line-infos {
-         width: 200px;
-             position: relative;
-             bottom: 20px;
-             font-size: 12px;
-             right: 80px;
-
-}
-
-
-     .btn-all {
-         margin-left: -82px;
-     }
-
-     .btncontent {
-         top: 30px;
-         margin-top: 50px;
-         display: flex;
-         flex-direction: column;
-
-     }
-
-     form.search {
-         top: 40px;
-         position: relative;
-         width: 1200px;
-         margin-left: -90px;
-     }
-
-     form.search input[type="text"] {
-         width: 10%;
-         font-size: 10px;
-     }
-
-     form.search button {
-         width: 50px;
-     }
-
-     button.search-in p {
-         display:none;
-     }
-
-
-     button.search-in::before{
-         border-radius: 10px 10px 10px 10px;
-         color: white;
-     }
-
-     button.search-in:before{
-         content: "\f002";
-     }
-
-     .btn{
-         border: 2px solid #F2F2F2;
-     }
-     button.btn {
-         width: 198px;
-         margin: 12px;
-         margin-bottom: -50px;
-     }
-     section {
-         display: flex;
-         flex-direction: column;
-         margin-left: -20px;
-         margin-top: 500px;
-         background-color: white;
-     }
-     section h1{
-         font-size: 16px;
-         margin-left: 10px;
-     }
-     .fil{
-         margin-left: 15px;
-     }
-
-     .a-side {
-        width: 345px;
-            height: 550px;
-            background-color: #f2f2f2;
-            border-radius: 0;
-            display: flex;
-            margin-left: -7px;
-            position: relative;
-            bottom: 1938px;
-     }
-
-     .a-side h2 {
-         font-size: 15px;
-         cursor: pointer;
-         word-break: break-word;
-         width: 170px;
-     }
-
-     .left-bloc {
-         display: flex;
-         flex-direction: column;
-         margin-top: 14px;
-         margin-left: 11px;
-     }
-
-     .popular7 {
-         height: 140px;
-         width: 242px;
-     }
-
-     .popular7 img {
-         height: 135px;
-         width: 100px;
-         border-radius: 20px 0px 0px 20px;
-         padding-top: 3px;
-         margin-left: 5px;
-         object-fit: cover;
-         cursor: pointer;
-     }
-
-     .t-hsm {
-         margin-right: 2px;
-     }
-
-     .popular8 {
-         height: 140px;
-         width: 242px;
-         margin-top: 25px;
-     }
-
-     .popular8 img {
-         height: 135px;
-         width: 100px;
-         border-radius: 20px 0px 0px 20px;
-         padding-top: 3px;
-         margin-left: 5px;
-         object-fit: cover;
-         cursor: pointer;
-     }
-
-     /* .a-side h2 {
-          margin-right: 6px;
-      }
- */
-     .popular9 {
-         height: 140px;
-         width: 242px;
-         margin-top: 25px;
-     }
-
-     .popular9 img {
-         height: 135px;
-         width: 100px;
-         border-radius: 20px 0px 0px 20px;
-         padding-top: 3px;
-         margin-left: 5px;
-         object-fit: cover;
-         cursor: pointer;
-     }
-
-     .popular9 {
-         height: 140px;
-         width: 242px;
-     }
-
-     .hsm3 {
-         font-size: 12px;
-         margin-right: 26px;
-     }
-
-
-     h2.t-hsm {
-         margin-right: -55px;
-
-     }
-
-     .hsm {
-         font-size: 12px;
-         padding-right: 17px;
-     }
-
-     .hsm2 {
-         font-size: 12px;
-         margin-right: 28px;
-         top: -95px;
-     }
-
-     h2.t-hsm {
-         width: 45%;
-         margin-right: 6px;
-     }
-
-     .t-hsm2 {
-         margin-right: -54px;
-     }
-
-     h2.t-hsm3 {
-         margin-right: 10px;
-         width: 50%;
-     }
-
-     div.stars-aside {
-         display: inline-block;
-         bottom: 60px;
-         position: relative;
-         margin-left: 113px;
-         font-size: 12px;
-     }
-
-     footer {
-       width: 350px;
-           height: 500px;
-           padding: 10px;
-           margin-left: -19px;
-             
-     }
-
-     #b-end {
-         margin-top: 810px;
-         flex-direction: column;
-     }
-     .bl.bloc-info-1 {
-         margin-left: 20px;
-     }
-
-
-
-
-
-
-
-
-
-
-     #hebergement-region {
-         width: 200px;
-         margin: 80px 56px;
-     }
-     p.scroll-info {
-         bottom: 0px;
-         margin-left: 16px;
-     }
-     #activite-region {
-         margin: 895px 20px 0px 120px;
-         display: flex;
-         position: relative;
-         bottom: 2400px;
-     }
-     #activite-region h1{
-         top: 2400px;
-         position: relative;
-         font-size: 18px;
-         width: 200px;
-         left: -70px;
-     }
-     .marseille{
-         display:flex;
-         flex-direction: column;
-         margin-left: -160px;
-     }
-
-     .reno-activity {
-         width: 233px;
-         height: 132px;
-         border-radius: 20px 20px 0px 0px;
-         object-fit: cover;
-         cursor: pointer;
-
-     }
-
-
-
-
-     .bloc-1 {
-         width: 234px;
-         height: 180px;
-         border: 1px solid #e9e9e9;
-         top: 2500px;
-         position: relative;
-         margin-left: -5px;
-         box-shadow: 5px 5px 5px lightgray;
-         border-radius: 20px 20px 20px 20px;
-
-
-     }
-     .v_port {
-         cursor: pointer;
-         padding-top: 0;
-         bottom: -2px;
-         font-size: 12px;
-     }
-
-
-     .bloc-2 {
-         width: 234px;
-         height: 180px;
-         border: 1px solid #e9e9e9;
-         top: 2510px;
-         position: relative;
-         margin-left: -4px;
-         box-shadow: 5px 5px 5px lightgray;
-         border-radius: 20px 20px 20px 20px;
-     }
-
-     .fort-activity {
-         width: 233px;
-         height: 132px;
-         border-radius: 20px 20px 0px 0px;
-
-     }
-     p.f_port {
-         margin-top: 50px;
-         float: left;
-         margin-left: 20px;
-         font-size: 12px;
-         bottom: 38px;
-         position: relative;
-     }
-
-
-
-     .bloc-3{
-         border-radius: 20px 20px 20px 20px;
-         margin-left: -3px;
-         width: 234px;
-         height: 180px;
-         box-shadow: 5px 5px 5px lightgrey;
-         top: 2520px;
-     }
-     img.frioul-activity {
-         width: 233px;
-         height: 132px;
-         border-radius: 20px 20px 0px 0px;
-         margin-left: 1px;
-         bottom: 1px;
-         position: relative;
-     }
-     .ile_port {
-         font-size: 12px;
-         margin-left: 22px;
-         margin-top: 30px;
-     }
-
-     .bloc-4 {
-         width: 234px;
-         height: 180px;
-         border: 1px solid #e9e9e9;
-         top: 2530px;
-         position: relative;
-         margin-left: -3px;
-         box-shadow: 5px 5px 5px lightgray;
-         border-radius: 20px 20px 20px 20px;
-     }
-
-     .parc-activity {
-         width: 233px;
-         height: 132px;
-         position: absolute;
-         margin-left: -118px;
-         border: 1px solid #EFEFEF;
-         box-shadow: 5px 5px 5px #EFEFEF;
-         border-radius: 20px 20px 0px 0px;
-         top: -1px;
-     }
-
-     .bloc-5 {
-         width: 234px;
-         height: 180px;
-         border: 1px solid #e9e9e9;
-         top: 2540px;
-         position: relative;
-         margin-left: -3px;
-         box-shadow: 5px 5px 5px lightgray;
-         border-radius: 20px 20px 20px 20px;
-     }
-     .nd-bloc {
-         font-size: 12px;
-         width: 200px;
-         bottom: 10px;
-         margin-left: -15px;
-         margin-top: 12px;
-     }
-
-
-     .nd-activity {
-         width: 233px;
-         height: 132px;
-         bottom: 1px;
-         position: relative;
-         border-radius: 20px 20px 0px 0px;
-         object-fit: cover;
-         cursor: pointer;
-
-     }
-
-     .parcnational {
-         font-size: 12px;
-         position: relative;
-         bottom: 165px;
-         top: 136px;
-     }
-
-     .pl-activity {
-         width: 233px;
-         height: 118px;
-         position: absolute;
-         margin-left: -118px;
-         border: 1px solid #EFEFEF;
-         box-shadow: 5px 5px 5px #EFEFEF;
-         border-radius: 20px 20px 0px 0px;
-         top: -1px;
-     }
-     .pl-bloc {
-         font-size: 12px;
-         margin-left: -86px;
-         top: 130px;
-         position: relative;
-         width: 300px;
-     }
-
-
-
-     .bloc-6 {
-         width: 234px;
-         height: 180px;
-         border: 1px solid #e9e9e9;
-         top: 2550px;
-         position: relative;
-         margin-left: -3px;
-         box-shadow: 5px 5px 5px lightgray;
-         border-radius: 20px 20px 20px 20px;
-     }
-     .abg1, .abg2, .abg3, .abg4, .abg5, .abg6{
-         box-shadow: 2px 5px 5px #F2F2F2;
-     }
-           div.bl.bloc-info-1 {
-    margin-left: 63px;
-           }
-
-
-
-
-
-     div.bl.bloc-info-2 {
-         line-height: 0.5em;
-         font-size: 14px;
-         cursor: pointer;
-margin-left: 112px;
-     }
-     div.bl.bloc-info-3 {
-         position: relative;
-         line-height: 0.4em;
-         font-size: 14px;
-         cursor: pointer;
-    margin-left: 305px;
-         width: 100%;
-
-     }
- }
- @media all and (min-width: 320px) and (max-width: 411px){
+ @media screen and (min-width: 250px) and (max-width: 319px){
      body {
          display:flex;
          flex-flow: column wrap;
@@ -1845,14 +1255,14 @@ margin-left: 112px;
          flex-wrap: wrap;
          margin: 30px 40px -70px 73px;
      }
-       nav{
-           width: 400px;
-       }
+     nav{
+         width: 400px;
+     }
 
      .logo {
          width: 100px;
          bottom: 650px;
-            margin-left: 37px;
+         margin-left: 37px;
      }
 
      a{
@@ -1863,20 +1273,20 @@ margin-left: 112px;
      }
 
      a.signin {
-          font-size: 20px;
-              bottom: 892px;
-        left: 155px;
+         font-size: 20px;
+         bottom: 892px;
+         left: 115px;
          color: #0065FC;
      }
-      a.sign.s1, a.sign.s2 {
-          border-bottom: 2px solid lightgrey;
-          padding-bottom: 5px;
-          padding-left: 73px;
-          height: 25px;
-          width:  250px;
-      }
+     a.sign.s1, a.sign.s2 {
+         border-bottom: 2px solid lightgrey;
+         padding-bottom: 5px;
+         padding-left: 73px;
+         height: 25px;
+         width:  250px;
+     }
 
-     
+
 
 
      a.sign {
@@ -1890,14 +1300,14 @@ margin-left: 112px;
          font-size: 18px;
          color: #0065FC;
          top: 10px;
-    left: 1px;
+         left: 1px;
      }
 
      a.sign.s2 {
          position: absolute;
          font-size: 18px;
          top: 10px;
-         left: 225px;
+         left: 221px;
          color: #0065FC;
      }
      a:after {
@@ -1953,17 +1363,17 @@ margin-left: 112px;
 
      p.slogan {
          font-size: 20px;
-margin-left: 42px;
+         margin-left: 42px;
          top: 80px;
          position: relative;
-         width: 60%;
+         width: 50%;
      }
 
      .txt_simple {
          position: relative;
          top: 50px;
          font-size: 18px;
-margin-left: 44px;
+         margin-left: 44px;
          padding-bottom: 20px;
          margin-top: 50px;
      }
@@ -1972,16 +1382,15 @@ margin-left: 44px;
      form {
 
          display: flex;
-margin-left: 36px;
+         margin-left: 36px;
          padding-top: 70px;
      }
 
      form.search input[type="text"] {
          padding: 10px;
-
          font-size: 16px;
          border: 1px solid #e3d7d7;
-         width: 230px;
+         width: 175px;
          height: 23px;
          display: flex;
          background-color: white;
@@ -2031,7 +1440,7 @@ margin-left: 36px;
      a.sign.s1, a.sign.s2 {
          border-bottom: 2px solid lightgrey;
          padding-bottom: 5px;
-    padding-left: 12px;
+         padding-left: 12px;
          height: 25px;
          width:  250px;
      }
@@ -2040,7 +1449,7 @@ margin-left: 36px;
          content: "\f002";
          color: white;
          border-radius: 15px 15px 15px 15px;
-         margin-left: 286px;
+         margin-left: 239px;
          font-weight: bold;
 
      }
@@ -2124,21 +1533,21 @@ margin-left: 36px;
      }
 
      button.btn.btn1{
-         margin-left: -70px;
+         margin-left: -72px;
          height: 52px;
-         width: 180px;
-
+         width: 152px;
      }
      .btn.btn2{
-         width:150px;
+         width: 130px;
          height: 52px;
-         margin-left: -5px;
+         margin-left: 0;
      }
-     .btn.btn3{
+     button.btn.btn3{
          bottom: 63px;
          position: relative;
          height: 52px;
          margin-left: -3px;
+         width: 190px;
 
 
      }
@@ -2159,11 +1568,11 @@ margin-left: 36px;
 
 
      .line-infos {
-margin-left: 40px;
+         margin-left: 40px;
          position: relative;
          font-size: 16px;
          bottom: 190px;
-         width: 300px;
+         width: 274px;
      }
      .btncontent h2 {
          position: relative;
@@ -2173,7 +1582,7 @@ margin-left: 40px;
      }
 
      div.btncontent {
-margin-left: 18px;
+         margin-left: 18px;
          flex-direction: row;
          flex-wrap: wrap;
          width: 419px;
@@ -2186,14 +1595,12 @@ margin-left: 18px;
 
 
 
-
-
      p.btn-p {
          margin-left: 44px;
          bottom: 20px;
          position: relative;
-         font-size: 16px;
-         padding-left: 10px;
+         font-size: 15px;
+         padding-left: 4px;
          font-weight: bold;
 
 
@@ -2228,7 +1635,1353 @@ margin-left: 18px;
          flex-direction: column;
          height: 630px;
          width: 710px;
+         margin-left: -3px;
+         background-color: white;
+         border-radius: 0;
+         margin-bottom: 0px;
+     }
+     section h1 {
+         display: flex;
+         margin-left: -24px;
+         font-size: 18px;
+     }
+     .left-bloc{
+         margin-left: 63px;
+     }
+
+
+     .auberge-1 {
+         width: 334px;
+         height: 198px;
+         border: 1px solid white;
+         border-radius: 20px 20px 20px 20px;
+         background-color: white;
+         cursor: pointer;
+         order: 1;
+         margin-left: 490px;
+         box-shadow: 5px 5px 5px lightgrey;
+         position: relative;
+         bottom: 80px;
+     }
+
+
+     .auberge-1 img {
+         width: 328px;
+         height: 113px;
+         border-radius: 20px 20px 0px 0px;
+         margin-left: 7px;
+         margin-right: 3px;
+         padding-top: 3px;
+         object-fit: cover;
+     }
+
+     .auberge-1 p {
+         text-align: left;
+         font-size: 16px;
+         margin-left: 25px;
+         position: relative;
+         bottom: 12px;
+     }
+     .auberge-2 p{
+         margin-left: 25px;
+         position: relative;
+         font-size: 16px;
+         bottom: 12px;
+
+     }
+
+     p.around{
+         position: relative;
+         bottom: 20px;
+     }
+     .rating a {
+         text-decoration: none;
+     }
+     div.stars {
+         display: inline;
+         font-size: 12px;
+         position: relative;
+         margin-left: 30px;
+         bottom: 15px;
+     }
+
+     .fa.fa-stars.blue {
+         color: #0065FC;
+         font-size: 14px;
+         bottom: 10px;
+         position: relative;
+         padding-left: 0px;
+     }
+     .stars, .stars2, .stars3, .stars4, .stars5, .stars6{
+         margin-left:20px;
+
+     }
+
+     .auberge-2 {
+         width: 334px;
+         height: 198px;
+         border: 1px solid white;
+         border-radius: 20px 20px 20px 20px;
+         background-color: white;
+         cursor: pointer;
+         order: 1;
+         margin-left: 490px;
+         box-shadow: 5px 5px 5px lightgrey;
+         position: relative;
+         bottom: 75px;
+     }
+     .fa2.fa-stars2.blue2{
+         position: relative;
+         font-size: 14px;
+         bottom: 10px;
+     }
+     .fa3.fa-stars3.blue3{
+         position: relative;
+         font-size: 14px;
+         bottom: 10px;
+     }
+
+
+
+     .auberge-2 img {
+         width: 332px;
+         height: 113px;
+         border-radius: 20px 20px 0px 0px;
+         margin-left: 3px;
+         margin-right: 3px;
+         padding-top: 1px;
+         object-fit: cover;
+     }
+
+
+     .auberge-3 {
+         width: 334px;
+         height: 198px;
+         border: 1px solid white;
+         border-radius: 20px 20px 20px 20px;
+         background-color: white;
+         cursor: pointer;
+         order: 1;
+         margin-left: 490px;
+         box-shadow: 5px 5px 5px lightgrey;
+         position: relative;
+         bottom: 70px;
+     }
+
+     .fa3.fa-stars3.blue3 {
+         margin-bottom: 5px;
+         position: relative;
+         float: left;
+         margin-left: 1px;
+         font-size: 14px;
+         bottom: 10px;
+     }
+     .auberge-3 img {
+         width: 334px;
+         height: 113px;
+         border-radius: 20px 20px 0px 0px;
+         margin-right: 3px;
+         padding-top: 3px;
+         object-fit: cover;
+         margin-left: 1px;
+     }
+
+     .auberge-3 p {
+         text-align: left;
+         font-size: 16px;
+         margin-left: 25px;
+         bottom: 12px;
+         position: relative;
+
+
+
+     }
+     .auberge-4 {
+         width: 334px;
+         height: 198px;
+         border: 1px solid white;
+         border-radius: 20px 20px 20px 20px;
+         background-color: white;
+         cursor: pointer;
+         order: 1;
+         margin-left: 490px;
+         box-shadow: 5px 5px 5px lightgrey;
+         position: relative;
+         bottom: 80px;
+
+     }
+     .fa4.fa-stars4.blue4 {
+         margin-bottom: 5px;
+         position: relative;
+         float: left;
+         margin-left: 1px;
+         font-size: 14px;
+         bottom: 10px;
+     }
+     .auberge-4 img {
+         width: 334px;
+         height: 113px;
+         border-radius: 20px 20px 0px 0px;
+         margin-left: 1px;
+         margin-right: 3px;
+         padding-top: 3px;
+         object-fit: cover;
+     }
+
+     .auberge-4 p {
+         text-align: left;
+         font-size: 16px;
+         margin-left: 25px;
+         bottom: 12px;
+         position: relative;
+
+
+     }
+     .auberge-4 {
+         width: 334px;
+         height: 198px;
+         border: 1px solid white;
+         border-radius: 20px 20px 20px 20px;
+         background-color: white;
+         cursor: pointer;
+         order: 1;
+         margin-left: 490px;
+         box-shadow: 5px 5px 5px lightgrey;
+         position: relative;
+         bottom: 80px;
+
+     }
+     .fa5.fa-stars5.blue5 {
+         margin-bottom: 5px;
+         position: relative;
+         float: left;
+         margin-left: 1px;
+         font-size: 20px;
+         bottom: 10px;
+     }
+     .auberge-5 img {
+         width: 334px;
+         height: 113px;
+         border-radius: 20px 20px 0px 0px;
+         margin-left: 1px;
+         margin-right: 3px;
+         padding-top: 3px;
+         object-fit: cover;
+     }
+
+     .auberge-5 p {
+         text-align: left;
+         font-size: 16px;
+         margin-left: 25px;
+         bottom: 12px;
+         position: relative;
+
+
+     }
+
+
+     .auberge-6 {
+         width: 334px;
+         height: 198px;
+         border: 1px solid white;
+         border-radius: 20px 20px 20px 20px;
+         background-color: white;
+         cursor: pointer;
+         order: 1;
+         margin-left: 490px;
+         box-shadow: 5px 5px 5px lightgrey;
+         position: relative;
+         bottom: 80px;
+
+     }
+     .fa6.fa-stars6.blue6 {
+         margin-bottom: 5px;
+         position: relative;
+         float: left;
+         margin-left: 1px;
+         font-size: 14px;
+         bottom: 10px;
+     }
+     .auberge-6 img {
+         width: 334px;
+         height: 113px;
+         border-radius: 20px 20px 0px 0px;
+         margin-left: 1px;
+         margin-right: 3px;
+         padding-top: 3px;
+         object-fit: cover;
+     }
+
+     .auberge-6 p {
+         text-align: left;
+         font-size: 16px;
+         margin-left: 25px;
+         bottom: 12px;
+         position: relative;
+
+     }
+
+     #activite-region h1 {
+         position: relative;
+         margin-left: 123px;
+         top: 1070px;
+         font-size: 20px;
+
+     }
+
+
+     .reno-activity {
+         width: 334px;
+         height: 132px;
+         border-radius: 20px 20px 0px 0px;
+         object-fit: cover;
+         cursor: pointer;
+     }
+
+
+
+
+     .bloc-1 {
+         width: 334px;
+         height: 180px;
+         border: 1px solid #e9e9e9;
+         top: 2500px;
+         position: relative;
+         margin-left: 7px;
+         box-shadow: 5px 5px 5px lightgray;
+         border-radius: 20px 20px 20px 20px;
+
+
+     }
+     .v_port {
+         cursor: pointer;
+         padding-top: 0;
+         bottom: -2px;
+         font-size: 16px;
+     }
+
+
+     .bloc-2 {
+         width: 334px;
+         height: 180px;
+         border: 1px solid #e9e9e9;
+         top: 2700px;
+         position: relative;
+         margin-left: -335px;
+         box-shadow: 5px 5px 5px lightgray;
+         border-radius: 20px 20px 20px 20px;
+     }
+
+     .fort-activity {
+         width: 334px;
+         height: 132px;
+         border-radius: 20px 20px 0px 0px;
+
+     }
+     p.f_port {
+         margin-top: 50px;
+         float: left;
+         margin-left: 20px;
+         font-size: 16px;
+         bottom: 38px;
+         position: relative;
+     }
+
+
+
+     .bloc-3{
+         border-radius: 20px 20px 20px 20px;
+         margin-left: -334px;
+         width: 332px;
+         height: 180px;
+         box-shadow: 5px 5px 5px lightgrey;
+         top: 2900px;
+     }
+     img.frioul-activity {
+         width: 334px;
+         height: 132px;
+         border-radius: 20px 20px 0px 0px;
+         margin-left: -1px;
+         bottom: 1px;
+         position: relative;
+     }
+     .ile_port {
+         font-size: 16px;
+         margin-left: 22px;
+         bottom: -5px;
+         margin-top: 25px;
+     }
+     .bloc-4 {
+         width: 334px;
+         height: 180px;
+         border: 1px solid #e9e9e9;
+         top: 3100px;
+         position: relative;
+         margin-left: -334px;
+         box-shadow: 5px 5px 5px lightgray;
+         border-radius: 20px 20px 20px 20px;
+     }
+
+     .parc-activity {
+         width: 334px;
+         height: 132px;
+         position: absolute;
+         margin-left: -168px;
+         border: 1px solid #EFEFEF;
+         box-shadow: 5px 5px 5px #EFEFEF;
+         border-radius: 20px 20px 0px 0px;
+         top: -1px;
+     }
+     .bloc-5 {
+         width: 334px;
+         height: 180px;
+         border: 1px solid #e9e9e9;
+         top: 3300px;
+         position: relative;
+         margin-left: -335px;
+         box-shadow: 5px 5px 5px lightgray;
+         border-radius: 20px 20px 20px 20px;
+     }
+     .nd-bloc {
+         font-size: 16px;
+         width: 200px;
+         bottom: 10px;
+         margin-left: 20px;
+         margin-top: 12px;
+     }
+
+
+     .nd-activity {
+         width: 334px;
+         height: 132px;
+         bottom: 1px;
+         position: relative;
+         border-radius: 20px 20px 0px 0px;
+         object-fit: cover;
+         cursor: pointer;
+
+     }
+
+
+     .parcnational {
+         font-size: 16px;
+         position: relative;
+         bottom: 165px;
+         top: 128px;
+
+     }
+
+     .pl-activity {
+         width: 334px;
+         height: 118px;
+         position: absolute;
+         margin-left: -168px;
+         border: 1px solid #EFEFEF;
+         box-shadow: 5px 5px 5px #EFEFEF;
+         border-radius: 20px 20px 0px 0px;
+         top: -1px;
+     }
+     .pl-bloc {
+         font-size: 16px;
+         margin-left: 22px;
+         top: 120px;
+         position: relative;
+     }
+
+
+
+     .bloc-6 {
+         width: 334px;
+         height: 180px;
+         border: 1px solid #e9e9e9;
+         top: 3500px;
+         position: relative;
+         margin-left: -333px;
+         box-shadow: 5px 5px 5px lightgray;
+         border-radius: 20px 20px 20px 20px;
+     }
+
+
+
+     .fa-dog {
+         position: relative;
+         width: 100px;
+         height: 100px;
+         border-radius: 50px;
+         background: #DEEBFF;
+         float: left;
+         bottom: 113px;
+         margin-left: 9px;
+     }
+
+     i.fas.fa-dog.fa-2x::before {
+         top: 5px;
+         position: relative;
+         font-size: 20px;
+         padding-left: 5px;
+     }
+
+     .btncontent {
+         margin: 20px 0 10px;
+     }
+
+
+
+     #hebergement-region {
+         display: flex;
+         flex-direction: column;
+         width: 80%;
+         margin-left: 30px;
+     }
+     h1.hebergement{
+         top: 370px;
+         padding-left: 130px;
+         position: relative;
+         font-size: 24px;
+         right: 60px;
+
+     }
+
+
+
+
+
+
+
+     .marseille {
+         display: flex;
+         margin-left: 87px;
+         margin-top: -1760px;
+         font-size: 20px;
+         text-align: center;
+     }
+     .a-side {
+         width: 100%;
+         height: 550px;
+         margin: -2300px 0 0 -15px;
+         border-radius: 0;
+         background-color: #f2f2f2;
+         display: flex;
+     }
+
+
+     div.stars-aside{
+         margin-left: 162px;
+         bottom: 65px;
+     }
+
+
+
+
+
+     .a-side h1 {
+         font-size: 20px;
+         padding-left: 50px;
+         padding-top: 10px;
+
+     }
+
+
+
+     .flex-container {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-around;
+         align-content: space-around;
+         flex-direction: column;
+         margin-top: 450px;
+         margin-right: 520px;
+         margin-left: -46px;
+     }
+
+     .fa-heart {
+         position: relative;
+         width: 100px;
+         height: 100px;
+         border-radius: 50px;
+         background: #DEEBFF;
          margin-left: 5px;
+         bottom: 112px;
+     }
+
+     .fa-heart::before {
+         position: relative;
+         font-size: 20px;
+         padding-left: 2px;
+         top: 16px;
+     }
+
+     .fa-child::before {
+         position: relative;
+         padding-left: 3px;
+         top: 16px;
+         font-size: 20px;
+     }
+
+     .fa-child {
+         bottom: 113px;
+         position: relative;
+         width: 70px;
+         height: 70px;
+         border-radius: 50px;
+         margin-left: -3px;
+     }
+
+     .fa-money-bill-wave{
+
+         bottom: 113px;
+         position: relative;
+         width: 70px;
+         height: 70px;
+         border-radius: 50px;
+         margin-left: -73px;
+     }
+
+
+     .fa-heart, .fa-dog{
+         width: 70px;
+         height: 70px;
+     }
+
+
+
+
+     .fa-money-bill-wave::before {
+         position: relative;
+         padding-left: 13px;
+         top: 16px;
+         font-size: 20px;
+     }
+
+
+     /*Section hébergement*/
+
+     .fa-chart-line {
+         position: relative;
+         margin-left: 30px;
+         color: black;
+         padding-left: 335px;
+         padding-top: 25px;
+         top: -70px;
+         font-size: 23px;
+     }
+
+
+
+
+
+     .popular7 {
+         background-color: white;
+         height: 135px;
+         width: 334px;
+         border-radius: 20px 20px 20px 20px;
+         margin-left: 58px;
+         cursor: pointer;
+         position: relative;
+         bottom: 40px;
+     }
+
+
+     .popular7 img {
+         height: 127px;
+         width: 134px;
+         border-radius: 20px 0px 0px 20px;
+         padding-top: 3px;
+         margin-left: 5px;
+         object-fit: cover;
+         cursor: pointer;
+     }
+     .popular7 p {
+         cursor: pointer;
+         bottom: 89px;
+         font-size: 14px;
+         position: relative;
+         padding-right: 39px;
+     }
+
+     .fa7.fa-stars7.blue7 {
+         font-size: 15px;
+         bottom: 50px;
+         position: relative;
+         float: left;
+     }
+
+
+     div.rating7 {
+         margin-right: 0;
+         float: right;
+         position: absolute;
+         bottom: -46px;
+         margin-left: 140px;
+     }
+
+
+
+
+     .t-hsm {
+         float: right;
+         padding-right: 7px;
+         cursor: pointer;
+         font-size: 17px;
+         word-break: break-word;
+         width: 50%;
+
+     }
+
+     .popular8 p {
+         cursor: pointer;
+         bottom: 85px;
+         font-size: 17px;
+         position: relative;
+         padding-right: 22px;
+     }
+
+     .fa8.fa-stars8.blue8 {
+         font-size: 15px;
+         bottom: 60px;
+         position: relative;
+         float: left;
+     }
+
+
+     div.rating8 {
+         margin-right: 0;
+         float: right;
+         position: absolute;
+         top: 170px;
+         margin-left: 137px;
+     }
+
+
+
+
+     .popular8 {
+         background-color: white;
+         border-radius: 20px 20px 20px 20px;
+         margin-left: 58px;
+         cursor: pointer;
+         position: relative;
+         bottom: 100px;
+         height: 135px;
+         width: 334px;
+
+     }
+
+
+
+     .popular8 img {
+         height: 127px;
+         width: 134px;
+         border-radius: 20px 0px 0px 20px;
+         padding-top: 3px;
+         margin-left: 5px;
+         object-fit: cover;
+         cursor: pointer;
+     }
+     .popular8 p {
+         cursor: pointer;
+         bottom: 80px;
+         font-size: 14px;
+         position: relative;
+         padding-right: 39px;
+         width: 50%;
+     }
+     p.hsm2{
+         top: -83px;
+         left: 96px;
+         margin-left: 150px;
+
+     }
+     .popular7 p {
+         padding-right: 53px;
+     }
+
+     .popular9 {
+         height: 135px;
+         width: 334px;
+         background-color: white;
+         border-radius: 20px 20px 20px 20px;
+         margin-left: 58px;
+         cursor: pointer;
+         position: relative;
+         bottom: 163px;
+     }
+
+
+
+     .popular9 img {
+         height: 127px;
+         width: 134px;
+         border-radius: 20px 0px 0px 20px;
+         padding-top: 3px;
+         margin-left: 5px;
+         object-fit: cover;
+         cursor: pointer;
+     }
+     .popular9 p {
+         cursor: pointer;
+         bottom: 88px;
+         font-size: 14px;
+         position: relative;
+         margin-right: 10px;
+         width: 50%;
+     }
+
+
+
+     .fa9.fa-stars9.blue9 {
+         font-size: 35px;
+         bottom: 70px;
+         position: relative;
+         float: left;
+     }
+
+     div.stars9{
+         margin-left: 170px;
+     }
+
+
+
+     .t-hsm3 {
+         font-size: 18px;
+         cursor: pointer;
+         width: 50%;
+         margin-right: 10px;
+     }
+     h2.t-hsm2{
+         margin: -35px 2px 0 20px;
+         top: 50px;
+         position: relative;
+     }
+
+
+
+     .t-hsm2 {
+         float: right;
+         padding-right: 5px;
+         cursor: pointer;
+         font-size: 18px;
+         word-break: break-word;
+         width: 50%;
+     }
+
+
+
+
+     p.scroll-info {
+         bottom: 30px;
+         font-weight: bold;
+         font-size: 18px;
+         margin-left: 87px;
+     }
+
+
+     footer {
+         width: 70%;
+         display: flex;
+         padding: 100px;
+         height: 700px;
+     }
+     #b-end {
+         display: flex;
+         flex-direction: column;
+         background-color: #f2f2f2;
+         justify-content: space-around;
+         font-size: 20px;
+         align-content: flex-end;
+         margin-top: 2750px;
+         padding-top: 20px;
+         padding-left: 140px;
+
+     }
+
+     div.bl.bloc-info-1 {
+         font-size: 8px;
+         left: 137px;
+         width: 240px;
+     }
+     div.bl.bloc-info-2{
+         font-size: 8px;
+         margin-left: 80px;
+         left: -45px;
+
+     }
+     div.bl.bloc-info-3{
+         font-size: 8px ;
+         left: 33px;
+         padding-bottom: 200px;
+     }
+     h3{
+         text-align: left;
+         margin-left: -40px;
+         font-size: 17px;
+     }
+
+
+     .bl p {
+         font-size: 16px;
+         margin-left: -40px;
+     }
+
+     div#activite-region{
+
+         margin-bottom: 1000px;
+         margin-left: 13px;
+     }
+     #activite-region{
+         margin: 500px 20px 0px 80px;
+     }
+     #activite-region h1{
+         position: relative;
+         top: 720px;
+         font-size: 20px;
+         margin-left: 100px;
+     }
+
+     #activite-region h2{
+         padding-top: 10px;
+
+     }
+
+     a.contact {
+         text-decoration: none;
+         font-size: 18px;
+         margin-left: -40px;
+         color: #3b3b3b;
+         background:none;
+         padding-bottom: -5px;
+         bottom: -20px;
+     }
+     .auberge-5 {
+         width: 334px;
+         height: 198px;
+         border: 1px solid white;
+         border-radius: 20px 20px 20px 20px;
+         background-color: white;
+         cursor: pointer;
+         order: 1;
+         margin-left: 490px;
+         box-shadow: 5px 5px 5px lightgrey;
+         position: relative;
+         bottom: 8px;
+     }
+     a.contact::after {
+         border: 0;
+         background: none;
+     }
+     .auberge-2{
+         position:relative;
+         bottom: 60px;
+     }
+     .auberge-3{
+         position:relative;
+         bottom: 43px;
+     }
+     .auberge-4{
+         position:relative;
+         bottom: 26px;
+     }
+
+     .auberge-6 {
+         position: relative;
+         top: 10px;
+     }
+ }
+
+ @media screen and (min-width: 320px) and (max-width: 410px){
+     body {
+         display:flex;
+         flex-flow: column wrap;
+         margin: 0 -102px;
+     }
+
+     header {
+         display: flex;
+         flex-direction: column;
+         flex-wrap: wrap;
+         margin: 30px 40px -70px 89px;
+     }
+       nav{
+           width: 400px;
+       }
+
+     .logo {
+         width: 100px;
+         bottom: 650px;
+            margin-left: 37px;
+     }
+
+     a{
+         display:inline;
+         position: relative;
+         color:#0065FC;
+
+     }
+
+     a.signin {
+          font-size: 20px;
+              bottom: 892px;
+         left: 138px;
+         color: #0065FC;
+     }
+      a.sign.s1, a.sign.s2 {
+          border-bottom: 2px solid lightgrey;
+          padding-bottom: 5px;
+          padding-left: 73px;
+          height: 25px;
+          width:  250px;
+      }
+
+     
+
+
+     a.sign {
+         font-size: 25px;
+         padding-top: 50px;
+         margin: 50px 400px 0 auto;
+     }
+
+     a.sign.s1 {
+         position: absolute;
+         font-size: 18px;
+         color: #0065FC;
+         top: 10px;
+    left: 1px;
+     }
+
+     a.sign.s2 {
+         position: absolute;
+         font-size: 18px;
+         top: 10px;
+         left: 214px;
+         color: #0065FC;
+     }
+     a:after {
+         content: '';
+         display: block;
+         position: absolute;
+         bottom: -3px;
+         left: 0px;
+         height: 3px;
+         background: #0065FC;
+         top: 0;
+
+     }
+
+     a.sign:after {
+         content: '';
+         display: block;
+         position: absolute;
+         bottom: -3px;
+         left: 0px;
+         height: 3px;
+         background: #0065FC;
+         top: 79px;
+
+     }
+
+
+     a.signin:after {
+         content: '';
+         display: block;
+         position: absolute;
+         bottom: -3px;
+         left: 0px;
+         height: 3px;
+         background: #0065FC;
+         top: 30px;
+
+     }
+     a.sign.s1, a.sign.s2 {
+         border-bottom: 2px solid lightgrey;
+         padding-bottom: 5px;
+         padding-left: 20px;
+         height: 25px;
+         width:  250px;
+     }
+
+
+     a:active{
+         color: #0065FC ;
+     }
+
+
+
+     p.slogan {
+         font-size: 20px;
+         margin-left: 42px;
+         top: 80px;
+         position: relative;
+         width: 50%;
+     }
+
+     .txt_simple {
+         position: relative;
+         top: 50px;
+         font-size: 18px;
+margin-left: 44px;
+         padding-bottom: 20px;
+         margin-top: 50px;
+     }
+
+
+     form {
+
+         display: flex;
+margin-left: 36px;
+         padding-top: 70px;
+     }
+
+     form.search input[type="text"] {
+         padding: 10px;
+         font-size: 16px;
+         border: 1px solid #f2f2f2;
+         width: 175px;
+         height: 23px;
+         display: flex;
+         background-color: white;
+         color: black;
+
+     }
+     button.search-in{
+         text-indent: -10000em;
+     }
+
+     i.fas.fa-search::before {
+         content: "\f002";
+         top: 13px;
+         font-size: 20px;
+         color: white;
+         z-index: 1;
+         position: relative;
+     }
+
+     .fa-map-marker-alt {
+         margin-left: 10px;
+         position: relative;
+         background-color: #F2F2F2;
+         height: 60px;
+         cursor: pointer;
+         border-radius: 15px 0px 0px 15px;
+         width: 60px;
+         top: 0px;
+     }
+
+     .fa-map-marker-alt::before {
+         position: relative;
+         top: 15px;
+         margin-left: 22px;
+     }
+
+
+     nav{
+         width: auto;
+         display: flex;
+         flex-wrap: wrap;
+     }
+     nav a {
+
+     }
+
+     a.sign.s1, a.sign.s2 {
+         border-bottom: 2px solid lightgrey;
+         padding-bottom: 5px;
+         padding-left: 29px;
+         height: 25px;
+         width: 188px;
+     }
+     form.search button {
+         width: 50px;
+         content: "\f002";
+         color: white;
+         border-radius: 15px 15px 15px 15px;
+         margin-left: 239px;
+         font-weight: bold;
+
+     }
+     .fas.fa-info {
+         color: #0065FC;
+         border-radius: 50px 50px 50px 50px;
+         border: 1px solid rgba(208, 208, 208, 0.62);
+         bottom: 157px;
+         position: relative;
+         width: 20px;
+         height: 20px;
+         text-align: center;
+         font-size: 14px;
+         margin-left: 42px;
+     }
+
+
+     i.fas{
+         bottom: 63px;
+         height: 50px;
+         width: 52px;
+     }
+     i.fas.fa-map-marker-alt.fa-2x{
+         width: 50px;
+         height: 45px;
+
+     }
+
+     i.fas.fa-exclamation-circle.fa-2x{
+         color: #0065FC;
+         width: 30px;
+         height: 30px;
+         top: -171px;
+         margin-left: -50px;
+         border: none;
+         border-radius: 25px;
+         font-size: 30px;
+
+     }
+     .fa-exclamation-circle:before {
+         content: "\f06a";
+         color: white;
+     }
+
+
+     i.fas.fa-heart.fa-2x{
+         position: relative;
+         bottom: 126px;
+         margin-left: -4px;
+
+     }
+
+     i.fas.fa-dog.fa-2x{
+         position: relative;
+         bottom: 191px;
+         margin-left: -5px;
+
+     }
+
+
+     .btn-all{
+         display: inline-block;
+         margin: 20px 26px auto;
+         width: 55%;
+         height: 25%;
+     }
+
+
+     button.btn {
+         padding-bottom: 10px;
+         margin: 12px;
+         height: 90px;
+     }
+     .btn {
+
+         border-radius: 40px 40px 40px 40px;
+         padding-top: 20px;
+         border: 2px solid lightgrey;
+         padding-right: 10px;
+
+     }
+
+     button.btn.btn1{
+         margin-left: -72px;
+         height: 52px;
+         width: 152px;
+     }
+     .btn.btn2{
+         width: 130px;
+         height: 52px;
+         margin-left: 0;
+     }
+     button.btn.btn3{
+         bottom: 63px;
+         position: relative;
+         height: 52px;
+         margin-left: -3px;
+         width: 190px;
+
+
+     }
+     .btn.btn4{
+         bottom: 128px;
+         position: relative;
+         height: 52px;
+         width: 220px;
+         margin-left: -3px;
+
+
+     }
+
+     h2.fil{
+         margin-left: 2px;
+
+     }
+
+
+     .line-infos {
+margin-left: 40px;
+         position: relative;
+         font-size: 16px;
+         bottom: 190px;
+         width: 274px;
+     }
+     .btncontent h2 {
+         position: relative;
+         top: -70px;
+         font-size: 20px;
+         padding-right: 10px;
+     }
+
+     div.btncontent {
+margin-left: 18px;
+         flex-direction: row;
+         flex-wrap: wrap;
+         width: 419px;
+         margin-top: 50px;
+     }
+
+     #hebergement-region h1{
+         margin-left: 24px;
+     }
+
+
+
+     p.btn-p {
+         margin-left: 44px;
+         bottom: 20px;
+         position: relative;
+         font-size: 15px;
+         padding-left: 4px;
+         font-weight: bold;
+
+
+     }
+
+     .btn-p2 {
+         margin: 0;
+         padding-left: 42px;
+         font-size: 16px;
+         font-weight: bold;
+         position:relative;
+         bottom: 6px;
+
+     }
+
+
+
+     i.fas.fa-info-circle {
+         position: relative;
+         bottom: 196px;
+         margin-left: -50px;
+         cursor: pointer;
+
+     }
+     .fa, .fas {
+         font-weight: 900;
+     }
+
+
+     section {
+         display: flex;
+         flex-direction: column;
+         height: 630px;
+         width: 710px;
+         margin-left: 41px;
          background-color: white;
          border-radius: 0;
          margin-bottom: 0px;
@@ -2704,7 +3457,7 @@ margin-left: 18px;
          background: #DEEBFF;
          float: left;
          bottom: 113px;
-         margin-left: 5px;
+         margin-left: 9px;
      }
 
      i.fas.fa-dog.fa-2x::before {
@@ -2724,7 +3477,7 @@ margin-left: 18px;
          display: flex;
          flex-direction: column;
          width: 80%;
-margin-left: 30px;
+         margin-left: -5px;
      }
      h1.hebergement{
          top: 370px;
@@ -2817,7 +3570,7 @@ margin-left: -46px;
          width: 70px;
          height: 70px;
          border-radius: 50px;
-         margin-left: -6px;
+         margin-left: -3px;
      }
 
      .fa-money-bill-wave{
@@ -3119,7 +3872,7 @@ margin-left: 87px;
      div#activite-region{
 
          margin-bottom: 1000px;
-    margin-left: 23px;
+         margin-left: 23px;
      }
      #activite-region{
          margin: 500px 20px 0px 80px;
@@ -3180,11 +3933,14 @@ margin-left: 100px;
          top: 10px;
      }
  }
-  @media all and (min-width: 412px) and (max-width: 539px)  {
+
+
+
+ @media screen and (min-width: 411px) and (max-width: 539px)  {
         body {
          display:flex;
          flex-flow: column wrap;
-         margin: 0 -90px;
+         margin: 0 -100px;
      }
 
      header {
@@ -3200,7 +3956,7 @@ margin-left: 100px;
      .logo {
          width: 100px;
          bottom: 650px;
-            margin-left: 105px;
+         margin-left: 104px;
      }
 
      a{
@@ -4077,11 +4833,6 @@ padding-left: 130px;
      }
 
 
-
-
-
-
-
      .marseille {
          display: flex;
          margin-left: 87px;
@@ -4159,6 +4910,1351 @@ margin-left: -46px;
          height: 70px;
          border-radius: 50px;
          margin-left: -6px;
+     }
+
+     .fa-money-bill-wave{
+
+         bottom: 113px;
+         position: relative;
+         width: 70px;
+         height: 70px;
+         border-radius: 50px;
+         margin-left: -73px;
+     }
+
+
+     .fa-heart, .fa-dog{
+         width: 70px;
+         height: 70px;
+     }
+
+
+
+
+     .fa-money-bill-wave::before {
+         position: relative;
+         padding-left: 13px;
+         top: 16px;
+         font-size: 20px;
+     }
+
+
+     /*Section hébergement*/
+
+     .fa-chart-line {
+         position: relative;
+         margin-left: 30px;
+         color: black;
+         padding-left: 335px;
+         padding-top: 25px;
+         top: -70px;
+         font-size: 23px;
+     }
+
+
+
+
+
+     .popular7 {
+         background-color: white;
+         height: 135px;
+         width: 334px;
+         border-radius: 20px 20px 20px 20px;
+         margin-left: 58px;
+         cursor: pointer;
+         position: relative;
+         bottom: 40px;
+     }
+
+
+     .popular7 img {
+         height: 127px;
+         width: 134px;
+         border-radius: 20px 0px 0px 20px;
+         padding-top: 3px;
+         margin-left: 5px;
+         object-fit: cover;
+         cursor: pointer;
+     }
+     .popular7 p {
+         cursor: pointer;
+         bottom: 89px;
+         font-size: 14px;
+         position: relative;
+         padding-right: 39px;
+     }
+
+     .fa7.fa-stars7.blue7 {
+         font-size: 15px;
+         bottom: 50px;
+         position: relative;
+         float: left;
+     }
+
+
+     div.rating7 {
+         margin-right: 0;
+         float: right;
+         position: absolute;
+         bottom: -46px;
+         margin-left: 140px;
+     }
+
+
+
+
+     .t-hsm {
+         float: right;
+         padding-right: 7px;
+         cursor: pointer;
+         font-size: 17px;
+         word-break: break-word;
+         width: 50%;
+
+     }
+
+     .popular8 p {
+         cursor: pointer;
+         bottom: 85px;
+         font-size: 17px;
+         position: relative;
+         padding-right: 22px;
+     }
+
+     .fa8.fa-stars8.blue8 {
+         font-size: 15px;
+         bottom: 60px;
+         position: relative;
+         float: left;
+     }
+
+
+     div.rating8 {
+         margin-right: 0;
+         float: right;
+         position: absolute;
+         top: 170px;
+         margin-left: 137px;
+     }
+
+
+
+
+     .popular8 {
+         background-color: white;
+         border-radius: 20px 20px 20px 20px;
+         margin-left: 58px;
+         cursor: pointer;
+         position: relative;
+         bottom: 100px;
+         height: 135px;
+         width: 334px;
+
+     }
+
+
+
+     .popular8 img {
+         height: 127px;
+         width: 134px;
+         border-radius: 20px 0 0 20px;
+         padding-top: 3px;
+         margin-left: 5px;
+         object-fit: cover;
+         cursor: pointer;
+     }
+     .popular8 p {
+         cursor: pointer;
+         bottom: 80px;
+         font-size: 14px;
+         position: relative;
+         padding-right: 39px;
+         width: 50%;
+     }
+     p.hsm2{
+         top: -83px;
+         left: 96px;
+         margin-left: 150px;
+
+     }
+     .popular7 p {
+         padding-right: 53px;
+     }
+
+     .popular9 {
+         height: 135px;
+         width: 334px;
+         background-color: white;
+         border-radius: 20px 20px 20px 20px;
+         margin-left: 58px;
+         cursor: pointer;
+         position: relative;
+         bottom: 163px;
+     }
+
+
+
+     .popular9 img {
+         height: 127px;
+         width: 134px;
+         border-radius: 20px 0px 0px 20px;
+         padding-top: 3px;
+         margin-left: 5px;
+         object-fit: cover;
+         cursor: pointer;
+     }
+     .popular9 p {
+         cursor: pointer;
+         bottom: 88px;
+         font-size: 14px;
+         position: relative;
+         margin-right: 10px;
+         width: 50%;
+     }
+
+
+
+     .fa9.fa-stars9.blue9 {
+         font-size: 35px;
+         bottom: 70px;
+         position: relative;
+         float: left;
+     }
+
+     div.stars9{
+         margin-left: 170px;
+     }
+
+
+
+     .t-hsm3 {
+         font-size: 18px;
+         cursor: pointer;
+         width: 50%;
+         margin-right: 10px;
+     }
+     h2.t-hsm2{
+         margin: -35px 2px 0 20px;
+         top: 50px;
+         position: relative;
+     }
+
+
+
+     .t-hsm2 {
+         float: right;
+         padding-right: 5px;
+         cursor: pointer;
+         font-size: 18px;
+         word-break: break-word;
+         width: 50%;
+     }
+
+
+
+
+     p.scroll-info {
+         bottom: 30px;
+         font-weight: bold;
+         font-size: 18px;
+margin-left: 87px;
+     }
+
+
+     footer {
+         width: 50%;
+         display: flex;
+         padding: 100px;
+         height: 700px;
+     }
+     #b-end {
+         display: flex;
+         flex-direction: column;
+         background-color: #f2f2f2;
+         justify-content: space-around;
+         font-size: 20px;
+         align-content: flex-end;
+         margin-top: 2750px;
+         padding-top: 20px;
+           padding-left: 140px;
+
+     }
+
+     div.bl.bloc-info-1 {
+         font-size: 8px;
+         left: 139px;
+         width: 240px;
+     }
+     div.bl.bloc-info-2{
+         font-size: 8px;
+         margin-left: 80px;
+
+     }
+     div.bl.bloc-info-3{
+         font-size: 8px ;
+         left: 35px;
+         padding-bottom: 200px;
+     }
+     h3{
+         text-align: left;
+         margin-left: -40px;
+         font-size: 17px;
+     }
+
+
+     .bl p {
+         font-size: 16px;
+         margin-left: -40px;
+     }
+
+     div#activite-region{
+
+         margin-bottom: 1000px;
+         margin-left: 30px;
+     }
+     #activite-region{
+         margin: 500px 20px 0px 80px;
+     }
+     #activite-region h1{
+         position: relative;
+         top: 720px;
+         font-size: 20px;
+margin-left: 100px;
+     }
+
+     #activite-region h2{
+         padding-top: 10px;
+
+     }
+
+     a.contact {
+         text-decoration: none;
+         font-size: 18px;
+         margin-left: -40px;
+         color: #3b3b3b;
+         background:none;
+         padding-bottom: -5px;
+         bottom: -20px;
+     }
+     .auberge-5 {
+         width: 334px;
+         height: 198px;
+         border: 1px solid white;
+         border-radius: 20px 20px 20px 20px;
+         background-color: white;
+         cursor: pointer;
+         order: 1;
+         margin-left: 490px;
+         box-shadow: 5px 5px 5px lightgrey;
+         position: relative;
+         bottom: 8px;
+     }
+     a.contact::after {
+         border: 0;
+         background: none;
+     }
+     .auberge-2{
+         position:relative;
+         bottom: 60px;
+     }
+     .auberge-3{
+         position:relative;
+         bottom: 43px;
+     }
+     .auberge-4{
+         position:relative;
+         bottom: 26px;
+     }
+
+     .auberge-6 {
+         position: relative;
+         top: 10px;
+     }
+    
+  }
+ @media screen and (min-width: 540px) and (max-width: 720px){
+     body {
+         display:flex;
+         flex-flow: column wrap;
+         margin: 0 -115px;
+     }
+
+     header {
+         display: flex;
+         flex-direction: column;
+         flex-wrap: wrap;
+         margin: 30px 40px -70px 178px;
+     }
+     nav{
+         width: 400px;
+     }
+
+     .logo {
+         width: 100px;
+         bottom: 650px;
+         margin-left: 37px;
+     }
+
+     a{
+         display:inline;
+         position: relative;
+         color:#0065FC;
+
+     }
+
+     a.signin {
+         font-size: 20px;
+         bottom: 894px;
+         left: 165px;
+         color: #0065FC;
+     }
+     a.sign.s1, a.sign.s2 {
+         border-bottom: 2px solid lightgrey;
+         padding-bottom: 5px;
+         padding-left: 73px;
+         height: 25px;
+         width:  250px;
+     }
+
+
+
+
+     a.sign {
+         font-size: 25px;
+         padding-top: 50px;
+         margin: 50px 400px 0 auto;
+     }
+
+     a.sign.s1 {
+         position: absolute;
+         font-size: 18px;
+         color: #0065FC;
+         top: 10px;
+         left: 1px;
+     }
+
+     a.sign.s2 {
+         position: absolute;
+         font-size: 18px;
+         top: 10px;
+         left: 260px;
+         color: #0065FC;
+     }
+     a:after {
+         content: '';
+         display: block;
+         position: absolute;
+         bottom: -3px;
+         left: 0px;
+         height: 3px;
+         background: #0065FC;
+         top: 0;
+
+     }
+
+     a.sign:after {
+         content: '';
+         display: block;
+         position: absolute;
+         bottom: -3px;
+         left: 0px;
+         height: 3px;
+         background: #0065FC;
+         top: 79px;
+
+     }
+
+
+     a.signin:after {
+         content: '';
+         display: block;
+         position: absolute;
+         bottom: -3px;
+         left: 0px;
+         height: 3px;
+         background: #0065FC;
+         top: 30px;
+
+     }
+     a.sign.s1, a.sign.s2 {
+         border-bottom: 2px solid lightgrey;
+         padding-bottom: 5px;
+         padding-left: 20px;
+         height: 25px;
+         width:  250px;
+     }
+
+
+     a:active{
+         color: #0065FC ;
+     }
+
+
+
+     p.slogan {
+         font-size: 20px;
+         margin-left: 42px;
+         top: 80px;
+         position: relative;
+         width: 50%;
+     }
+
+     .txt_simple {
+         position: relative;
+         top: 50px;
+         font-size: 18px;
+         margin-left: 44px;
+         padding-bottom: 20px;
+         margin-top: 50px;
+     }
+
+
+     form {
+
+         display: flex;
+         margin-left: 36px;
+         padding-top: 70px;
+     }
+
+     form.search input[type="text"] {
+         padding: 10px;
+         font-size: 16px;
+         border: 1px solid #e3d7d7;
+         width: 175px;
+         height: 23px;
+         display: flex;
+         background-color: white;
+         color: black;
+
+     }
+     button.search-in{
+         text-indent: -10000em;
+     }
+
+     i.fas.fa-search::before {
+         content: "\f002";
+         top: 13px;
+         font-size: 20px;
+         color: white;
+         z-index: 1;
+         position: relative;
+     }
+
+     .fa-map-marker-alt {
+         margin-left: 10px;
+         position: relative;
+         background-color: #F2F2F2;
+         height: 60px;
+         cursor: pointer;
+         border-radius: 15px 0px 0px 15px;
+         width: 60px;
+         top: 0px;
+     }
+
+     .fa-map-marker-alt::before {
+         position: relative;
+         top: 15px;
+         margin-left: 22px;
+     }
+
+
+     nav{
+         width: auto;
+         display: flex;
+         flex-wrap: wrap;
+     }
+     nav a {
+
+     }
+
+     a.sign.s1, a.sign.s2 {
+         border-bottom: 2px solid lightgrey;
+         padding-bottom: 5px;
+         padding-left: 106px;
+         height: 25px;
+         width:  250px;
+     }
+     form.search button {
+         width: 50px;
+         content: "\f002";
+         color: white;
+         border-radius: 15px 15px 15px 15px;
+         margin-left: 239px;
+         font-weight: bold;
+
+     }
+     .fas.fa-info {
+         color: #0065FC;
+         border-radius: 50px 50px 50px 50px;
+         border: 1px solid rgba(208, 208, 208, 0.62);
+         bottom: 157px;
+         position: relative;
+         width: 20px;
+         height: 20px;
+         text-align: center;
+         font-size: 14px;
+         margin-left: 42px;
+     }
+
+
+     i.fas{
+         bottom: 63px;
+         height: 50px;
+         width: 52px;
+     }
+     i.fas.fa-map-marker-alt.fa-2x{
+         width: 50px;
+         height: 45px;
+
+     }
+
+     i.fas.fa-exclamation-circle.fa-2x{
+         color: #0065FC;
+         width: 30px;
+         height: 30px;
+         top: -171px;
+         margin-left: -50px;
+         border: none;
+         border-radius: 25px;
+         font-size: 30px;
+
+     }
+     .fa-exclamation-circle:before {
+         content: "\f06a";
+         color: white;
+     }
+
+
+     i.fas.fa-heart.fa-2x{
+         position: relative;
+         bottom: 126px;
+         margin-left: -4px;
+
+     }
+
+     i.fas.fa-dog.fa-2x{
+         position: relative;
+         bottom: 191px;
+         margin-left: -5px;
+
+     }
+
+
+     .btn-all{
+         display: inline-block;
+         margin: 20px 26px auto;
+         width: 55%;
+         height: 25%;
+     }
+
+
+     button.btn {
+         padding-bottom: 10px;
+         margin: 12px;
+         height: 90px;
+     }
+     .btn {
+
+         border-radius: 40px 40px 40px 40px;
+         padding-top: 20px;
+         border: 2px solid lightgrey;
+         padding-right: 10px;
+
+     }
+
+     button.btn.btn1{
+         margin-left: -72px;
+         height: 52px;
+         width: 172px;
+     }
+     .btn.btn2{
+         width: 130px;
+         height: 52px;
+         margin-left: 15px;
+     }
+     button.btn.btn3{
+         bottom: 63px;
+         position: relative;
+         height: 52px;
+         margin-left: -3px;
+         width: 190px;
+
+
+     }
+     .btn.btn4{
+         bottom: 128px;
+         position: relative;
+         height: 52px;
+         width: 220px;
+         margin-left: -3px;
+
+
+     }
+
+     h2.fil{
+         margin-left: 2px;
+
+     }
+
+
+     .line-infos {
+         margin-left: 40px;
+         position: relative;
+         font-size: 16px;
+         bottom: 190px;
+         width: 274px;
+     }
+     .btncontent h2 {
+         position: relative;
+         top: -70px;
+         font-size: 20px;
+         padding-right: 10px;
+     }
+
+     div.btncontent {
+         margin-left: 18px;
+         flex-direction: row;
+         flex-wrap: wrap;
+         width: 419px;
+         margin-top: 50px;
+     }
+
+     #hebergement-region h1{
+         margin-left: 24px;
+     }
+
+
+
+     p.btn-p {
+         margin-left: 44px;
+         bottom: 20px;
+         position: relative;
+         font-size: 15px;
+         padding-left: 4px;
+         font-weight: bold;
+
+
+     }
+
+     .btn-p2 {
+         margin: 0;
+         padding-left: 42px;
+         font-size: 16px;
+         font-weight: bold;
+         position:relative;
+         bottom: 6px;
+
+     }
+
+
+
+     i.fas.fa-info-circle {
+         position: relative;
+         bottom: 196px;
+         margin-left: -50px;
+         cursor: pointer;
+
+     }
+     .fa, .fas {
+         font-weight: 900;
+     }
+
+
+     section {
+         display: flex;
+         flex-direction: column;
+         height: 630px;
+         width: 710px;
+         margin-left: 107px;
+         background-color: white;
+         border-radius: 0;
+         margin-bottom: 0px;
+     }
+     section h1 {
+         display: flex;
+         margin-left: -24px;
+         font-size: 18px;
+     }
+     .left-bloc{
+         margin-left: 157px;
+     }
+
+
+     .auberge-1 {
+         width: 334px;
+         height: 198px;
+         border: 1px solid white;
+         border-radius: 20px 20px 20px 20px;
+         background-color: white;
+         cursor: pointer;
+         order: 1;
+         margin-left: 490px;
+         box-shadow: 5px 5px 5px lightgrey;
+         position: relative;
+         bottom: 80px;
+     }
+
+
+     .auberge-1 img {
+         width: 328px;
+         height: 113px;
+         border-radius: 20px 20px 0px 0px;
+         margin-left: 7px;
+         margin-right: 3px;
+         padding-top: 3px;
+         object-fit: cover;
+     }
+
+     .auberge-1 p {
+         text-align: left;
+         font-size: 16px;
+         margin-left: 25px;
+         position: relative;
+         bottom: 12px;
+     }
+     .auberge-2 p{
+         margin-left: 25px;
+         position: relative;
+         font-size: 16px;
+         bottom: 12px;
+
+     }
+
+     p.around{
+         position: relative;
+         bottom: 20px;
+     }
+     .rating a {
+         text-decoration: none;
+     }
+     div.stars {
+         display: inline;
+         font-size: 12px;
+         position: relative;
+         margin-left: 30px;
+         bottom: 15px;
+     }
+
+     .fa.fa-stars.blue {
+         color: #0065FC;
+         font-size: 14px;
+         bottom: 10px;
+         position: relative;
+         padding-left: 0px;
+     }
+     .stars, .stars2, .stars3, .stars4, .stars5, .stars6{
+         margin-left:20px;
+
+     }
+
+     .auberge-2 {
+         width: 334px;
+         height: 198px;
+         border: 1px solid white;
+         border-radius: 20px 20px 20px 20px;
+         background-color: white;
+         cursor: pointer;
+         order: 1;
+         margin-left: 490px;
+         box-shadow: 5px 5px 5px lightgrey;
+         position: relative;
+         bottom: 75px;
+     }
+     .fa2.fa-stars2.blue2{
+         position: relative;
+         font-size: 14px;
+         bottom: 10px;
+     }
+     .fa3.fa-stars3.blue3{
+         position: relative;
+         font-size: 14px;
+         bottom: 10px;
+     }
+
+
+
+     .auberge-2 img {
+         width: 332px;
+         height: 113px;
+         border-radius: 20px 20px 0px 0px;
+         margin-left: 3px;
+         margin-right: 3px;
+         padding-top: 1px;
+         object-fit: cover;
+     }
+
+
+     .auberge-3 {
+         width: 334px;
+         height: 198px;
+         border: 1px solid white;
+         border-radius: 20px 20px 20px 20px;
+         background-color: white;
+         cursor: pointer;
+         order: 1;
+         margin-left: 490px;
+         box-shadow: 5px 5px 5px lightgrey;
+         position: relative;
+         bottom: 70px;
+     }
+
+     .fa3.fa-stars3.blue3 {
+         margin-bottom: 5px;
+         position: relative;
+         float: left;
+         margin-left: 1px;
+         font-size: 14px;
+         bottom: 10px;
+     }
+     .auberge-3 img {
+         width: 334px;
+         height: 113px;
+         border-radius: 20px 20px 0px 0px;
+         margin-right: 3px;
+         padding-top: 3px;
+         object-fit: cover;
+         margin-left: 1px;
+     }
+
+     .auberge-3 p {
+         text-align: left;
+         font-size: 16px;
+         margin-left: 25px;
+         bottom: 12px;
+         position: relative;
+
+
+
+     }
+     .auberge-4 {
+         width: 334px;
+         height: 198px;
+         border: 1px solid white;
+         border-radius: 20px 20px 20px 20px;
+         background-color: white;
+         cursor: pointer;
+         order: 1;
+         margin-left: 490px;
+         box-shadow: 5px 5px 5px lightgrey;
+         position: relative;
+         bottom: 80px;
+
+     }
+     .fa4.fa-stars4.blue4 {
+         margin-bottom: 5px;
+         position: relative;
+         float: left;
+         margin-left: 1px;
+         font-size: 14px;
+         bottom: 10px;
+     }
+     .auberge-4 img {
+         width: 334px;
+         height: 113px;
+         border-radius: 20px 20px 0px 0px;
+         margin-left: 1px;
+         margin-right: 3px;
+         padding-top: 3px;
+         object-fit: cover;
+     }
+
+     .auberge-4 p {
+         text-align: left;
+         font-size: 16px;
+         margin-left: 25px;
+         bottom: 12px;
+         position: relative;
+
+
+     }
+     .auberge-4 {
+         width: 334px;
+         height: 198px;
+         border: 1px solid white;
+         border-radius: 20px 20px 20px 20px;
+         background-color: white;
+         cursor: pointer;
+         order: 1;
+         margin-left: 490px;
+         box-shadow: 5px 5px 5px lightgrey;
+         position: relative;
+         bottom: 80px;
+
+     }
+     .fa5.fa-stars5.blue5 {
+         margin-bottom: 5px;
+         position: relative;
+         float: left;
+         margin-left: 1px;
+         font-size: 20px;
+         bottom: 10px;
+     }
+     .auberge-5 img {
+         width: 334px;
+         height: 113px;
+         border-radius: 20px 20px 0px 0px;
+         margin-left: 1px;
+         margin-right: 3px;
+         padding-top: 3px;
+         object-fit: cover;
+     }
+
+     .auberge-5 p {
+         text-align: left;
+         font-size: 16px;
+         margin-left: 25px;
+         bottom: 12px;
+         position: relative;
+
+
+     }
+
+
+     .auberge-6 {
+         width: 334px;
+         height: 198px;
+         border: 1px solid white;
+         border-radius: 20px 20px 20px 20px;
+         background-color: white;
+         cursor: pointer;
+         order: 1;
+         margin-left: 490px;
+         box-shadow: 5px 5px 5px lightgrey;
+         position: relative;
+         bottom: 80px;
+
+     }
+     .fa6.fa-stars6.blue6 {
+         margin-bottom: 5px;
+         position: relative;
+         float: left;
+         margin-left: 1px;
+         font-size: 14px;
+         bottom: 10px;
+     }
+     .auberge-6 img {
+         width: 334px;
+         height: 113px;
+         border-radius: 20px 20px 0px 0px;
+         margin-left: 1px;
+         margin-right: 3px;
+         padding-top: 3px;
+         object-fit: cover;
+     }
+
+     .auberge-6 p {
+         text-align: left;
+         font-size: 16px;
+         margin-left: 25px;
+         bottom: 12px;
+         position: relative;
+
+     }
+
+     #activite-region h1 {
+         position: relative;
+         margin-left: 123px;
+         top: 1070px;
+         font-size: 20px;
+
+     }
+
+
+     .reno-activity {
+         width: 334px;
+         height: 132px;
+         border-radius: 20px 20px 0px 0px;
+         object-fit: cover;
+         cursor: pointer;
+     }
+
+
+
+
+     .bloc-1 {
+         width: 334px;
+         height: 180px;
+         border: 1px solid #e9e9e9;
+         top: 2500px;
+         position: relative;
+         margin-left: 7px;
+         box-shadow: 5px 5px 5px lightgray;
+         border-radius: 20px 20px 20px 20px;
+
+
+     }
+     .v_port {
+         cursor: pointer;
+         padding-top: 0;
+         bottom: -2px;
+         font-size: 16px;
+     }
+
+
+     .bloc-2 {
+         width: 334px;
+         height: 180px;
+         border: 1px solid #e9e9e9;
+         top: 2700px;
+         position: relative;
+         margin-left: -335px;
+         box-shadow: 5px 5px 5px lightgray;
+         border-radius: 20px 20px 20px 20px;
+     }
+
+     .fort-activity {
+         width: 334px;
+         height: 132px;
+         border-radius: 20px 20px 0px 0px;
+
+     }
+     p.f_port {
+         margin-top: 50px;
+         float: left;
+         margin-left: 20px;
+         font-size: 16px;
+         bottom: 38px;
+         position: relative;
+     }
+
+
+
+     .bloc-3{
+         border-radius: 20px 20px 20px 20px;
+         margin-left: -334px;
+         width: 332px;
+         height: 180px;
+         box-shadow: 5px 5px 5px lightgrey;
+         top: 2900px;
+     }
+     img.frioul-activity {
+         width: 334px;
+         height: 132px;
+         border-radius: 20px 20px 0px 0px;
+         margin-left: -1px;
+         bottom: 1px;
+         position: relative;
+     }
+     .ile_port {
+         font-size: 16px;
+         margin-left: 22px;
+         bottom: -5px;
+         margin-top: 25px;
+     }
+     .bloc-4 {
+         width: 334px;
+         height: 180px;
+         border: 1px solid #e9e9e9;
+         top: 3100px;
+         position: relative;
+         margin-left: -334px;
+         box-shadow: 5px 5px 5px lightgray;
+         border-radius: 20px 20px 20px 20px;
+     }
+
+     .parc-activity {
+         width: 334px;
+         height: 132px;
+         position: absolute;
+         margin-left: -168px;
+         border: 1px solid #EFEFEF;
+         box-shadow: 5px 5px 5px #EFEFEF;
+         border-radius: 20px 20px 0px 0px;
+         top: -1px;
+     }
+     .bloc-5 {
+         width: 334px;
+         height: 180px;
+         border: 1px solid #e9e9e9;
+         top: 3300px;
+         position: relative;
+         margin-left: -335px;
+         box-shadow: 5px 5px 5px lightgray;
+         border-radius: 20px 20px 20px 20px;
+     }
+     .nd-bloc {
+         font-size: 16px;
+         width: 200px;
+         bottom: 10px;
+         margin-left: 20px;
+         margin-top: 12px;
+     }
+
+
+     .nd-activity {
+         width: 334px;
+         height: 132px;
+         bottom: 1px;
+         position: relative;
+         border-radius: 20px 20px 0px 0px;
+         object-fit: cover;
+         cursor: pointer;
+
+     }
+
+
+     .parcnational {
+         font-size: 16px;
+         position: relative;
+         bottom: 165px;
+         top: 128px;
+
+     }
+
+     .pl-activity {
+         width: 334px;
+         height: 118px;
+         position: absolute;
+         margin-left: -168px;
+         border: 1px solid #EFEFEF;
+         box-shadow: 5px 5px 5px #EFEFEF;
+         border-radius: 20px 20px 0px 0px;
+         top: -1px;
+     }
+     .pl-bloc {
+         font-size: 16px;
+         margin-left: 22px;
+         top: 120px;
+         position: relative;
+     }
+
+
+
+     .bloc-6 {
+         width: 334px;
+         height: 180px;
+         border: 1px solid #e9e9e9;
+         top: 3500px;
+         position: relative;
+         margin-left: -333px;
+         box-shadow: 5px 5px 5px lightgray;
+         border-radius: 20px 20px 20px 20px;
+     }
+
+
+
+     .fa-dog {
+         position: relative;
+         width: 100px;
+         height: 100px;
+         border-radius: 50px;
+         background: #DEEBFF;
+         float: left;
+         bottom: 113px;
+         margin-left: 9px;
+     }
+
+     i.fas.fa-dog.fa-2x::before {
+         top: 5px;
+         position: relative;
+         font-size: 20px;
+         padding-left: 5px;
+     }
+
+     .btncontent {
+         margin: 20px 0 10px;
+     }
+
+
+
+     #hebergement-region {
+         display: flex;
+         flex-direction: column;
+         width: 80%;
+         margin-left: 30px;
+     }
+     h1.hebergement{
+         top: 370px;
+         padding-left: 130px;
+         position: relative;
+         font-size: 24px;
+         right: 60px;
+
+     }
+
+
+
+
+
+
+
+     .marseille {
+         display: flex;
+         margin-left: 87px;
+         margin-top: -1760px;
+         font-size: 20px;
+         text-align: center;
+     }
+     .a-side {
+         width: 100%;
+         height: 550px;
+         margin: -2300px 0 0 0;
+         border-radius: 0;
+         background-color: #f2f2f2;
+         display: flex;
+     }
+
+
+     div.stars-aside{
+         margin-left: 162px;
+         bottom: 65px;
+     }
+
+
+
+
+
+     .a-side h1 {
+         font-size: 20px;
+         padding-left: 50px;
+         padding-top: 10px;
+
+     }
+
+
+
+     .flex-container {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-around;
+         align-content: space-around;
+         flex-direction: column;
+         margin-top: 450px;
+         margin-right: 520px;
+         margin-left: -46px;
+     }
+
+     .fa-heart {
+         position: relative;
+         width: 100px;
+         height: 100px;
+         border-radius: 50px;
+         background: #DEEBFF;
+         margin-left: 5px;
+         bottom: 112px;
+     }
+
+     .fa-heart::before {
+         position: relative;
+         font-size: 20px;
+         padding-left: 2px;
+         top: 16px;
+     }
+
+     .fa-child::before {
+         position: relative;
+         padding-left: 3px;
+         top: 16px;
+         font-size: 20px;
+     }
+
+     .fa-child {
+         bottom: 113px;
+         position: relative;
+         width: 70px;
+         height: 70px;
+         border-radius: 50px;
+         margin-left: 7px;
      }
 
      .fa-money-bill-wave{
@@ -4406,12 +6502,12 @@ margin-left: -46px;
          bottom: 30px;
          font-weight: bold;
          font-size: 18px;
-margin-left: 87px;
+         margin-left: 87px;
      }
 
 
      footer {
-         width: 50%;
+         width: 70%;
          display: flex;
          padding: 100px;
          height: 700px;
@@ -4425,23 +6521,24 @@ margin-left: 87px;
          align-content: flex-end;
          margin-top: 2750px;
          padding-top: 20px;
-           padding-left: 140px;
+         padding-left: 235px;
 
      }
 
      div.bl.bloc-info-1 {
          font-size: 8px;
-         left: 139px;
+         left: 137px;
          width: 240px;
      }
      div.bl.bloc-info-2{
          font-size: 8px;
          margin-left: 80px;
+         left: -45px;
 
      }
      div.bl.bloc-info-3{
          font-size: 8px ;
-         left: 35px;
+         left: 33px;
          padding-bottom: 200px;
      }
      h3{
@@ -4459,7 +6556,7 @@ margin-left: 87px;
      div#activite-region{
 
          margin-bottom: 1000px;
-         margin-left: 30px;
+         margin-left: 121px;
      }
      #activite-region{
          margin: 500px 20px 0px 80px;
@@ -4468,7 +6565,7 @@ margin-left: 87px;
          position: relative;
          top: 720px;
          font-size: 20px;
-margin-left: 100px;
+         margin-left: 100px;
      }
 
      #activite-region h2{
@@ -4519,132 +6616,21 @@ margin-left: 100px;
          position: relative;
          top: 10px;
      }
-    
-  }
- @media all and (min-width: 540px) and (max-width: 767px) {
-     header {
-         margin-left: 30px;
-     }
-
-     a.sign.s1 {
-         left: 50px;
-     }
-
-     .left-bloc {
-         margin-left: 50px;
-     }
-
-     #hebergement-region {
-         margin-left: 17px;
-     }
-
-     div#activite-region {
-         margin-left: 7px;
-     }
-
-     div.bl.bloc-info-1 {
-         left: 122px;
-     }
-
-     div.bl.bloc-info-2 {
-         left: -62px;
-     }
-
-     div.bl.bloc-info-3 {
-         left: 19px;
-
+ }
+ @media screen and (min-width: 657px) {
+     body{
+         display:flex;
+         flex-flow: row wrap;
      }
  }
-/*
- @media all and (min-width: 400px) and (max-width: 450px) {
-     body {
-         margin-left: 50px;
-     }
-
-     aside.a-side {
-         margin-left: 5px;
-
-     }
-
-     a.signin {
-         position: absolute;
-         top: 48px;
-         font-size: 22px;
-     }
-
-     a.sign.s2 {
-         margin-left: 115px;
-         color: #0065FC;
-     }
-
-     i.fas.fa-info{
-         margin-left: -20px;
-
-     }
-     div.btncontent {
-         margin-left: -40px;
-     }
-     p.scroll-info{
-         margin-left: 90px;
-
-     }
-     div#activite-region{
-         padding-left: 25px;
-     }
-     div#hebergement-region{
-         margin-left: 2px;
-     }
-     i.fas.fa-money-bill-wave.fa-2x{
-         margin-left: -72px;
-     }
-     i.fas.fa-heart.fa-2x{
-         background: #DEEBFF;
-     }
-     i.fas.fa-info {
-         margin-left: -35px;
-     }
-     .fa-money-bill-wave {
-         margin-left: -73px;
-     }
-
-     .left-bloc {
-         margin-left: 23px;
-     }
-
-     .line-infos {
-         padding-left: 55px;
-     }
-     .flex-container {
-
-         margin-left: -680px;
-     }
-
-     h1.hebergement {
-         padding-left: 60px;
-     }
-     form{
-         margin-left: 17px;
-     }
-     #b-end{
-         padding-left: 120px;
-     }
-     div.bl.bloc-info-3 {
-         left: 3px;
-     }
-
-
- }
-*/
-
-
- @media all and (min-width: 768px) and (max-width: 1023px) {
+ @media screen and (min-width: 721px) and (max-width: 1024px) {
 
 
 
      body {
 
          box-sizing: border-box;
-margin-left: -30px;
+         margin-left: -55px;
      }
 
     header{
@@ -5125,9 +7111,9 @@ left: 1px;
            left: 5px;
      }
  }
- @media all and (min-width: 1024px) and (max-width: 1366px) {
+ @media screen and (min-width: 1025px) and (max-width: 1366px) {
      header{
-         margin: 30px 40px -70px 40px;
+         margin: 30px 40px -70px 100px;
      }
 
      body{
@@ -5215,7 +7201,7 @@ left: 1px;
      }
      #activite-region {
          width: 300px;
-         margin-left: 80px;
+         margin-left: 135px;
          top: -70px;
            position: relative;
      }
@@ -5233,7 +7219,7 @@ left: 1px;
          border-radius: 15px 15px 15px 15px;
          height: 600px;
          width: 950px;
-         margin-left: 40px;
+         margin-left: 100px;
          display: flex;
          margin-top: 480px;
          position: relative;
@@ -5292,7 +7278,7 @@ margin-left: 600px;
       border-radius: 20px 20px 20px 20px;
       display: flex;
       margin-top: -2470px;
-margin-left: 40px;
+         margin-left: 100px;
      }
      .left-bloc {
          display: flex;
@@ -5453,7 +7439,7 @@ padding-right: 26px;
           justify-content: space-around;
          margin-top: 1500px;
          padding-right: 200px;
-
+         padding-left: 30px;
      }
      .line-infos {
            padding-left: 59px;
@@ -5492,7 +7478,7 @@ padding-right: 26px;
 
  }
 
- @media all and (min-width: 1317px) and (max-width: 1566px) {
+ @media screen and (min-width: 1317px) and (max-width: 1566px) {
 
      body{
          box-sizing: border-box ;
