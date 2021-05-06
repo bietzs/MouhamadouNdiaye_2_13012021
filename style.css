@@ -15,11 +15,11 @@ h1 {
     font-size: 20px;
 }
 h2 {
-    font-size: 18px;
+    font-size: 20px;
     padding-bottom: 20px;
 }
 p {
-    font-size: 14px;
+    font-size: 13px;
 }
 
 h3 {
@@ -33,7 +33,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 45px;
+    padding: 18px 45px;
 }
 #logo {
     position: relative;
@@ -79,13 +79,18 @@ a:hover {
     color: #0065FC;
 }
 
-.hebergements-activites a:hover {
+.hebergements-activites a:hover
+ {
     border-top: 3px solid #0065FC;
 }
 .signup {
     font-weight: bold;
+    color: #0065FC;
 }
-
+a.signup:hover {
+    text-decoration-color: #0065FC;
+    color: #000000;
+}
 /*Titre principal*/
 
 .hd_title {
@@ -110,7 +115,7 @@ a:hover {
 
 .picto {
     position: relative;
-    height: 40px;
+    height: 51px;
     background-color: #F2F2F2;
     width: 54px;
     border-top-left-radius: 10px;
@@ -137,7 +142,7 @@ input.type-search {
     border: 1px solid #f2f2f2;
     float: left;
     background: #ffffff;
-    height: 40px;
+    height: 51px;
     display: flex;
     justify-content: flex-start;
 }
@@ -148,10 +153,10 @@ input.type-search {
 
 .bouton {
     background-color: #0065FC;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
     width: 40%;
-    height: 40px;
+    height: 51px;
     border: none;
     color: white;
     font-weight: bold;
@@ -235,7 +240,16 @@ input.type-search {
 
 .titre_btn p {
     font-weight: bold;
+    font-size: 18px;
 }
+.txt_simple p {
+    padding-left: 3px;
+    font-size: 14px;
+}
+
+
+
+
 
 .fa-money-bill-wave,
 .fa-male,
@@ -247,26 +261,26 @@ input.type-search {
 
 
 h3 {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: normal;
 }
 
 .lg_disponibles {
-    margin: 0 0 35px 3px;
+    margin: 4px 0 35px 3px;
 }
 
 .btn-all:hover {
-    color: #0065FC;
-    background-color: cornsilk;
-    border-radius: 50%;
+    color:  #0065FC;
+    background-color: #f2f5ff;
+    border-radius: 50px 50px 50px 50px;
 
 }
 .fas.fa-info {
     color: #0065FC;
     border-radius: 50px 50px 50px 50px;
-    border: 1px solid #f2f2f2;
-    width: 20px;
-    height: 20px;
+    border: 1px solid #d9d9d9;
+     width: 23px;
+     height: 22px;
     text-align: center;
     font-size: 14px;
 }
@@ -275,8 +289,16 @@ h3 {
     top: 2px;
     position: relative;
 }
+.interrogation {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 43px;
+}
+
+
 h3.lg_disponibles {
-    padding-left: 39px;
+    padding-left: 9px;
 }
 
 
@@ -304,6 +326,7 @@ h3.lg_disponibles {
     border-radius: 20px;
     padding: 44px 36px 44px 36px;
     max-width: 805px;
+    max-height: 556px;
 }
 
 .marseille_box {
@@ -336,6 +359,7 @@ h3.lg_disponibles {
     height: 112px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    cursor: pointer;
 }
 
 .hebergement_container {
@@ -343,6 +367,7 @@ h3.lg_disponibles {
     flex-direction: column;
     justify-content: space-around;
     padding-left: 16px;
+    cursor: pointer;
 }
 
 .titre_hotel_marseille {
@@ -354,20 +379,18 @@ h3.lg_disponibles {
     padding-bottom: 11px;
 }
 
-.notation {
-    padding-bottom: 11px;
-}
-
 .hebergement_container h3,
 .container_popular h3 {
     font-weight: bold;
     font-style: normal;
 }
-
+.notation {
+    font-size: 14px;
+}
 .voir_plus {
     font-weight: bold;
     position: relative;
-    bottom: 36px;
+    bottom: 57px;
 }
 
 .fas.fa-star.grey-star {
@@ -375,6 +398,11 @@ h3.lg_disponibles {
 }
 
 /*Les plus populaires*/
+.titre_bloc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 .titre_popularite {
     display: flex;
@@ -383,7 +411,6 @@ h3.lg_disponibles {
 
 .titre_populaires {
     font-size: 18px;
-    margin-bottom: 25px;
 }
 
 .fa-chart-line {
@@ -395,8 +422,10 @@ h3.lg_disponibles {
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-    padding: 45px 38px 31px 45px;
+    padding: 45px 38px 120px 45px;
     max-width: 345px;
+    justify-content: space-between;
+    max-height: 479px;
 }
 
 .hebergement_populaires {
@@ -413,14 +442,16 @@ h3.lg_disponibles {
     padding: 6px 58px 6px 6px;
     max-height: 135px;
     margin-bottom: 29px;
+    cursor: pointer;
 }
 
 .images_populaire{
     width: 132px;
-    height: 132px;
     object-fit: cover;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+   cursor: pointer;
+
 }
 
 .container_popular {
@@ -440,6 +471,8 @@ h3.lg_disponibles {
 .popular_notation {
     max-width: 94px;
     max-height: 15px;
+    font-size: 14px;
+    padding-top: 11px;
 }
 
 /*Activités à Marseille*/
@@ -492,7 +525,6 @@ h3.lg_disponibles {
 
 .photo_fort_pomegues, .photo_frioul_img {
     height: 114px;
-    width: 309px;
 }
 
 .activite_reno,
@@ -532,13 +564,11 @@ h3.lg_disponibles {
 }
 .photo_fort_pomegues {
     width: 309px;
-    margin-left: 0;
-    margin-top: 0;
 }
 
 #activites_marseille h1 {
-    font-size: 18px;
-                   padding-left: 52px;
+    font-size: 20px;
+    padding-left: 4px;
 
 }
 
@@ -593,6 +623,10 @@ footer h4 {
     font-weight: normal;
 }
 
+footer h4 a {
+   color: black;
+}
+
 footer h2 {
     font-size: 16px;
 }
@@ -601,78 +635,7 @@ footer h2 {
 /*Responsive*/
 
 
-@media all and (max-width : 320px) {
-    footer {
-        max-width: 320px;
-    }
-    footer h4 {
-        font-weight: normal;
-        font-size: 11px;
-          width: 118px;
-    }
-    
-    #container_populaires {
-        max-width: 320px;
-        padding-left: 18px;
-        padding-right: 10px;
-    }
-    #hebergements_marseille {
-        padding-left: 8px;
-        padding-right: 5px;
-    }
-
-    #activites_marseille {
-        margin-left: 40px;
-    }
-
-    .titre_activites {
-        margin-left: 0;
-    }
-
-    .titre_principal,
-    #search-section {
-        margin-left: -10px;
-    }
-
-    .populaire_choix {
-        padding-right: 10px;
-    }
-
-    input.type-search {
-        width: 58vw;
-    }
-
-    .fa-money-bill-wave, .fa-male, .fa-heart, .fa-dog {
-        font-size: 1.5em;
-    }
-    .lg_disponibles {
-        margin: 15px 0 33px 20px;
-        width: 100vw;
-        font-size: 11px;
-        text-align: left;
-    }
-
-    h1 {
-        font-size: 19px;
-    }
-     p {
-         font-size: 13px;
-     }
-     header, .hd_title, #filtres-btn {
-         margin-left: 3px;
-     }
-     .titre_populaires {
-         font-size: 18px;
-         margin-bottom: 25px;
-         margin-left: 79px;
-     }
-     .signup {
-       margin-right: 68px;
-     }
-
-
-}
-@media all and (min-width : 1300px) and (max-width : 2500px) {
+@media all and (max-width : 2500px) {
     .renoactivite_img,
     .photo_activite_pnc_img {
         width: 301px;
@@ -680,22 +643,18 @@ footer h2 {
     }
 
     .photo_fort_pomegues {
-        width: 309px;
-        height: 183px;
+        height: 155px;
     }
 
     .photo_frioul_img {
-        width: 304px;
-        height: 122px;
+        height: 155px;
     }
 
     .photo_ndg_img {
-        width: 304px;
-        height: 141px;
+        height: 155px;
     }
 
     .photo_pl {
-        width: 304px;
         height: 155px;
     }
 
@@ -703,42 +662,60 @@ footer h2 {
 
 }
 
-@media all and (max-width : 1360px) {
+@media all and (max-width : 1440px) {
          header, .hd_title, #filtres-btn {
-                    margin-left: 15px;
+             margin-left: 45px;
          }
+    #logo {
+        position: relative;
+        right: 46px;
+    }
 }
 
+@media all and (max-width : 1400px) {
+    header nav {
+        padding-right: 61px;
+    }
 
-@media all and (max-width : 1300px) {
     .signup {
         font-weight: bold;
     }
     header, .hd_title, #filtres-btn {
-        margin-bottom: 50px;
-
+        margin-bottom: 22px;
     }
     h3.lg_disponibles {
-padding-left: 29px;
+        padding-left: 29px;
     }
    #hebergements_marseille {
        margin-bottom: 50px;
-margin-right: 502px;
+       margin-right: 502px;
    }
+    #hebergement {
+        flex-wrap: wrap;
+        margin-left: 41px;
+    }
+    #hebergements_marseille {
+        margin-bottom: 50px;
+        margin-right: 0;
+        max-width: 762px;
+    }
 
     .hebergement_populaires {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
     }
+    .populaire_choix {
+        width: 300px;
+    }
 
     .fa-chart-line {
         color: black;
-        padding-left: 151px;
     }
-   #container_populaires {
-           max-width: 805px;
-   }
+    #container_populaires {
+        max-width: 345px;
+        margin-right: 96px;
+    }
     .renoactivite_img {
         width: 301px;
         height: 390px;
@@ -748,9 +725,9 @@ margin-right: 502px;
         width: 304px;
         height: 391px;
     }
-  #activites_marseille {
-      margin-left: 71px;
-  }
+    #activites_marseille {
+        width: 1400px;
+    }
    #activites_marseille h1 {
        padding-left: 0;
    }
@@ -771,7 +748,6 @@ margin-right: 502px;
 
      }
 
-
     .activite_reno,
     .activite_pomegues,
     .activite_frioul,
@@ -780,7 +756,7 @@ margin-right: 502px;
     .activite_longchamp {
     width: 325px;
         height: 182px;
-        margin-right: 118px;
+        margin-right: 126px;
     }
 
     .activite_fort,
@@ -789,11 +765,6 @@ margin-right: 502px;
         flex-direction: row;
         align-items: flex-start;
     }
-          #activites_marseille {
-              margin-left: 71px;
-              width: 2000px;
-          }
-
 
 
     .activites {
@@ -810,8 +781,104 @@ margin-right: 502px;
      }
 }
 
+@media all and (max-width: 1398px ) {
+    #hebergement {
+        flex-wrap: wrap;
+    }
+    #hebergement {
+        flex-wrap: wrap;
+        margin-left: 0;
+    }
+    #activites_marseille {
+        max-width: 1398px;
+        margin-left: 13px;
+    }
+}
+
+@media all and (max-width: 1357px) {
+    header, .hd_title, #filtres-btn {
+        margin-left: 88px;
+    }
+    .interrogation {
+        margin-left: 87px;
+    }
+    #hebergement {
+        flex-direction: row;
+    }
+    #container_populaires {
+        max-width: 1291px;
+        margin-right: 8px;
+    }
+    #hebergements_marseille {
+        max-width: 1119px;
+    }
+    .activite_reno, .activite_pomegues, .activite_frioul, .activite_pnc, .activite_notre_dame, .activite_longchamp {
+        width: 325px;
+        height: 182px;
+        margin-right: 19px;
+    }
+    .activites {
+        display: flex;
+        max-width: 1035px;
+        justify-content: space-between;
+    }
+    #activites_marseille {
+        max-width: 1291px;
+        margin-left: 130px;
+    }
+    footer {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        font-size: small;
+        padding-left: 44px;
+    }
+}
+
+@media all and (max-width: 1024px) {
+        #hebergements_marseille {
+            margin-bottom: 50px;
+            margin-left: 29px;
+        }
+    header, .hd_title, #filtres-btn {
+        margin-left: 15px;
+    }
+    #logo {
+        position: relative;
+        right: 48px;
+    }
+    nav {
+        padding-right: 69px;
+    }
+    #activites_marseille {
+        margin-left: 89px;
+        max-width: 1024px;
+    }
+    #container_populaires {
+        max-width: 1024px;
+        margin-left: 31px;
+    }
+    .hebergement_populaires {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #hebergement {
+        flex-wrap: wrap;
+        max-width: 1000px;
+    }
+
+
+}
+
 @media all and (max-width : 1006px) {
-     .signup {
+    #logo {
+        position: relative;
+        right: 49px;
+    }
+
+
+    .signup {
          font-weight: bold;
      }
     .box_propos {
@@ -821,19 +888,14 @@ margin-right: 502px;
     .box_hebergements {
         margin-bottom: 20px;
     }
-
+    .interrogation {
+        margin-left: 78px;
+    }
     #container_populaires {
         background-color: #f2f2f2;
 
     }
 
-    .hebergement_populaires {
-padding-left: 85px;
-    }
-
-    h2.titre_populaires {
-        padding-left: 103px;
-    }
 
     .marseille_container_box {
         margin-right: 2px;
@@ -841,28 +903,56 @@ padding-left: 85px;
      .activites {
          display: flex;
          width: 1000px;
-         justify-content: space-evenly;
      }
+    #activites_marseille {
+        margin-left: 47px;
+    }
+    #hebergements_marseille {
+        margin-left: 22px;
+    }
+    .populaire_choix {
+        width: 275px;
+    }
+    #container_populaires {
+        max-width: 1006px;
+        margin-left: 42px;
+    }
+    .marseille_box {
+        max-width: 880px;
+    }
+    footer {
+        padding-left: 152px;
+    }
 }
 
-    @media all and (max-width : 768px) {
+
+@media all and (max-width : 768px) {
       #logo {
           position: relative;
           right: 48px;
       }
       header, .hd_title, #filtres-btn {
           margin-bottom: 2px;
+          margin-left: 12px;
+      }
+    header nav {
+        padding-right: 0;
+    }
+      a.signup {
+               margin-left: 0;
+      }
+      .hebergements-activites a:hover            
+       {
+          border-top: 3px solid #0065FC;
       }
 
         h1 {
             font-size: 14px;
         }
-           h2.titre_populaires {              
-padding-left: 13px;
-           }
- .marseille_container_box {
-     margin-right: 2px;
- }
+
+        .marseille_container_box {
+         margin-right: 2px;
+         }
                                                    
         input.type-search {
             width: 58vw;
@@ -871,11 +961,15 @@ padding-left: 13px;
             margin-bottom: 5px;
         }
          .bouton {
-             width: 22%;
+             width: 30%;
          }
           input.type-search {
               width: 33vw;
           }
+    .interrogation {
+        margin-left: 10px;
+        margin-top: 21px;
+    }
 
         .container_popular {
             width: 145px;
@@ -885,125 +979,225 @@ padding-left: 13px;
         }
 
         #activites_marseille {
-         margin-left: 4px;
+             margin-left: 6px;
+            display: flex;
+            max-width: 768px;
         }
+    #activites_marseille h1 {
+        padding-left: 30px;
+    }
          .hebergement_populaires {
-             flex-direction: row;
+         flex-direction: row;
              justify-content: space-between;
              padding-left: 0;
-               width: 768px;
+             width: 734px;
 
          }
          #hebergements_marseille {
              margin-bottom: 50px;
              margin-left: 0;
-             max-width: 889px;
+             max-width: 768px;
              margin-right: 0;
+             max-height: 812px;
          }
+    .voir_plus {
+        left: 0;
+    }
 
-
+        #hebergement {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            margin-bottom: 0;
+            margin-left: 0;
+        }
+        .hebergements-activites {
+                 margin-right: 45px;
+        }
        .populaire_choix {
            box-shadow: 10px 10px 10px #d9d9d9;
-                      border: 2px solid #f2f2f2;
+           border: 2px solid #f2f2f2;
+           max-width: 277px;
        }
-
-
-          .activites {
-              display: flex;
-              /* justify-content: flex-start; */
-              justify-content: space-around;
-          }
+    .activites {
+        display: flex;
+        max-width: 768px;
+        margin-left: 28px;
+    }
            #container_populaires {
-         background-color: #f2f2f2;
+               background-color: transparent;
+               margin-top: 0;
+               max-width: 685px;
+               margin-right: 38px;
            }
-
-
-          .activite_reno, .activite_pomegues, .activite_frioul, .activite_pnc, .activite_notre_dame, .activite_longchamp {
-    width: 369px;
+          .activite_reno,
+          .activite_pomegues,
+          .activite_frioul,
+          .activite_pnc,
+          .activite_notre_dame,
+          .activite_longchamp {
+           width: 297px;
           }
-           .renoactivite_img, .photo_fot_pomegues, .photo_frioul_img, .photo_activite_pnc_img, .photo_ndg_img, .photo_pl {
-    width: 369px;
+           .renoactivite_img,
+           .photo_fot_pomegues,
+           .photo_frioul_img,
+           .photo_activite_pnc_img,
+           .photo_ndg_img, .photo_pl {
+               width: 297px;
            }
              .photo_fort_pomegues {
-    width: 369px;
+                 width: 297px;
              }
              footer {
                  flex-wrap: nowrap;
-                 width: 911px;
-                 padding-left: 7px;
+                 width: 768px;
+                 padding-left: 37px;
              }
-
+         .box_assistance {
+             margin-right: 42px;
+         }
+         .box_propos {
+             margin-left: 0;
+         }
     }
 
-    @media all and (max-width : 665px) {
+
+@media all and (max-width: 600px ) {
+
+        header nav a {
+            margin-left: 22px;
+        }
+
+        .signup {
+            font-weight: bold;
+            margin-bottom: 2px;
+        }
+
         input.type-search {
-            width: 58vw;
+            width: 52vw;
         }
-        .activite_fort,
-        .activite_ndg {
-            display: flex;
-            flex-direction: column;
-        }
-           #container_populaires {
-                 width: 554px;
-           }
-           .hebergement_populaires {
-               padding-left: 0;
-           }
-           .populaire_choix {
-               width: 500px;
-           }
-       
-       
-       
-          .activite_reno, .activite_pomegues, .activite_frioul, .activite_pnc, .activite_notre_dame, .activite_longchamp {
-              width: 554px;
-              margin-left: 51px;
-          }
-          .renoactivite_img, .photo_fot_pomegues, .photo_frioul_img, .photo_activite_pnc_img, .photo_ndg_img, .photo_pl {
-              width: 554px;
-          }
-           .photo_fort_pomegues {
-               width: 554px;
-           }
-          footer {
-              width: 625px;
-          }
-          footer h4 {
-              font-weight: normal;
-              padding-left: 0;
-              width: 200px;
-    }
-      }
 
-    @media all and (max-width : 425px) {
+        .btncontent {
+            display: flex;
+            flex-wrap: wrap;
+            width: 368px;
+        }
+    .interrogation {
+        margin-left: 12px;
+        margin-top: 19px;
+    }
+
+        .marseille_container_box {
+            margin-left: -36px;
+        }
+
+        .populaire_choix {
+            width: 441px;
+        }
+
+    #container_populaires {
+        background-color: #f2f2f2;
+        margin-top: 0;
+        max-width: 600px;
+        margin-left: 41px;
+
+    }
+    .titre_bloc {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .photo_fort_pomegues {
+        width: 491px;
+    }
+    .renoactivite_img, .photo_fot_pomegues, .photo_frioul_img, .photo_activite_pnc_img, .photo_ndg_img, .photo_pl {
+            width: 491px;
+        }
+
+        .activite_reno, .activite_pomegues, .activite_frioul, .activite_pnc, .activite_notre_dame, .activite_longchamp {
+            width: 491px;
+            margin-right: 133px;
+        }
+
+    #activites_marseille {
+        margin-left: 11px;
+        width: 590px;
+        margin-top: 57px;
+    }
+
+        .hebergements-activites {
+            display: flex;
+            flex-direction: row;
+            margin-top: -28px;
+            margin-right: 23px;
+        }
+
+        footer {
+            display: flex;
+            justify-content: space-evenly;
+            flex-flow: column nowrap;
+            padding-left: 61px;
+        }
+.hebergement_populaires {
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 0;
+    width: 600px;
+}
+
+    }
+
+@media all and (max-width: 511px) {
 
         header {
             position: relative;
             margin-bottom: 50px;
         }
-         h2 {
-             padding-left: 20px;
-         }
 
-         .titre_populaires {
-             padding-bottom: 0;
-             position: relative;
-             right: 253px;
-         }
+        h3.lg_disponibles {
+            padding-left: 8px;
+            font-size: 21px;
+            width: 100%;
+        }
+
+        h2 {
+            padding-left: 49px;
+        }
+
+        h1 {
+            font-size: 22px;
+            padding-left: 17px;
+            margin-top: 16px;
+            width: 335px;
+        }
+
+        .txt_simple p {
+            font-size: 18px;
+            padding-left: 19px;
+            width: 332px;
+        }
+
+        .titre_populaires {
+            padding-bottom: 23px;
+            padding-left: 15px;
+        }
+
         .bouton {
             display: none;
         }
 
         .bouton_picto {
             display: block;
-            width: 40px;
+            height: 51px;
+            width: 17%;
             background-color: #0065FC;
             color: white;
             font-weight: bold;
             border: none;
-            border-radius: 0 0.7rem 0.7rem 0;
-
+            border-radius: 0.7rem 0.7rem 0.7rem 0.7rem;
+            right: 10px;
+            position: relative;
         }
 
         input.type-search {
@@ -1016,13 +1210,15 @@ padding-left: 13px;
 
         .fas.fa-search {
             color: white;
+            font-size: 20px;
         }
+
         .fa-chart-line {
             color: black;
-            padding-left: 250px;
-            bottom: 19px;
-            position: relative;
+            padding-left: 159px;
+            padding-top: 5px;
         }
+
         header,
         .hd_title,
         #filtres-btn {
@@ -1031,24 +1227,24 @@ padding-left: 13px;
         }
 
         .signup {
-             position: absolute;
-             bottom: 14px;
-             left: 265px;
-            margin-right: 48px;
+            margin-bottom: 6px;
         }
 
-        .hebergements-activites {
-            position: absolute;
-            top: 64px;
-             left: 0;
-             width: 100%;
-            display: flex;
-            justify-content: space-around;
-            
-        }
+    .hebergements-activites {
+        position: absolute;
+        top: 64px;
+        right: 1px;
+        width: 446px;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 0;
+    }
 
         #activites_marseille {
-            margin-left: 0;
+            margin-left: 8px;
+            margin-top: 743px;
+            background-color: transparent;
+            max-width: 414px;
         }
 
         .populaire_choix {
@@ -1062,7 +1258,11 @@ padding-left: 13px;
         .activite_pnc,
         .activite_notre_dame,
         .activite_longchamp {
-            box-shadow: 0 0 20px #0000002e;
+            box-shadow: 0 0 20px #d9d9d9;
+        }
+
+        .photo_fort_pomegues {
+            max-width: 491px;
         }
 
         .slogan,
@@ -1070,43 +1270,58 @@ padding-left: 13px;
         .search-bar {
             margin-left: 3px;
             margin-top: 3px;
-             margin-bottom: 19px;
+            margin-bottom: 19px;
         }
+
+        .price_hotel {
+            font-size: 12px;
+        }
+
         #search-section {
-               display: flex;
-               height: 40px;
-               margin-top: 0;
+            display: flex;
+            height: 40px;
+            margin-top: 0;
+            padding-left: 17px;
         }
-         input.type-search {
-             width: 65vw;
-         }
+
+        input.type-search {
+            width: 73vw;
+        }
 
         #container_populaires {
             order: 1;
         }
 
+        .container_popular_title {
+            padding-bottom: 14px;
+            width: 154px;
+        }
+
+        #activites_marseille h1 {
+            padding-left: 46px;
+        }
+
         .fa-chart-line:before {
             color: black;
-            padding: 255px 44px;
         }
 
         #hebergements_marseille {
             order: 2;
             background-color: #FFFFFF;
             margin-left: 0;
+            max-width: 414px;
         }
 
         .hebergement_populaires {
-              justify-content: space-between;
-              padding-left: 26px;
-              flex-direction: column;
+            justify-content: space-between;
+            padding-left: 28px;
+            flex-direction: column;
         }
 
 
-
-       .photo_fort_pomegues {
-           width: 330px;
-           margin-left: 5px;
+        .photo_fort_pomegues {
+            width: 330px;
+            margin-left: 5px;
             margin-top: 5px;
         }
 
@@ -1121,6 +1336,8 @@ padding-left: 13px;
         #filtres-btn {
             flex-direction: column;
             margin: 0;
+            padding-top: 30px;
+
         }
 
         .titre_btn {
@@ -1129,26 +1346,26 @@ padding-left: 13px;
         }
 
         #container_populaires {
-           margin-bottom: 20px;
-           margin-left: 32px;
-           background-color: #f2f2f2;
-           flex-direction: column;
-           display: flex;
-           width: 425px;
+            margin-bottom: 20px;
+            margin-left: 133px;
+            background-color: #f2f2f2;
+            flex-direction: column;
+            display: flex;
+            width: 500px;
         }
 
         .marseille_container_box {
-            max-width: 354px;
-            margin-left: 10px;
-              box-shadow: 10px 10px 10px #D9D9D9;
+            max-width: 378px;
+            margin-left: 6px;
+            box-shadow: 10px 10px 10px #D9D9D9;
         }
 
         .voir_plus {
-            margin-left: 20px;
-                font-weight: bold;
-                position: relative;
-                bottom: -27px;
-        }   
+            margin-left: 22px;
+            font-weight: bold;
+            position: relative;
+            bottom: -27px;
+        }
 
         .images_hebergement {
             width: 320px;
@@ -1179,9 +1396,23 @@ padding-left: 13px;
             margin-top: 5px;
         }
 
-        .lg_disponibles {
-            margin: 16px 0 22px 3px;
+        .interrogation {
+            margin-left: 32px;
+            margin-top: 18px;
         }
+
+        .btncontent {
+            width: 384px;
+            padding-right: 64px;
+        }
+
+
+        .titre_bloc {
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+        }
+
 
         .activites {
             justify-content: center;
@@ -1227,12 +1458,13 @@ padding-left: 13px;
 
         .activites {
             flex-direction: column;
+            width: 414px;
+            margin-left: 17px;
         }
 
-         .titre_activites {
-             margin-left: 4px;
-         }
-
+        .titre_activites {
+            margin-left: 4px;
+        }
 
 
         #logo {
@@ -1272,13 +1504,25 @@ padding-left: 13px;
             border-top: none;
         }
 
+        .box_apropos_title,
+        .box_noshebergements_title,
+        .box_assistance_title {
+            padding-left: 20px;
+        }
+
         footer {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
             flex-direction: column;
-               padding-left: 33px;
+            padding-left: 33px;
         }
+
+        footer.footer {
+            padding-left: 78px;
+        }
+
+
         footer h4 {
             font-weight: normal;
             padding-left: 20px;
@@ -1287,32 +1531,228 @@ padding-left: 13px;
 
     }
 
-    @media all and (max-width : 375px) {
-        #activites_marseille h1 {
-            right: 40px;
-            position: relative;
+@media all and (max-width: 411px) {
+        header, .hd_title, #filtres-btn {
+            margin-left: -19px;
         }
-          
-        .titre_activites {
-            margin-left: 12px;
+        #filtres-btn {
+            padding-right: 0;
         }
- .signup {
-      position: absolute;
-      bottom: 17%;
-      left: 203px;
-      font-weight: bold;
- }
-  .hebergement_populaires {
-      padding-left: 46px;
-  }
+        .interrogation {
+            margin-left: 33px;
+        }
 
-        .hebergementancre {
-            margin-left: 35px;
+        .btncontent {
+            padding-right: 0;
+        }
+        #hebergements_marseille {
+            margin-left: -5px;
+        }
+        .activites {
+            margin-left: 10px;
+        }
+    }
+
+@media all and (max-width: 414px) {
+        #logo {
+            margin-left: 43px;
+        }
+        header, .hd_title, #filtres-btn {
+            margin-left: 0;
+        }
+
+        .hebergements-activites {
+            position: absolute;
+            top: 64px;
+            left: 16px;
+            width: 410px;
+        }
+    .hebergement_populaires {
+        padding-left: 32px;
+    }
+
+    a.signup {
+        position: relative;
+        left: 25px;
+    }
+        a.signavlink {
+            margin-left: -15px;
+        }
+        #filtres-btn {
+            padding-left: 22px;
+        }
+        .slogan, .txt_simple, .search-bar {
+            margin-left: 27px;
+        }
+        .titre_btn {
+            margin: 0 0 20px 18px;
+        }
+        .interrogation {
+            margin-left: 43px;
+        }
+        h3.lg_disponibles {
+            font-size: 15px;
+            width: 80%;
         }
         input.type-search {
-            width: 58vw;
+            width: 68vw;
+        }
+        .btncontent {
+            width: 375px;
+            padding-left: 35px;
+        }
+        #search-section {
+            padding-left: 8px;
+        }
+        .txt_simple p {
+            font-size: 18px;
+            padding-left: 11px;
+        }
+        h1 {
+            padding-left: 12px;
+        }
+        #container_populaires {
+            margin-left: 37px;
+            width: 411px;
+        }
+        .hebergements-activites {
+            position: absolute;
+            top: 64px;
+            left: 2px;
+            width: 410px;
+        }
+    .titre_populaires {
+        padding-left: 28px;
+    }
+        .hebergement-populaires {
+            max-width: 397px;
+        }
+        #hebergements_marseille {
+            margin-right: 8px;
+            max-width: 411px;
+        }
+        .marseille_box {
+            max-width: 411px;
+        }
+        .titre_bloc {
+            display: flex;
+            flex-direction: row;
+        }
+        .fa-chart-line {
+            color: black;
+            /* padding-left: 159px; */
+            padding-top: 5px;
+        }
+        .populaire_choix {
+            max-width: 269px;
+        }
+        #activites_marseille {
+            max-width: 364px;
+            margin-left: 0px;
+        }
+
+    }
+
+@media all and (max-width: 411px) {
+        nav {
+            max-width: 360px;
+        }
+        .slogan, .txt_simple, .search-bar {
+            margin-left: 24px;
+        }
+
+        .hebergements-activites {
+            position: absolute;
+            top: 64px;
+            left: 1px;
+            width: 410px;
+        }
+
+        #container_populaires {
+            max-width: 328px;
+            margin-left: 0;
+        }
+        .titre_populaires {
+            padding-left: 28px;
+        }
+        .hebergement_populaires {
+            padding-left: 0;
+            max-width: 374px;
+        }
+        #hebergements_marseille {
+            margin-right: 75px;
+            max-width: 339px;
+        }
+        .activites {
+            max-width: 396px;
+        }
+        #activites_marseille {
+            max-width: 411px;
+            padding-left: 0;
+        }
+        footer.footer {
+            max-width: 367px;
+            padding-left: 24px;
+        }
+    }
+
+@media all and (max-width: 375px) {
+        #activites_marseille h1 {
+            right: 57px;
+            position: relative;
+        }
+
+        h1 {
+            font-size: 20px;
+            width: 268px;
+            padding-left: 0;
+        }
+
+        .titre_activites {
+            margin-left: 35px;
+        }
+
+        .hebergements-activites:hover {
+            border-bottom: 3px solid #0065FC;
+            color: #0065FC;
+        }
+
+        .hebergements-activites {
+            position: absolute;
+            top: 64px;
+            left: 1px;
+            width: 375px;
+        }
+
+        #logo {
+            right: 67px;
+            position: relative;
+        }
+        header, .hd_title, #filtres-btn {
+            margin-right: 1px;
+        }
+
+        header nav a {
+            margin-left: 0;
+        }
+
+        .signup {
+            font-weight: bold;
+            position: relative;
+            left: 38px;
+            top: 6px;
+        }
+
+        a.signavlink {
+            margin-left: 0;
+            font-size: 15px;
+        }
+
+        input.type-search {
+            width: 63vw;
             border: 2px solid #f2f2f2;
         }
+
         .activite_reno,
         .activite_pomegues,
         .activite_frioul,
@@ -1323,63 +1763,128 @@ padding-left: 13px;
         }
 
         .activites {
-            padding-left: 0;
+            width: 360px;
         }
+
         .hd_title_principal {
             display: flex;
             flex-direction: column;
-            padding: 0 8px;
+            padding: 0;
         }
-        .picto {
-              width: 40px;
-        }
-         #search-section {
-             display: flex;
-             height: 40px;
-             margin-top: 33px;
-         }
-            .fa-map-marker-alt {
-                color:black;
-            }
-                .search-bar {
-                margin: -21px 19px;
-                }
-      h3.lg_disponibles {
-          width: 80%;
-          text-align-last: auto;
-      }
-      h2.titre_populaires {
-          padding-left: 147px;
-      }
-      
-       .fa-chart-line:before {
-           color: black;
-           padding: 255px 13px;
-           height: 20px;
-       }
-        .populaire_choix {
-            max-width: 260px;
-            padding-right: 20px;
-        }
-      .voir_plus {
-          font-weight: bold;
-          position: relative;
-          top: 35px;
-           right: 7px;
-      }
 
+        .picto {
+            width: 44px;
+            border-radius: 15px 0 0 15px;
+        }
+
+        .bouton_picto {
+            width: 53px;
+            border-radius: 15px;
+            height: 51px;
+            position: relative;
+            right: 10px;
+        }
+
+        .fas.fa-search {
+            font-size: 21px;
+        }
+
+        #search-section {
+            display: flex;
+            height: 40px;
+            margin-top: 33px;
+        }
+
+        .fa-map-marker-alt {
+            color: black;
+        }
+
+        .search-bar {
+            margin: -21px 12px;
+        }
+
+        .btn-all {
+            margin-bottom: 5px;
+            margin-left: 4px;
+        }
+
+        #filtres-btn {
+            padding-left: 45px;
+        }
+
+        .titre_btn {
+            margin: 0 0 20px -17px;
+        }
+
+        .interrogation {
+            margin-left: 22px;
+        }
+
+        h3.lg_disponibles {
+            display: flex;
+            font-size: 15px;
+            padding-left: 12px;
+        }
+
+        .fa-chart-line:before {
+            color: black;
+            padding-right: 0;
+        }
+
+        .voir_plus {
+            font-weight: bold;
+            position: relative;
+            top: 20px;
+            right: 36px;
+        }
+
+        .popular_price {
+            padding-bottom: 47px;
+        }
+
+        .price_hotel {
+            width: 169px;
+        }
+
+        .popular_notation {
+            padding-top: 0;
+        }
+        .hebergement {
+            max-width: 375px;
+        }
+        .titre_bloc {
+            width: 375px;
+            padding-left: 24px;
+        }
+
+        #container_populaires {
+            width: 348px;
+            padding-right: 58px;
+        }
         .marseille_container_box {
-            max-width: 300px;
+            max-width: 325px;
             margin-left: 0;
             box-shadow: 10px 10px 10px #d9d9d9;
+
         }
 
         .images_hebergement {
-            width: 265px;
+            width: 331px;
         }
 
         #hebergements_marseille {
-            padding-right: 11px;
+            max-width: 271px;
+        }
+
+        .marseille_box {
+            margin-left: 0;
+            width: 375px;
+        }
+
+        .populaire_choix {
+            max-width: 326px;
+            padding: 5px;
+            margin-left: 17px;
         }
 
         .renoactivite_img,
@@ -1388,31 +1893,469 @@ padding-left: 13px;
         .photo_activite_pnc_img,
         .photo_ndg_img,
         .photo_pl {
-            width: 260px;
+            width: 340px;
+            margin-left: 0;
+            margin-top: 0;
         }
 
-        .activite_reno,
-        .activite_pomegues,
-        .activite_frioul,
-        .activite_pnc,
-        .activite_notre_dame,
-        .activite_longchamp {
-            max-width: 270px;
-        }
 
         #activites_marseille {
-margin-left: 16px;
+            max-width: 375px;
+            margin-top: 694px;
+            background-color: transparent;
+            margin-left: 0;
+        }
+    .btncontent {
+        width: 375px;
+        padding-left: 0px;
+    }
+        .txt_simple p {
+            font-size: 17px;
+            padding-left: 0;
+            width: 312px;
         }
 
-        .titre_activites {
-            margin-left: 20px;
+        .titre_populaires {
+            padding-left: 0;
+            font-size: 17px;
+        }
+
+        h2.marseille_hebergement {
+            margin-left: -34px;
         }
 
         footer {
             flex-direction: column;
-            width: 100%;
+        }
+
+        footer.footer {
+            padding-left: 0;
         }
 
     }
 
-}
+@media all and (max-width: 360px) {
+        header, .hd_title, #filtres-btn {
+            margin-left: 0;
+        }
+        nav {
+            width: 360px;
+        }
+        a.signup {
+            position: relative;
+            left: 96px;
+        }
+
+        input.type-search {
+            width: 66vw;
+        }
+
+        .search-bar {
+            margin: -21px 0;
+        }
+    #search-section {
+        padding-left: 22px;
+    }
+
+        #filtres-btn {
+            padding-left: 59px;
+        }
+
+        .titre_btn {
+            margin: 0 0 20px -40px;
+        }
+
+        h3.lg_disponibles {
+            font-size: 14px;
+        }
+
+        .btncontent {
+            width: 325px;
+            padding-left: 0;
+        }
+
+        .interrogation {
+            margin-left: 33px;
+        }
+
+        .titre_populaires {
+            font-size: 15px;
+        }
+
+        .populaire_choix {
+            margin-left: -46px;
+        }
+
+        .hebergement_populaires {
+            max-width: 346px;
+            padding-left: 63px;
+        }
+        .hebergements-activites {
+            position: absolute;
+            top: 64px;
+            left: 1px;
+            width: 359px;
+        }
+
+        #container_populaires {
+            width: 347px;
+            margin-left: 0;
+        }
+
+        .titre_bloc {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 355px;
+            margin-left: 7px;
+        }
+        #hebergements_marseille{
+            max-width: 303px;
+            margin-left: 27px;
+        }
+        .marseille_hebergement {
+            width: 301px;
+        }
+
+        .marseille_box {
+            width: 360px;
+            padding-right: 9px;
+        }
+
+        #activites_marseille {
+            max-width: 360px;
+        }
+        .activites {
+            max-width: 360px;
+        }
+        footer.footer {
+            padding-left: 0;
+            max-width: 360px;
+        }
+    }
+
+@media all and (max-width: 320px) {
+        #logo {
+            right: 83px;
+            position: relative;
+        }
+        a.signup {
+            position: relative;
+            left: 60px;
+        }
+
+        .slogan, .txt_simple, .search-bar {
+            margin-left: 0;
+        }
+
+        .hebergements-activites {
+            position: absolute;
+            top: 64px;
+            left: 0;
+            width: 316px;
+        }
+        h1 {
+            font-size: 20px;
+            padding-left: 8px;
+        }
+        .txt_simple p {
+            font-size: 16px;
+            padding-left: 8px;
+
+        }
+        input.type-search {
+            width: 67vw;
+        }
+        #filtres-btn {
+            padding-left: 6px;
+            width: 320px;
+        }
+        .titre_btn {
+            padding-left: 97px;
+        }
+        .btn-all {
+            margin-bottom: 5px;
+            margin-left: 0px;
+        }
+        #search-section {
+            padding-left: 7px;
+        }
+        .search-bar {
+            margin: -21px 0;
+        }
+        .interrogation {
+            margin-left: 14px;
+        }
+        h3.lg_disponibles {
+            font-size: 13px;
+        }
+        #hebergements_marseille {
+            padding-left: 85px;
+        }
+    .titre_populaires {
+        padding-left: 5px;
+    }
+        .images_populaire {
+            width: 129px;
+        }
+        .populaire_choix {
+            width: 300px;
+        }
+    .hebergement_populaires {
+        max-width: 320px;
+        padding-left: 75px;
+    }
+        #container_populaires {
+            margin-left: 0;
+        }
+        .fa-chart-line {
+            padding-left: 129px;
+        }
+        .marseille_container_box {
+            width: 296px;
+        }
+        .images_hebergement {
+            width: 302px;
+        }
+        .marseille_box {
+            margin-left: -9px;
+        }
+        .voir_plus {
+            right: 40px;
+        }
+        #activites_marseille {
+            max-width: 320px;
+            margin-left: -8px;
+        }
+        .activite_reno, .activite_pomegues, .activite_frioul, .activite_pnc, .activite_notre_dame, .activite_longchamp {
+            max-width: 312px;
+        }
+        .renoactivite_img, .photo_fort_pomegues, .photo_frioul_img, .photo_activite_pnc_img, .photo_ndg_img, .photo_pl {
+            width: 312px;
+        }
+        footer.footer {
+            padding-left: 0px;
+        }
+
+
+    }
+
+@media all and (max-width: 250px) {
+        footer {
+            padding-left: 23px;
+        }
+
+        footer.footer {
+            padding-left: 22px;
+        }
+
+        footer h4 {
+            font-weight: normal;
+            font-size: 11px;
+            width: 159px;
+        }
+
+        .hebergement {
+            display: flex;
+            width: max-content;
+
+        }
+
+        .hebergement_populaires {
+            padding-left: 82px;
+            margin-top: -34px;
+        }
+
+        #hebergements_marseille {
+            display: flex;
+            margin-left: 165px;
+        }
+
+        h2.marseille_hebergement {
+            padding-left: 27px;
+        }
+
+        .marseille_box {
+            flex-direction: column;
+        }
+
+        #activites_marseille {
+            margin-left: 7px;
+            margin-top: 708px;
+        }
+
+        #activites_marseille h1 {
+            right: 17px;
+            position: relative;
+            font-size: 18px;
+        }
+
+        #activites_marseille h2 {
+            font-size: 13px;
+            padding-left: 23px;
+        }
+
+        .titre_activites {
+            margin-left: 0;
+        }
+
+        .titre_principal,
+        #search-section {
+            margin-left: -10px;
+        }
+
+        .populaire_choix {
+            padding-right: 10px;
+        }
+
+        input.type-search {
+            width: 74vw;
+        }
+
+        .fa-money-bill-wave, .fa-male, .fa-heart, .fa-dog {
+            font-size: 1.5em;
+        }
+
+        .lg_disponibles {
+            margin: 15px 0 33px 20px;
+            width: 100vw;
+            font-size: 11px;
+            text-align: left;
+        }
+
+        .interrogation {
+            margin-left: 14px;
+            width: 250px;
+        }
+
+        .fas.fa-info {
+            width: 30px;
+            height: 20px;
+            margin-top: 12px;
+        }
+
+        h1 {
+            font-size: 20px;
+            padding-top: 11px;
+            padding-left: 7px;
+            width: 100%;
+        }
+
+        h2 {
+            font-size: 16px;
+        }
+
+        p {
+            font-size: 11px;
+            padding-left: 0;
+            padding-top: 5px;
+        }
+
+        header, .hd_title, #filtres-btn {
+            margin-right: 20px;
+        }
+
+        .hd_title_principal {
+            padding: 0;
+        }
+
+        .titre_populaires {
+            font-size: 18px;
+            margin-bottom: 25px;
+            margin-left: 79px;
+        }
+
+        .signup {
+            position: absolute;
+            bottom: 6px;
+            left: 217px;
+        }
+
+        a.signavlink {
+            padding-left: 2px;
+        }
+
+        .hebergements-activites {
+            position: absolute;
+            top: 64px;
+            left: -5px;
+            width: 249px;
+        }
+
+        .txt_simple p {
+            font-size: 12px;
+        }
+
+        .search-bar {
+            position: relative;
+            bottom: 71px;
+            right: 6px;
+            margin: 9px 12px;
+        }
+
+        #logo {
+            margin-left: 4px;
+        }
+
+        h3.lg_disponible {
+            margin-left: 0;
+            font-size: 11px;
+            padding-left: 0;
+        }
+
+        .fa-chart-line {
+            color: black;
+            padding-left: 0;
+        }
+
+        .fa-chart-line:before {
+            color: black;
+            padding-left: 59px;
+        }
+
+        .populaire_choix {
+            width: 250px;
+        }
+
+        .images_populaire {
+            width: 41%;
+        }
+
+        .container_popular_title h3 {
+            font-size: 11px;
+        }
+
+        .marseille_container_box {
+            width: 250px;
+            margin-left: -22px;
+        }
+
+        .marseille_box {
+            margin-left: 6px;
+        }
+
+        .images_hebergement {
+            width: 256px;
+        }
+
+        .btncontent {
+            display: flex;
+            flex-wrap: wrap;
+            width: 250px;
+        }
+
+        .activite_reno, .activite_pomegues, .activite_frioul, .activite_pnc, .activite_notre_dame, .activite_longchamp {
+            max-width: 250px;
+        }
+
+        .renoactivite_img, .photo_fort_pomegues, .photo_frioul_img, .photo_activite_pnc_img, .photo_ndg_img, .photo_pl {
+            width: 250px;
+            border-radius: 20px 20px 0 0;
+        }
+
+        #filtres-btn {
+            padding-top: 0;
+        }
+    }
+
+
