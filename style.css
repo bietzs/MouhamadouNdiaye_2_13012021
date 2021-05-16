@@ -961,7 +961,10 @@ width: 1141px;    }
         background-color: transparent;
         margin-left: 0;
         order: 2
-
+    }
+    h2.marseille_hebergement {
+        padding-left: 129px;
+        justify-content: start;
     }
     #hebergements_marseille {
         max-width: 890px;
@@ -1038,7 +1041,7 @@ width: 1141px;    }
         height: 364px;
     }
     .activite_ndg {
-        margin-right: 49px;
+        margin-right: 0px;
     }
 
     footer {
@@ -1061,11 +1064,15 @@ width: 1141px;    }
         margin-top: 15px;
         background-color: transparent;
         flex-flow: row wrap;
-        width: 768px;
+        width: 800px;
     }
 
     header, .hd_title, #filtres-btn {
         margin-left: 48px;
+    }
+    h2.marseille_hebergement {
+        padding-left: 129px;
+        justify-content: start;
     }
 
     nav {
@@ -1091,7 +1098,7 @@ width: 1141px;    }
         max-width: 800px;
         align-self: self-start;
         margin-top: 225px;
-        margin-left: 85px;
+        margin-left: 109px;
     }
     #activites_marseille h1 {
         font-size: 20px;
@@ -1113,7 +1120,7 @@ width: 1141px;    }
        padding-left: 0;
     }
     .voir_plus {
-        left: 142px;
+        left: 158px;
         position: relative;
     }
 
@@ -1129,7 +1136,7 @@ width: 1141px;    }
 
     .activites {
         width: 668px;
-        margin-left: 0px;
+        margin-left: 0;
         align-self: end;
     }
     .activite_ndg {
@@ -1454,7 +1461,11 @@ width: 1141px;    }
         margin-left: 17px;
         margin-top: 944px;
         border-radius: 0;
+        align-self: start;
     }
+        .activite_ndg {
+            margin: 0 4px;
+        }
 
     #hebergements_marseille {
         max-height: 1806px;
