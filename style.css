@@ -1056,13 +1056,12 @@ width: 1141px;    }
 @media all and (max-width: 800px) {
     #hebergements_marseille {
         margin-bottom: 50px;
-        margin-left: 124px;
         max-height: 571px;
         order: 2;
         margin-top: 15px;
         background-color: transparent;
         flex-flow: row wrap;
-        width: 690px;
+        width: 768px;
     }
 
     header, .hd_title, #filtres-btn {
@@ -1114,7 +1113,7 @@ width: 1141px;    }
        padding-left: 0;
     }
     .voir_plus {
-        left: 12px;
+        left: 142px;
         position: relative;
     }
 
@@ -1123,8 +1122,8 @@ width: 1141px;    }
     }
     .marseille_hebergement {
         display: flex;
-        align-self: center;
-        margin-left: 8px;
+        justify-content: start;
+        margin-left: 56px;
         width: 800px;
     }
 
@@ -1134,8 +1133,7 @@ width: 1141px;    }
         align-self: end;
     }
     .activite_ndg {
-        flex-direction: column;
-        margin: 0 49px;
+        width: 300px;
     }
     .photo_pl,
     .photo_ndg_img {
@@ -1663,6 +1661,7 @@ width: 1141px;    }
         .btncontent {
             width: 400px;
             height: 169px;
+            align-self: self-start;
         }
 
         .interrogation {
@@ -1728,9 +1727,14 @@ width: 1141px;    }
         #activites_marseille {
             width: 409px;
             background-color: transparent;
-            margin: 1018px 4px;
-            height: 404px;
+            margin: 1011px 24px;
+                        height: 404px;
+        
         }
+        .activite_ndg {
+            margin: 0 1px;
+        }
+        
         #container_populaires {
             margin-right: 53px;
             max-height: 690px;
@@ -2108,8 +2112,9 @@ width: 1141px;    }
         #activites_marseille {
                 max-width: 375px;
                 background-color: transparent;
-            margin-left: 5px;
-            margin-top: 33px;
+            margin-left: 15px;
+margin-top: 33px;
+align-self: start;
         }
 
         .txt_simple p {
