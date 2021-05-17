@@ -1530,9 +1530,8 @@ width: 1141px;    }
 
     #hebergements_marseille {
         max-height: 1806px;
-        max-width: 530px;
-        flex: 1;
-        margin-left: 60px;
+        max-width: 569px;
+        margin-left: 3px;
     }
         .marseille_hebergement {
             display: flex;
@@ -1570,7 +1569,7 @@ width: 1141px;    }
 
     .activites {
         width: 600px;
-        margin-left: 3px;
+        margin-left: 66px;
     }
         .voir_plus {
             left: 42px;
@@ -1605,7 +1604,7 @@ width: 1141px;    }
     }
 }
 
-    @media only screen and (max-width: 480px) {
+    @media all and (max-width: 480px) {
         #logo {
             display: flex;
             margin-left: 0;
@@ -1861,6 +1860,13 @@ width: 1141px;    }
             padding-left: 17px;
         }
 
+    }
+    @media all and (max-width: 450px) {
+        #hebergement {
+            margin-left: 0;
+            justify-content: center;
+            padding-left: 24px;
+        }
     }
     @media all and (max-width: 375px) {
      /* header */
