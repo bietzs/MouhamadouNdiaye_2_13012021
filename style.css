@@ -1336,7 +1336,7 @@ width: 1141px;    }
             width: 236px;
         }
         #hebergements_marseille {
-            width: 593px;
+            width: 603px;
             margin-left: 37px;
         }
 
@@ -1517,12 +1517,17 @@ width: 1141px;    }
         flex-direction: column;
         display: flex;
     }
-
+    h1.titre_activites {
+        align-self: start;
+        display: flex;
+        padding-right: 175px;
+    }
     #activites_marseille {
         margin-left: 17px;
-        margin-top: 944px;
+        margin-top: 986px;
         border-radius: 0;
         align-self: start;
+        width: 592px;
     }
         .activite_ndg {
             margin: 0 4px;
@@ -1580,8 +1585,8 @@ width: 1141px;    }
     footer {
         display: flex;
         flex-direction: column;
-        max-width: 600px;
-        padding: 48px 20px 51px 35px;
+        max-width: 610px;
+        padding: 48px 20px 51px 75px;
     }
 
     .box_propos,
@@ -1619,7 +1624,7 @@ width: 1141px;    }
             margin-bottom: 0;
             border-bottom-color: transparent;
             width: 411px;
-            padding-bottom: 0px;
+            padding-bottom: 0;
         }
 
         .signup {
@@ -1660,7 +1665,8 @@ width: 1141px;    }
         }
 
         .slogan h1 {
-            font-size: 20px;
+            font-size: 26px;
+            width: 345px;
         }
         .slogan {
             margin-bottom: 16px;
@@ -1789,18 +1795,18 @@ width: 1141px;    }
             flex-direction: row;
             padding-bottom: 19px;
             margin-right: 0;
-            width: 442px;
+            width: 482px;
             position: relative;
             bottom: 32px;
             border-bottom: 1px solid #d9d9d9;
-            margin-left: 44px;
+            margin-left: 43px;
         }
 
         #hebergements_marseille {
             max-width: 450px;
             margin-top: 16px;
             background-color: transparent;
-            align-items: center;
+            margin-left: 0;
         }
         #activites_marseille {
             width: 480px;
@@ -1808,14 +1814,15 @@ width: 1141px;    }
             margin-top: 1420px;
             height: 396px;
             margin-bottom: 450px;
-            margin-left: 16px;
+            margin-left: 45px;
         }
         .activite_ndg {
             margin: 0 1px;
         }
         
         #container_populaires {
-            margin-right: 40px;
+            margin-left: 0;
+            width: 480px;
             max-height: 690px;
         }
         .hebergement_container h3, .container_popular h3 {
